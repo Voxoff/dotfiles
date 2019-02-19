@@ -5,3 +5,104 @@ alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/download
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+# GIT
+
+function clone() {
+  URL='https://github.com/Voxoff/'"$1"'.git'
+  git clone "${URL}"
+}
+ 
+#DATA SCIENCE
+alias jn="jupyter notebook"
+
+# n!s
+#Rails
+
+alias rs="rails server"
+alias rsp="rails server -e production"
+alias rr="rails routes"
+alias rc="rails console"
+alias next="next"
+alias dropall="rails db:drop db:create db:migrate db:seed"
+alias prepproduction="rails db:drop db:create db:migrate db:seed RAILS_ENV=production DISABLE_DATABASE_ENVIRONMENT_CHECK=1; rake assets:precompile" 
+
+
+alias fix="bin/rails db:environment:set RAILS_ENV=development"
+: '
+next() {
+  STR="$(pwd | cut -d '/' -f 6 | cut -d '-' -f 1-4)"
+  NXT="$(expr $STR[-1] + 1)"
+  if [[ NXT == 10 ]]; then
+    FNL="${STR:0:-2}${NXT}"
+  else
+    FNL="${STR:0:-1}${NXT}"
+  fi
+  cd ..
+
+  DIR="$(ls | grep $FNL)"
+  if [[ -n DIR ]]; then
+    cd $DIR
+  else
+    # recursively call + 1
+    if [[ expr( $FNL[-2] <= 2) ]]; then
+      recurse(FNL)
+    fi
+  fi
+
+}
+
+recurse(IN) {
+  NXT="$(expr $IN[-1] + 1)"
+  if [[ NXT == 10 ]]; then
+    FNL="${IN:0:-2}${NXT}"
+  else
+    FNL="${IN:0:-1}${NXT}"
+  fi
+  return FNL
+}
+'
+
+#REACT
+alias boilerme="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
+
+#GIT
+function gitall() {
+  git add . 
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+    then
+        git commit -m "$1"
+    else
+        git commit -m update
+    fi
+    git push origin master
+}
+
+function herokupush() {
+  git add . 
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+    then
+        git commit -m "$1"
+    else
+        git commit -m update
+    fi
+    git push origin master
+    git push heroku master
+}
+
+alias glg="git log --graph --oneline --decorate --all"
+alias gld=‘git log --pretty=format:“%h %ad %s” --date=short --all’
+alias gs=‘git stash’
+
+#Le Wagon
+alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
+alias sta="stt ~/.aliases"
+alias ticket="nohup firefox >/dev/null 2>&1 & disown"
+
+
+alias hotloader="gem build hotloader.gemspec; gem install hotloader-1.0.0.gem;"
+alias up2='cd ../../'
+alias up3='cd ../../../'
+alias up4='cd ../../../../'
+
+alias fourfive='cd ~/code/websites/fourfive'

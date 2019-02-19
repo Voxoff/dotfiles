@@ -11,12 +11,11 @@
 
 [core]
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
   st = status -sb
-  br = branch
+	br = branch
   ci = commit
   fo = fetch origin
   d = !git --no-pager diff
@@ -37,6 +36,8 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+	c = commit
+  last = log -1 HEAD
 
 [help]
   autocorrect = 1
@@ -46,6 +47,7 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
 [user]
 	email = guybennettjones@hotmail.co.uk
 	name = Guy Bennett-Jones

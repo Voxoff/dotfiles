@@ -1,6 +1,12 @@
 syntax on
 set backspace=indent,eol,start
-set tabstop=2 shiftwidth=2 expandtab
+set number
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set clipboard=unnamed
+
 if has("multi_byte")
   set encoding=utf-8
   setglobal fileencoding=utf-8
