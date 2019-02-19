@@ -13820,3 +13820,76 @@ config commit -m "Add gemrc"
 : 1550612045:0;backup $target
 : 1550612086:0;ls
 : 1550612099:0;mv ~/.zsh_history ./zsh_history
+: 1550615527:0;history
+: 1550615547:0;clear
+: 1550615548:0;ls
+: 1550615554:0;echo $HISTFILE
+: 1550615557:0;clear
+: 1550615557:0;ls
+: 1550615560:0;cd
+: 1550615570:0;ls -ald .*
+: 1550615578:0;cat .vscode
+: 1550615581:0;cd .vscode
+: 1550615582:0;ls
+: 1550615586:0;cd ..
+: 1550615586:0;ls
+: 1550615587:0;clear
+: 1550615590:0;ls -ald .*
+: 1550615596:0;cat .netrc
+: 1550615612:0;cat .yarnrc
+: 1550615621:0;rm -rm .zsh_history_fake
+: 1550615623:0;clear
+: 1550615626:0;ls ald .*
+: 1550615633:0;ls -ald .*
+: 1550615655:0;cat .mkshrc
+: 1550615662:0;cat .bashrc
+: 1550615673:0;cat .condarc
+: 1550615677:0;cat .zlogin
+: 1550615690:0;cat .rnd
+: 1550615697:0;cat zcompdump-guy-5.3
+: 1550615714:0;cat .bash_profile
+: 1550615726:0;cat .pry_history
+: 1550615748:0;cd code/dotfiles
+: 1550615760:0;history | tail
+: 1550615767:0;touch .pry_history
+: 1550615771:0;name="pry_history"
+: 1550615783:0;target="$HOME/.$name"
+: 1550615788:0;backup $target
+: 1550615793:0;backup() {\
+  target=$1\
+  if [ -e "$target" ]; then           # Does the config file already exist?\
+    if [ ! -L "$target" ]; then       # as a pure file?\
+      mv "$target" "$target.backup"   # Then backup it\
+      echo "-----> Moved your old $target config file to $target.backup"\
+    fi\
+  fi\
+}\
+
+: 1550615795:0;backup $target
+: 1550615800:0;ln -s "$PWD/$name" "$target"
+: 1550615804:0;ls
+: 1550615819:0;mv ~/.pry_history.backup .pry_history
+: 1550615820:0;ls -al
+: 1550615827:0;ln -s "$PWD/$name" "$target"
+: 1550615838:0;rm -rf ~/.pry_history
+: 1550615839:0;ln -s "$PWD/$name" "$target"
+: 1550615841:0;clear
+: 1550615844:0;cd
+: 1550615849:0;cat .pry_history
+: 1550615856:0;ls -al | grep pry
+: 1550615866:0;cd code/dotfiles
+: 1550615870:0;ls
+: 1550615888:0;ls -al
+: 1550615895:0;mv .pry_history pry_history
+: 1550615901:0;cd 
+: 1550615904:0;rm -rf .pry_history
+: 1550615907:0;cd code/dotfiles
+: 1550615913:0;ln -s "$PWD/$name" "$target"
+: 1550615914:0;clear
+: 1550615916:0;cd 
+: 1550615919:0;cat .pry_history
+: 1550615922:0;clear
+: 1550615924:0;cd code/dotfiles
+: 1550615924:0;fst
+: 1550615925:0;gst
+: 1550615928:0;git add .
