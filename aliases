@@ -1,31 +1,15 @@
-# Get External IP / local IPs
-alias ip="curl ipinfo.io/ip"
-alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
-alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
-# Quickly serve the current directory as HTTP
-alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
-
-# GIT
-
-function clone() {
-  URL='https://github.com/Voxoff/'"$1"'.git'
-  git clone "${URL}"
-}
- 
 #DATA SCIENCE
 alias jn="jupyter notebook"
 
-# n!s
 #Rails
-
 alias rs="rails server"
 alias rsp="rails server -e production"
 alias rr="rails routes"
 alias rc="rails console"
 alias next="next"
 alias dropall="rails db:drop db:create db:migrate db:seed"
-alias prepproduction="rails db:drop db:create db:migrate db:seed RAILS_ENV=production DISABLE_DATABASE_ENVIRONMENT_CHECK=1; rake assets:precompile" 
+alias prepproduction="rails db:drop db:create db:migrate db:seed RAILS_ENV=production DISABLE_DATABASE_ENVIRONMENT_CHECK=1; rake assets:precompile"
 
 
 alias fix="bin/rails db:environment:set RAILS_ENV=development"
@@ -68,7 +52,7 @@ alias boilerme="git init; git add .; git commit -m "new project"; hub create; gi
 
 #GIT
 function gitall() {
-  git add . 
+  git add .
   if [ "$1" != "" ] # or better, if [ -n "$1" ]
     then
         git commit -m "$1"
@@ -79,7 +63,7 @@ function gitall() {
 }
 
 function herokupush() {
-  git add . 
+  git add .
   if [ "$1" != "" ] # or better, if [ -n "$1" ]
     then
         git commit -m "$1"
@@ -90,19 +74,24 @@ function herokupush() {
     git push heroku master
 }
 
+function clone() {
+  URL='https://github.com/Voxoff/'"$1"'.git'
+  git clone "${URL}"
+}
+
 alias glg="git log --graph --oneline --decorate --all"
 alias gld=‘git log --pretty=format:“%h %ad %s” --date=short --all’
 alias gs=‘git stash’
 
-#Le Wagon
+# Le Wagon
 alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
 alias sta="stt ~/.aliases"
 alias ticket="nohup firefox >/dev/null 2>&1 & disown"
 
-
+# Hotloader
 alias hotloader="gem build hotloader.gemspec; gem install hotloader-1.0.0.gem;"
 alias up2='cd ../../'
 alias up3='cd ../../../'
-alias up4='cd ../../../../'
 
+# fourfive
 alias fourfive='cd ~/code/websites/fourfive'

@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily: 'PowerlineSymbols, "mononoki Nerd Font Mono"',
+    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -147,6 +147,12 @@ module.exports = {
     "hyper-search",
     "hyper-pane",
     "hyperborder",
+    "hyper-blink",
+    "hyperterm-tabs",
+    "hyperterm-paste",
+    "hyperminimal",
+    "hyperlinks",
+    "hyper-tab-icons"
   ],
 
   // in development, you can create a directory under
