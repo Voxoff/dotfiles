@@ -141,8 +141,10 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-solarized-dark',
+    // status line
     'hyperline',
     'hyperlinks',
+    // opens tab in same dir
     "hypercwd",
     "hyper-search",
     "hyper-pane",
