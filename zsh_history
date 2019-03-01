@@ -12377,3 +12377,592 @@ g
 : 1551034711:0;ls
 : 1551034712:0;gst
 : 1551034714:0;git add . 
+: 1551034720:0;git commit -m "added more history and config"
+: 1551034724:0;git push origin master
+: 1551034743:0;hg backup
+: 1551034751:0;hg 
+: 1551034754:0;hg backup
+: 1551034777:0;heroku pg:backups:download b011 -a fourfivecbd
+: 1551034781:0;clear
+: 1551034781:0;;s
+: 1551034783:0;ls
+: 1551034796:0;mv latest.dump ~/code/fourfive
+: 1551034796:0;clkear
+: 1551034797:0;clear
+: 1551034797:0;ls
+: 1551034800:0;cd 
+: 1551034802:0;cd code/fourfive
+: 1551034803:0;clear
+: 1551034803:0;ls
+: 1551034823:0;history | grep backups -n 20
+: 1551034826:0;history | grep backups -A 20
+: 1551034839:0;history | grep pg_restore
+: 1551034857:0;RAILS_ENV=test
+: 1551034862:0;rails db:create
+: 1551034883:0;pg_restore --verbose --clean --no-acl --no-owner -h localhost -U gbennettjones -d fourfive_test latest.dump\
+
+: 1551034893:0;RAILS_ENV=development
+: 1551034894:0;clear
+: 1551034898:0;rake spec
+: 1551034941:0;rake
+: 1551036037:0;rc
+: 1551036063:0;rake
+: 1551036879:0;]rale
+: 1551036880:0;rake
+: 1551037179:0;rale
+: 1551037181:0;rake
+: 1551037642:0;rakje
+: 1551037643:0;rake
+: 1551038547:0;gst
+: 1551038548:0;git add . 
+: 1551038556:0;git rm latest.dump
+: 1551038557:0;gst
+: 1551038568:0;git commit -m "TESTS FINALLY""
+: 1551038569:0;git commit -m "TESTS FINALLY"
+: 1551038575:0;git push origin master
+: 1551089307:0;cd ..
+: 1551089307:0;ls
+: 1551089314:0;touch redux
+: 1551089316:0;cd redux
+: 1551089321:0;rm -rf redux
+: 1551089325:0;touch redux.js
+: 1551089326:0;vim redux.js
+: 1551093525:0;cd fourfive
+: 1551093527:0;rails s
+: 1551093865:0;rs
+: 1551094347:0;cd ../fourfiveassets
+: 1551094348:0;ls
+: 1551095261:0;mv ~/Desktop/Screenshot\ 2019-02-25\ at\ 11.47.03.png ../fourfive/app/assets/images/logo.png
+: 1551095271:0;hg ql
+: 1551095290:0;qlmanage -t -s 25 -o . ../fourfive/app/assets/images/logo.png
+: 1551095328:0;cd ../fourfive
+: 1551095345:0;rake cloudinary:sync_static
+: 1551095387:0;mv app/assets/images/logo.png app/assets/images/logo_text.png
+: 1551095391:0;rake cloudinary:sync_static
+: 1551095437:0;rails s
+: 1551098922:0;gem list active_skin
+: 1551098929:0;gem open active_skin
+: 1551100680:0;gst
+: 1551100690:0;git add . ; git commit -m 'logo me up'
+: 1551100694:0;git push origin master
+: 1551100703:0;git pull origin master
+: 1551100706:0;git push origin master
+: 1551100711:0;git push staging master
+: 1551101114:0;git diff heroku/master staging/master 
+: 1551101833:0;gst
+: 1551101835:0;git diff
+: 1551101863:0;ks ; rs
+: 1551107260:0;gst
+: 1551107261:0;git diff
+: 1551107302:0;gst
+: 1551107308:0;git add app/pdfs/document.rb
+: 1551107313:0;git commit -m "hash change"
+: 1551107327:0;git add app/pdfs/invoice_pdf.rb
+: 1551107338:0;git commit -m "refactored invoice thru monkeypatch"
+: 1551107343:0;git add app/pdfs/stock_pdf.rb
+: 1551107357:0;git commit -m "touched up style bounding box"
+: 1551107359:0;git push origin master
+: 1551107365:0;git push staging master
+: 1551107463:0;git diff heroku/master staging/master
+: 1551107496:0;heroku open s
+: 1551107503:0;heroku open -a stagingfourfive
+: 1551107547:0;heroku logs --tail -a stagingfourfive
+: 1551107578:0;git add . ; git commit -m "hash syntax with array"
+: 1551107581:0;git push origin master
+: 1551107586:0;git push stagin master
+: 1551107589:0;git push staging master
+: 1551108246:0;heroku run rails c -a stagingfourfive
+: 1551108350:0;git add . ; git commit -m "compact not sufficient for empty strings invoice method"
+: 1551108354:0;git push origin master ; git push staging master
+: 1551108562:0;irb
+: 1551108629:0;git add . ; git commit -m "lower address"; git push origin master ; git push staging master
+: 1551108785:0;git diff heroku/master staging/master
+: 1551108909:0;git diff heroku/master staging/master --stat
+: 1551108923:0;rm -rf latest.dump
+: 1551108997:0;cd ..
+: 1551108998:0;ls
+: 1551109023:0;git clone https://github.com/Voxoff/fourfive.git fourfive_test
+: 1551109032:0;cd $_
+: 1551109036:0;git log
+: 1551109088:0;git filter-branch --force --index-filter \\\
+  'git rm --cached --ignore-unmatch latest.dump' \\
+  --prune-empty --tag-name-filter cat -- --all
+: 1551109142:0;gst
+: 1551109164:0;cd ..
+: 1551109168:0;rm -rf fourfive_test
+: 1551109192:0;git clone --mirror git@github.com:Voxoff/fourfive.git fourfive_backup
+: 1551109259:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
+: 1551109287:0;cat ~/code/flatiron-manual-setup/flatiron-setup.sh
+: 1551109297:0;cat ~/code/flatiron-manual-setup/flatiron-setup.sh | grep java
+: 1551109423:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
+: 1551109442:0;mdfind bfg
+: 1551109502:0;cd ~/Downloads
+: 1551109502:0;ls
+: 1551109513:0;rm -rf receipt*.pdf
+: 1551109515:0;ls -al
+: 1551109525:0;cd -
+: 1551109538:0;mv ~/Downloads/bfg-1.13.0.jar .
+: 1551109540:0;clear
+: 1551109550:0;vim ~/.aliases
+: 1551109595:0;ls
+: 1551109603:0;mv bfg-1.13.0.jar bfg.jar
+: 1551109615:0;source ~/.aliases
+: 1551109630:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
+: 1551109689:0;cd fourfive_test
+: 1551109690:0;ls
+: 1551109700:0;rm -rf fourfive_backup
+: 1551109709:0;gst
+: 1551109714:0;git add . 
+: 1551109721:0;git commit -m "none of that pls"
+: 1551109723:0;git push origin master
+: 1551109729:0;git clone --mirror git@github.com:Voxoff/fourfive.git fourfive_backup
+: 1551109745:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
+: 1551109811:0;cd fourfive_backup
+: 1551109813:0;gst
+: 1551109817:0;git reflog expire --expire=now --all && git gc --prune=now --aggressive
+: 1551109827:0;gst
+: 1551109842:0;cd fourfive_backup.bfg-report
+: 1551109843:0;ls
+: 1551109844:0;atom .
+: 1551109879:0;cd ..
+: 1551109880:0;ls
+: 1551114275:0;gst
+: 1551114306:0;cd ..
+: 1551114306:0;ls
+: 1551114308:0;cd fourfive
+: 1551114308:0;ls
+: 1551114327:0;gst
+: 1551114343:0;java -jar bfg.jar --delete-files latest.dump
+: 1551114350:0;java -jar ../bfg.jar --delete-files latest.dump
+: 1551114358:0;gst
+: 1551114367:0;git reflog expire --expire=now --all && git gc --prune=now --aggressive
+: 1551114379:0;gst
+: 1551114380:0;git log
+: 1551114391:0;gst
+: 1551114449:0;git push origin master
+: 1551114455:0;git push -f master
+: 1551114459:0;git push -f origin master
+: 1551114467:0;clear
+: 1551114481:0;git diff staging/master heroku/master 
+: 1551114957:0;git add . ; git commit -m "dashboard tweaks and got rid of stock panel for faster load"
+: 1551114959:0;git push origin master
+: 1551114964:0;git push staging master
+: 1551114981:0;git push -f staging master
+: 1551115164:0;gst
+: 1551115178:0;git add . ; git commit -m "small tweaks"
+: 1551115180:0;git push origin master
+: 1551115188:0;git push heroku master
+: 1551115474:0;heroku logs --tail -a stagingfourfive
+: 1551115591:0;heroku run rails c -a fourfivecbd
+: 1551115761:0;gst
+: 1551115764:0;git diff
+: 1551115787:0;gst
+: 1551115800:0;git add . ; git commit -m "last 24 orders mistake"
+: 1551115802:0;git push origin master
+: 1551115809:0;git push staging master
+: 1551116021:0;git push heroku master
+: 1551116232:0;gst
+: 1551116233:0;git diff
+: 1551116243:0;git add . ; git commit -m "title change"
+: 1551116245:0;git push origin master
+: 1551116248:0;git push heroku master
+: 1551116299:0;bundle
+: 1551116381:0;gst
+: 1551116383:0;git diff
+: 1551116390:0;git add Gemfile.lock 
+: 1551116391:0;gst
+: 1551116400:0;git add . ; git commit -m "gem for testing pdfs"
+: 1551116423:0;gitall 'stock table dead link and month header styling"\
+'
+: 1551116429:0;git push heroku master
+: 1551117390:0;clear
+: 1551117630:0;l
+: 1551117631:0;sclear
+: 1551117632:0;clear
+: 1551117639:0;spec
+: 1551117642:0;cd ..
+: 1551117643:0;rake
+: 1551117894:0;rc
+: 1551119466:0;gst
+: 1551119469:0;rake
+: 1551120329:0;gst
+: 1551120332:0;git add . 
+: 1551120337:0;gitall "testing prawn"
+: 1551120452:0;gitall "testing prawn factories"
+: 1551120568:0;rake
+: 1551120573:0;gitall "test"
+: 1551120577:0;rake
+: 1551176124:0;gst
+: 1551176127:0;git pull origin master
+: 1551176132:0;git stash
+: 1551176134:0;git pull origin master
+: 1551176138:0;git stash apply
+: 1551176148:0;gst
+: 1551176151:0;git rm -rf spec/examples.txt
+: 1551176154:0;git add . 
+: 1551176161:0;git commit -m "merge on ezamples"
+: 1551176165:0;git pull origin master
+: 1551176168:0;git push origin master
+: 1551176225:0;mv ~/Downloads/redux-warmup-challenge-add-features-master\ \(3\).zip ../
+: 1551176227:0;cd ..
+: 1551176233:0;unzip redux-warmup-challenge-add-features-master\ \(3\).zip
+: 1551176235:0;ls
+: 1551176239:0;cd redux-warmup-challenge-add-features-master
+: 1551176240:0;ls
+: 1551176241:0;code .
+: 1551176262:0;npm i
+: 1551176321:0;npm start
+: 1551190311:0;clear
+: 1551190313:0;cd ../../
+: 1551190314:0;ls
+: 1551190318:0;cd code/fourfive
+: 1551190318:0;ls
+: 1551190326:0;rm -rf ../fourfive_backup.bfg-report
+: 1551190331:0;code .
+: 1551190338:0;gst
+: 1551190341:0;git pull origin master
+: 1551190747:0;rails s
+: 1551190841:0;mdfind postmaster.pid
+: 1551190849:0;rm /Users/gbennettjones/Library/Application Support/Postgres/var-11/postmaster.pid
+: 1551190862:0;rm /Users/gbennettjones/Library/Application\ Support/Postgres/var-11/postmaster.pid
+: 1551190870:0;cd -
+: 1551190998:0;gst
+: 1551191000:0;git diff
+: 1551191018:0;git add . ; git commit -m "slight change to include total for invoices"
+: 1551191022:0;git push origin master
+: 1551191256:0;rc
+: 1551198390:0;gst
+: 1551198392:0;git diff
+: 1551198666:0;gitall "conditional AR query refactor, small stock style tweaks"
+: 1551198670:0;git push staging master
+: 1551199688:0;git diff heroku/master master
+: 1551199741:0;gst
+: 1551199750:0;gitall 'comments'
+: 1551199754:0;git push heroku master
+: 1551206908:0;gst
+: 1551206909:0;git diff
+: 1551206942:0;gst
+: 1551206944:0;git diff
+: 1551206972:0;git add . 
+: 1551206978:0;gitall "rubocop"
+: 1551207662:0;gst
+: 1551207712:0;clear
+: 1551207713:0;ls
+: 1551208157:0;rs
+: 1551208421:0;rc
+: 1551208633:0;spec
+: 1551208635:0;cd ..
+: 1551208635:0;rakle
+: 1551208636:0;rake
+: 1551208762:0;gitall "mid refactor"
+: 1551209012:0;irb
+: 1551209628:0;ks ; rs
+: 1551209736:0;ks ;rs
+: 1551209781:0;rake
+: 1551209866:0;clear
+: 1551209868:0;ks ; rs
+: 1551209948:0;ks ;rs
+: 1551210035:0;ks ; rs
+: 1551210135:0;vim ~/.aliases
+: 1551210157:0;source ~/.aliases
+: 1551210159:0;ks
+: 1551210303:0;rs
+: 1551210306:0;ks
+: 1551210427:0;ks 
+: 1551210935:0;gst
+: 1551210941:0;gitall "its longer but better"
+: 1551213505:0;rails s
+: 1551213683:0;gst
+: 1551213685:0;git diff
+: 1551213698:0;gitall "private and table method"
+: 1551213798:0;irb
+: 1551214046:0;gst
+: 1551214050:0;git diff
+: 1551214745:0;gst
+: 1551214746:0;git diff
+: 1551214760:0;git stash
+: 1551214993:0;rc
+: 1551283441:0;gst
+: 1551283443:0;git diff
+: 1551283447:0;git stash
+: 1551283448:0;clear
+: 1551283448:0;ls
+: 1551283458:0;gst
+: 1551283461:0;git diff
+: 1551283464:0;code .
+: 1551283484:0;rails s
+: 1551283566:0;cd /Library
+: 1551283566:0;ls
+: 1551283569:0;cd Launch
+: 1551283572:0;cd LaunchAgents
+: 1551283572:0;ls
+: 1551283583:0;ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents\
+
+: 1551283589:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+: 1551283611:0;cd /usr/local/opt/postgresql/
+: 1551283612:0;ls
+: 1551283636:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+: 1551283641:0;ls
+: 1551283644:0;cd -
+: 1551283645:0;ls
+: 1551284031:0;cd
+: 1551284058:0;mv ~/Downloads/landing\ page\ image\ three\ oilsv3.jpg ~/code/fourfive/app/assets/images
+: 1551284068:0;cd code/fourfive
+: 1551284071:0;gst
+: 1551284074:0;rake cloudinary:sync_static
+: 1551284092:0;rm -rf app/assets/images/landing\ page\ image\ three\ oilsv3.jpg
+: 1551284100:0;rm -rf app/assets/images/logo_text.png
+: 1551284102:0;gst
+: 1551284109:0;gitall "put in new image to cloudinary"
+: 1551284134:0;cd 
+: 1551284140:0;mv ~/Downloads/landing\ page\ image\ three\ oilsv3.jpg ~/code/fourfive/app/assets/images
+: 1551284143:0;cd code/fourfive
+: 1551284163:0;mv app/assets/images/landing\ page\ image\ three\ oilsv3.jpg app/assets/images/home_page.jpg
+: 1551284167:0;gst
+: 1551284187:0;rake cloudinary:sync_static
+: 1551284200:0;gst
+: 1551284208:0;gitall "cl image with correct tag"
+: 1551284338:0;gitall "put new home page into html"
+: 1551284342:0;git push staging master
+: 1551284676:0;gst
+: 1551284687:0;gitall "vasyl shows guy what style truly is"
+: 1551284691:0;git push staging master
+: 1551285132:0;gst
+: 1551285281:0;git diff master heroku/master --stat
+: 1551285435:0;irb
+: 1551287599:0;git diff master heroku/master
+: 1551287821:0;man git diff
+: 1551287827:0;git diff -h
+: 1551287831:0;git diff --help
+: 1551288015:0;git diff master heroku/master ':(exclude).cloudinary.static.trash'
+: 1551288032:0;git diff heroku/master master  ':(exclude).cloudinary.static.trash'
+: 1551288187:0;git diff master staging/master 
+: 1551288193:0;rake
+: 1551288350:0;gst
+: 1551288356:0;git diff heroku/master master  ':(exclude).cloudinary.static.trash'
+: 1551288401:0;gst
+: 1551288410:0;gitall "tests"
+: 1551288414:0;git push heroku master
+: 1551288965:0;irb
+: 1551288967:0;rc
+: 1551289943:0;gst
+: 1551289951:0;gitall "added coupons to invoices"
+: 1551296239:0;gst
+: 1551296242:0;git push origin master
+: 1551296248:0;git push staging master
+: 1551296696:0;irb
+: 1551296773:0;rake
+: 1551297198:0;rc
+: 1551297451:0;gitall "added postage and changed position of totals"
+: 1551305657:0;cd ~/Desktop
+: 1551305658:0;ls
+: 1551305666:0;chmod +x Series\ 2
+: 1551305672:0;cd Series\ 2
+: 1551305675:0;h | for
+: 1551305680:0;h | grep for
+: 1551305717:0;for i in $(ls); do chmod + x $i; done
+: 1551305721:0;for i in $(ls); do chmod +x $i; done
+: 1551349658:0;cd ~/code/fourfive
+: 1551349659:0;ls
+: 1551349661:0;gst
+: 1551349664:0;git pull origin master
+: 1551349948:0;gst
+: 1551349953:0;git diff master heroku/master
+: 1551349963:0;git diff master staging/master 
+: 1551349972:0;git push staging master
+: 1551350377:0;man pkill
+: 1551350899:0;git diff master heroku/master 
+: 1551350919:0;git diff heroku/master master 
+: 1551351006:0;gitall "fewer comments"
+: 1551351014:0;git push heroku master
+: 1551351065:0;rake
+: 1551351452:0;ls -ald ~/.*
+: 1551351464:0;ls -ald ~/.* | grep pry
+: 1551351466:0;cd 
+: 1551351471:0;cd code/dotfiles
+: 1551351471:0;ls
+: 1551351476:0;touch pryrc
+: 1551351491:0;echo -e "if defined?(PryByebug)\
+  Pry.commands.alias_command 'c', 'continue'\
+  Pry.commands.alias_command 's', 'step'\
+  Pry.commands.alias_command 'n', 'next'\
+  Pry.commands.alias_command 'f', 'finish'\
+end" >> pryrc
+: 1551351495:0;cat pryrc
+: 1551351512:0;echo -e "Pry::Commands.command /^$/, "repeat last command" do\
+  _pry_.run_command Pry.history.to_a.last\
+end" >> pryrc
+: 1551351520:0;cat install.sh
+: 1551351536:0;name="pryrc"
+: 1551351547:0;echo $target
+: 1551351556:0;ln -s "$PWD/$name" "$target"
+: 1551351566:0;cd 
+: 1551351569:0;ls -ald ~/.* | grep pry
+: 1551351572:0;cd code/dotfiles
+: 1551352015:0;echo -e "begin\
+  require 'rubygems'\
+  require 'awesome_print'\
+  require 'awesome_print_colors'\
+\
+  # AwesomePrint.defaults={ \
+  #               :theme=>:solorized,\
+  #               :indent => 2,\
+  #               :sort_keys => true,\
+  #               :color => {\
+  #                 :args       => :greenish,\
+  #                 :array      => :pale,\
+  #                 :bigdecimal => :blue,\
+  #                 :class      => :yellow,\
+  #                 :date       => :greenish,\
+  #                 :falseclass => :red,\
+  #                 :fixnum     => :blue,\
+  #                 :float      => :blue,\
+  #                 :hash       => :pale,\
+  #                 :keyword    => :cyan,\
+  #                 :method     => :purpleish,\
+  #                 :nilclass   => :red,\
+  #                 :string     => :yellowish,\
+  #                 :struct     => :pale,\
+  #                 :symbol     => :cyanish,\
+  #                 :time       => :greenish,\
+  #                 :trueclass  => :green,\
+  #                 :variable   => :cyanish\
+  #             }\
+  #          }\
+\
+ \
+  \
+  AwesomePrint.defaults={:theme=>:solorized}\
+\
+  # The following line enables awesome_print for all pry output,\
+  # and it also enables paging\
+  Pry.config.print = proc {|output, value| Pry::Helpers::BaseHelpers.stagger_output("=> #{value.ai}", output)}\
+\
+  # If you want awesome_print without automatic pagination, use the line below\
+  # Pry.config.print = proc { |output, value| output.puts value.ai }\
+rescue LoadError => err\
+  puts "gem install awesome_print  # <-- highly recommended"\
+end" >> pryrc
+: 1551352022:0;vim pryrc
+: 1551352037:0;gem install awesome-print
+: 1551352042:0;gem install awesome_print
+: 1551352049:0;gem install awesome_print_colors
+: 1551352117:0;vim pryrc
+: 1551352133:0;rake
+: 1551352142:0;fourfive
+: 1551352145:0;vim ~/.aliases
+: 1551352172:0;source ~/.aliases
+: 1551352175:0;fourfive
+: 1551352180:0;rake
+: 1551357983:0;raisl c
+: 1551357985:0;rails c
+: 1551358006:0;rails c help
+: 1551358018:0;rails console help
+: 1551358035:0;rails console --sandbox
+: 1551358160:0;rake
+: 1551359176:0;rake spec:models
+: 1551360483:0;rspec spec/factories_spec.rb
+: 1551360545:0;gem cleanup monetize
+: 1551360551:0;gem cleanip railties
+: 1551360555:0;gem cleanup railties
+: 1551360561:0;gem cleanup activesupport
+: 1551360568:0;gem cleanup money
+: 1551360572:0;rspec spec/factories_spec.rb
+: 1551360585:0;gem cleanup i18n
+: 1551360588:0;gem cleanup rails
+: 1551360602:0;rspec spec/factories_spec.rb
+: 1551361477:0;gem cleanup activesupport
+: 1551361578:0;rspec
+: 1551361618:0;cd ..
+: 1551361619:0;kls
+: 1551361619:0;ls
+: 1551361637:0;rm -rf Greyledger fourfive.bfg-report redux-warmup-challenge-add-features-master\ \(3\).zip
+: 1551361641:0;ls
+: 1551363850:0;fourfive
+: 1551363851:0;rspec
+: 1551363896:0;gem cleanup --all
+: 1551363900:0;gem cleanup help
+: 1551363905:0;gem help cleanup
+: 1551363918:0;gem cleanup
+: 1551363926:0;rspec
+: 1551363948:0;gem cleanup minitest rake
+: 1551363973:0;rspec
+: 1551363980:0;gem cleanup minitest
+: 1551363986:0;gem cleanup rake
+: 1551363999:0;gem help cleanup
+: 1551364021:0;gem cleanup --user-install
+: 1551364027:0;gem cleanup --no-user-install
+: 1551364030:0;gem cleanup
+: 1551364039:0;gem cleanup -D
+: 1551364042:0;rspec
+: 1551364110:0;rspec spec/models
+: 1551364253:0;bundle exec rspec spec/models
+: 1551364401:0;rspec spec/models
+: 1551364740:0;gem list rake
+: 1551364747:0;gem uninstall rake
+: 1551364751:0;gem list rake
+: 1551364755:0;gem uninstall rake
+: 1551364758:0;gem list rake
+: 1551364769:0;bundle exec gem uninstall rake
+: 1551364785:0;gem install rake
+: 1551364825:0;gem uninstall rake -v 12.3.0
+: 1551364829:0;gem list rake
+: 1551364875:0;gem uninstall minitest
+: 1551364880:0;gem install minitest
+: 1551364888:0;rspec spec/models
+: 1551364961:0;gem uninstall rake
+: 1551364964:0;gem uninstall minitest
+: 1551364968:0;rspec spec/models
+: 1551364974:0;bundle
+: 1551364979:0;rspec spec/models
+: 1551365430:0;rake
+: 1551365476:0;rspec spec/models
+: 1551365624:0;	ls -alrt
+: 1551365626:0;rspec spec/models
+: 1551369571:0;rspec
+: 1551369617:0;irb
+: 1551369885:0;rspec
+: 1551370044:0;ls
+: 1551370045:0;gst
+: 1551370064:0;rspec
+: 1551370877:0;rspec spec/pdfs/invoice_pdf_spec.rb
+: 1551371668:0;rc
+: 1551371743:0;rspec spec/pdfs/invoice_pdf_spec.rb
+: 1551374380:0;gst
+: 1551374383:0;git add . 
+: 1551374392:0;gitall "tests and prawn warning"
+: 1551374398:0;git last
+: 1551374400:0;git commit last
+: 1551374403:0;git log 
+: 1551374406:0;git log -1
+: 1551374408:0;git log -1 --stat
+: 1551374412:0;git log -1 
+: 1551374418:0;git diff master master~1
+: 1551374422:0;bundle
+: 1551374425:0;bundle update
+: 1551374846:0;rspec
+: 1551378931:0;code .
+: 1551378954:0;gst
+: 1551378962:0;git stash
+: 1551378964:0;git pull origin master
+: 1551378968:0;bundle
+: 1551378971:0;gst
+: 1551378980:0;git diff master heroku/master
+: 1551379004:0;gst
+: 1551379606:0;heroku run rails c
+: 1551379610:0;heroku run rails c -a fourfivecbd
+: 1551459846:0;clear
+: 1551459846:0;ls
+: 1551459848:0;clear
+: 1551459871:0;git pull origin master
+: 1551459954:0;cd ~/code/dotfiles
+: 1551459955:0;ls
+: 1551459960:0;touch Gemfile.dev
+: 1551459964:0;vim Gemfile.dev
+: 1551460052:0;gem list | grep awesome
+: 1551460089:0;gem list | grep print
+: 1551460092:0;gem list
+: 1551460167:0;ls
+: 1551460168:0;gst
+: 1551460170:0;git diff
+: 1551460174:0;git add . 
