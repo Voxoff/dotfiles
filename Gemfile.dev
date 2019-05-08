@@ -5,3 +5,4 @@ group :development, :test do
   gem 'awesome_print_color'
   gem 'hotloader'
 end
+gem 'annotate'

@@ -2512,7 +2512,6 @@ done
 : 1550527698:0;len=13
 : 1550527705:0;var[13]=s
 : 1550527714:0;var[$len]=t
-: 1550527715:0;echo $var
 : 1550527760:0;var=""
 : 1550527764:0;$#var
 : 1550527784:0;$#varvar=""\
@@ -2577,7 +2576,6 @@ echo $var
 
 : 1550603407:0;git push heroku-staging chart:master
 : 1550603771:0;git diff master chart
-: 1550604618:0;rm -rf Gemfile
 : 1550604628:0;git reset Gemfile
 : 1550604641:0;git checkout -- Gemfile
 : 1550604664:0;gem uninstall bundle
@@ -2632,7 +2630,6 @@ config commit -m "Add gemrc"
 : 1550611939:0;target="$HOME/.zsh_history"
 : 1550611949:0;$name="zsh_history"
 : 1550611968:0;name="zsh_history"
-: 1550611986:0;echo $target
 : 1550612002:0;if [[ ! "$name" =~ '\.sh$' ]] && [ "$name" != 'README.md' ]; then echo "asdf" ; done
 : 1550612014:0;if [[ ! "$name" =~ '\.sh$' ]] && [ "$name" != 'README.md' ]; then echo "asdf" ; fi
 : 1550612036:0;backup() {\
@@ -2677,7 +2674,6 @@ config commit -m "Add gemrc"
 : 1550615856:0;ls -al | grep pry
 : 1550615895:0;mv .pry_history pry_history
 : 1550615904:0;rm -rf .pry_history
-: 1550615913:0;ln -s "$PWD/$name" "$target"
 : 1550615919:0;cat .pry_history
 : 1550615924:0;fst
 : 1551034579:0;echo $(cat .zsh_history) >> ~/code/dotfiles/zsh_history
@@ -3001,7 +2997,6 @@ sudo apt-get install gnome-tweak-tool\
 : 1512034394:0;curl -sL https://deb.nodesource.com/setup | sudo -E bash -
 : 1512034706:0;curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
 : 1512034866:0;wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-: 1512034896:0;command -v nvm
 : 1512035277:0;$ npm i -g unsplash-wallpaper
 : 1512035347:0;node update
 : 1512035485:0;nvm install
@@ -3037,7 +3032,6 @@ sudo rm -rf /usr/local/bin/node*
 : 1512036565:0;sudo bash nodesource_setup.sh
 : 1512036594:0;bash install_nvm.sh
 : 1512036846:0;nvm update
-: 1512036853:0;nvm --version
 : 1512036873:0;nvm install-latest-npm
 : 1512036938:0;nvm
 : 1512036963:0;nvm install 9.2.0
@@ -3133,7 +3127,6 @@ sudo rm -rf /usr/local/bin/node*
 : 1512045105:0;git commit -m "kitty"
 : 1512045367:0;git commit -m "added debug"
 : 1512045419:0;heroku logs -
-: 1512045567:0;git commit -m "done"
 : 1512045609:0;herok ulogs -t
 : 1512046144:0;git commit -m 'done\
 '
@@ -3265,7 +3258,6 @@ sudo rm -rf /usr/local/bin/node*
 : 1512229899:0;cd ../../code
 : 1512229929:0;mkdir EthereumContractScraper
 : 1512229946:0;touch scraper.rb
-: 1512229990:0;gem install nokogiri
 : 1512230042:0;gem install open-uri
 : 1512235151:0;sudo apt-get install xserver-xorg-input-synaptics
 : 1512236615:0;touch Ethereumtime.csv
@@ -4252,7 +4244,6 @@ export DISPLAY=:0
 : 1515069772:0;sudo mv Exodus-linux-x64 exodus_backup
 : 1515069802:0;unzip exodus-linux-x64-1.41.0.zip
 : 1515069820:0;Exodus-linux-x64
-: 1515081970:0;man curl
 : 1515081979:0;curl https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2wmIJQ3SlKXFn-M5oFdpyFlQJSQV3tUgTjLJawgCBeI2qMG845W1PJKQHgKOJCJ3kYSuI98qTdovR/pubchart\?oid\=356384329\&format\=interactive
 : 1515082047:0;wget https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2wmIJQ3SlKXFn-M5oFdpyFlQJSQV3tUgTjLJawgCBeI2qMG845W1PJKQHgKOJCJ3kYSuI98qTdovR/pubchart\?oid\=356384329\&format\=interactive -O wallpaper.jpg
 : 1515082116:0;wget https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2wmIJQ3SlKXFn-M5oFdpyFlQJSQV3tUgTjLJawgCBeI2qMG845W1PJKQHgKOJCJ3kYSuI98qTdovR/pubchart\?oid\=356384329\&format\=image -O wall.png
@@ -4284,7 +4275,6 @@ export DISPLAY=:0
 : 1515088809:0;ls -r | grep conky
 : 1515088816:0;cd fork
 : 1515088827:0;git commit -m "home"
-: 1515089010:0;man ssh
 : 1515089052:0;ls -r | grep shh
 : 1515089054:0;ls -r | grep ssh
 : 1515089196:0;cd code/Voxoff/Websites/fork
@@ -4362,7 +4352,6 @@ export DISPLAY=:0
 : 1515431611:0;pip install --upgrade imutils
 : 1515431854:0;git commit -m "we can scan receipts"
 : 1515491436:0;pip install pillow#
-: 1515491484:0;cd d
 : 1515491490:0;touch ocr.py
 : 1515492025:0;python scan.py -i images/receipt.jpg
 : 1515493143:0;git commit -m "start with the ocr"
@@ -4432,7 +4421,6 @@ sudo ldconfig
 : 1515495535:0;git co -b "ui_bugs"
 : 1515496273:0;git commit -m "simple ui"
 : 1515496306:0;cd ../../../../tesseract
-: 1515496560:0;python --version
 : 1515496630:0;sudo apt-get install pip3
 : 1515496662:0;cd ../../machineLearning
 : 1515496683:0;sudo apt-get install build-essential cmkae pkg-config
@@ -4854,7 +4842,6 @@ git pull upstream master
 : 1516214305:0;cd /#
 : 1516214311:0;cd /dev
 : 1516214835:0;sudo apt-get install dmg2img
-: 1516214859:0;cd ~/Desktop
 : 1516214904:0;lsblk | grep <flashdrive>\
 
 : 1516214962:0;blkid
@@ -5084,7 +5071,6 @@ VBoxManage setextradata osx "VBoxInternal2/SmcDeviceKey" "ourhardworkbytheseword
 : 1516995292:0;a=(1,2)
 : 1516995294:0;echo a
 : 1516995309:0;a=(1..2)
-: 1516995310:0;echo $a
 : 1516995585:0;arr[0]="Ploink Poink"\
 arr[1]="I Need Oil"\
 arr[2]="Some Bytes are Missing\
@@ -5111,8 +5097,6 @@ exit
 "\
 )
 : 1516995758:0;arr=('Ploink Poink', "I Need Oil", "Some Bytes are Missing", "Poink Poink", "Piiiip Beeeep\!\!", "Hello", "Whoops\! I'm out of memmory")
-: 1516995760:0;echo $arr[0]
-: 1516995762:0;echo $arr
 : 1516996164:0;cd ../../machineLearning/tesseract/python
 : 1516996179:0;rm -f final1.jpg final1.png final.jpg final.png
 : 1516996257:0;python document-scanner/scan.py images/myrecipt.jpg
@@ -5174,7 +5158,6 @@ exit
 : 1517317349:0;heroku pg:info
 : 1517325929:0;ls -R | grep hack
 : 1517325934:0;ls -r | grep hack
-: 1517325947:0;ls -R
 : 1517325952:0;ls -R | grep crack
 : 1517325956:0;ls -R | grep spoof
 : 1517325959:0;ls -R | grep wifi
@@ -5247,7 +5230,6 @@ exit
 : 1517581927:0;cd threebitstudio
 : 1517581945:0;git commit -m "adjusting cards in progress"
 : 1517581949:0;git push origin complexui
-: 1517582212:0;git remote rm origin
 : 1517582368:0;git remote add git@github.com:Voxoff/stackupstudios.git
 : 1517582377:0;git remote add https://git@github.com:Voxoff/stackupstudios.git
 : 1517582393:0;git remote add https://github.com/Voxoff/stackupstudios.git
@@ -5658,7 +5640,6 @@ git add .\
 git commit -m "fixed untracked files"
 : 1517928495:0;git co -b "cahce"
 : 1517928512:0;sgst
-: 1517928551:0;git commit -m "asdf"
 : 1517928694:0;git co cahce
 : 1517928698:0;git rm log/development.log\
 
@@ -5998,8 +5979,6 @@ rails g migration AddFieldsToUsers phone:string first_name:string last_name:stri
 : 1518289000:0;gem list --local
 : 1518289128:0;bundle update rails
 : 1518289154:0;RUBYOPT="-W0" rails server
-: 1518289278:0;rake db:create
-: 1518289285:0;rake db:migrate
 : 1518295161:0;cd ../../../Voxoff/kitchup
 : 1518297433:0;rails generate simple_form:install --bootstrap
 : 1518307062:0;git commit -m "images"
@@ -6116,7 +6095,6 @@ rails g migration AddFieldsToUsers phone:string first_name:string last_name:stri
 : 1518610412:0;npm eslint --init
 : 1518610494:0;cd ~/code/Voxoff/lewagon/fullstack-challenges/04-Front-End/06-Events-And-AJAX/
 : 1518610501:0;cd 01-My-First-Event-Listener
-: 1518610550:0;]
 : 1518620427:0;cd ../02-Wagon-Race/
 : 1518621417:0;cd ../../../../../kitchup
 : 1518624863:0;cd fullstack-challenges/04-Front-End/06-Events-And-AJAX/03-AJAX-Autocomplete
@@ -6196,7 +6174,6 @@ git config --global --unset https.proxy\
 : 1519140576:0;git commit -m "Search functionnnnnnn works"
 : 1519160327:0;git commit -m "viewings"
 : 1519160331:0;git push origin dropdownparams
-: 1519210069:0;raisl c
 : 1519215068:0;rails generate mailer UserMailer welcome
 : 1519215455:0;mkdir -p test/mailers/previews
 : 1519220517:0;rails generate mailer KitchenMailer creation_confirmation
@@ -6269,8 +6246,6 @@ git config --global --unset https.proxy\
 : 1519826245:0;git push origin addequipmenttoadmin
 : 1519826311:0;cd ../rails/rails-carrierwave-multiple-attachment
 : 1519826360:0;git co -b omniauth
-: 1519826597:0;rails g migration AddOmniauthToUsers provider:string uid:string\
-rake db:migrate
 : 1519827642:0;git commmit -m "Facebook for the timebeing"
 : 1519830001:0;git commit -m "callback for omniauth"
 : 1519830005:0;git push origin omniauth
@@ -6351,7 +6326,6 @@ rake db:migrate
 : 1520007066:0;yarn remove flatpickr
 : 1520007257:0;bin/setup
 : 1520009595:0;yarn add jquery
-: 1520022150:0;git add README.md
 : 1520022160:0;git add app/admin/kitchens.rb
 : 1520022164:0;git add app/admin/users.rb
 : 1520022178:0;git diff app/views/kitchens/show.html.erb
@@ -6465,7 +6439,6 @@ rake db:migrate
 : 1520698857:0;rails destroy model ChatRoom
 : 1520699029:0;rails destroy model message
 : 1520699062:0;rails g model Message content:text user:references chatroom:references
-: 1520699118:0;history | grep reset
 : 1520699200:0;git clean 0f
 : 1520699212:0;git rm app/views/chat_room
 : 1520699237:0;git clean -d -f
@@ -6518,12 +6491,10 @@ rake db:migrate
 : 1520790544:0;rails db
 : 1520790608:0;sudo rails db
 : 1520792207:0;git add app/models/kitchen.rb
-: 1520792211:0;git add app/models/user.rb
 : 1520792220:0;git add test/mailers/booking_mailer_test.rb
 : 1520792225:0;git add test/mailers/kitchen_mailer_test.rb
 : 1520792230:0;git add test/mailers/user_mailer_test.rb
 : 1520792254:0;git add test/controllers/messages_controller_test.rb
-: 1520792259:0;git add config/routes.rb
 : 1520792291:0;git push origin nplusonequeries
 : 1520792511:0;git co -b "messengerextensions"
 : 1520793563:0;ails s
@@ -6544,12 +6515,10 @@ rake db:migrate
 : 1520863816:0;rails webpacker:compile
 : 1520863842:0;./bin/webpack
 : 1520863942:0;bundle exec rails webpacker:compile
-: 1520866146:0;rails s -p 3001
 : 1520869944:0;rails routes | grep chat
 : 1520873906:0;rails routes | grep bookin
 : 1520874218:0;git commit -m "working messenger"
 : 1520874221:0;git push origin messengerv2
-: 1520875452:0;rials s
 : 1520880614:0;rails routes | grep devise
 : 1520880802:0;git co -b heartsblocksandsearches
 : 1520880829:0;git commit -m "hearts not stars; fixed search bug; added skip devise on a bunch of actions"
@@ -6722,7 +6691,6 @@ sudo apt-get install wine1.7 winetricks
 : 1523286938:0;dropbox
 : 1523287054:0;cd trash
 : 1523287057:0;cd /trash
-: 1523287087:0;cd /
 : 1523287095:0;cd home/]
 : 1523287098:0;cd home/ ; ls
 : 1523287106:0;cd /usr
@@ -6755,7 +6723,6 @@ sudo apt-get install wine1.7 winetricks
 : 1523309652:0;unzip solution_01-Ruby_01-Programming-basics_Optional-02-Ip-Address-Converter.zip
 : 1523309676:0;rm solution_01-Ruby_01-Programming-basics_Optional-02-Ip-Address-Converter.zip
 : 1523347212:0;cd ../../../../fullstack-challenges
-: 1523347223:0;rale
 : 1523347366:0;cd 01-Ruby/01-Programming-basics/Optional-03-Credit-Card-Checker
 : 1523351733:0;cd ~/code/Voxoff/lewagon/fullstack-challenges/01-Ruby/01-Programming-basics/Optional-03-Credit-Card-Checker
 : 1523353460:0;cd ../fullstack-challenges-answers
@@ -6766,7 +6733,6 @@ sudo apt-get install wine1.7 winetricks
 : 1523353502:0;unzip solution_01-Ruby_01-Programming-basics_Optional-03-Credit-Card-Checker.zip
 : 1523353506:0;rm -rf solution_01-Ruby_01-Programming-basics_Optional-03-Credit-Card-Checker.zip
 : 1523353581:0;cd ../../../../fullstack-challenges/01-Ruby/01-Programming-basics/Optional-03-Credit-Card-Checker
-: 1523353721:0;which rubocop
 : 1523354912:0;rake help
 : 1523354961:0;rspec -t visa?
 : 1523354973:0;rspec -t experiment
@@ -6926,7 +6892,6 @@ cd kitchup-production
 : 1524667431:0;git commit -m "Mystery commit planet"
 : 1524667999:0;git commit -m "terrible update fix"
 : 1524668033:0;git commit -m "myset"
-: 1524668039:0;git push origin heroku
 : 1524671897:0;cd ../kitchup/
 : 1524672960:0;git commit -m "fix for empty search to display all kitchens"
 : 1524674113:0;git commit -m "map fix so that it includes all markers"
@@ -7056,9 +7021,6 @@ cd kitchup-production
 : 1529266263:0;middleman
 : 1529266283:0;middleman-4.2.1
 : 1529267089:0;cd ../../../Voxoff/lewagon
-: 1529267109:0;cd fullstack-challenges
-: 1529267123:0;cd 02-OOP
-: 1529267132:0;cd 03-Cookbook-Day-One
 : 1529267137:0;cd 01-Cookbook/
 : 1529321244:0;cd ~/code/Voxoff/kit
 : 1529321250:0;cd ~/code/Voxoff/kitty
@@ -7420,7 +7382,6 @@ sudo make install
 : 1531851651:0;heroku ps:scale app=WakatimeLogger
 : 1531851686:0;heroku ps:scale
 : 1531852647:0;heroku buildpacks:set heroku/python --app wakatimelogger
-: 1531852729:0;git push -f heroku master
 : 1531853132:0;git remote rename origin upstream
 : 1531853140:0;git remote add origin git@github...my-fork
 : 1531853200:0;git remote remove
@@ -7446,8 +7407,6 @@ sudo make install
 : 1531855720:0;git commit -m "init"
 : 1531855837:0;heroku ps:scale app=1
 : 1531855921:0;cd ../wakatime-logger-Manual
-: 1531855997:0;pip install requests
-: 1531856011:0;pip install pandas
 : 1531856033:0;pip install configparser
 : 1531856085:0;pip install os
 : 1531856096:0;pip install base64
@@ -7475,7 +7434,6 @@ sudo make install
 : 1532021667:0;git remote set-url origin https://github.com/Voxoff/kiazma.git
 : 1532021712:0;git remote add origin https://github.com/Voxoff/kiazma.git
 : 1532021740:0;git pull
-: 1532021779:0;git push -f origin master
 : 1532021843:0;fortune:2
 : 1532021857:0;ps1
 : 1532021923:0;fortune -m shakespeare
@@ -7578,7 +7536,6 @@ sudo make install
 : 1532278278:0;mkdir sql
 : 1532279050:0;cd le
 : 1532279078:0;cd leagon
-: 1532279118:0;mkdir app
 : 1532279123:0;mkdir models
 : 1532279125:0;cd models
 : 1532279151:0;touch doctor.rb
@@ -7672,7 +7629,6 @@ ${GREEN_START_P1}'\
 : 1532688740:0;stt ~/.profile
 : 1532688822:0;cd /usr/local/boni
 : 1532688880:0;cd ~/code/Voxoff/dotfiles/
-: 1532689037:0;;ls
 : 1532689055:0;cd sublime-text-3
 : 1532689102:0;cd Packages/User
 : 1532694350:0;mkdir -p ~/code/lewagon/livecodes/sqlite-task-manager && cd $_\
@@ -7882,7 +7838,6 @@ apt-get install runescape-launcher
 : 1533408337:0;[[ ":$PATH:" == *":$HOME/bin:"* ]] && echo "~/bin is in PATH" || echo "~/bin is not in PATH"
 : 1533408364:0;exercism
 : 1533408374:0;exercism configure --token=99886f4e-f569-4d9f-a93b-3abc1b8b3bb6
-: 1533408398:0;gem install minitest
 : 1533408439:0;touch hello_world_test.rb
 : 1533408442:0;stt hello_world_test.rb
 : 1533408483:0;exercism download --exercise=hello-world --track=ruby
@@ -7906,12 +7861,10 @@ apt-get install runescape-launcher
 : 1533485660:0;git logout
 : 1533485711:0;git config --get name
 : 1533485713:0;git config --get
-: 1533485717:0;git config --get-all
 : 1533485728:0;git config --get-all k
 : 1533485732:0;git config --get-all /k/
 : 1533485782:0;git config --get user
 : 1533485785:0;git config --get user.name
-: 1533485812:0;git config --global
 : 1533485823:0;git config --system -l
 : 1533485842:0;git config --global --unset user.name\
 git config --global --unset user.email\
@@ -7922,7 +7875,6 @@ git config --global --unset user.email\
 : 1533485957:0;git config --global --unset-all
 : 1533485971:0;git config --global -l
 : 1533485983:0;git login
-: 1533486208:0;git config
 : 1533486214:0;git config -l
 : 1533486445:0;sudo mv ~/.ssh ./ssh
 : 1533486588:0;ssh-keygen -t rsa -b 4096 -C "leonardpercival@gmail.com"
@@ -8037,7 +7989,6 @@ git config --global --unset user.email\
 : 1533585076:0;hub create help
 : 1533585110:0;hub remove help
 : 1533585116:0;hub
-: 1533585137:0;hub help
 : 1533585141:0;hub help hub
 : 1533592597:0;cd ~/code/oceantidote/react-redux-challenges/01-React/02-React-Basics/01-My-first-component/
 : 1533593864:0;yarn startw
@@ -8085,7 +8036,6 @@ git config --global --unset user.email\
 : 1533664748:0;sudo chmod +x index.jsx
 : 1533664835:0;sudo chmod +a index.jsx
 : 1533664843:0;sudo chmod a +x index.jsx
-: 1533664846:0;man chmod
 : 1533664874:0;sudo chmod a+x index.jsx
 : 1533665015:0;chown
 : 1533665036:0;man chown
@@ -8118,7 +8068,6 @@ git config --global --unset user.email\
 : 1533666054:0;h | grep tmux
 : 1533666072:0;sudo apt-get install tmux
 : 1533666502:0;sdfasd
-: 1533666634:0;tmux
 : 1533666739:0;cd react-giphy/
 : 1533681788:0;npm help install
 : 1533681866:0;npm install giphy-api
@@ -8133,7 +8082,6 @@ git config --global --unset user.email\
 : 1533739192:0;ps -a
 : 1533739230:0;kill chrome
 : 1533739245:0;kill --list chrome
-: 1533739249:0;man kill
 : 1533739267:0;kill 27067
 : 1533739278:0;ps | grep chrome
 : 1533739286:0;kill 27044
@@ -8261,7 +8209,6 @@ git config --global --unset user.email\
 : 1534185278:0;rm -rf package.json README.md yarn.lock
 : 1534185282:0;git clone git@github.com:lewagon/chat-redux.git
 : 1534185287:0;cd chat-redux
-: 1534186146:0;yarn start
 : 1534276928:0;cd src
 : 1534276933:0;cat -A
 : 1534276983:0;cat * */*
@@ -8300,7 +8247,6 @@ snap list
 : 1534533745:0;rmdir -f hello
 : 1534533754:0;rmdir --help
 : 1534533773:0;man rmdir
-: 1534533788:0;rm -rf
 : 1534533804:0;man rf
 : 1534533806:0;man rm
 : 1534533815:0;rm parts
@@ -8321,9 +8267,7 @@ snap list
 : 1534534117:0;h | grep tree
 : 1534534123:0;tree --filelimit -5
 : 1534534142:0;tree | grep yaml
-: 1534534233:0;cd --
 : 1534534247:0;cd code/Voxoff/ubuntu
-: 1534534258:0;cd hello
 : 1534534303:0;sudo snap remove hello
 : 1534534442:0;export PATH="./snap/bin"
 : 1534534456:0;export PATH="snap/bin"
@@ -8424,7 +8368,6 @@ Gtk.main()\
 : 1534936998:0;gem install osmn
 : 1534938547:0;..
 : 1534938552:0;~
-: 1534938564:0;cd Downloads
 : 1534938652:0;wget -O https://unsplash.com/photos/hchKfNuAblU
 : 1534938662:0;wget https://unsplash.com/photos/hchKfNuAblU
 : 1534938711:0;curl https://unsplash.com/photos/hchKfNuAblU > test.jpg
@@ -8582,7 +8525,6 @@ Gtk.main()\
 : 1535374015:0;gem install mechanize
 : 1535375163:0;cd ../../lewagon
 : 1535375165:0;cd review
-: 1535375167:0;cd reviews
 : 1535375214:0;prename
 : 1535375224:0;sudo apt-get install rename
 : 1535375252:0;rename]
@@ -8960,7 +8902,6 @@ rails g controller payments
 : 1536581978:0;gitall activeadmin
 : 1536582070:0;rails generate active_admin:resource order user review
 : 1536582073:0;rails generate active_admin:resource order
-: 1536582375:0;rails db:rollback
 : 1536582393:0;rails db:drop --trace
 : 1536582574:0;cd ../../rails/teddies_shop
 : 1536582675:0;h 10241
@@ -8974,7 +8915,6 @@ rails g controller payments
 : 1536582828:0;gitall activeadmin added to more models
 : 1536583005:0;cd ../tokinfo ; stt ; cd -
 : 1536583256:0;gitall validations
-: 1536584768:0;OA
 : 1536586099:0;gitall addedprice
 : 1536586434:0;gitall stripebackend
 : 1536586600:0;gitall orderforms
@@ -8996,7 +8936,6 @@ rails g controller payments
 : 1536589819:0;history -10
 : 1536589861:0;history | cut -c 8- | tail
 : 1536589865:0;history | cut -c 8-
-: 1536589870:0;history | tail
 : 1536589897:0;h | tail -20
 : 1536590109:0;rails g migration ChangePhotoFromProducts
 : 1536590425:0;gitall cloudinaryAdded
@@ -9177,7 +9116,6 @@ rails db:migrate
 : 1537524239:0;touch mario-less.c
 : 1537524242:0;touch mario-more.c
 : 1537524316:0;gitall pset1
-: 1537524528:0;vim README.md
 : 1537524551:0;gitall readme
 : 1537532355:0;cd CS50
 : 1537532358:0;mkdir pset2
@@ -9210,7 +9148,6 @@ rails db:migrate
 : 1537546031:0;wget http://cdn.cs50.net/2017/fall/psets/3/music.zip
 : 1537546036:0;unzip music.zip
 : 1537546039:0;rm music.zip
-: 1537546048:0;cd music
 : 1537546357:0;upd
 : 1537552879:0;./notes 4
 : 1537552883:0;./notes 5
@@ -9290,7 +9227,6 @@ F#4@1/2" > bday.txt
 : 1537708957:0;mkdir pset6
 : 1537709080:0;touch caesar.py
 : 1537710036:0;python caesar.py
-: 1537710293:0;asdf
 : 1537711252:0;touch mario.py
 : 1537711370:0;stt ../pset1/mario-less.c
 : 1537712018:0;python3 mario.py d
@@ -9330,7 +9266,6 @@ F#4@1/2" > bday.txt
 : 1537876779:0;sudo apt autoremove
 : 1537876825:0;sudo apt-get autoclean\
 
-: 1537876860:0;cd ~/code
 : 1537876864:0;rm -rf oceantidote
 : 1537876890:0;du -hs .
 : 1537876964:0;du -sh | sort -h\
@@ -9364,12 +9299,10 @@ F#4@1/2" > bday.txt
 : 1537891574:0;sudo mv ~/Downloads/solution_01-Ruby_04-Hash-Symbols_Optional-01-Roman-to-integer.zip .
 : 1537891595:0;unzip solution_01-Ruby_04-Hash-Symbols_Optional-01-Roman-to-integer.zip
 : 1537891604:0;rm -rf solution_01-Ruby_04-Hash-Symbols_Optional-01-Roman-to-integer.zip
-: 1537891613:0;mkdir roman
 : 1537891627:0;mv lib Rakefile README.md roman/
 : 1537891631:0;cd Optional-02
 : 1537891645:0;cd ../roman
 : 1537891651:0;mv spec roman
-: 1537891652:0;cd roman
 : 1537891764:0;cd ~/code/Voxoff/lewagon/fullstack-challenges/01-Ruby/04-Hash-Symbols/Optional-01-Roman-to-integer/lib
 : 1537895184:0;ruby roman_to_integer.rb
 : 1537905590:0;cd 02-OOP/03-Cookbook-Day-One
@@ -9378,7 +9311,6 @@ F#4@1/2" > bday.txt
 : 1537905684:0;git clone git@github.com:lewagon/fullstack-challenges.git fullstack-challenges-post-bootcamp
 : 1537905787:0;cd 02-OOP/03-Cookbook-Day-One/
 : 1537905832:0;cd 92
-: 1537905834:0;cd 02-Cookbook
 : 1537905881:0;touch recipe.rb
 : 1537905924:0;cd ../01-Recipe
 : 1537906051:0;cd ~/code/Voxoff/lewagon/fullstack-challenges/02-OOP/03-Cookbook-Day-One/01-Cookbook/
@@ -9471,11 +9403,9 @@ done
 : 1538247818:0;wget -O - http://www.supersurgmed.com | grep Surgcol
 : 1538247847:0;wget -O - http://www.supersurgmed.com/uyossuey2i/hobeiu3i.php/\?sregdtr\=deoband-fatwa | grep Owen
 : 1538301887:0;cd ../../Websites/ecommerceTemplate
-: 1538301890:0;rake middleware
 : 1538302432:0;rails new dispatch_me --skip-turbolinks --skip-spring --skip-action-cable\
 \
 
-: 1538302450:0;cd dispatch_me
 : 1538302523:0;man vim
 : 1538302534:0;h | grep vim
 : 1538302602:0;rails generate controller demo index
@@ -9485,8 +9415,6 @@ done
 : 1538303119:0;cat app/views/demo/index.html.erb
 : 1538303956:0;man tail
 : 1538303968:0;h | tail -n 20
-: 1538304976:0;vim app/controllers/demo_controller.rb
-: 1538306448:0;rm -rf dispatch_me
 : 1538306763:0;cd ../tokinfo
 : 1538308634:0;git commit -m "seed and card, thin controllers fat models in action"
 : 1538311549:0;cd ../../../Voxoff/ruby
@@ -9514,18 +9442,15 @@ done
 : 1538386256:0;stt about_scope.rb
 : 1538386683:0;stt about_class_methods.rb
 : 1538387064:0;mkdir tutor
-: 1538387065:0;cd t
 : 1538387067:0;cd tutor
 : 1538387074:0;git clones https://github.com/wlbland/blitzliga.git
 : 1538387301:0;st blitzliga
 : 1538387937:0;cd blitzliga
-: 1538389866:0;rails console
 : 1538390571:0;curl https://c1.staticflickr.com/3/2889/33773377295_3614b9db80_b.jpg > san_francisco.jpg
 : 1538391204:0;rails g model team_photos team:references photo:string
 : 1538391396:0;rails seed
 : 1538391507:0;rails db:seeds
 : 1538391518:0;rake db:seeds
-: 1538391533:0;rake db:seed
 : 1538391612:0;rake db:seed:seeds
 : 1538391633:0;rake db:seed:custom_rake
 : 1538391691:0;rake db:seed:fixture
@@ -9778,7 +9703,6 @@ sudo apt-get install android-studio\
 : 1538686407:0;mv Le\ Wagon.jpg lewagon.jpg
 : 1538736197:0;npm install velocity-animate
 : 1538738408:0;RAILS_ENV=production bin/rails assets:precompile
-: 1538740199:0;cd guybennettjones
 : 1538740214:0;git commtit -m "fullpage, three and velocity experiments"
 : 1538740236:0;heroku git:remote -a guybennettjones\
 
@@ -9810,9 +9734,7 @@ sudo apt-get install android-studio\
 : 1538828567:0;bin/guard
 : 1538828570:0;guard
 : 1538828583:0;bundle exec guard
-: 1538828615:0;ps | grep rails
 : 1538828620:0;ps ax | grep rails
-: 1538829671:0;rails db:drop db:create db:migrate
 : 1538829684:0;heroku addons:create heroku-postgresql\
 
 : 1538829850:0;git add . ; git commit -m "postgresql"
@@ -9830,7 +9752,6 @@ sudo apt-get install android-studio\
 
 : 1538830907:0;~/code/Voxoff/lewagon/reviews/
 : 1538831156:0;git add . ; git commit -m "works on rails production" ; git push heroku master
-: 1538831240:0;rails s -e production
 : 1538831820:0;git add . ; git commit - m "no tree" ; git push heroku master
 : 1538831937:0;git add . ; git commit -m "no tree" ; git push heroku master
 : 1538834057:0;heroku buildpacks:set heroku/ruby\
@@ -9849,7 +9770,6 @@ heroku buildpacks:add --index 1 heroku/nodejs
 \
 
 : 1538994327:0;gitall "small touches"
-: 1538997059:0;cd data
 : 1538997100:0;sudo mv ~/Downloads/wakatime-guybennettjoneshotmail.co.uk-3cf048cd6671488fb8b7b9a23aff63a4.json .
 : 1538997148:0;wakadump -h
 : 1538997363:0;gem install keen-cli\
@@ -10009,7 +9929,6 @@ OrderStatus.create! id: 1, name: "In Progress"\
 OrderStatus.create! id: 2, name: "Placed"\
 OrderStatus.create! id: 3, name: "Shipped"\
 OrderStatus.create! id: 4, name: "Cancelled"" > db/seeds.rb
-: 1539598485:0;cat db/seeds.rb
 : 1539598520:0;rake db:seed\
 
 : 1539598557:0;echo "class Order < ActiveRecord::Base\
@@ -10126,7 +10045,6 @@ Range.prototype.equals = function(string){\
 : 1539951963:0;cd Websites/ecommerceTemplate
 : 1539954136:0;sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 : 1539954392:0;cd ../../lewagon/fullstack-challenges/03-AR-Database/02-SQL-CRUD/Optional-01-My-First-ORM
-: 1539955683:0;sqlite3
 : 1539958222:0;rak
 : 1539959085:0;cd ../01-Read ; stt
 : 1539959453:0;cd ../03-Create-Update
@@ -10134,7 +10052,6 @@ Range.prototype.equals = function(string){\
 : 1539962356:0;cat ../../../../../Websites/ecommerceTemplate/app/models/cart.rb
 : 1540046091:0;cd ../../../../../ruby/gems/osmaps
 : 1540046107:0;cd ../../rails/listen
-: 1540046108:0;clar
 : 1540046173:0;cd ../../Websites/hotload
 : 1540052398:0;rails g controller rooms show\
 
@@ -10167,7 +10084,6 @@ Range.prototype.equals = function(string){\
   ]\
   s.require_paths = ["lib"]\
 end" > hotloader.gemspec
-: 1540071318:0;cd lib
 : 1540071328:0;touch hotloader.rb
 : 1540071405:0;echo "\
 module AwesomeGem\
@@ -10194,7 +10110,6 @@ end" > hotloader.rb
 : 1540115608:0;gem install hotloader-0.1.0.gem
 : 1540115633:0;ruby test.rb
 : 1540115804:0;cd ../ ; stt
-: 1540117002:0;cd hotload
 : 1540119552:0;gem build ../hotloader/hotloader/hotloader.gemspec
 : 1540119576:0;rm -rf hotloader-0.1.0.gem
 : 1540123900:0;cd ../../../default
@@ -10252,7 +10167,6 @@ end" > hotloader.rb
 : 1540306639:0;cd /home/guy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/
 : 1540306650:0;cd assets
 : 1540306652:0;cd javascripts
-: 1540306666:0;cd hotloader
 : 1540306769:0;cd /home/guy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/app/channels/hotloader/
 : 1540306775:0;cd /home/guy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/app/channels/
 : 1540306777:0;cd /home/guy/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/app/
@@ -10262,7 +10176,6 @@ end" > hotloader.rb
 : 1540306851:0;gem build hotloader.gemspec ; gem install hotloader-1.0.0.gem ; cd ../../default/ ; bundle ; rs ; cd -
 : 1540306912:0;cd assets/javascripts/hotloader
 : 1540306935:0;~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/hotloader-1.0.0/app/assets/javascripts/hotloader/refresh.js
-: 1540306946:0;pwd
 : 1540306971:0;$pwd
 : 1540306988:0;$pwd = pwd
 : 1540306999:0;pwd = $pwd
@@ -10272,7 +10185,6 @@ end" > hotloader.rb
 : 1540326242:0;gts
 : 1540326297:0;cd ~/code/Voxoff/Websites/hotload
 : 1540327507:0;gem env
-: 1540328150:0;bundle ; rs
 : 1540376707:0;cd ../../ecommerceTemplate
 : 1540376722:0;git add . ; git commit -m "playing around with carts" ; git push origin master
 : 1540376769:0;git clone https://github.com/Voxoff/ecommerceTemplate.git flow
@@ -10281,7 +10193,6 @@ end" > hotloader.rb
 : 1540376882:0;git remote
 : 1540376904:0;git push --all
 : 1540377060:0;cp ../ecommerceTemplate/.env .
-: 1540378118:0;rails db:migrate db:seed
 : 1540379910:0;cp ~/Downloads/FLOWCBD\ LOGO\ ARTWORK\ WEB.svg app/assets/images
 : 1540379925:0;mv app/assets/images/FLOWCBD\ LOGO\ ARTWORK\ WEB.svg app/assets/images/logo.png
 : 1540379955:0;cp app/assets/images/logo.png app/assets/images/logo.svg
@@ -10328,7 +10239,6 @@ end" > hotloader.rb
 : 1540572814:0;stt README.md
 : 1540572832:0;gitall "readme"
 : 1540578022:0;cd ../hotloader ; stt
-: 1540578066:0;cd ../hotload
 : 1540587247:0;cd ../default ; stt
 : 1540587351:0;gem build hotloader.gemspec ; gem install hotloader-1.0.0.gem ; cd ../../default/ ; bundle ; rails routes ; rs ; cd -
 : 1540587667:0;git add . ; git commit -m "Gem online version one"
@@ -10346,7 +10256,6 @@ end" > hotloader.rb
 : 1540596103:0;sudo -H gedit /etc/systemd/logind.conf
 : 1540633380:0;gem uninistall hotloader
 : 1540633397:0;cd ../../default
-: 1540633437:0;rm -rf .git
 : 1540633451:0;ffx ;rs
 : 1540633529:0;gem install hotloader-1.0.2.gem
 : 1540633571:0;gem build hotloader-1.0.0.gem
@@ -10385,7 +10294,6 @@ end" > hotloader.rb
 : 1540758602:0;sudo mv hotloader/hotloader hotloader_gem
 : 1540758609:0;rm -rf hotloader
 : 1540758643:0;mv hotloader_gem hotloader
-: 1540810251:0;ckear
 : 1540813517:0;gitall "hotloader now in gem; lots of team css"
 : 1540814241:0;stt ; rs
 : 1540815568:0;ps | grep image
@@ -10398,7 +10306,6 @@ end" > hotloader.rb
 : 1540822314:0;gitall "sign in frontend"
 : 1540823550:0;h | grep $PATH
 : 1540823557:0;h | grep path
-: 1540823572:0;h | grep export
 : 1540896094:0;eslint
 : 1540896311:0;cd ../../ ; stt
 : 1540896571:0;cd 04-Front-End/05-JavaScript-DOM
@@ -10408,7 +10315,6 @@ end" > hotloader.rb
 : 1540896772:0;cd ../../../../../../
 : 1540896781:0;cd node_modules/.bin
 : 1540896845:0;tree | grep node_modules
-: 1540896859:0;cd lewagon
 : 1540896876:0;rm -rf fullstack-challenges-post-bootcamp/
 : 1540896892:0;cd ../dotfiles
 : 1540896893:0;ld
@@ -10438,7 +10344,6 @@ end" > hotloader.rb
 : 1540982878:0;rake webpack
 : 1540985744:0;git config --global user.email "guybennettjones@hotmail.co.uk"
 : 1540985753:0;cd /home/guy/
-: 1540985838:0;	ls -alrt
 : 1540985884:0;mv code/Voxoff/lewagon/dotfiles code/Voxoff/
 : 1540986028:0;cd ~/code/Voxoff/Websites/hotloader
 : 1540986058:0;git checkout -- lib/hotloader/version.rb
@@ -10481,7 +10386,6 @@ end" > hotloader.rb
 : 1541181965:0;h | grep <<
 : 1541181970:0;h | grep echo
 : 1541182022:0;echo "alias rr='rails routes'" >> ~/.aliases
-: 1541182097:0;rr
 : 1541183459:0;git commit -m "devise guest users; front end on review page, banners; buttons esp facebook"
 : 1541242982:0;pip install galileo
 : 1541243019:0;sudo apt-get install galileo
@@ -10505,7 +10409,6 @@ end" > hotloader.rb
 : 1541267287:0;irb help
 : 1541267296:0;irb --help
 : 1541267399:0;cd code/Voxoff/data/
-: 1541269097:0;python
 : 1541283069:0;wakadump --input wakatime.json --output keen.io
 : 1541326761:0;wakadump --help
 : 1541326787:0;wakadump --input wakatime.json --output csv
@@ -10542,14 +10445,11 @@ sudo usbmuxd -u -U usbmux\
 : 1541587810:0;cd ../../../lewagon/fullstack-challenges/05-Rails/03-Rails-restaurant-reviews/01-Yelp-MVP/rails-yelp-mvp-again
 : 1541587824:0;rails g controller restaurant
 : 1541587828:0;rails g controller review
-: 1541587988:0;rspec
 : 1541588132:0;git rm -r rack
 : 1541588138:0;git rm -r spec
 : 1541588141:0;git submodule add git@github.com:lewagon/fullstack-challenges-03-Rails-restaurant-reviews-specs.git spec\
 
-: 1541588236:0;rails db:create
 : 1541588245:0;rails db:migrate RAILS_ENV=test
-: 1541588362:0;rake assets:precompile
 : 1541588788:0;cd ../../../../../../kitchup ; stt ; cd -
 : 1541590005:0;cd ../rails-yelp-mvp-again
 : 1541590265:0;h | grep spotify
@@ -10585,7 +10485,6 @@ sudo usbmuxd -u -U usbmux\
 : 1541597480:0;python self_walk.py
 : 1541600907:0;cd ../kitchup ; stt
 : 1541602968:0;cd ../python
-: 1541603435:0;python3
 : 1541603475:0;python3 self_walk.py
 : 1541608396:0;cd ../../Voxoff/kitchup ; stt
 : 1541674644:0;cd ../../Voxoff/rails/
@@ -10597,12 +10496,10 @@ sudo usbmuxd -u -U usbmux\
 : 1541675296:0;git clone https://github.com/fanninggg/rails-mister-cocktail.git ben-cocktails
 : 1541675299:0;cd ben-cocktails
 : 1541675359:0;rm -rf spec
-: 1541675366:0;cd spec
 : 1541675379:0;vim ../Gemfile
 : 1541675451:0;bundle exec rake
 : 1541675473:0;cd ../rails-
 : 1541675489:0;git clone https://github.com/lewagon/fullstack-challenges-04-Rails-mister-cocktail-specs.git spec
-: 1541675502:0;rake
 : 1541675727:0;cd ../ben-cocktails
 : 1541675815:0;cd ../rails-mister-cocktail
 : 1541694080:0;cd ../Websites/flow
@@ -10612,7 +10509,6 @@ sudo usbmuxd -u -U usbmux\
 : 1541769112:0;middleman init guy -B -T lewagon/middleman-template
 : 1541769258:0;git init
 : 1541769267:0;git commit -m "Proj with le wagon template for cv"
-: 1541769314:0;echo ".env" >> .gitignore
 : 1541769393:0;cd ../guybennettjones ; rails c
 : 1541769444:0;cd home
 : 1541769446:0;cd Home
@@ -10646,7 +10542,6 @@ sudo usbmuxd -u -U usbmux\
 : 1541852887:0;git add . ; git commit -m "used guest user logic to create or find cart; added cart item with hidden cart id in form to add to cart; added strength to cart item schema"
 : 1541854183:0;git add . ; git commit -m "cart find logic in a concern and simple form styling for product group"
 : 1541854570:0;mv ~/Downloads/image\ 2george.png ~/Downloads/imagedom.png app/assets/images
-: 1541854576:0;cd app/assets/images
 : 1541854583:0;mv image\ 2george.png george.png
 : 1541854587:0;mv imagedom.png dom.png
 : 1541857382:0;git add . ; git commit -m "about page" ; git push origin master
@@ -10656,25 +10551,18 @@ sudo usbmuxd -u -U usbmux\
 : 1541865119:0;heroku config:set CLOUDINARY_URL=cloudinary://516158879643667:sRNFNsfErmQMVvQhqsF1jOr62yc@dq2kcu9ey\
 
 : 1541865128:0;heroku run rails db:migrate db:seed
-: 1541865215:0;heroku run rails db:migrate
-: 1541865242:0;heroku run rails db:seed
 : 1541865370:0;git add . ; git commit -m "hotloader" ; git push heroku master
-: 1541865486:0;heroku open
-: 1541865527:0;heroku logs
-: 1541865613:0;heroku logs --tail
 : 1541865935:0;git add . ; git commit -m "deleted order controller and rearranged cart creation" ; git push origin master
 : 1541866586:0;RAILS_ENV=production bundle exec rake assets:precompile
 : 1541866648:0;git add . ; git commit -m "local precompile" ; git push heroku master
 : 1541867012:0;heroku run bash
 : 1541867246:0;git browse
 : 1541867321:0;git diff HEAD^ HEAD
-: 1541867334:0;cat .gitignore
 : 1541867367:0;git add . ; git commit -m "jpeg to jpg" ; git push origin master; git push heroku master
 : 1541889976:0;git add . ; git commit -m "navbar style, no more modal and prepped for cart controller"
 : 1541889992:0;git add . ; git commit -m "prepped for cart controller"
 : 1541890170:0;git add . ; git commit -m "pages urls"
 : 1541890850:0;git add . ; git commit -m "opted for not nested routes, changed cart to carts to get show to work"
-: 1541891328:0;rails db:drop db:create db:migrate db:seed
 : 1541971489:0;git commit --help
 : 1542037557:0;sudo reboot
 : 1542038176:0;cd irc
@@ -10687,7 +10575,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542109302:0;mkdir flatiron
 : 1542109311:0;mkdir learn-onboarding
 : 1542109320:0;git clone https://github.com/learn-co-students/js-principles-scope-lab-teacher-onboarding.git
-: 1542109581:0;node index.js
 : 1542109916:0;nautilus .
 : 1542109999:0;sudo apt-get install learn
 : 1542110050:0;webpack-dev-server
@@ -10709,7 +10596,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542110234:0;nautilus & disown
 : 1542110240:0;nautilus . & disown
 : 1542110402:0;cd ../../../../Voxoff/flatiron/learn-onboarding/js-principles-scope-lab-teacher-onboarding/
-: 1542115584:0;npm install
 : 1542116102:0;yarn install mocha
 : 1542116106:0;yarn add mocha
 : 1542116197:0;npm install mocha
@@ -10717,8 +10603,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542116314:0;npm install learnBrowser
 : 1542116325:0;npm install learn-browser
 : 1542116624:0;cd learn-onboarding
-: 1542116638:0;mkdir mod1
-: 1542116639:0;cd mod1
 : 1542116642:0;git clone https://github.com/learn-co-students/intro-to-tdd-rspec-and-learn-teacher-onboarding.git
 : 1542118067:0;cd intro-to-tdd-rspec-and-learn-teacher-onboarding
 : 1542118082:0;atom current_age_for_birth_year.rb
@@ -10737,7 +10621,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542122964:0;cd js-looping-and-iteration-filter-and-map-lab-teacher-onboarding
 : 1542124509:0;learn submit ; learn next
 : 1542195653:0;learn submit
-: 1542196362:0;learn
 : 1542197050:0;h | grep gem install
 : 1542197055:0;h | grep gem
 : 1542197065:0;h | grep "gem install"
@@ -10757,7 +10640,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542210214:0;mkdir code/Voxoff/
 : 1542210219:0;mkdir code/Voxoff/aliases
 : 1542210231:0;mv .aliases code/Voxoff/aliases
-: 1542210242:0;git init .
 : 1542210254:0;git add . ; git commit -m "aliases" ; git push origin master
 : 1542210428:0;mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "guybennettjones@hotmail.co.uk"
 : 1542210434:0;[200~cat ~/.ssh/id_ed25519.pub~
@@ -10773,13 +10655,11 @@ sudo usbmuxd -u -U usbmux\
 : 1542313213:0;cd ~/code/Voxoff
 : 1542313221:0;cd react-brick-by-brick
 : 1542313299:0;cd ~/.local
-: 1542313302:0;tree
 : 1542313306:0;cd bin
 : 1542313310:0;cd ../lib
 : 1542313315:0;cd ../share
 : 1542314960:0;cd ../guy/code/Voxoff/react-brick-by-brick
 : 1542314972:0;npm install react-scripts
-: 1542315054:0;atom .
 : 1542315363:0;git clone https://github.com/Voxoff/brick-by-brick.git
 : 1542315375:0;git clone https://github.com/Voxoff/brickbybrick.git
 : 1542315386:0;stt
@@ -10807,11 +10687,9 @@ sudo usbmuxd -u -U usbmux\
 : 1542573648:0;cd ../../guy/../guy/../../
 : 1542573654:0;cd ~/code/Voxoff/Websites
 : 1542573660:0;git clone https://github.com/Voxoff/flow.git
-: 1542573675:0;rails db:create db:migrate db:seed
 : 1542573680:0;cd flow
 : 1542573691:0;yarn install ; bundle ; rails db:create db:migrate db:seed
 : 1542573748:0;echo "CLOUDINARY_URL=cloudinary://516158879643667:sRNFNsfErmQMVvQhqsF1jOr62yc@dq2kcu9ey" > .env
-: 1542573753:0;rails db:seed
 : 1543355230:0;expressvpn connect
 : 1543355945:0;ls -a | grep hex
 : 1543355954:0;tree | grep hex
@@ -10864,10 +10742,8 @@ sudo usbmuxd -u -U usbmux\
 : 1548863410:0;git clone dotfiles
 : 1548863418:0;git clone https://github.com/Voxoff/dotfiles.git
 : 1548863421:0;cd do
-: 1548863424:0;clkear
 : 1548863430:0;./install.sh
 : 1548863460:0;mkdir code
-: 1548863475:0;mkdir fourfive
 : 1548863482:0;rm -rf fourfive
 : 1548863498:0;git clone https://github.com/Voxoff/fourfive.git --shallow 100
 : 1548863536:0;git clone https://github.com/Voxoff/fourfive.git --depth 100
@@ -10899,7 +10775,6 @@ sudo usbmuxd -u -U usbmux\
 : 1548863967:0;ssh-add -K ~/.ssh/id_rsa
 : 1548863973:0;pbcopy < ~/.ssh/id_rsa.pub
 : 1548864042:0;cat ~/.shrc
-: 1548864145:0;source ~/.aliases
 : 1548864149:0;gitall "work"
 : 1548864195:0;rails g scaffold school
 : 1548864210:0;gitall "added school"
@@ -10914,15 +10789,12 @@ sudo usbmuxd -u -U usbmux\
 : 1548864386:0;gitall "much better"
 : 1548864598:0;touch .rnv
 : 1548864604:0;rm -rf .rnv
-: 1548864606:0;touch .env
-: 1548864617:0;vim .env
 : 1548864659:0;brew install heroku/brew/heroku\
 
 : 1548864706:0;\\
 : 1548865275:0;clear
 : 1548865383:0;rails new git-help
 : 1548865392:0;cd git-help
-: 1548865426:0;git status
 : 1548865466:0;git commit -m "first commit"
 : 1548865637:0;git branch "new_branch"
 : 1548865648:0;git co new_branch
@@ -10969,14 +10841,11 @@ bundle update --bundler
 : 1548869762:0;git diff heroku/master~4 heroku/master~2
 : 1548869836:0;git diff heroku/master~5 heroku/master~2
 : 1548869850:0;git diff heroku/master~7 heroku/master~5
-: 1548926357:0;cd ../../../
 : 1548926360:0;cd gbennettjones
-: 1548926371:0;kls
 : 1548926482:0;h | grep xcpode
 : 1548926485:0;h | grep code
 : 1548926489:0;h | grep --install
 : 1548927935:0;git clone https://github.com/Voxoff/flatiron-manual-setup.git
-: 1548927984:0;cd f
 : 1548928009:0;bash flatiron_setup_checker.sh
 : 1548928048:0;vim flatiron_setup
 : 1548928054:0;rm -rf flatiron_setup
@@ -10989,7 +10858,6 @@ bundle update --bundler
 : 1548928794:0;rvm -v
 : 1548928796:0;ruby 0v
 : 1548928997:0;bash test.sh
-: 1548929532:0;cd flatiron-manual-setup
 : 1548929573:0;vim flatiron_setup.sh
 : 1548929598:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup/master/flatiron-setup-checker.sh | bash 2>
 : 1548929761:0;mv flatiron_setup flatiron-setup
@@ -11008,8 +10876,6 @@ bundle update --bundler
 : 1548930471:0;vim tsh.sh
 : 1548930483:0;chmod a+x ./flatiron-setup
 : 1548930485:0;chmod a+x ./flatiron-setup-checker.sh
-: 1548930682:0;vim flatiron-setup-checker.sh
-: 1548930737:0;command -v rvm >/dev/null 2>&1 && rvm list
 : 1548930780:0;\
 evaluate_test () {\
   # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script\
@@ -11029,18 +10895,13 @@ print_table_results () {\
 }\
 \
 
-: 1548930791:0;command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'
 : 1548930806:0;print_table_results "Default RVM (2.3.3)" "command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'"\
 
 : 1548930814:0;./flatiron-setup-checker.sh
 : 1548930912:0;gem list | grep rails
 : 1548930915:0;gem install rails
-: 1548931183:0;bash flatiron-setup.sh
-: 1548931220:0;vim flatiron-setup.sh
-: 1548931338:0;gem --help
 : 1548931345:0;gem help instal
 : 1548931347:0;gem help install
-: 1548931490:0;gem install learn-co
 : 1548931518:0;open ~.bashrc
 : 1548931524:0;open ~/.bashrc
 : 1548931537:0;open ~/.zshrc
@@ -11090,12 +10951,10 @@ print_table_results () {\
 
 : 1548951716:0;gitall "dosage chart upload for sam"
 : 1548953433:0;mkdir -p flatiron/mod4
-: 1548953437:0;cd $_
 : 1548953440:0;git clone https://github.com/learn-co-students/hogwarts-london-web-111918.git
 : 1548953445:0;cd hogwarts-london-web-111918
 : 1548953452:0;npm i & npm start
 : 1548953506:0;npm audit fix
-: 1549031489:0;vim ~/.gitconfig
 : 1549031615:0;vim ~/.bash_profile
 : 1549032657:0;cd ../hogwarts-london-web-111918/../../mod4/../../fourfive
 : 1549033066:0;\clear
@@ -11114,9 +10973,7 @@ print_table_results () {\
 : 1549035902:0;lsof -i :3000 | grep node
 : 1549035956:0;lsof -i :3000 | grep node | awk '{print $2}'
 : 1549040819:0;hyper uninstall hyper-history
-: 1549040830:0;lsof -i :3000 | grep node | awk '{print $2}' | xargs kill -9
 : 1549040843:0;cat email-database.csv
-: 1549047272:0;cd ~/Downloads
 : 1549047281:0;code Need\ code\ \(1\).html
 : 1549047366:0;cd ../code/fourfive
 : 1549047383:0;rails g mailer coupon
@@ -11124,7 +10981,6 @@ print_table_results () {\
 : 1549047409:0;rails g mailer coupon coupon
 : 1549067008:0;brew install ag
 : 1549119711:0;git checkout email-database.csv
-: 1549119721:0;l
 : 1549119723:0;gsdt
 : 1549119729:0;git stash --help
 : 1549119871:0;git checkout config/locales/en.yml
@@ -11155,16 +11011,12 @@ print_table_results () {\
 : 1549122031:0;gem list | grep money
 : 1549122051:0;h | grep mone
 : 1549122073:0;rails g migration add_amount_to_carts amount:monetize
-: 1549122126:0;rails db:migrate
-: 1549126980:0;vimtutor
 : 1549302590:0;git remote-v
 : 1549302598:0;h | grep heroku
 : 1549305400:0;sudo launchctl unload /Library/LaunchDaemons/com.opendns.osx.RoamingClientConfigUpdater.plist\
 
 : 1549305450:0;sudo vim /Library/Application\ Support/OpenDNS\ Roaming\ Client/Updater.plist
 : 1549399969:0;cd Applications
-: 1549399977:0;cd Us
-: 1549399980:0;cd Users
 : 1549399985:0;cd WWCorpITAdmin
 : 1549400276:0;cd Library/Preference
 : 1549400280:0;cd Library/Preferences
@@ -11178,9 +11030,6 @@ print_table_results () {\
 : 1549400448:0;mv AirWatchManagedInstalls.plist AirWatchManagedInstalls_edit.plist
 : 1549400450:0;sudo mv AirWatchManagedInstalls.plist AirWatchManagedInstalls_edit.plist
 : 1549400460:0;cat com.apple.alf.plist
-: 1549400660:0;cd /tmp
-: 1549400666:0;touch script.sh
-: 1549400670:0;vim script.sh
 : 1549400681:0;bash script.sh
 : 1549400684:0;sudo bash script.sh
 : 1549400710:0;cd /Library/Pre
@@ -11214,7 +11063,6 @@ print_table_results () {\
 : 1549569454:0;seq 1
 : 1549569457:0;seq 1 3
 : 1549569466:0;$(seq 1 3)
-: 1549570584:0;heroku run rails c -a stagingfourfive
 : 1549613109:0;git add db
 : 1549613142:0;git diff master origin/master --stat
 : 1549613153:0;vim .gitignore
@@ -11306,7 +11154,6 @@ print_table_results () {\
 : 1549744183:0;ps ax
 : 1549744259:0;ps ax | grep -c
 : 1549744265:0;ps ax | grep . -c
-: 1549745235:0;ps | grep ruby
 : 1549745255:0;pgrep rails
 : 1549745274:0;pkill ruby
 : 1549745307:0;pgrep serve
@@ -11345,16 +11192,13 @@ print_table_results () {\
 : 1549746022:0;pkill 3000
 : 1549746035:0;pkill -I :3000
 : 1549746058:0;pkill -f ruby
-: 1549746069:0;ps
 : 1549746083:0;ps -f
 : 1549746141:0;pkill -f puma
 : 1549746143:0;man puma
 : 1549746195:0;pkill SIGTERM puma
 : 1549746200:0;pkill SIGTERM -f puma
-: 1549746207:0;man pkill
 : 1549746239:0;pkill -KILL -f puma
 : 1549746252:0;cat tmp/pids/server.pid
-: 1549746257:0;rm -rf tmp/pids/server.pid
 : 1549746288:0;ls | xargs file
 : 1549746308:0;for i in $(ls); do file $i; done
 : 1549746334:0;rm test
@@ -11373,7 +11217,6 @@ print_table_results () {\
 : 1549746594:0;chmod +x slow_seq.sh
 : 1549746598:0;./slow_seq.sh
 : 1549746606:0;./slow_seq.sh | grep -P "[3-6]"
-: 1549746632:0;man grep
 : 1549746690:0;grep -p "[3-6]" <(./slow_seq.sh)
 : 1549746720:0;echo $(./slow_seq.sh) | grep "[3-6]"
 : 1549746750:0;./slow_seq.sh | grep "[3-6]"
@@ -11444,7 +11287,6 @@ print_table_results () {\
 : 1549748328:0;time h | tail
 : 1549748331:0;time h
 : 1549748375:0;time h | tail | grep a
-: 1549748468:0;man pgrep
 : 1549748758:0;(ls)
 : 1549748775:0;foo=bar
 : 1549748783:0;(foo=hello)
@@ -11573,7 +11415,6 @@ print_table_results () {\
 : 1549818880:0;cat ~/.zshrc
 : 1549818903:0;echo .bashrc
 : 1549818910:0;cat ~/.bash_profile
-: 1549818937:0;rvm get stable --auto-dotfiles
 : 1549819053:0;cat ~/.bashrc
 : 1549819078:0;vim ~/.zshrc
 : 1549819136:0;echo $PATH | tr : " "
@@ -11638,7 +11479,6 @@ git pull --all\
 : 1549883954:0;git diff oil-chart master
 : 1549883997:0;git diff master^ oil-chart
 : 1549884010:0;git diff master~ oil-chart
-: 1549884191:0;cd Desktop
 : 1549884194:0;cd ../code
 : 1549884205:0;rails new foreign
 : 1549884226:0;cd fo
@@ -11649,9 +11489,7 @@ git pull --all\
 : 1549884476:0;gem pristine msgpack --version 1.2.6
 : 1549884484:0;gem pristine puma --version 3.12.0
 : 1549884487:0;gem pristine sqlite3 --version 1.4.0
-: 1549884497:0;rvm use 2.6.1
 : 1549884549:0;ruby 0b
-: 1549884730:0;spring stop
 : 1549884733:0;rails g model Coin name symbol price:float
 : 1549884769:0;rm -rf foreign
 : 1549884796:0;rails new \\
@@ -11659,7 +11497,6 @@ git pull --all\
   --database postgresql \\
   key
 : 1549884806:0;cd key
-: 1549884819:0;vim .ruby-version
 : 1549884912:0;rvm use 2.3.7
 : 1549884959:0;rvm use system
 : 1549884997:0;rvm default 2.6.1
@@ -11671,10 +11508,8 @@ git pull --all\
 : 1549885086:0;export rvm_path="~/.rvm"
 : 1549885100:0;echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"'
 : 1549885115:0;[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-: 1549885117:0;ruby -v
 : 1549885136:0;printenv PATH
 : 1549885140:0;echo PATH
-: 1549885144:0;echo $PATH
 : 1549885170:0;gem update --system\
 gem install bundler --no-ri --no-rdoc\
 g
@@ -11682,7 +11517,6 @@ g
 : 1549885199:0;gem install bundler --no-rdoc
 : 1549885200:0;gem install bundler --no-rdocs
 : 1549885203:0;gem install bundlers
-: 1549885421:0;gem install bundler
 : 1549885545:0;rvm implode
 : 1549885550:0;rm -rf .rvm
 : 1549885567:0;vim .bashrc
@@ -11696,7 +11530,6 @@ g
 : 1549885813:0;curl -sSL https://get.rvm.io -auto-dotfilers
 : 1549885816:0;curl -sSL https://get.rvm.io -auto-dotfiles
 : 1549885829:0;rbm
-: 1549885830:0;rvm
 : 1549885849:0;rvm install 2.3.7
 : 1549886238:0;echo rvm_autoupdate_flag=2 >> ~/.rvmrc
 : 1549886507:0;ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
@@ -11714,14 +11547,12 @@ g
 : 1549889638:0;rvm install 2.6.0
 : 1549890524:0;rvm get stable
 : 1549890637:0;rvm uninstall 2.6.0
-: 1549890640:0;rvm list
 : 1549890644:0;rvm uninstall 2.6.1
 : 1549890650:0;rvm install 2.6.1
 : 1549891122:0;cat code/fourfive/.ruby-version
 : 1549891127:0;rvm install 2.5.3
 : 1549891598:0;rvm use 2.5.3
 : 1549891863:0;rds
-: 1549892068:0;gem list
 : 1549894421:0;git clone https://Voxoff@bitbucket.org/danielkaczmarczyk/juby.git\
 \
 
@@ -11731,10 +11562,8 @@ g
 : 1549899885:0;git add . ; git commit -m "branch broke home page style"
 : 1549899912:0;git merge master
 : 1549899922:0;git abort
-: 1549899924:0;git reset
 : 1549899965:0;git rm app/assets/images/chart_1.jpg
 : 1549899968:0;git rm app/assets/images/chart_2.jpg
-: 1549899997:0;ls app/assets/images
 : 1549900004:0;rm app/assets/images/chart_1.jpg
 : 1549900011:0;rm app/assets/images/chart_2.jpg
 : 1549900031:0;rm -f public/uploads/tmp/1548495760-44448-0001-1650/open-uri20190126-44448-1etnrqx
@@ -11748,12 +11577,10 @@ g
 : 1549914625:0;vim Gemfile.lock
 : 1549914658:0;git add Gemfile.lock
 : 1549914672:0;git commit -m "gemfile merge"
-: 1549914826:0;rm -rf Gemfile.lock
 : 1549914839:0;git add . ; git commit -m "bundle update"
 : 1549914891:0;rvm osx-ssl-certs status all
 : 1549914900:0;rvm osx-ssl-certs update all
 : 1549915078:0;gem update --system
-: 1549915141:0;heroku open -a stagingfourfive
 : 1549915407:0;git add . ; git commit -m "zion debugging"
 : 1549916290:0;cat app/assets/stylesheets/components/_index.scss
 : 1549916335:0;git co photo-bar
@@ -11820,7 +11647,6 @@ g
 : 1549983670:0;list=<(bundle outdated | ag -Q \* | awk '{print $2}')
 : 1549983684:0;echo <(bundle outdated | ag -Q \* | awk '{print $2}')
 : 1549983763:0;cat <(bundle outdated | ag -Q \* | awk '{print $2}')
-: 1549983855:0;exit
 : 1549983881:0;bundle outdated | ag -Q \* | awk '{print $2}'
 : 1549983980:0;man xargs
 : 1549984096:0;echo $list
@@ -11844,11 +11670,8 @@ g
 : 1549992313:0;cat Gemfile | grep $(bundle outdated | ag -Q \* | awk '{print $2}')
 : 1549992331:0;cat Gemfile | grep <$(bundle outdated | ag -Q \* | awk '{print $2}')
 : 1549992380:0;git blame Gemfile
-: 1549992627:0;rm -rf @
 : 1549992644:0;git add . ; git commit -m 'updated listen and spring listen"
 : 1549992645:0;git add . ; git commit -m 'updated listen and spring listen'
-: 1549993067:0;vim Gemfile
-: 1549993083:0;bundle update
 : 1549993101:0;bundle update --conservative --group test development
 : 1549993115:0;bundle audit --update
 : 1549993125:0;git add . ; git commit -m "updated rails"
@@ -11869,7 +11692,6 @@ g
 : 1549996664:0;git push heroku newstock:master
 : 1550002961:0;git add . ; git commit -m "postage message on graphic bar"
 : 1550003446:0;git add . ; git commit -m "stopping error for wrong urls"
-: 1550003905:0;git commit --amend
 : 1550004043:0;git add . ; git commit -m "router error"
 : 1550004101:0;git diff staging/master master
 : 1550004116:0;git pull staging master
@@ -11880,7 +11702,6 @@ g
 : 1550004250:0;git rebase --continue
 : 1550004276:0;git rebase -i HEAD~2
 : 1550006737:0;git push origin mastetr
-: 1550006769:0;git push -f staging master
 : 1550007243:0;cat app/controllers/payments_controller.rb
 : 1550007260:0;vim app/controllers/payments_controller.rb
 : 1550094735:0;history | grep git
@@ -11904,7 +11725,6 @@ g
 : 1550101570:0;brew cask install expressvpn
 : 1550101581:0;expressvpn
 : 1550101701:0;mdfind expressvpn
-: 1550136576:0;brew cask reinstall expressvpn
 : 1550137800:0;mdfind opendns | xargs rm -rf
 : 1550138760:0;brew cask reinstall --force expressvpn
 : 1550144782:0;mdfind open
@@ -11918,7 +11738,6 @@ g
 : 1550145175:0;mdfind opendns | xargs sudo rm -rf
 : 1550145182:0;mdfind opendns | xargs sudo rm -rf .
 : 1550145189:0;mdfind opendns | xargs
-: 1550145207:0;h | grep for
 : 1550145238:0;for i in $(mdfind opendns); do sudo rm -rf $i; done
 : 1550145253:0;sudo rm -rf /Library/Application Support/OpenDNS Roaming Client
 : 1550145338:0;rm -rf /Library/Managed Preferences/gbennettjones/com.airwatch.Firewall.plist
@@ -11952,20 +11771,17 @@ g
 : 1550159517:0;git merge postage
 : 1550159527:0;git merge buy-now-button-hover-fix
 : 1550160104:0;mv ~/Downloads/FOURFIVE\ 404\ ERROR\ just\ image.png app/assets/images/404.png
-: 1550160128:0;rake cloudinary:sync_static
 : 1550160152:0;mv app/assets/images/404.png ../
 : 1550160162:0;mkdir ../fourfiveassets
 : 1550160172:0;mv ../404.png ../fourfiveassets
 : 1550160178:0;mv ../city-am-logo.jpg ../fourfiveassets
 : 1550169988:0;git add . ; git commit -m "404 image and page"
 : 1550173257:0;gitall "changed postage global"
-: 1550173506:0;git diff heroku/master staging/master
 : 1550173630:0;git push heroku masterr
 : 1550173655:0;h | grep pack
 : 1550173666:0;heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2 -a fourfivecbd
 : 1550174299:0;git all "took out free postage image"
 : 1550174311:0;gitall "took out free postage image"
-: 1550177171:0;rail ss
 : 1550177267:0;gitall "bug fix for no cart:
 : 1550177268:0;gitall "bug fix for no cart"
 : 1550239043:0;brew install htop
@@ -12002,10 +11818,7 @@ g
 : 1550239594:0;crontab -l
 : 1550239746:0;defaults write com.apple.dock showhidden -bool true\
 
-: 1550274755:0;cd ~/code/fourfive
-: 1550274755:0;heroku pg:psql
 : 1550274762:0;heroku pg:psql -a fourfivecbd
-: 1550486669:0;cd code
 : 1550486672:0;cd juby
 : 1550487840:0;noe
 : 1550487842:0;mnodnode
@@ -12024,7 +11837,6 @@ g
 : 1550488641:0;telnet 10.218.4.207 3000
 : 1550488656:0;telnet 10.218.4.207 3001
 : 1550488813:0;rails 0v
-: 1550488815:0;rails -v
 : 1550490569:0;mkdir node_modules
 : 1550490578:0;cp -r parse.js node_modules/parse.js
 : 1550490624:0;vim node_modules/parse.js
@@ -12040,7 +11852,6 @@ g
 : 1550492590:0;find . -type f -name ".*.swp" -exec rm -f ;
 : 1550492595:0;find . -type f -name ".*.swp" -exec rm -f {} ;
 : 1550492598:0;find . -type f -name ".*.swp" -exec rm -f {} \;
-: 1550492599:0;ls -a
 : 1550492613:0;clears
 : 1550492617:0;cleasr
 : 1550492619:0;clear vim p
@@ -12048,10 +11859,8 @@ g
 : 1550493242:0;lsof -i :9299
 : 1550493259:0;ps aux | grep node
 : 1550494887:0;node inspect ./parse.js
-: 1550498008:0;man ls
 : 1550498647:0;node ./parse.js
 : 1550502595:0;cat parse.js
-: 1550505840:0;vim ~/.vimrc
 : 1550506130:0;brew install xclip
 : 1550506213:0;vim parse.js
 : 1550506589:0;code parse.js
@@ -12068,7 +11877,6 @@ g
 : 1550511618:0;kill -9 31189
 : 1550511646:0;git add . ; git commit -m "esm for requires and file reorganisation"
 : 1550511650:0;git push origin guy
-: 1550511744:0;hub create
 : 1550511752:0;gite remote
 : 1550511781:0;h | grep remote
 : 1550511801:0;git remote add origin_github https://github.com/Voxoff/juby.git
@@ -12089,11 +11897,8 @@ g
 : 1550573992:0;git co 19d3bfaafa9653e2bc73efec8e9d8f19f7bc63f8
 : 1550574029:0;git co masterg
 : 1550574040:0;git co 8afea30ce3d5156297c5ed151c90c1dd87b2e86f
-: 1550574041:0;;s
 : 1550574067:0;git co 6d547d28baf15e17b18070afe9ba8324acc041a3
-: 1550577196:0;cd ../../
 : 1550581834:0;rm -rf opal
-: 1550581842:0;cd flatiron
 : 1550581844:0;cd mod4
 : 1550581847:0;git clone git@github.com:learn-co-students/react-pokemon-searcher-london-web-111918.git
 : 1550581851:0;cd react-pokemon-searcher-london-web-111918
@@ -12101,12 +11906,10 @@ g
 : 1550589030:0;cd j9
 : 1550589035:0;rails new j9
 : 1550659365:0;rm -rf j9
-: 1550659494:0;cd ..
 : 1550659509:0;alias list
 : 1550659513:0;alias -p
 : 1550659518:0;man alias
 : 1550659531:0;alias ls .
-: 1550659550:0;cat ~/.aliases
 : 1550659580:0;git clone git@github.com:Voxoff/hotloader.git
 : 1550659593:0;git clone git@github.com:Voxoff/dotfiles.git
 : 1550659599:0;cd dotfiles
@@ -12159,7 +11962,6 @@ g
 : 1550670301:0;ls ~/code/dotfiles
 : 1550670311:0;bash ~/code/dotfiles
 : 1550670316:0;bash ~/code/dotfiles/install.sh
-: 1550670337:0;cat install.sh
 : 1550670367:0;git add . ; git commit -m "update"
 : 1550670380:0;ls -ald .&
 : 1550670392:0;rm -rf .install.sh
@@ -12183,65 +11985,44 @@ g
 : 1550671075:0;rm -rf .hyper.js
 : 1550671079:0;cd ~/code/dotfiles/
 : 1550671091:0;ln -s ~/code/dotfiles/hyper.js ~/.hyper.js
-: 1550671094:0;ls -al
 : 1550671110:0;ls -al | grep hy
 : 1550671117:0;cat .hyper.js
 : 1550671125:0;vim .hyper.js
-: 1550741609:0;cd code/dotfiles
 : 1550741620:0;gitall "hyper comments"
-: 1550742454:0;cd fourfive
-: 1550748211:0;l;s
 : 1550749651:0;RAILS ROUTES
-: 1550749658:0;rails routes
 : 1550749676:0;rails routes | grep admin
 : 1550749699:0;rails routes | grep print
 : 1550749821:0;git pull origin heroku/master
-: 1550749827:0;git remote -v
 : 1550749861:0;gem install browse
 : 1550749881:0;ls ~/.gemrc
 : 1550749901:0;history | grep source
 : 1550749909:0;cat ~/.gemrc
 : 1550749921:0;gem sources -r http://gems.rubyforge.org/
 : 1550749929:0;gem sources -r https://rubygems.org
-: 1550749933:0;gem install hub
-: 1550749938:0;hub browse
 : 1550749966:0;git merge oil-chart
-: 1550749978:0;git stash
 : 1550749980:0;git co chart
-: 1550750000:0;bundle
 : 1550750016:0;git merge chart
 : 1550750037:0;git dif
 : 1550750045:0;yarn install
 : 1550750116:0;git og
-: 1550750135:0;git reset --hard
 : 1550750173:0;git reset hard origin/master
 : 1550750180:0;git reset --hard origin/master
-: 1550750186:0;git stash apply
 : 1550754141:0;rr | grep admin
 : 1550754168:0;rr | grep print
-: 1550755528:0;gem install rubocop
 : 1550756543:0;ec
 : 1550757752:0;cd ,..,/
-: 1550757753:0;cd ../
 : 1550757757:0;git clone https://github.com/atkinsonholly/Greyledger.git
 : 1550757759:0;cd Greyledger
 : 1550757807:0;truffle compile
 : 1550757896:0;npm install -g ganache-cli
 : 1550762767:0;truffle migrate
-: 1550762790:0;npm i
-: 1550762865:0;npm start
 : 1550764514:0;cd ../Greyledger
 : 1550764521:0;cd greyledger_client
-: 1550764526:0;cd app
 : 1550764527:0;npm install --save drizzle-react
 : 1550764839:0;npm uninstall drizzle-react
 : 1550770304:0;cd ../../../../
-: 1550770310:0;cd code/fourfive
-: 1550770392:0;rails c
 : 1550832471:0;git co -b stock-invoices
 : 1550832489:0;git commit -m "work for invoices"
-: 1550832513:0;vim ~/.hyper.js
-: 1550832884:0;git pull origin master
 : 1550832936:0;git fetch
 : 1550833121:0;history | grep remote
 : 1550833147:0;history | grep remote heroku
@@ -12253,9 +12034,6 @@ g
 : 1550833270:0;git ls-remote
 : 1550833280:0;git fetch heroku
 : 1550833317:0;git co heroku/master
-: 1550833353:0;cat Gemfile
-: 1550833363:0;git diff master heroku/master
-: 1550833368:0;git diff heroku/master  master
 : 1550834411:0;vim Procfile
 : 1550834423:0;git push heroku master &
 : 1550834431:0;fg
@@ -12268,22 +12046,17 @@ g
 : 1550834853:0;heroku releases -a fourfivecbd
 : 1550834866:0;heroku rollback v246
 : 1550834872:0;heroku rollback v246 -a fourfivecbd
-: 1550834933:0;git log
 : 1550835051:0;git co -b old-rev 496291569b7b6ac635c58aaac0228782b88aa221
 : 1550835068:0;git push staging old-rev:master
 : 1550835079:0;git push -f staging old-rev:master
 : 1550835341:0;git push heroku old-rev:master
 : 1550835348:0;git push -f heroku old-rev:master
-: 1550835631:0;code .
-: 1550837274:0;bundle install
 : 1550837279:0;rails s]
 : 1550838511:0;gitall "button styling on home page"
 : 1550841530:0;git push staging master & 2>/dev/null
 : 1550842956:0;git add app/assets
 : 1550842963:0;git commit -m "new media query"
 : 1550842975:0;git commit -m "improved homepage sql performance"
-: 1550842977:0;git push origin master
-: 1550842985:0;git push heroku master
 : 1550843157:0;git sweeep
 : 1550843257:0;function hg () { history | grep $1 }
 : 1550843262:0;hg prune
@@ -12294,7 +12067,6 @@ g
 : 1550843929:0;git prune -vn
 : 1550843952:0;git branch -r
 : 1550843960:0;git remote prune origin
-: 1550843966:0;git branch -a
 : 1550843977:0;git branch -D chart
 : 1550844013:0;git co amends-28jan
 : 1550844018:0;git diff master
@@ -12307,18 +12079,12 @@ g
 : 1550844165:0;git rebase master
 : 1550844169:0;git diff master newstock
 : 1550844174:0;git branch -D newstock
-: 1550844183:0;heroku run rails c
-: 1550844190:0;heroku run rails c -a fourfivecbd
 : 1550845098:0;git co stock-invoices
-: 1550847308:0;lsof -i :3000
-: 1550847815:0;node
 : 1550848227:0;ping 8.8.8.8
 : 1550861829:0;git commit -m "slow progress on invoices"
 : 1550871683:0;pkill puma
 : 1550872454:0;lsof -i :3000 | grep ruby | awk '{print $2}' | xargs kill -9
 : 1550872457:0;rm -f /Users/gbennettjones/code/fourfive/tmp/pids/server.pid
-: 1550872507:0;vim ~/.aliases
-: 1550872554:0;history
 : 1550872606:0;function ks () {\
   lsof -i :3000 | grep ruby | awk '{print $2}' | xargs kill -9 && rm -rf /tmps/pids/server.pid\
 }
@@ -12329,433 +12095,165 @@ g
 : 1550874789:0;git commit -m "stylin"
 : 1550875054:0;git commit -m "moneth headher\
 "
-: 1551023826:0;raisl s
 : 1551023829:0;rals s
-: 1551024288:0;rails s
-: 1551028992:0;ks
-: 1551028992:0;rs
-: 1551030408:0;rc
 : 1551031676:0;cat ~/.
-: 1551031844:0;irb
-: 1551033170:0;ks ; rs
 : 1551033577:0;git commit -m "invoice styling and monkey patching"
 : 1551033580:0;git push origin stock-invoices
 : 1551033583:0;git push staging stock-invoices
-: 1551034006:0;git co master
 : 1551034009:0;git merge stock-invoices
-: 1551034013:0;git diff
 : 1551034023:0;vim app/admin/dashboard.rb
-: 1551034062:0;git add .
 : 1551034070:0;git commit -m "merge stock and master:\
 "
-: 1551034074:0;git push staging master
-: 1551034233:0;rake spec
 : 1551034271:0;history | grep download
 : 1551034277:0;history | grep heroku
-: 1551034289:0;history | grep copy
 : 1551034302:0;history | grep b0
-: 1551034314:0;cd ~/code/dotfiles
-: 1551034315:0;gst
 : 1551034325:0;cat zsh_history
-: 1551034330:0;cd ~
-: 1551034331:0;s
-: 1551034351:0;cd -
 : 1551034360:0;vim zshrc
 : 1551034395:0;echo $HISTFILE
-: 1551034401:0;cd
 : 1551034415:0;rm -rfm .zshrc.backup
 : 1551034418:0;rm -rf .zshrc.backup
 : 1551034434:0;rm -rfm .hyper.js.backup
 : 1551034439:0;rm -rf .hyper.js.backup
-: 1551034440:0;clear
-: 1551034443:0;ls
 : 1551034461:0;cat .zsh_history
 : 1551034487:0;cat .zshrc
 : 1551034492:0;ls -ald .*
 : 1551034499:0;vim .zshrc
-: 1551034711:0;clear
-: 1551034711:0;ls
-: 1551034712:0;gst
-: 1551034714:0;git add . 
 : 1551034720:0;git commit -m "added more history and config"
-: 1551034724:0;git push origin master
-: 1551034743:0;hg backup
 : 1551034751:0;hg 
 : 1551034754:0;hg backup
 : 1551034777:0;heroku pg:backups:download b011 -a fourfivecbd
-: 1551034781:0;clear
-: 1551034781:0;;s
-: 1551034783:0;ls
 : 1551034796:0;mv latest.dump ~/code/fourfive
-: 1551034796:0;clkear
-: 1551034797:0;clear
-: 1551034797:0;ls
-: 1551034800:0;cd 
-: 1551034802:0;cd code/fourfive
-: 1551034803:0;clear
-: 1551034803:0;ls
 : 1551034823:0;history | grep backups -n 20
 : 1551034826:0;history | grep backups -A 20
 : 1551034839:0;history | grep pg_restore
 : 1551034857:0;RAILS_ENV=test
-: 1551034862:0;rails db:create
 : 1551034883:0;pg_restore --verbose --clean --no-acl --no-owner -h localhost -U gbennettjones -d fourfive_test latest.dump\
 
 : 1551034893:0;RAILS_ENV=development
-: 1551034894:0;clear
 : 1551034898:0;rake spec
-: 1551034941:0;rake
-: 1551036037:0;rc
-: 1551036063:0;rake
 : 1551036879:0;]rale
-: 1551036880:0;rake
 : 1551037179:0;rale
-: 1551037181:0;rake
 : 1551037642:0;rakje
-: 1551037643:0;rake
-: 1551038547:0;gst
-: 1551038548:0;git add . 
 : 1551038556:0;git rm latest.dump
-: 1551038557:0;gst
 : 1551038568:0;git commit -m "TESTS FINALLY""
 : 1551038569:0;git commit -m "TESTS FINALLY"
-: 1551038575:0;git push origin master
-: 1551089307:0;cd ..
-: 1551089307:0;ls
 : 1551089314:0;touch redux
 : 1551089316:0;cd redux
 : 1551089321:0;rm -rf redux
 : 1551089325:0;touch redux.js
 : 1551089326:0;vim redux.js
-: 1551093525:0;cd fourfive
-: 1551093527:0;rails s
-: 1551093865:0;rs
 : 1551094347:0;cd ../fourfiveassets
-: 1551094348:0;ls
 : 1551095261:0;mv ~/Desktop/Screenshot\ 2019-02-25\ at\ 11.47.03.png ../fourfive/app/assets/images/logo.png
 : 1551095271:0;hg ql
 : 1551095290:0;qlmanage -t -s 25 -o . ../fourfive/app/assets/images/logo.png
 : 1551095328:0;cd ../fourfive
-: 1551095345:0;rake cloudinary:sync_static
 : 1551095387:0;mv app/assets/images/logo.png app/assets/images/logo_text.png
-: 1551095391:0;rake cloudinary:sync_static
-: 1551095437:0;rails s
 : 1551098922:0;gem list active_skin
 : 1551098929:0;gem open active_skin
-: 1551100680:0;gst
 : 1551100690:0;git add . ; git commit -m 'logo me up'
-: 1551100694:0;git push origin master
-: 1551100703:0;git pull origin master
-: 1551100706:0;git push origin master
-: 1551100711:0;git push staging master
 : 1551101114:0;git diff heroku/master staging/master 
-: 1551101833:0;gst
-: 1551101835:0;git diff
-: 1551101863:0;ks ; rs
-: 1551107260:0;gst
-: 1551107261:0;git diff
-: 1551107302:0;gst
 : 1551107308:0;git add app/pdfs/document.rb
 : 1551107313:0;git commit -m "hash change"
 : 1551107327:0;git add app/pdfs/invoice_pdf.rb
 : 1551107338:0;git commit -m "refactored invoice thru monkeypatch"
 : 1551107343:0;git add app/pdfs/stock_pdf.rb
 : 1551107357:0;git commit -m "touched up style bounding box"
-: 1551107359:0;git push origin master
-: 1551107365:0;git push staging master
-: 1551107463:0;git diff heroku/master staging/master
 : 1551107496:0;heroku open s
 : 1551107503:0;heroku open -a stagingfourfive
-: 1551107547:0;heroku logs --tail -a stagingfourfive
 : 1551107578:0;git add . ; git commit -m "hash syntax with array"
-: 1551107581:0;git push origin master
 : 1551107586:0;git push stagin master
-: 1551107589:0;git push staging master
 : 1551108246:0;heroku run rails c -a stagingfourfive
 : 1551108350:0;git add . ; git commit -m "compact not sufficient for empty strings invoice method"
 : 1551108354:0;git push origin master ; git push staging master
-: 1551108562:0;irb
 : 1551108629:0;git add . ; git commit -m "lower address"; git push origin master ; git push staging master
 : 1551108785:0;git diff heroku/master staging/master
 : 1551108909:0;git diff heroku/master staging/master --stat
 : 1551108923:0;rm -rf latest.dump
-: 1551108997:0;cd ..
-: 1551108998:0;ls
 : 1551109023:0;git clone https://github.com/Voxoff/fourfive.git fourfive_test
-: 1551109032:0;cd $_
-: 1551109036:0;git log
 : 1551109088:0;git filter-branch --force --index-filter \\\
   'git rm --cached --ignore-unmatch latest.dump' \\
   --prune-empty --tag-name-filter cat -- --all
-: 1551109142:0;gst
-: 1551109164:0;cd ..
 : 1551109168:0;rm -rf fourfive_test
-: 1551109192:0;git clone --mirror git@github.com:Voxoff/fourfive.git fourfive_backup
-: 1551109259:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
 : 1551109287:0;cat ~/code/flatiron-manual-setup/flatiron-setup.sh
 : 1551109297:0;cat ~/code/flatiron-manual-setup/flatiron-setup.sh | grep java
-: 1551109423:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
 : 1551109442:0;mdfind bfg
 : 1551109502:0;cd ~/Downloads
-: 1551109502:0;ls
 : 1551109513:0;rm -rf receipt*.pdf
-: 1551109515:0;ls -al
-: 1551109525:0;cd -
 : 1551109538:0;mv ~/Downloads/bfg-1.13.0.jar .
-: 1551109540:0;clear
-: 1551109550:0;vim ~/.aliases
-: 1551109595:0;ls
 : 1551109603:0;mv bfg-1.13.0.jar bfg.jar
-: 1551109615:0;source ~/.aliases
-: 1551109630:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
 : 1551109689:0;cd fourfive_test
-: 1551109690:0;ls
 : 1551109700:0;rm -rf fourfive_backup
-: 1551109709:0;gst
-: 1551109714:0;git add . 
 : 1551109721:0;git commit -m "none of that pls"
-: 1551109723:0;git push origin master
 : 1551109729:0;git clone --mirror git@github.com:Voxoff/fourfive.git fourfive_backup
 : 1551109745:0;java -jar bfg.jar --delete-files latest.dump fourfive_backup
 : 1551109811:0;cd fourfive_backup
-: 1551109813:0;gst
-: 1551109817:0;git reflog expire --expire=now --all && git gc --prune=now --aggressive
-: 1551109827:0;gst
 : 1551109842:0;cd fourfive_backup.bfg-report
-: 1551109843:0;ls
 : 1551109844:0;atom .
-: 1551109879:0;cd ..
-: 1551109880:0;ls
-: 1551114275:0;gst
-: 1551114306:0;cd ..
-: 1551114306:0;ls
-: 1551114308:0;cd fourfive
-: 1551114308:0;ls
-: 1551114327:0;gst
 : 1551114343:0;java -jar bfg.jar --delete-files latest.dump
 : 1551114350:0;java -jar ../bfg.jar --delete-files latest.dump
-: 1551114358:0;gst
 : 1551114367:0;git reflog expire --expire=now --all && git gc --prune=now --aggressive
-: 1551114379:0;gst
-: 1551114380:0;git log
-: 1551114391:0;gst
-: 1551114449:0;git push origin master
-: 1551114455:0;git push -f master
-: 1551114459:0;git push -f origin master
-: 1551114467:0;clear
 : 1551114481:0;git diff staging/master heroku/master 
 : 1551114957:0;git add . ; git commit -m "dashboard tweaks and got rid of stock panel for faster load"
-: 1551114959:0;git push origin master
-: 1551114964:0;git push staging master
 : 1551114981:0;git push -f staging master
-: 1551115164:0;gst
 : 1551115178:0;git add . ; git commit -m "small tweaks"
-: 1551115180:0;git push origin master
-: 1551115188:0;git push heroku master
 : 1551115474:0;heroku logs --tail -a stagingfourfive
-: 1551115591:0;heroku run rails c -a fourfivecbd
-: 1551115761:0;gst
-: 1551115764:0;git diff
-: 1551115787:0;gst
 : 1551115800:0;git add . ; git commit -m "last 24 orders mistake"
-: 1551115802:0;git push origin master
-: 1551115809:0;git push staging master
-: 1551116021:0;git push heroku master
-: 1551116232:0;gst
-: 1551116233:0;git diff
 : 1551116243:0;git add . ; git commit -m "title change"
-: 1551116245:0;git push origin master
-: 1551116248:0;git push heroku master
-: 1551116299:0;bundle
-: 1551116381:0;gst
-: 1551116383:0;git diff
 : 1551116390:0;git add Gemfile.lock 
-: 1551116391:0;gst
 : 1551116400:0;git add . ; git commit -m "gem for testing pdfs"
 : 1551116423:0;gitall 'stock table dead link and month header styling"\
 '
-: 1551116429:0;git push heroku master
-: 1551117390:0;clear
-: 1551117630:0;l
 : 1551117631:0;sclear
-: 1551117632:0;clear
-: 1551117639:0;spec
-: 1551117642:0;cd ..
-: 1551117643:0;rake
-: 1551117894:0;rc
-: 1551119466:0;gst
-: 1551119469:0;rake
-: 1551120329:0;gst
-: 1551120332:0;git add . 
 : 1551120337:0;gitall "testing prawn"
 : 1551120452:0;gitall "testing prawn factories"
-: 1551120568:0;rake
-: 1551120573:0;gitall "test"
-: 1551120577:0;rake
-: 1551176124:0;gst
-: 1551176127:0;git pull origin master
-: 1551176132:0;git stash
-: 1551176134:0;git pull origin master
-: 1551176138:0;git stash apply
-: 1551176148:0;gst
 : 1551176151:0;git rm -rf spec/examples.txt
-: 1551176154:0;git add . 
 : 1551176161:0;git commit -m "merge on ezamples"
-: 1551176165:0;git pull origin master
-: 1551176168:0;git push origin master
 : 1551176225:0;mv ~/Downloads/redux-warmup-challenge-add-features-master\ \(3\).zip ../
-: 1551176227:0;cd ..
 : 1551176233:0;unzip redux-warmup-challenge-add-features-master\ \(3\).zip
-: 1551176235:0;ls
 : 1551176239:0;cd redux-warmup-challenge-add-features-master
-: 1551176240:0;ls
-: 1551176241:0;code .
-: 1551176262:0;npm i
-: 1551176321:0;npm start
-: 1551190311:0;clear
-: 1551190313:0;cd ../../
-: 1551190314:0;ls
-: 1551190318:0;cd code/fourfive
-: 1551190318:0;ls
 : 1551190326:0;rm -rf ../fourfive_backup.bfg-report
-: 1551190331:0;code .
-: 1551190338:0;gst
-: 1551190341:0;git pull origin master
-: 1551190747:0;rails s
 : 1551190841:0;mdfind postmaster.pid
 : 1551190849:0;rm /Users/gbennettjones/Library/Application Support/Postgres/var-11/postmaster.pid
 : 1551190862:0;rm /Users/gbennettjones/Library/Application\ Support/Postgres/var-11/postmaster.pid
-: 1551190870:0;cd -
-: 1551190998:0;gst
-: 1551191000:0;git diff
 : 1551191018:0;git add . ; git commit -m "slight change to include total for invoices"
-: 1551191022:0;git push origin master
-: 1551191256:0;rc
-: 1551198390:0;gst
-: 1551198392:0;git diff
 : 1551198666:0;gitall "conditional AR query refactor, small stock style tweaks"
-: 1551198670:0;git push staging master
 : 1551199688:0;git diff heroku/master master
-: 1551199741:0;gst
 : 1551199750:0;gitall 'comments'
-: 1551199754:0;git push heroku master
-: 1551206908:0;gst
-: 1551206909:0;git diff
-: 1551206942:0;gst
-: 1551206944:0;git diff
-: 1551206972:0;git add . 
 : 1551206978:0;gitall "rubocop"
-: 1551207662:0;gst
-: 1551207712:0;clear
-: 1551207713:0;ls
-: 1551208157:0;rs
-: 1551208421:0;rc
-: 1551208633:0;spec
-: 1551208635:0;cd ..
 : 1551208635:0;rakle
-: 1551208636:0;rake
 : 1551208762:0;gitall "mid refactor"
-: 1551209012:0;irb
-: 1551209628:0;ks ; rs
-: 1551209736:0;ks ;rs
-: 1551209781:0;rake
-: 1551209866:0;clear
-: 1551209868:0;ks ; rs
 : 1551209948:0;ks ;rs
 : 1551210035:0;ks ; rs
-: 1551210135:0;vim ~/.aliases
-: 1551210157:0;source ~/.aliases
-: 1551210159:0;ks
-: 1551210303:0;rs
-: 1551210306:0;ks
 : 1551210427:0;ks 
-: 1551210935:0;gst
 : 1551210941:0;gitall "its longer but better"
-: 1551213505:0;rails s
-: 1551213683:0;gst
-: 1551213685:0;git diff
 : 1551213698:0;gitall "private and table method"
-: 1551213798:0;irb
-: 1551214046:0;gst
-: 1551214050:0;git diff
-: 1551214745:0;gst
-: 1551214746:0;git diff
-: 1551214760:0;git stash
-: 1551214993:0;rc
-: 1551283441:0;gst
-: 1551283443:0;git diff
-: 1551283447:0;git stash
-: 1551283448:0;clear
-: 1551283448:0;ls
-: 1551283458:0;gst
-: 1551283461:0;git diff
-: 1551283464:0;code .
-: 1551283484:0;rails s
 : 1551283566:0;cd /Library
-: 1551283566:0;ls
 : 1551283569:0;cd Launch
 : 1551283572:0;cd LaunchAgents
-: 1551283572:0;ls
 : 1551283583:0;ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents\
 
-: 1551283589:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 : 1551283611:0;cd /usr/local/opt/postgresql/
-: 1551283612:0;ls
 : 1551283636:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-: 1551283641:0;ls
 : 1551283644:0;cd -
-: 1551283645:0;ls
-: 1551284031:0;cd
-: 1551284058:0;mv ~/Downloads/landing\ page\ image\ three\ oilsv3.jpg ~/code/fourfive/app/assets/images
-: 1551284068:0;cd code/fourfive
-: 1551284071:0;gst
-: 1551284074:0;rake cloudinary:sync_static
 : 1551284092:0;rm -rf app/assets/images/landing\ page\ image\ three\ oilsv3.jpg
 : 1551284100:0;rm -rf app/assets/images/logo_text.png
-: 1551284102:0;gst
 : 1551284109:0;gitall "put in new image to cloudinary"
-: 1551284134:0;cd 
 : 1551284140:0;mv ~/Downloads/landing\ page\ image\ three\ oilsv3.jpg ~/code/fourfive/app/assets/images
 : 1551284143:0;cd code/fourfive
 : 1551284163:0;mv app/assets/images/landing\ page\ image\ three\ oilsv3.jpg app/assets/images/home_page.jpg
-: 1551284167:0;gst
 : 1551284187:0;rake cloudinary:sync_static
-: 1551284200:0;gst
 : 1551284208:0;gitall "cl image with correct tag"
 : 1551284338:0;gitall "put new home page into html"
-: 1551284342:0;git push staging master
-: 1551284676:0;gst
 : 1551284687:0;gitall "vasyl shows guy what style truly is"
-: 1551284691:0;git push staging master
-: 1551285132:0;gst
 : 1551285281:0;git diff master heroku/master --stat
-: 1551285435:0;irb
-: 1551287599:0;git diff master heroku/master
 : 1551287821:0;man git diff
 : 1551287827:0;git diff -h
 : 1551287831:0;git diff --help
 : 1551288015:0;git diff master heroku/master ':(exclude).cloudinary.static.trash'
-: 1551288032:0;git diff heroku/master master  ':(exclude).cloudinary.static.trash'
-: 1551288187:0;git diff master staging/master 
-: 1551288193:0;rake
-: 1551288350:0;gst
 : 1551288356:0;git diff heroku/master master  ':(exclude).cloudinary.static.trash'
-: 1551288401:0;gst
 : 1551288410:0;gitall "tests"
-: 1551288414:0;git push heroku master
-: 1551288965:0;irb
-: 1551288967:0;rc
-: 1551289943:0;gst
 : 1551289951:0;gitall "added coupons to invoices"
-: 1551296239:0;gst
-: 1551296242:0;git push origin master
-: 1551296248:0;git push staging master
-: 1551296696:0;irb
-: 1551296773:0;rake
-: 1551297198:0;rc
 : 1551297451:0;gitall "added postage and changed position of totals"
-: 1551305657:0;cd ~/Desktop
-: 1551305658:0;ls
 : 1551305666:0;chmod +x Series\ 2
 : 1551305672:0;cd Series\ 2
 : 1551305675:0;h | for
@@ -12763,24 +12261,12 @@ g
 : 1551305717:0;for i in $(ls); do chmod + x $i; done
 : 1551305721:0;for i in $(ls); do chmod +x $i; done
 : 1551349658:0;cd ~/code/fourfive
-: 1551349659:0;ls
-: 1551349661:0;gst
-: 1551349664:0;git pull origin master
-: 1551349948:0;gst
-: 1551349953:0;git diff master heroku/master
 : 1551349963:0;git diff master staging/master 
-: 1551349972:0;git push staging master
 : 1551350377:0;man pkill
 : 1551350899:0;git diff master heroku/master 
 : 1551350919:0;git diff heroku/master master 
 : 1551351006:0;gitall "fewer comments"
-: 1551351014:0;git push heroku master
-: 1551351065:0;rake
 : 1551351452:0;ls -ald ~/.*
-: 1551351464:0;ls -ald ~/.* | grep pry
-: 1551351466:0;cd 
-: 1551351471:0;cd code/dotfiles
-: 1551351471:0;ls
 : 1551351476:0;touch pryrc
 : 1551351491:0;echo -e "if defined?(PryByebug)\
   Pry.commands.alias_command 'c', 'continue'\
@@ -12796,9 +12282,7 @@ end" >> pryrc
 : 1551351536:0;name="pryrc"
 : 1551351547:0;echo $target
 : 1551351556:0;ln -s "$PWD/$name" "$target"
-: 1551351566:0;cd 
 : 1551351569:0;ls -ald ~/.* | grep pry
-: 1551351572:0;cd code/dotfiles
 : 1551352015:0;echo -e "begin\
   require 'rubygems'\
   require 'awesome_print'\
@@ -12843,50 +12327,24 @@ end" >> pryrc
 rescue LoadError => err\
   puts "gem install awesome_print  # <-- highly recommended"\
 end" >> pryrc
-: 1551352022:0;vim pryrc
 : 1551352037:0;gem install awesome-print
-: 1551352042:0;gem install awesome_print
 : 1551352049:0;gem install awesome_print_colors
-: 1551352117:0;vim pryrc
-: 1551352133:0;rake
-: 1551352142:0;fourfive
-: 1551352145:0;vim ~/.aliases
-: 1551352172:0;source ~/.aliases
-: 1551352175:0;fourfive
-: 1551352180:0;rake
-: 1551357983:0;raisl c
-: 1551357985:0;rails c
 : 1551358006:0;rails c help
 : 1551358018:0;rails console help
 : 1551358035:0;rails console --sandbox
-: 1551358160:0;rake
 : 1551359176:0;rake spec:models
-: 1551360483:0;rspec spec/factories_spec.rb
 : 1551360545:0;gem cleanup monetize
 : 1551360551:0;gem cleanip railties
 : 1551360555:0;gem cleanup railties
-: 1551360561:0;gem cleanup activesupport
 : 1551360568:0;gem cleanup money
-: 1551360572:0;rspec spec/factories_spec.rb
 : 1551360585:0;gem cleanup i18n
 : 1551360588:0;gem cleanup rails
 : 1551360602:0;rspec spec/factories_spec.rb
 : 1551361477:0;gem cleanup activesupport
-: 1551361578:0;rspec
-: 1551361618:0;cd ..
-: 1551361619:0;kls
-: 1551361619:0;ls
 : 1551361637:0;rm -rf Greyledger fourfive.bfg-report redux-warmup-challenge-add-features-master\ \(3\).zip
-: 1551361641:0;ls
-: 1551363850:0;fourfive
-: 1551363851:0;rspec
 : 1551363896:0;gem cleanup --all
 : 1551363900:0;gem cleanup help
-: 1551363905:0;gem help cleanup
-: 1551363918:0;gem cleanup
-: 1551363926:0;rspec
 : 1551363948:0;gem cleanup minitest rake
-: 1551363973:0;rspec
 : 1551363980:0;gem cleanup minitest
 : 1551363986:0;gem cleanup rake
 : 1551363999:0;gem help cleanup
@@ -12894,42 +12352,17 @@ end" >> pryrc
 : 1551364027:0;gem cleanup --no-user-install
 : 1551364030:0;gem cleanup
 : 1551364039:0;gem cleanup -D
-: 1551364042:0;rspec
-: 1551364110:0;rspec spec/models
 : 1551364253:0;bundle exec rspec spec/models
-: 1551364401:0;rspec spec/models
-: 1551364740:0;gem list rake
-: 1551364747:0;gem uninstall rake
-: 1551364751:0;gem list rake
-: 1551364755:0;gem uninstall rake
-: 1551364758:0;gem list rake
 : 1551364769:0;bundle exec gem uninstall rake
 : 1551364785:0;gem install rake
 : 1551364825:0;gem uninstall rake -v 12.3.0
 : 1551364829:0;gem list rake
-: 1551364875:0;gem uninstall minitest
 : 1551364880:0;gem install minitest
-: 1551364888:0;rspec spec/models
 : 1551364961:0;gem uninstall rake
 : 1551364964:0;gem uninstall minitest
-: 1551364968:0;rspec spec/models
-: 1551364974:0;bundle
-: 1551364979:0;rspec spec/models
-: 1551365430:0;rake
-: 1551365476:0;rspec spec/models
 : 1551365624:0;	ls -alrt
 : 1551365626:0;rspec spec/models
-: 1551369571:0;rspec
-: 1551369617:0;irb
-: 1551369885:0;rspec
-: 1551370044:0;ls
-: 1551370045:0;gst
-: 1551370064:0;rspec
-: 1551370877:0;rspec spec/pdfs/invoice_pdf_spec.rb
-: 1551371668:0;rc
 : 1551371743:0;rspec spec/pdfs/invoice_pdf_spec.rb
-: 1551374380:0;gst
-: 1551374383:0;git add . 
 : 1551374392:0;gitall "tests and prawn warning"
 : 1551374398:0;git last
 : 1551374400:0;git commit last
@@ -12938,31 +12371,2323 @@ end" >> pryrc
 : 1551374408:0;git log -1 --stat
 : 1551374412:0;git log -1 
 : 1551374418:0;git diff master master~1
-: 1551374422:0;bundle
-: 1551374425:0;bundle update
-: 1551374846:0;rspec
-: 1551378931:0;code .
-: 1551378954:0;gst
-: 1551378962:0;git stash
-: 1551378964:0;git pull origin master
-: 1551378968:0;bundle
-: 1551378971:0;gst
 : 1551378980:0;git diff master heroku/master
-: 1551379004:0;gst
-: 1551379606:0;heroku run rails c
 : 1551379610:0;heroku run rails c -a fourfivecbd
-: 1551459846:0;clear
-: 1551459846:0;ls
-: 1551459848:0;clear
-: 1551459871:0;git pull origin master
-: 1551459954:0;cd ~/code/dotfiles
-: 1551459955:0;ls
 : 1551459960:0;touch Gemfile.dev
 : 1551459964:0;vim Gemfile.dev
 : 1551460052:0;gem list | grep awesome
 : 1551460089:0;gem list | grep print
-: 1551460092:0;gem list
-: 1551460167:0;ls
-: 1551460168:0;gst
-: 1551460170:0;git diff
-: 1551460174:0;git add . 
+: 1551460182:0;git commit -m "march 1st gem dev"
+: 1551546813:0;cd /db/var
+: 1551546817:0;cd /var/db
+: 1551546821:0;cd ConfigurationProfiles
+: 1551546831:0;ls -R
+: 1551546834:0;sudo ls _R
+: 1551546843:0;sudo ls -R
+: 1551546875:0;cd Settings
+: 1551546878:0;cd User_Settings
+: 1551546883:0;cd B4CC7FFE-0B14-4D60-93AE-FAF90F650BE0
+: 1551546887:0;cat Account_Info
+: 1551546906:0;vim .passcodePolicesAreInstalled
+: 1551546925:0;rm -rf Settings
+: 1551546928:0;sudo rm -rf Settings
+: 1551546932:0;sudo rm -rf Setup
+: 1551546936:0;sudo rm -rf Store
+: 1551555958:0;h | grep
+: 1551555965:0;h |grep grep
+: 1551555983:0;h | grep ls -R
+: 1551556006:0;history | grep ls
+: 1551556051:0;cd Library
+: 1551556063:0;ls -R | grep login
+: 1551556076:0;brew install tree
+: 1551556105:0;ls -R | grep loginwing
+: 1551556118:0;cd Managed\ Preferences
+: 1551556120:0;sudo ls -R | grep loginwindow
+: 1551556139:0;tree | grep loginwindow
+: 1551556195:0;sudo ls -Ro | grep loginwindow
+: 1551556212:0;man ls
+: 1551556248:0;sudo ls -Rol | grep loginwindow
+: 1551556277:0;find com.apple.loginwindow.plist
+: 1551556303:0;find "$PWD" -name loginwindow
+: 1551556306:0;sudo find "$PWD" -name loginwindow
+: 1551556315:0;sudo find "$PWD" -name com.apple.loginwindow.plist
+: 1551556319:0;cd Preference
+: 1551556323:0;cd Preferences
+: 1551563229:0;rake middleware
+: 1551563506:0;gem list
+: 1551563509:0;gem list | grep action
+: 1551563518:0;gem install actiondispatch
+: 1551563529:0;gem open rails
+: 1551563568:0;gem unpack rails
+: 1551563599:0;gem pack rails
+: 1551563613:0;gem --help
+: 1551563618:0;gem unpack -h
+: 1551563635:0;gem build rails-5.2.2
+: 1551563648:0;rm -rf rails-5.2.2
+: 1551563707:0;gem install rails -v 5.2.2
+: 1551563887:0;rails -v
+: 1551564003:0;rails d conroller demo
+: 1551564008:0;rails d controller demo
+: 1551564057:0;echo -e "gem 'haml-rails'" >> Gemfile
+: 1551564155:0;rm -rf dispatch_me
+: 1551564161:0;rails new dispatch_me --skip-turbolinks --skip-spring --skip-action-cable
+: 1551564249:0;cd dispatch_me
+: 1551564265:0;echo "gem 'haml-rails'" >> Gemfile
+: 1551564290:0;gem install haml-rails
+: 1551564301:0;gem install nokogiri
+: 1551564401:0;rails g controller demo index
+: 1551564409:0;cat app/views/demo/index.html.haml
+: 1551564431:0;bundle audit
+: 1551564872:0;vim app/controllers/demo_controller.rb
+: 1551565946:0;git clone https://github.com/Lingy94/escape-puzzle.git
+: 1551565952:0;cd escape-puzzle
+: 1551565967:0;cd frontend
+: 1551565970:0;npm i ; npm start
+: 1551565975:0;cd ../backend
+: 1551566124:0;rails s -p 3001
+: 1551566210:0;rails db:migrate db:seed
+: 1551566223:0;rails db:create db:seed
+: 1551618282:0;echo "gem 'annotate'" >> Gemfile.dev
+: 1551620918:0;git add . ; git commit -m "spaces and got rid of comment"
+: 1551621054:0;gitall "reviews are out of home page"
+: 1551621786:0;gitall "dry code"
+: 1551621912:0;gitall "all carts in last 30 orders will have new attribute, deprecation complete "
+: 1551621928:0;gitall "dry dashboard"
+: 1551621932:0;git push staging master
+: 1551622061:0;rasil ss
+: 1551622100:0;gitall "refactor fix"
+: 1551624459:0;rspec spec/features/coupon.rb
+: 1551626803:0;rspec spec/features/pages.rb
+: 1551627528:0;rspec spec/features/admin_login.rb
+: 1551627804:0;rspec spec/controllers/admin/coupon_controller_spec.rb
+: 1551638398:0;sudo fdisk -l
+: 1551638410:0;sudo fdisk
+: 1551638431:0;sudo fdisk --l
+: 1551638435:0;sudo fdisk --y
+: 1551638445:0;sudo fdisk -r
+: 1551638798:0;diskutil unmount /dev/disk4
+: 1551638811:0;diskutil unmountDisk /dev/disk4
+: 1551639021:0;mv ~/Downloads/kali-linux-2019.1-amd64.iso ~/
+: 1551640446:0;man kill
+: 1551640470:0;ps aux | grep dd
+: 1551640483:0;ps aux | wc -l
+: 1551640490:0;lsof | grep dd
+: 1551640503:0;pgrep -INFO dd
+: 1551640506:0;pgrep dd
+: 1551640526:0;pgrep dd -l
+: 1551640531:0;man pgrep
+: 1551640568:0;ps | grep dd
+: 1551640571:0;ps
+: 1551640707:0;diskutil list
+: 1551640747:0;sudo dd if=kali-linux-2019.1-amd64.iso of=/dev/disk4 bs=1m
+: 1551640755:0;sudo dd if=kali-linux-2019.1-amd64.iso of=/dev/disk2 bs=1m
+: 1551704372:0;ssh bandit9@bandit.labs.overthewire.org
+: 1551704390:0;ssh bandit0@bandit.labs.overthewire.org
+: 1551704414:0;ssh bandit0@bandit.labs.overthewire.org -p 2220
+: 1551704448:0;history | grep copy
+: 1551704550:0;ssh bandit1@bandit.labs.overthewire.org -p 2220
+: 1551704565:0;ssh bandit2@bandit.labs.overthewire.org -p 2220
+: 1551704581:0;ssh bandit3@bandit.labs.overthewire.org -p 2220
+: 1551704596:0;ssh bandit4@bandit.labs.overthewire.org -p 2220
+: 1551704618:0;ssh bandit5@bandit.labs.overthewire.org -p 2220
+: 1551704647:0;ssh bandit6@bandit.labs.overthewire.org -p 2220
+: 1551704723:0;ssh bandit7@bandit.labs.overthewire.org -p 2220
+: 1551704747:0;ssh bandit8@bandit.labs.overthewire.org -p 2220
+: 1551704766:0;ssh bandit9@bandit.labs.overthewire.org -p 2220
+: 1551706498:0;ssh bandit10@bandit.labs.overthewire.org -p 2220
+: 1551706528:0;ssh bandit11@bandit.labs.overthewire.org -p 2220
+: 1551707039:0;ssh bandit12@bandit.labs.overthewire.org -p 2220
+: 1551714104:0;ssh bandit13@bandit.labs.overthewire.org -p 2220
+: 1551714372:0;touch sshkey.private
+: 1551714427:0;ssh bandit14@bandit.labs.overthewire.org -p 2220
+: 1551714447:0;chmod u gbennettjones sshkey.private
+: 1551714451:0;chmod -u gbennettjones sshkey.private
+: 1551714456:0;chmod -u guybennettjones sshkey.private
+: 1551714458:0;cd /
+: 1551714460:0;cd Us
+: 1551714463:0;cd Use
+: 1551714464:0;cd Users
+: 1551714496:0;chmod 0200 sshkey.private
+: 1551714514:0;man chmod
+: 1551714528:0;chmod 0400 sshkey.private
+: 1551714712:0;ssh bandit14@bandit.labs.overthewire.org -p 30000 -i sshkey.private
+: 1551714730:0;ssh bandit14@bandit.labs.overthewire.org -p 30000
+: 1551715867:0;git clone https://github.com/snb1808/Module-5.git
+: 1551715871:0;cd Module-5
+: 1551715906:0;ruby -v
+: 1551715998:0;vim .ruby-version
+: 1551717533:0;ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private
+: 1551717644:0;vim sshkey.private
+: 1551717809:0;ssh bandit15@bandit.labs.overthewire.org -p 2220 -i sshkey.private
+: 1551718054:0;ssh bandit16@bandit.labs.overthewire.org -p 2220 -i sshkey.private
+: 1551776779:0;ssh bandit10@bandit.labs.overthewire.org -p 2220 
+: 1551776817:0;ssh bandit20@bandit.labs.overthewire.org -p 2220 
+: 1551777033:0;ssh bandit21@bandit.labs.overthewire.org -p 2220 
+: 1551793927:0;ssh bandit22@bandit.labs.overthewire.org -p 2220 
+: 1551796145:0;mkdir hacktop
+: 1551796151:0;mv ../sshkey.private hacktop
+: 1551796167:0;git commit -m "ssh key for over the wire"
+: 1551796177:0;hub create ; git push origin master
+: 1551796188:0;touch script.sh
+: 1551796191:0;vim s
+: 1551796197:0;rm -rf s
+: 1551796200:0;vim script.sh
+: 1551796583:0;man timeout
+: 1551796613:0;man cron
+: 1551796889:0;for i in * .*; do echo $i; done
+: 1551798228:0;history | grep create
+: 1551798349:0;history | grep brew
+: 1551799055:0;for i in * .*; do echo $i; doneYk7owGAcWjwMVRwrTesJEwB7WVOiILLI\
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+: 1551799056:0;Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+: 1551799087:0;jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+: 1551799089:0;ssh bandit23@bandit.labs.overthewire.org -p 2220 
+: 1551800087:0;cat /usr/lib/cron/cron.deny
+: 1551800090:0;man crontab
+: 1551800106:0;man 5 crontab
+: 1551865145:0;git clone https://github.com/learn-co-curriculum/immersive-assessment-react-frontend.git
+: 1551865148:0;cd immersive-assessment-react-frontend
+: 1551885688:0;cd ../Module-5/final_project_backend
+: 1551886454:0;rails db:sreerd
+: 1551886517:0;cd final_project_backend
+: 1551886523:0;ls app/controllers
+: 1551886526:0;ls app/controllers/api
+: 1551886528:0;ls app/controllers/api/v1
+: 1551886559:0;ls src
+: 1551886570:0;cd Module-5/final-project-frontend
+: 1551886572:0;npm i 
+: 1551886678:0;cd ../final_project_backend
+: 1551888229:0;cd ../final-project-frontend
+: 1551888240:0;lsof -i :3000
+: 1551888246:0;kill -9 4083
+: 1551888263:0;rails s -b 0.0.0.0 -p 3001
+: 1551963036:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 
+: 1551963048:0;ssh bandit25@bandit.labs.overthewire.org -p 2220 
+: 1551963074:0;touch sshkey3.private
+: 1551963077:0;vim sshkey3.private
+: 1551963115:0;chmod 0200 sshkey3.private
+: 1551963135:0;chmod 0400 sshkey3.private
+: 1551963144:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private
+: 1551963156:0;ssh bandit25@bandit.labs.overthewire.org -p 2220 -i sshkey3.private
+: 1551963189:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private q
+: 1551963227:0;man less
+: 1551963230:0;man more
+: 1551963334:0;cd code/hacktop
+: 1551963338:0;more script.sh
+: 1551963448:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private TERM=console
+: 1551963459:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private -f TERM=console
+: 1551963471:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private -f echo $TERM
+: 1551963512:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private -f export TERM=xterm-256color
+: 1551963559:0;quit
+: 1551963572:0;echo 'a'
+: 1551963576:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private -f cat /etc/bandit_pass/bandit26
+: 1551963588:0;ls ~
+: 1551963596:0;rm -rf ~/VirtualBox\ VMs
+: 1551963601:0;rm -rf ~/kali-linux-2019.1-amd64.iso
+: 1551963615:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private cat /etc/bandit_pass/bandit26
+: 1551963644:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private ^]
+: 1551963649:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private -f ^]
+: 1551963657:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private 
+: 1551963729:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private [[:space:]]
+: 1551963778:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 -i sshkey3.private INTERRUPT
+: 1551963813:0;man ssh
+: 1552052905:0;ssh -p 2220 leviathan-0@leviathan.labs.overthewire.org
+: 1552052932:0;ssh -p 2223 leviathan-0@leviathan.labs.overthewire.org
+: 1552053013:0;ssh -p 2223 leviathan2@leviathan.labs.overthewire.org
+: 1552053041:0;brew install ltrace
+: 1552060854:0;man ltrace
+: 1552061908:0;man strace
+: 1552296566:0;git co -b "pro"
+: 1552296573:0;git commit -m "pro'\
+"
+: 1552296576:0;git push origin pro
+: 1552296773:0;cat flatiron-setup
+: 1552299841:0;vim checker_strings.sh
+: 1552300118:0;cat flatiron-setup-checker.sh
+: 1552300222:0;gitall "checker"
+: 1552300244:0;bash flatiron-setup-checker.sh
+: 1552300256:0;vim flatiron-setup-checker.sh
+: 1552300270:0;code flatiron-setup-checker.sh
+: 1552300371:0;gitall "missed a then"
+: 1552300497:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup/master/flatiron-setup-checker.sh | bash 2> /dev/null\
+
+: 1552300851:0;gitall "updated script"
+: 1552301347:0;gitall "comment"
+: 1552302884:0;\
+# extract strings - most are used in both checker script and installer script\
+check_brew="command -v brew >/dev/null 2>&1"\
+check_git="command -v git >/dev/null 2>&1 && git version | grep -q 'git version'"\
+check_git_user="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.user='"\
+check_git_email="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.email='"\
+check_brew_gmp="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gmp'"\
+check_brew_gnupg="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gnupg'"\
+check_rvm="command -v rvm >/dev/null 2>&1 && which rvm | grep -q '/Users/.*/\.rvm/bin/rvm'"\
+check_ruby_version="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.0 [ x86_64 ]'"\
+check_rvm="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fqv 'Warning! PATH'"\
+check_learn="command -v gem >/dev/null 2>&1 && gem list | grep -q 'learn-co'"\
+check_bundler="command -v gem >/dev/null 2>&1 && gem list | grep -q 'bundler'"\
+check_cask="! brew info cask &>/dev/null"\
+check_atom="command -v atom >/dev/null 2>&1 && atom -v | grep -q 'Atom'"\
+check_atom_editor="cat ~/.learn-config | grep ':editor:' | grep -q 'atom'"\
+check_nokogiri="command -v gem >/dev/null 2>&1 && gem list | grep -q 'nokogiri'"\
+check_sqlite3="command -v sqlite3 >/dev/null 2>&1"\
+check_postgres="command -v postgres >/dev/null 2>&1 && postgres --version | grep -q 'postgres (PostgreSQL)'"\
+check_psql="command -v psql >/dev/null 2>&1 && psql --version | grep -q 'psql (PostgreSQL)'"\
+check_rails="command -v rails >/dev/null 2>&1 && rails --version | grep -q 'Rails'"\
+check_rails_gem="command -v gem >/dev/null 2>&1 && gem list | grep -q 'rails'"\
+check_nvm="command -v nvm >/dev/null 2>&1 && nvm --version | grep -q '[0-9]*\.[0-9]*\.[0-9]*'"\
+check_node="command -v node | grep -q '/Users/.*/.nvm/versions/node/v.*/bin/node'"\
+check_chrome="[ -f /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ] && /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version | grep -q 'Google Chrome'"\
+check_slack="[ -f /Applications/Slack.app/Contents/MacOS/Slack ] && /Applications/Slack.app/Contents/MacOS/Slack --version | grep -q ''"\
+check_git_user_config="command -v git >/dev/null 2>&1 && git config github.user"\
+check_git_email_config="command -v git >/dev/null 2>&1 && git config github.email"\
+check_learn_name="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Name:' | sed 's/Name://g' | sed -e 's/^[[:space:]]*//'"\
+check_learn_username="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Username:' | sed 's/Username://g' | sed -e 's/^[[:space:]]*//'"\
+check_learn_email="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Email:' | sed 's/Email://g' | sed -e 's/^[[:space:]]*//'"\
+
+: 1552302931:0;\
+# This script is far from perfect. Check it.\
+\
+###########################################################################\
+# Credit to Hysan for the below script. Copied and changed from original  #\
+###########################################################################\
+\
+# https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux\
+NC='\033[0m' # No Color\
+RED='\033[0;31m'\
+GREEN='\033[0;32m'\
+BLUE='\033[0;34m'\
+CYAN='\033[0;36m'\
+\
+\
+# https://stackoverflow.com/questions/5615717/how-to-store-a-command-in-a-variable-in-linux\
+# https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function\
+# $1 => Command to run\
+evaluate_test () {\
+  # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script\
+  eval $1 && printf "${GREEN}pass${NC}\n" || printf "${RED}fail${NC}\n"\
+}\
+\
+evaluate () {\
+  eval $1\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_table_results () {\
+  local result=$(evaluate_test "$2")\
+  # https://stackoverflow.com/questions/6345429/how-do-i-print-some-text-in-bash-and-pad-it-with-spaces-to-a-certain-width\
+  printf "%-30s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_data_row () {\
+  local result=$(evaluate "$2")\
+  printf "%-12s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+delimiter () {\
+  printf "${BLUE}******************************************${NC}\n"\
+}\
+\
+validation_header () {\
+  printf "\n${CYAN}************ VALIDATING SETUP ************${NC}\n\n"\
+}\
+\
+configuration_header () {\
+  printf "\n${CYAN}************* CONFIGURATION **************${NC}\n\n"\
+}\
+\
+\
+## Validation\
+validation_header\
+delimiter\
+\
+\
+## 2. Install Xcode Command Line Tools\
+# https://apple.stackexchange.com/questions/219507/best-way-to-check-in-bash-if-command-line-tools-are-installed\
+# https://stackoverflow.com/questions/15371925/how-to-check-if-command-line-tools-is-installed\
+# https://stackoverflow.com/questions/21272479/how-can-i-find-out-if-i-have-xcode-commandline-tools-installed\
+print_table_results "Xcode Command Line Tools" 'type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}"'\
+delimiter\
+\
+## 4. Homebrew\
+# https://stackoverflow.com/questions/21577968/how-to-tell-if-homebrew-is-installed-on-mac-os-x\
+# https://stackoverflow.com/questions/592620/how-to-check-if-a-program-exists-from-a-bash-script\
+print_table_results "Homebrew" $check_brew\
+delimiter\
+\
+## 5. git\
+# https://stackoverflow.com/questions/12254076/how-do-i-show-my-global-git-config\
+print_table_results "Installed git" $check_git\
+print_table_results "Github user config" $check_git_user\
+print_table_results "Github email config" $check_git_email\
+delimiter\
+\
+## 6. Support Libraries\
+print_table_results "Installed gmp" $check_gmp\
+print_table_results "Installed gnupg" $check_gnupg\
+delimiter\
+\
+## 7. Ruby Version Manager (rvm)\
+print_table_results "Installed RVM" $check_rvm\
+print_table_results "Default RVM (2.3.3)" $check_rvm_v\
+print_table_results "Test RVM PATH" $check_rvm_path\
+delimiter\
+\
+## 8. Gems\
+print_table_results "Gem: learn-co" $check_learn\
+print_table_results "Gem: bundler" $check_bundler\
+delimiter\
+\
+## 9. Learn\
+## See Student Configuration section.\
+\
+## 10. Atom\
+print_table_results "Installed Atom" $check_atom\
+# print_table_results "Learn Editor" $check_atom_editor\
+delimiter\
+\
+## 11. Gems (more)\
+print_table_results "Gem: nokogiri" $check_nokogiri\
+delimiter\
+\
+## 12. Databases\
+print_table_results "Installed sqlite" $check_sqlite\
+print_table_results "Installed PostgreSQL" $check_postgresql\
+print_table_results "Installed psql" $check_psql\
+delimiter\
+\
+## 13. Rails\
+print_table_results "Installed Rails" $check_rail\
+print_table_results "Gem: rails" $check_rails_gem\
+delimiter\
+\
+## 14. Node Version Manager (nvm)\
+# https://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script\
+# https://stackoverflow.com/questions/39190575/bash-script-for-changing-nvm-node-version\
+. ~/.nvm/nvm.sh\
+print_table_results "Installed NVM" $check_nvm\
+print_table_results "Installed Node" $check_node\
+print_table_results "Default Node (11.x)" 'command -v nvm >/dev/null 2>&1 && nvm version default | grep -q "v11"'\
+delimiter\
+\
+## 16. Google Chrome\
+# https://unix.stackexchange.com/questions/63387/single-command-to-check-if-file-exists-and-print-custom-message-to-stdout\
+print_table_results "Installed Google Chrome" $check_chrome\
+delimiter\
+\
+## 17. Slack\
+print_table_results "Installed Slack" $check_slack\
+delimiter\
+\
+\
+## Student Configuration\
+configuration_header\
+delimiter\
+\
+## 5. git\
+echo "Github"\
+print_data_row "Username" $check_git_config_username\
+print_data_row "Email" $check_git_config_email\
+delimiter\
+\
+## 9. Learn\
+# https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable\
+echo "Learn"\
+print_data_row "Name" $check_learn_name\
+print_data_row "Username" $check_learn_username\
+print_data_row "Email" $check_learn_email\
+delimiter\
+
+: 1552303029:0;bash --verison
+: 1552303032:0;bash --version
+: 1552310763:0;eval $check_chrome && echo 'a'
+: 1552310768:0;echo $check_c
+: 1552310778:0;cat flatiron-setup-complete.sh
+: 1552310790:0;check_chrome="[ -f /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ] && /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version | grep -q 'Google Chrome'"\
+
+: 1552310793:0;echo $check_chrome
+: 1552310799:0;eval $check_chrome
+: 1552310813:0;evaluate() {\
+eval $1\
+}
+: 1552310818:0;evaluate $check_chrome
+: 1552315135:0;check_atom="command -v atom >/dev/null 2>&1 && atom -v | grep -q 'Atom'"\
+
+: 1552315142:0;eval $check_atom
+: 1552315154:0;eval $check_atom && brew cask install atom\
+
+: 1552315220:0;for i in ["a", "b"]; do echo $i; done
+: 1552315240:0;for i in ("a", "b"); do echo $i; done
+: 1552315256:0;for i in ('a', 'b'); do echo $i; done
+: 1552315267:0;arr=('a','b')
+: 1552315271:0;$arr[0]
+: 1552315274:0;echo $arr
+: 1552315289:0;for i in ('a' 'b'); do echo $i; done
+: 1552315295:0;arr=('a' 'b')
+: 1552315297:0;echo $arr[1]
+: 1552315300:0;echo $arr[0]
+: 1552315301:0;echo $arr[3]
+: 1552315303:0;echo $arr[2]
+: 1552315312:0;for i in ('a' 'b'); do echo $i[1]; done
+: 1552315316:0;for i in ('a' 'b'); do echo 'a'; done
+: 1552315390:0;for i in $(gems=("learn-co" "bundler" "json" "rspec" "pry" "pry-byebug" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")\
+); do echo 'a'; done
+: 1552315400:0;for i in gems; echo $i; done
+: 1552315404:0;for i in gems; do echo $i; done
+: 1552315414:0;for i in ${gems}; do echo $i; done
+: 1552315419:0;for i in ${gems[@]}; do echo $i; done
+: 1552315453:0;for i in ${gems[@]}; do echo "gem: "; done
+: 1552315456:0;for i in ${gems[@]}; do echo "gem: $i"; done
+: 1552315463:0;for i in ${gems[@]}; do echo "gem: '$i'"; done
+: 1552315493:0;gems=("learn-co" "bundler" "json" "rspec" "pry" "pry-byebug" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")\
+
+: 1552315498:0;for i in ${gems}; do\
+  eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $i" && gem install $i --no-document\
+  echo "Ruby looks better with gems"\
+done
+: 1552315551:0;gems=("learn-co" "bundler" "json" "rspec" "pry" "pry-byebug" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")\
+for i in ${gems}; do\
+  eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $i" && gem install $i --no-document && echo 'installed $i'\
+done
+: 1552315575:0;gems=("learn-co" "bundler" "json" "rspec" "pry" "pry-byebug" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")\
+for i in ${gems}; do\
+  eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $i" && gem install $i --no-document && echo "installed $i"\
+done
+: 1552315671:0;gem="command -v gem >/dev/null 2>&1 && gem list | grep -q hub"
+: 1552315676:0;eval $gem
+: 1552315681:0;eval $gem && echo 'a'
+: 1552315685:0;! eval $gem && echo 'a'
+: 1552315692:0;! eval $gem && echo 'a' && echo 'a'
+: 1552315705:0;gem install learn-co bundler json
+: 1552315804:0;gem list | grep hub
+: 1552315809:0;gem list | grep thin
+: 1552315814:0;gem list | grep pry-byebug
+: 1552315821:0;gem list | grep shotgun
+: 1552316899:0;gems=("learn-co" "bundler" "json" "rspec" "pry" "pry-byebug" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")\
+for i in ${gems}; do\
+  ! eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $i" && gem install $i --no-document && echo "installed $i"\
+done
+: 1552317399:0;check_ruby_version="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'"\
+
+: 1552317422:0;command -v rvm >/dev/null 2>&1
+: 1552317429:0;command -v rvm >/dev/null 2>&1 && rvm list
+: 1552317441:0;command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'
+: 1552317464:0;rvm lkist
+: 1552317471:0;rvm list --help
+: 1552317480:0;rvm help
+: 1552317678:0;\
+if ! eval $check_rvm; then\
+  curl -sSL https://get.rvm.io | bash\
+  # work around so you dont have to close and reopen terminal\
+  if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then\
+    . "$HOME/.rvm/scripts/rvm"\
+  else\
+    echo "$HOME/.rvm/scripts/rvm" could not be found.\
+    exit 1\
+  fi\
+  export PATH="$PATH:$HOME/.rvm/bin"\
+  echo "you now have rvm (that's ruby version manager)"\
+fi
+: 1552317695:0;eval $check_ruby_version
+: 1552317957:0;rvm use 2.6.1
+: 1552317964:0;rvm list --default
+: 1552317972:0;rvm list
+: 1552317982:0;! eval $check_rvm_path
+: 1552318027:0;echo "Please ensure you have run `xcode-select --install` before this script"\
+
+: 1552318036:0;echo "Please ensure you have run 'xcode-select --install' before this script"\
+
+: 1552318110:0;check_cask="! brew info cask &>/dev/null"\
+
+: 1552318112:0;eval $check_
+: 1552318118:0;eval $check_cask && echo 'a'
+: 1552318123:0;! eval $check_cask && echo 'a'
+: 1552318132:0;brew info cask
+: 1552318156:0;brew info cask &>/dev/null
+: 1552318161:0;brew info cask &>/dev/null && echo 'a'
+: 1552318256:0;! brew info cask &>/dev/null && echo 'a'
+: 1552318268:0;history "
+: 1552318272:0;h | grep casl
+: 1552318273:0;h | grep cask
+: 1552318304:0;brew cask reinstall expressvpn
+: 1552318351:0;! brew info cask &>/dev/null && echo 'failed to install'
+: 1552318474:0;check_rvm_path="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fqv 'Warning! PATH'"\
+
+: 1552318541:0;vim flatiron-manual-setup
+: 1552318581:0;# extract strings - most are used in both checker script and installer script\
+check_brew="command -v brew >/dev/null 2>&1"\
+check_git="command -v git >/dev/null 2>&1 && git version | grep -q 'git version'"\
+check_git_user="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.user='"\
+check_git_email="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.email='"\
+check_brew_gmp="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gmp'"\
+check_brew_gnupg="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gnupg'"\
+check_rvm="command -v rvm >/dev/null 2>&1 && which rvm | grep -q '/Users/.*/\.rvm/bin/rvm'"\
+check_ruby_version="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'"\
+check_rvm_path="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fqv 'Warning! PATH'"\
+check_learn="command -v gem >/dev/null 2>&1 && gem list | grep -q 'learn-co'"\
+check_bundler="command -v gem >/dev/null 2>&1 && gem list | grep -q 'bundler'"\
+check_nokogiri="command -v gem >/dev/null 2>&1 && gem list | grep -q 'nokogiri'"\
+check_rails_gem="command -v gem >/dev/null 2>&1 && gem list | grep -q 'rails'"\
+check_here="command -v gem >/dev/null 2>&1 && gem list | grep -q 'rails'"\
+check_atom="command -v atom >/dev/null 2>&1 && atom -v | grep -q 'Atom'"\
+check_atom_editor="cat ~/.learn-config | grep ':editor:' | grep -q 'atom'"\
+check_sqlite3="command -v sqlite3 >/dev/null 2>&1"\
+check_postgres="command -v postgres >/dev/null 2>&1 && postgres --version | grep -q 'postgres (PostgreSQL)'"\
+check_psql="command -v psql >/dev/null 2>&1 && psql --version | grep -q 'psql (PostgreSQL)'"\
+check_rails="command -v rails >/dev/null 2>&1 && rails --version | grep -q 'Rails'"\
+check_nvm="command -v nvm >/dev/null 2>&1 && nvm --version | grep -q '[0-9]*\.[0-9]*\.[0-9]*'"\
+check_node="command -v node | grep -q '/Users/.*/.nvm/versions/node/v.*/bin/node'"\
+check_chrome="[ -f /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ] && /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --version | grep -q 'Google Chrome'"\
+check_slack="[ -f /Applications/Slack.app/Contents/MacOS/Slack ] && /Applications/Slack.app/Contents/MacOS/Slack --version | grep -q ''"\
+check_git_user_config="command -v git >/dev/null 2>&1 && git config github.user"\
+check_git_email_config="command -v git >/dev/null 2>&1 && git config github.email"\
+check_learn_name="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Name:' | sed 's/Name://g' | sed -e 's/^[[:space:]]*//'"\
+check_learn_username="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Username:' | sed 's/Username://g' | sed -e 's/^[[:space:]]*//'"\
+check_learn_email="command -v learn >/dev/null 2>&1 && learn whoami | grep 'Email:' | sed 's/Email://g' | sed -e 's/^[[:space:]]*//'"\
+
+: 1552318590:0;if ! eval $check_node; then\
+  nvm install node\
+  nvm use node\
+  nvm alias default node\
+fi\
+\
+# postgres\
+if ! eval $check_postgres; then\
+  brew install postgresql\
+  ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents\
+  export alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"\
+  pg_start\
+fi
+: 1552318600:0;\
+! eval $check_chrome && brew cask install google-chrome\
+! eval $check_slack && brew cask install slack\
+
+: 1552318621:0;! eval $check_atom && brew cask install atom\
+
+: 1552318629:0;\
+if ! eval $check_nvm; then\
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash\
+  echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile\
+  echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bash_profile\
+  source ~/.bash_profile\
+fi\
+\
+! eval $check_chrome && brew cask install google-chrome\
+! eval $check_slack && brew cask install slack\
+\
+# node stuff\
+if ! eval $check_node; then\
+  nvm install node\
+  nvm use node\
+  nvm alias default node\
+fi\
+\
+# postgres\
+if ! eval $check_postgres; then\
+  brew install postgresql\
+  ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents\
+  export alias pg_start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"\
+  pg_start\
+fi
+: 1552318637:0;\
+# https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux\
+NC='\033[0m' # No Color\
+RED='\033[0;31m'\
+GREEN='\033[0;32m'\
+BLUE='\033[0;34m'\
+CYAN='\033[0;36m'\
+\
+\
+# https://stackoverflow.com/questions/5615717/how-to-store-a-command-in-a-variable-in-linux\
+# https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function\
+# $1 => Command to run\
+evaluate_test () {\
+  # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script\
+  eval $1 && printf "pass\n" || printf "fail\n"\
+}\
+\
+evaluate () {\
+  eval $1\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_table_results () {\
+  local result=$(evaluate_test "$2")\
+  # https://stackoverflow.com/questions/6345429/how-do-i-print-some-text-in-bash-and-pad-it-with-spaces-to-a-certain-width\
+  printf "%-30s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_data_row () {\
+  local result=$(evaluate "$2")\
+  printf "%-12s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+delimiter () {\
+  printf "${BLUE}******************************************${NC}\n"\
+}\
+\
+validation_header () {\
+  printf "\n${CYAN}************ VALIDATING SETUP ************${NC}\n\n"\
+}\
+\
+configuration_header () {\
+  printf "\n${CYAN}************* CONFIGURATION **************${NC}\n\n"\
+}\
+\
+\
+## Validation\
+validation_header\
+delimiter\
+\
+\
+## 2. Install Xcode Command Line Tools\
+# https://apple.stackexchange.com/questions/219507/best-way-to-check-in-bash-if-command-line-tools-are-installed\
+# https://stackoverflow.com/questions/15371925/how-to-check-if-command-line-tools-is-installed\
+# https://stackoverflow.com/questions/21272479/how-can-i-find-out-if-i-have-xcode-commandline-tools-installed\
+print_table_results "Xcode Command Line Tools" 'type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}"'\
+delimiter\
+\
+## 4. Homebrew\
+# https://stackoverflow.com/questions/21577968/how-to-tell-if-homebrew-is-installed-on-mac-os-x\
+# https://stackoverflow.com/questions/592620/how-to-check-if-a-program-exists-from-a-bash-script\
+print_table_results "Homebrew" $check_brew\
+delimiter\
+\
+## 5. git\
+# https://stackoverflow.com/questions/12254076/how-do-i-show-my-global-git-config\
+print_table_results "Installed git" $check_git\
+print_table_results "Github user config" $check_git_user\
+print_table_results "Github email config" $check_git_email\
+delimiter\
+\
+## 6. Support Libraries\
+print_table_results "Installed gmp" $check_gmp\
+print_table_results "Installed gnupg" $check_gnupg\
+delimiter\
+\
+## 7. Ruby Version Manager (rvm)\
+print_table_results "Installed RVM" $check_rvm\
+print_table_results "Default RVM (2.6.1)" $check_ruby_version\
+print_table_results "Test RVM PATH" $check_rvm_path\
+delimiter\
+\
+## 8. Gems\
+print_table_results "Gem: learn-co" $check_learn\
+print_table_results "Gem: bundler" $check_bundler\
+delimiter\
+\
+## 9. Learn\
+## See Student Configuration section.\
+\
+## 10. Atom\
+print_table_results "Installed Atom" $check_atom\
+# print_table_results "Learn Editor" $check_atom_editor\
+delimiter\
+\
+## 11. Gems (more)\
+print_table_results "Gem: nokogiri" $check_nokogiri\
+delimiter\
+\
+## 12. Databases\
+print_table_results "Installed sqlite" $check_sqlite\
+print_table_results "Installed PostgreSQL" $check_postgresql\
+print_table_results "Installed psql" $check_psql\
+delimiter\
+\
+## 13. Rails\
+print_table_results "Installed Rails" $check_rail\
+print_table_results "Gem: rails" $check_rails_gem\
+delimiter\
+\
+## 14. Node Version Manager (nvm)\
+# https://unix.stackexchange.com/questions/184508/nvm-command-not-available-in-bash-script\
+# https://stackoverflow.com/questions/39190575/bash-script-for-changing-nvm-node-version\
+. ~/.nvm/nvm.sh\
+print_table_results "Installed NVM" $check_nvm\
+print_table_results "Installed Node" $check_node\
+print_table_results "Default Node (11.x)" 'command -v nvm >/dev/null 2>&1 && nvm version default | grep -q "v11"'\
+delimiter\
+\
+## 16. Google Chrome\
+# https://unix.stackexchange.com/questions/63387/single-command-to-check-if-file-exists-and-print-custom-message-to-stdout\
+print_table_results "Installed Google Chrome" $check_chrome\
+delimiter\
+\
+## 17. Slack\
+print_table_results "Installed Slack" $check_slack\
+delimiter\
+\
+\
+## Student Configuration\
+configuration_header\
+delimiter\
+\
+## 5. git\
+echo "Github"\
+print_data_row "Username" $check_git_config_username\
+print_data_row "Email" $check_git_config_email\
+delimiter\
+\
+## 9. Learn\
+# https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable\
+echo "Learn"\
+print_data_row "Name" $check_learn_name\
+print_data_row "Username" $check_learn_username\
+print_data_row "Email" $check_learn_email\
+delimiter\
+
+: 1552318667:0;check_rvm="command -v rvm >/dev/null 2>&1 && which rvm | grep -q '/Users/.*/\.rvm/bin/rvm'"\
+
+: 1552318674:0;eval $check_rvm
+: 1552318847:0;gem install learn-co
+: 1552319092:0;! eval $check_nvm
+: 1552319103:0;if ! eval $check_nvm; then\
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash\
+  echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile\
+  echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bash_profile\
+  source ~/.bash_profile\
+fi
+: 1552319112:0;check_nvm="command -v nvm >/dev/null 2>&1 && nvm --version | grep -q '[0-9]*\.[0-9]*\.[0-9]*'"\
+
+: 1552319119:0;! eval $check_nvm && echo 'a'
+: 1552319202:0;nvm --version
+: 1552319207:0;nvm --version | grep -q '[0-9]*\.[0-9]*\.[0-9]*'
+: 1552319217:0;nvm --version | grep '[0-9]*\.[0-9]*\.[0-9]*'
+: 1552319270:0;echo $/
+: 1552319373:0;. ~/.nvm/nvm.sh\
+
+: 1552319380:0;print_table_results "Installed NVM" $check_nvm\
+
+: 1552319405:0;if ! eval $check_nvm; then\
+echo 'nah'\
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash\
+  echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile\
+  echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bash_profile\
+  source ~/.bash_profile\
+fi
+: 1552319742:0;bash -x flatiron-setup-complete.sh
+: 1552319923:0;eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\'''\
+eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\'''\
+
+: 1552319932:0;eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\'''\
+
+: 1552319942:0;eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\''' && echo 'a'
+: 1552319956:0;eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\''' && echo 'pass'
+: 1552319979:0;if ! eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\''' ; do echo 'a'; fi
+: 1552319984:0;if ! eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\''' ;  echo 'a'; fi
+: 1552319989:0;if ! eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\''' ;  echo 'a' fi
+: 1552320022:0;if ! "eval command -v nvm '>/dev/null' '2>&1' '&&' nvm --version '|' grep -q ''\''[0-9]*\.[0-9]*\.[0-9]*'\'''" ;  echo 'a'; fi
+: 1552320027:0;echo $check_nvm
+: 1552320036:0;eval $check_nvm 
+: 1552320042:0;eval $check_nvm && echo 'a'
+: 1552320053:0;eval $check_rvm && echo 'a'
+: 1552320061:0;eval $check_atom && echo 'a'
+: 1552320066:0;eval $check_ruby_version && echo 'a'
+: 1552320104:0;if ! eval $check_atom; then echo 'a'; fi
+: 1552320114:0;if ! eval $check_brew; then echo 'a'; fi
+: 1552320122:0;if ! eval $check_nvm; then echo 'a'; fi
+: 1552320124:0;if ! eval $check_rvm; then echo 'a'; fi
+: 1552320140:0;command -v nvm >/dev/null 2>&1 && nvm --version | grep -q '[0-9]*\.[0-9]*\.[0-9]*'
+: 1552320145:0;command -v nvm >/dev/null 2>&1 && nvm --version | grep '[0-9]*\.[0-9]*\.[0-9]*'
+: 1552320158:0;eval $check_nvm
+: 1552320222:0;command -v sqlite3 >/dev/null 2>&1
+: 1552320314:0;eval "command -v nvm >/dev/null 2>&1 && nvm --version | grep '[0-9]*\.[0-9]*\.[0-9]*'"\
+
+: 1552321163:0;eval "command -v nvm >/dev/null 2>&1 && nvm --version | grep '[0-9]*\.[0-9]*\.[0-9]*'"
+: 1552322176:0;check_node_version="'command -v nvm >/dev/null 2>&1 && nvm version default | grep -q 'v11''"\
+
+: 1552322192:0;command -v nvm
+: 1552322201:0;command -v nvm && nvm version default
+: 1552322216:0;check_node_version="command -v nvm >/dev/null 2>&1 && nvm version default | grep -q 'v11'"\
+
+: 1552322218:0;eval $check_node_version
+: 1552322228:0;bash flatiron-setup
+: 1552326115:0;rm -rf .flatiron-setup-complete.sh.swo
+: 1552326118:0;rm -rf .flatiron-setup-complete.sh.swp 
+: 1552326163:0;bash flatiron-setup-complete.sh
+: 1552401317:0;kill -9 284
+: 1552471620:0;git commit -m "fixed nvm bug and cask bugs"
+: 1552471636:0;rm flatiron-setup-checker.sh flatiron-setup.sh checker_strings.sh xcode.sh
+: 1552471648:0;git commit -m "one big script for delivery"
+: 1552475636:0;cat ~/.learn-config
+: 1552476091:0;cd ../flatiron-manual-setup
+: 1552476122:0;git add . ; git commit -m "fixed git config and tidies comments"
+: 1552476145:0;vim flatiron-setup-complete.sh
+: 1552476240:0;git add . ; git commit -m 'use airdrop"\
+'
+: 1552476352:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup-validator/master/manual-setup.sh | bash 2> /dev/null\
+
+: 1552476360:0;mv flatiron-setup-complete.sh flatiron-setup.sh
+: 1552476424:0;git add . ; git commit -m "change name and readme"
+: 1552476529:0;read -p "Enter github email: " email\
+
+: 1552476770:0;man read
+: 1552476814:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup-validator/master/manual-setup.sh | bash
+: 1552476823:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup-validator/master/flatiron-setup.sh | bash
+: 1552476851:0;read -p "asdf" email
+: 1552476926:0;read 'asdf' email
+: 1552476996:0;git commit -m "POSIX compliant read function"
+: 1552477041:0;printf '%s ' 'asdf'
+: 1552477050:0;printf '%s ' 'Enter github email: '\
+read "Enter github email: " email
+: 1552477084:0;read 'asdf'
+: 1552477092:0;read 'ans?asdf'
+: 1552477161:0;gitall "use ans for read to be POSIX compliant"
+: 1552477290:0;touch input.sh
+: 1552477310:0;bash i
+: 1552477313:0;vim input.sh
+: 1552477323:0;bash input.sh
+: 1552477720:0;gitall "POSIX"
+: 1552478028:0;gitall "POSIX compliant"
+: 1552478063:0;gitall 'no comment for airdrop since curl works'
+: 1552478184:0;man printf
+: 1552478232:0;gitall "echo new line"
+: 1552478556:0;gitall "echo instead of read"
+: 1552478561:0;curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup/master/flatiron-setup.sh | bash
+: 1552478752:0;gitall "update readme to support process substitution"
+: 1552482912:0;rm -rf input.sh
+: 1552482935:0;gitall "removed debug file testing POSIX compliance"
+: 1552483049:0;gitall "added url link to comments"
+: 1552483350:0;gitall "removed echo's"
+: 1552483401:0;gitall "ruby version push"
+: 1552483477:0;gitall "no hard exit and gem comment"
+: 1552483543:0;gitall "corrected name in comment"
+: 1552487479:0;learn
+: 1552489031:0;git revert 620c21bf300ff8b4a28390adc604966713ba4c73
+: 1552489041:0;git revert 4dafde597c7339a8c7da99abef2195dc3594c621
+: 1552489072:0;git commit -m "reverted commit adding quotation marks"
+: 1552489314:0;	bash <(curl -so- https://raw.githubusercontent.com/Voxoff/flatiron-manual-setup/master/flatiron-setup.sh)
+: 1552491334:0;command -v git >/dev/null 2>&1 && git config --global user.name
+: 1552491379:0;bash check
+: 1552491380:0;bash check.sh
+: 1552491418:0;vim check.sh
+: 1552498388:0;git reset --hard
+: 1552499130:0;bash -x flatiron-setup.sh
+: 1552499189:0;https://stackoverflow.com/questions/5615717/how-to-store-a-command-in-a-variable-in-linux\
+# https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function\
+# $1 => Command to run\
+evaluate_test () {\
+  # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script\
+  eval $1 && printf "${GREEN}pass${NC}\n" || printf "${RED}fail${NC}\n"\
+}\
+\
+evaluate () {\
+  eval $1\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_table_results () {\
+  local result=$(evaluate_test "$2")\
+  # https://stackoverflow.com/questions/6345429/how-do-i-print-some-text-in-bash-and-pad-it-with-spaces-to-a-certain-width\
+  printf "%-30s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_data_row () {\
+  local result=$(evaluate "$2")\
+  printf "%-12s => [ %-6s ]\n" "$1" "$result"\
+}
+: 1552499217:0;echo -n "Enter github email: "\
+read answer\
+email=$answer\
+\
+echo -n "Enter github name: "\
+read answer\
+name=$answer
+: 1552499230:0;\
+git config --global user.email $email\
+git config --global user.name $fullname
+: 1552499252:0;echo "Github"\
+print_data_row "Username" $check_git_user_config\
+print_data_row "Email" $check_git_email_config\
+delimiter
+: 1552499261:0;print_data_row "Username" "$check_git_user_config"
+: 1552499266:0;print_data_row "Username" $check_git_user_config
+: 1552499277:0;cat ~/.gitconfig
+: 1552499289:0;print_data_row "Username" $check_git_user_configprint_data_row "Email" $check_git_email_config\
+
+: 1552499299:0;eval $check_git_email_config
+: 1552499302:0;echo 4?
+: 1552499305:0;echo $?
+: 1552499325:0;command -v git >/dev/null 2>&1 && git config --global user.email
+: 1552499524:0;print_data_row "Email" $check_git_email_config\
+
+: 1552499537:0;local result=$(evaluate "$2")
+: 1552499583:0;local result=$(evaluate "$1")
+: 1552499596:0;local result=$(evaluate "$check_git_email_config")
+: 1552499604:0;echo result
+: 1552499619:0;a=evaluate $check_git_email_config
+: 1552499636:0;a=$(evaluate $check_git_email_config)
+: 1552499698:0;\
+check_git_user_config="command -v git >/dev/null 2>&1 && git config --global user.name"\
+check_git_email_config="command -v git >/dev/null 2>&1 && git config --global user.email"\
+
+: 1552499702:0;echo $check_git_email_config
+: 1552499710:0;evaluate $check_git_email_config
+: 1552499714:0;a=$(eval $check_git_email_config)
+: 1552499716:0;echo $a
+: 1552499722:0;local result=$(evaluate $check_git_email_config)
+: 1552499726:0;echo $result
+: 1552499735:0;print_data_row "Email" $check_git_email_config
+: 1552499782:0;bash flatiron-setup.sh
+: 1552562853:0;cat a \r echo b
+: 1552563215:0;history | grep sshpass
+: 1552563300:0;ssh -p 2223 leviathan0@leviathan.labs.overthewire.org
+: 1552563400:0;echo 'asdf' $(echo 'asdf' >> info.txt)
+: 1552563418:0;grep -i 'asdf' $(echo 'asdf' >> info.txt)
+: 1552563425:0;history grep -i 'aasdf' $(echo 'asdf' >> info.txt)
+: 1552563430:0;history | grep -i 'aasdf' $(echo 'asdf' >> info.txt)
+: 1552563438:0;history | grep -i 'aasdf' $(echo 'asdaf' >> info.txt)
+: 1552563440:0;cat info.txt
+: 1552563555:0;ssh -p 2223 leviathan1@leviathan.labs.overthewire.org
+: 1552563578:0;ssh -p natas0@leviathan.labs.overthewire.org
+: 1552563585:0;ssh natas0@natas.labs.overthewire.org
+: 1552564541:0;wman grep
+: 1552564576:0;man fgrep
+: 1552566601:0;man grep
+: 1552567985:0;touch natas11.txt
+: 1552567989:0;echo "ClVLIh4ASCsCBE8lAxMacFMZV2hdVVotEhhUJQNVAmhSFVooQEYJaAw" >> natas11.txt
+: 1552567994:0;base64 -d natas11.txt
+: 1552568001:0;base64 -D natas11.txt
+: 1552568085:0;curl -s https://php-osx.liip.ch/install.sh | bash -s 7.2\
+
+: 1552568142:0;httpd -v\
+
+: 1552574649:0;cd hotloader
+: 1552574684:0;git clone https://github.com/Voxoff/hotload.git
+: 1552574701:0;gem Gemfile
+: 1552574977:0;git blame config/cable.yml
+: 1552575013:0;git co 9ffd309a
+: 1552575156:0;ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+: 1552575263:0;cd /Library/LaunchAgents
+: 1552575282:0;rm -rf
+: 1552575294:0;rm -rf com.carbonblack.defense.ui.plist com.google.keystone.agent.plist com.google.keystone.xpcservice.plist com.oracle.java.Java-Updater.plist
+: 1552575297:0;sudop rm -rf com.carbonblack.defense.ui.plist com.google.keystone.agent.plist com.google.keystone.xpcservice.plist com.oracle.java.Java-Updater.plist
+: 1552575300:0;sudo rm -rf com.carbonblack.defense.ui.plist com.google.keystone.agent.plist com.google.keystone.xpcservice.plist com.oracle.java.Java-Updater.plist
+: 1552575311:0;rm LaunchAgents
+: 1552575314:0;rm -rf LaunchAgents
+: 1552575316:0;sudo rm -rf LaunchAgents
+: 1552575324:0;brew services start redis
+: 1552575621:0;launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+: 1552575627:0;brew install redis
+: 1552575648:0;brew reinstall redis
+: 1552575659:0;redis-cli ping
+: 1552576494:0;redis-server\
+
+: 1552576512:0;cd ../hotload
+: 1552577884:0;mv ~/Downloads/stegano1.bmp .
+: 1552577890:0;file stegano1.bmp
+: 1552577905:0;stegano1.bmp | strings
+: 1552577908:0;cat stegano1.bmp | strings
+: 1552577978:0;touch caesar.rb
+: 1552579027:0;curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request
+: 1552579165:0;curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW"
+: 1552579225:0;var=$(curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW") ; curl https://www.wechall.net/challenge/training/programming1/index.php\?answer\=$var
+: 1552579258:0;var=$(curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW") 
+: 1552579263:0;echo $var
+: 1552579302:0;curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW" | curl "https://www.wechall.net/challenge/training/programming1/index.php?answer=$var"
+: 1552579370:0;curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW" | curl "https://www.wechall.net/challenge/training/programming1/index.php?answer=$var" -b "WC=11334112-46729-12sZCpd8V4qbRcXW"
+: 1552579595:0;va=$(curl https://www.wechall.net/challenge/training/programming1/index.php\?action\=request -b "WC=11334112-46729-12sZCpd8V4qbRcXW") | curl "https://www.wechall.net/challenge/training/programming1/index.php?answer=$va" -b "WC=11334112-46729-12sZCpd8V4qbRcXW"
+: 1552580705:0;va=$(curl "https://www.wechall.net/challenge/training/programming1/index.php?action=request" -b "WC=11334112-46729-12sZCpd8V4qbRcXW") | curl "https://www.wechall.net/challenge/training/programming1/index.php?answer=$va" -b "WC=11334112-46729-12sZCpd8V4qbRcXW"
+: 1552580722:0;va=$(curl "https://www.wechall.net/challenge/training/programming1/index.php?action=request" -b "WC=11334112-46729-12sZCpd8V4qbRcXW") ; curl "https://www.wechall.net/challenge/training/programming1/index.php?answer=$va" -b "WC=11334112-46729-12sZCpd8V4qbRcXW"
+: 1552650827:0;kls
+: 1552650836:0;git clone https://github.com/Voxoff/guybennettjones.git
+: 1552650845:0;cat db/seeds.rb
+: 1552656449:0;haskell
+: 1552670412:0;cd hacktop
+: 1552670419:0;cat caesar.rb
+: 1552670461:0;vim caesar.rb
+: 1552670481:0;ruby caesar.rb
+: 1552906949:0;cd flatiron-manual-setup
+: 1552906962:0;cat .DS_Store
+: 1552906975:0;rm -rf .DS_Store
+: 1552906983:0;rm -rf check.sh
+: 1552907012:0;cat flatiron-setup.sh
+: 1552907034:0;git reset
+: 1552907044:0;vim flatiron-setup.sh
+: 1552907093:0;gitall "variable change"
+: 1552915111:0;mv fourfive fourfive_1
+: 1552915115:0;mkdir fourfive
+: 1552915124:0;mv fourfive_1 fourfive_backup fourfiveassets fourfive
+: 1552915127:0;lksd
+: 1552915131:0;mv fourfive_1 fourfive
+: 1552915145:0;mv flatiron-manual-setup flatiron
+: 1552915186:0;learn open ruby-boating-school-london-web-career-031119
+: 1552915223:0;mkdir mod1
+: 1552915229:0;git clone https://github.com/Voxoff/ruby-boating-school-london-web-career-031119.git
+: 1552915232:0;cd ruby-boating-school-london-web-career-031119
+: 1552916838:0;ruby tools
+: 1552921023:0;git clone https://github.com/Voxoff/ruby-boating-school-london-web-career-031119.git ruby-boating-school
+: 1552921148:0;cd ruby-boating-school
+: 1552923836:0;gem install rubocop
+: 1552992287:0;rm -rf ruby-boating-school
+: 1552992301:0;learn open oo-relationships-practice-silicon-valley
+: 1552992343:0;learn open silicon-valley
+: 1552992516:0;learn open silicon-valley-code-challenge-london-web-career-031119
+: 1552992538:0;git clone https://github.com/learn-co-students/silicon-valley-code-challenge-london-web-career-031119.git
+: 1553006479:0;git clone https://github.com/learn-co-students/silicon-valley-code-challenge-london-web-career-031119.git silicon-valley
+: 1553007181:0;	which rubocop
+: 1553007194:0;mdfind rubocop.yml
+: 1553007241:0;ls -a | grep cop
+: 1553007277:0;touch rubocop.yml
+: 1553007296:0;vim r
+: 1553007303:0;vim rubocop.yml
+: 1553007395:0;cd ../flatiron/mod1
+: 1553007404:0;cd silicon-valley-code-challenge-london-web-career-031119
+: 1553007408:0;mv silicon-valley ../
+: 1553007411:0;cd silicon-valley
+: 1553017273:0;cd ~
+: 1553017293:0;find / -name postgres > results.txt
+: 1553017345:0;find / -name postgres 2> results.txt
+: 1553017358:0;find / -name postgres 1> 2> results.txt
+: 1553017363:0;find / -name postgres 1&2> results.txt
+: 1553017372:0;find / -name postgres 2>&1 results.txt
+: 1553017390:0;find / -name postgres &> results.txt
+: 1553017395:0;cat results.txt
+: 1553074579:0;mv Downloads/07-intro-sql Desktop
+: 1553074848:0;brew cask install db-browser-for-sqlite
+: 1553082807:0;git clone https://github.com/sam20gh/module-1-code-challenge---london-web-031119---altern-module-1-code-challenge---alternate--1553074235.git
+: 1553082905:0;cd ~/Desktop
+: 1553082907:0;cd 07-intro-sql
+: 1553083025:0;CD /tmp/module-1-code-challenge---london-web-031119---altern-module-1-code-challenge---alternate--1553074235
+: 1553083026:0;LS
+: 1553083038:0;cd module-1-code-challenge---london-web-031119---altern-module-1-code-challenge---alternate--1553074235
+: 1553083075:0;ruby tools/console.rb
+: 1553085371:0;cd Desktop/07-intro-sql
+: 1553092039:0;rm -rf Sid\ Meier\'s\ Civilization\ VI.app
+: 1553092043:0;rm Screenshot\ 2019-03-19\ at\ 11.56.51.png
+: 1553094435:0;cp 07-intro-sql sql-lecture 
+: 1553094443:0;cp -r 07-intro-sql sql-lecture
+: 1553094445:0;cd sql-lecture
+: 1553097361:0;sqlite3
+: 1553100119:0;gem install sqlite23
+: 1553100124:0;gem install sqlite3
+: 1553100145:0;ruby how_to_database.rb
+: 1553100579:0;ls =al
+: 1553100593:0;mdfind part2
+: 1553100617:0;mdfind part2 | grep ".mov"
+: 1553100714:0;cd Desktop
+: 1553100722:0;mv part\ 2.mov part_2.mov
+: 1553102088:0;cd mod1
+: 1553102092:0;git clone https://github.com/learn-co-students/london-web-career-031119.git
+: 1553102103:0;cd london-web-career-031119
+: 1553102120:0;mkdir 06-intro-to-sql
+: 1553102122:0;cd 06-intro-to-sql
+: 1553102162:0;mv ~/Desktop/07-intro-sql/README.md .
+: 1553102189:0;git add . ; git commit -m "added SQL readme with sql starter code"
+: 1553102191:0;git push 
+: 1553164599:0;cd hotload
+: 1553164636:0;history | grep redis
+: 1553164641:0;redis-server
+: 1553168997:0;cd code/flatiron/flatiron-manual-setup
+: 1553176581:0;git remote add origin-fork https://github.com/Voxoff/flatiron-manual-setup-validator.git
+: 1553176588:0;git push origin-fork master -f
+: 1553176739:0;l;s
+: 1553176741:0;clar
+: 1553176799:0;gitall "fixing github config bug with eval not evaluate"
+: 1553177688:0;gitall "back to quotes"
+: 1553251558:0;cd code/
+: 1553251589:0;mkdir data_science
+: 1553251955:0;git clone git@github.com:learn-co-students/dsc-1-01-05-setting-up-environment-staff.git
+: 1553251962:0;source active learn-env
+: 1553251967:0;source activatve learn-env
+: 1553251998:0;export PATH=~/anaconda3/bin:$PATH\
+
+: 1553252009:0;echo $PATH
+: 1553252054:0;export PATH=~/anaconda/bin:$PATH
+: 1553252055:0;conda --version\
+
+: 1553253692:0;git clone git@github.com:lauraroyle/module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149.git
+: 1553253719:0;bundle ; rs
+: 1553254611:0;code ,
+: 1553255039:0;rm module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553255042:0;rm -r module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553255048:0;git clone git@github.com:manuickx/module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149.git
+: 1553255062:0;kkkcd module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553255503:0;git clone git@github.com:louieogrady/module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149.git
+: 1553255509:0;cd $_
+: 1553255542:0;rm -rf module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553255589:0;git clone https://github.com/max-powell/module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553255595:0;cd module-2-code-challenge-round-1---london-web-021819-rails-first-round-code-challenge-1553247149
+: 1553259389:0;cd d
+: 1553259393:0;git clone git@github.com:learn-co-students/dsc-0-01-23-project-lab-staff.git
+: 1553259747:0;export PATH=/anaconda3/bin:$PATH\
+
+: 1553259749:0;conda env create -f environment.yml
+: 1553259765:0;/anaconda3/bin/jupyter_mac.command ; exit;
+: 1553277576:0;cat index.ipynb| strings | grep plot
+: 1553277589:0;cd dsc-1-01-05-setting-up-environment-staff
+: 1553277590:0;cat index.ipynb | strings | grep plot
+: 1553278199:0;cd dsc-0-01-23-project-lab-staff
+: 1553278254:0;brew install pip
+: 1553509541:0;git clone https://github.com/sirloinus/module-one-final-project-guidelines-london-web-091718.git
+: 1553509558:0;cd module-one-final-project-guidelines-london-web-091718
+: 1553510948:0;ruby bin/run.rb 
+: 1553513097:0;pip
+: 1553513135:0;easy_install pup
+: 1553513139:0;sudo easy_install pup
+: 1553513157:0;sudo easy_install pip
+: 1553513181:0;pip install requests
+: 1553513187:0;sudo pip install requests
+: 1553527375:0;ps aux | grep python
+: 1553527412:0;pgrep python
+: 1553527414:0;pgrep python | xargs kill
+: 1553527417:0;pgrep python | xargs kill -9
+: 1553529893:0;cat index.ipynb
+: 1553529901:0;cat index.ipynb | macbeth
+: 1553530597:0;pkill python
+: 1553530601:0;pkill -9 python
+: 1553594526:0;mv ~/Desktop/data_science ~/code/data_scienmce
+: 1553594554:0;rm -rf dsc-1-01-05-setting-up-environment-staff
+: 1553594588:0;mv data_science/dsc-0-01-23-project-lab-staff data_scienmce/macbeth
+: 1553594595:0;rm -rf data_science
+: 1553594602:0;mv data_scienmce/ data_science
+: 1553594646:0;cd data_science
+: 1553594676:0;cd dsc-1-03-05-importing-data-using-pandas-lab
+: 1553594979:0;cat Data/Yelp_Reviews_Corrupt.csv | head
+: 1553598340:0;mkdir codersinhoods
+: 1553598342:0;cd codersinhoods
+: 1553598352:0;pip install flask
+: 1553598410:0;python -m venv venv
+: 1553598448:0;sudo pip install flask
+: 1553598475:0;mkdir app
+: 1553598759:0;touch codersinhoods.py
+: 1553598760:0;vim codersinhoods.py
+: 1553598781:0;export FLASK_APP=codersinhoods.py
+: 1553598796:0;vim __init__.py
+: 1553598843:0;touch routes.py
+: 1553598864:0;cat __init__.py
+: 1553598867:0;cat routes.py
+: 1553598871:0;cat codersinhoods.py
+: 1553598892:0;vim routes.py
+: 1553598902:0;flask run
+: 1553605724:0;cd ../dsc-1-03-07-understanding-pandas-series-and-dataframes-lab/
+: 1553702406:0;mkdir bookadesk
+: 1553702490:0;rails new \\
+  --database postgresql \\
+  --webpack \\
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \\
+  bookadesk
+: 1553703087:0;rails new \\
+  --database postgresql \\
+  --webpack \\
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/devise.rb \\
+  bookadesk
+: 1553703290:0;rails g booking table:references user:references date:datetime morning:boolean 
+: 1553703596:0;rails g migration AddOmniauthToUsers provider:string uid:string\
+rake db:migrate
+: 1553703623:0;git commit -m "added db structure, associations and omniauth gem"
+: 1553703859:0;history | grep heroku | grep create
+: 1553703867:0;heroku create -a bookadesk --region eu
+: 1553704055:0;git commit -m "devise omniauth for github"
+: 1553704540:0;cd bookadesk
+: 1553704542:0;rails generate devise:controllers
+: 1553706068:0;rm -rf tmp/pids/server.pid
+: 1553706080:0;history | grep xargs kill
+: 1553706084:0;history | grep "xargs kill"
+: 1553706091:0;lsof -i :3000 | grep node | awk '{print $2}' | xargs kill -9
+: 1553713361:0;history | grep bash
+: 1553766791:0;defaults read -g InitialKeyRepeat
+: 1553766796:0;defaults read -g KeyRepeat\
+60
+: 1553766800:0;defaults read -g KeyRepeat
+: 1553766862:0;defaults write -g KeyRepeat -int 1\
+
+: 1553773906:0;cd flatiron/flatiron-manual-setup
+: 1553773959:0;history | grep defaults
+: 1553774086:0;git commit -m "Add key repeats"
+: 1553774095:0;git pull originmaster
+: 1553782525:0;git commit -m "changed final message to account for rvm issue"
+: 1553786497:0;history | grep rails new
+: 1553786501:0;history | grep new
+: 1553786507:0;history | grep new | grep rails
+: 1553786517:0;history | grep "rails new"
+: 1553786593:0;createreactapp
+: 1553786609:0;npx create-react-app book-a-desk
+: 1553786838:0;rm -rf db/migrate/20190328152514_create_bookings.rb
+: 1553786868:0;rm -rf db/migrate/*
+: 1553786882:0;rails db:create
+: 1553786889:0;rails g devise:install
+: 1553787032:0;rm -rf app/models/user.rb app/models/table.rb
+: 1553787037:0;rm -rf app/models/booking.rb
+: 1553787059:0;rails d resource table
+: 1553787076:0;rm -rf app/controllers/bookings_controller.rb app/controllers/tables_controller.rb
+: 1553787307:0;rails new --database postgresql --webpack --api book_a_desk_api
+: 1553787377:0;echo "gem 'devise'" >> Gemfile
+: 1553787599:0;rails g model what
+: 1553787633:0;rails g devise:install\
+
+: 1553787649:0;rails g devise user
+: 1553787751:0;rails g migration AddOmniauthToUsers provider:string uid:string\
+
+: 1553787947:0;cp ../bookadesk/.env 
+: 1553787951:0;cp ../bookadesk/.env .
+: 1553788639:0;rm -rf book_a_desk_api
+: 1553788649:0;rails new --database postgresql --api book_a_desk_api
+: 1553788790:0;rails g resource user first_name last_name provider uid password\
+
+: 1553789230:0;rails g resource table name:string active:boolean
+: 1553789236:0;rails g resource booking table:references user:references date:datetime morning:boolean 
+: 1553789284:0;bundle add jwt && bundle add active_model_serializers && bundle add faker
+: 1553791593:0;raisl s
+: 1553791653:0;rails g controller api/v1/users\
+
+: 1553867751:0;rails routes
+: 1553877821:0;cd ~/code/book-a-desk
+: 1553879068:0;yarn add react-router-dom
+: 1553879197:0;git commit -m "added proxy, react router and two blank componenets"
+: 1553879212:0;git commit -m "first commit with jwt rails auth"
+: 1553952253:0;defaults write -g InitialKeyRepeat -int 13
+: 1553952258:0;defaults write -g InitialKeyRepeat -int 25
+: 1553952268:0;defaults write -g InitialKeyRepeat -int 10
+: 1553952276:0;defaults write -g KeyRepeat -int 2\
+
+: 1553953254:0;history | grep grep
+: 1553953266:0;history | grep "ls -R"
+: 1553953287:0;ls -Ra | grep "body: JSON."
+: 1553956456:0;git commit -m "final auth"
+: 1553956474:0;git commit -m 'final auth w token localstorage'
+: 1553956956:0;ls 
+: 1553957308:0;rails s -p 3002
+: 1553958836:0;git co -b "omniauth-github"
+: 1553958857:0;git commit -m "first try with gem and errors on not found"
+: 1553959042:0;BUNDLE
+: 1553959049:0;cp -r ../bookadesk/.env .env
+: 1553959178:0;rails g controller  api/v1/sessions
+: 1553963460:0;mkdir social-auth-example && cd social-auth-example\
+
+: 1553963465:0;create-react-app frontend && cd frontend\
+
+: 1553963470:0;npx create-react-app frontend && cd frontend\
+
+: 1553963492:0;npm i --save react-scripts
+: 1553963541:0;npm i --save react-twitter-auth react-facebook-login react-google-login
+: 1553963884:0;npm i --save react-github-login
+: 1553965332:0;bundle update  omniauth-github
+: 1553965392:0;rm -rf Gemfile
+: 1553965426:0;BUNDLE update
+: 1553965432:0;bundle install
+: 1553966656:0;RAILS_ENV=production bundle exec rails console
+: 1553967947:0;bunlde
+: 1553984742:0;gem open omniauth
+: 1553984931:0;gem open omniauth-github
+: 1553985032:0;npm open react-github-login
+: 1553985330:0;vimtutor
+: 1554035614:0;curl -u 19afa3f5fa107ddca86a:4f54f1aafacb9ca11dd78a4d92757e6d59b1d5e4 https://api.github.com/applications/19afa3f5fa107ddca86a/token/687922156e982702a0a4
+: 1554035786:0;curl -H "Authorization: token 687922156e982702a0a4" https://api.github.com/userv
+: 1554035791:0;curl -H "Authorization: token 687922156e982702a0a4" https://api.github.com/user
+: 1554035850:0;curl -H "Authorization: token 687922156e982702a0a4" https://api.github.com/Voxoff
+: 1554035917:0;man curl
+: 1554036057:0;curl -d "client_id=19afa3f5fa107ddca86a&client_secret=4f54f1aafacb9ca11dd78a4d92757e6d59b1d5e4&code=687922156e982702a0a4" -X POST https://github.com/login/oauth/access_token
+: 1554039366:0;rs -p 3002
+: 1554039445:0;cd ../bookadesk
+: 1554040225:0;rails db:drop db:create db:migrate db:seed
+: 1554045906:0;npm i react-social-login
+: 1554046173:0;git clone git@github.com:prose/gatekeeper.git
+: 1554046178:0;cd gatekeeper && npm install\
+
+: 1554057774:0;mkdir rspec
+: 1554057872:0;ruby sandwich_spec_01.rb
+: 1554058155:0;./sandwich_spec_01.rb
+: 1554058325:0;vim sandwich_spec_01.rb
+: 1554058821:0;rspec --no-color
+: 1554058836:0;rspec sandwich_spec_01.rb --only-failues
+: 1554058840:0;rspec sandwich_spec_01.rb --only-failures
+: 1554058850:0;rspec sandwich_spec_01.rb -w
+: 1554058855:0;rspec sandwich_spec_01.rb
+: 1554058862:0;rspec sandwich_spec_01.rb -p
+: 1554071653:0;vim coffee_spec_01.rb
+: 1554071940:0;rspec coffee_spec_01.rb
+: 1554072021:0;rspec coffee_spec_01.rb -f d
+: 1554072117:0;gem list | grep coderay
+: 1554072418:0;rspec coffee_spec_01.rb 
+: 1554072490:0;rspec --help
+: 1554072505:0;rspec coffee_spec_01.rb -f p
+: 1554072795:0;vim tea_01.rb
+: 1554072965:0;rspec tea_01.rb --next-failure
+: 1554072989:0;rspec tea_01.rb
+: 1554106359:0;cd code/book_a_desk_api
+: 1554108703:0;cd gatekeeper
+: 1554114526:0;git commit -m "omniauth"
+: 1554114624:0;git commit -m "oauth done on react side"
+: 1554114835:0;git co HEAD^
+: 1554114841:0;cat app/models/user.rb
+: 1554133329:0;gem install google-api-client\
+
+: 1554133513:0;touch qs.rb
+: 1554133644:0;ruby quickstart.rb\
+
+: 1554133676:0;cat qs.rb
+: 1554133693:0;gem install dotenv-rails
+: 1554133736:0;gem install dotenv
+: 1554133793:0;ruby s
+: 1554133805:0;vim spike.rb
+: 1554133816:0;ruby spike.rb
+: 1554134000:0;vim qs.rb
+: 1554140329:0;mkdir expensez
+: 1554140333:0;bundler init
+: 1554140343:0;gem install bundler
+: 1554140351:0;bundle init
+: 1554140672:0;bundle exec rspec --init
+: 1554140688:0;vim spec/spec_helper.rb
+: 1554140761:0;mkdir acceptance
+: 1554141175:0;mkdir app/api -p
+: 1554141177:0;cd app
+: 1554141181:0;rm api
+: 1554141185:0;rm -rf api
+: 1554141187:0;vim api.rb
+: 1554141254:0;vim ../expense_tracker_api_spec.rb
+: 1554141314:0;rm -r spec/acceptance/-p
+: 1554141324:0;rm -rg spec/acceptance/-p
+: 1554141345:0;rm -rf spec/acceptance/-p
+: 1554141350:0;bundle exec rspec
+: 1554141417:0;cat api.rb
+: 1554141803:0;vim app/api.rb
+: 1554142106:0;vim .vimrc
+: 1554142121:0;vim expense_tracker_api_spec.rb
+: 1554142231:0;rspec expense_tracker_api_spec.rb\
+
+: 1554142800:0;bundle exec rspec expense_tracker_api_spec.rb\
+
+: 1554209816:0;ruby qs.rb
+: 1554212578:0;npm i react-calendar
+: 1554216082:0;npm install node-scss
+: 1554216093:0;npm install node-sass
+: 1554217053:0;git commit -m "added logo buttons packages tables tablelist login form app css calender"
+: 1554217071:0;gem install hub
+: 1554217128:0;git rm credentials.json
+: 1554217135:0;git rm -f credentials.json
+: 1554217218:0;echo "credentials.json" >> .gitignore
+: 1554217246:0;echo ".env" >> .gitignore
+: 1554217254:0;cat Gemfile | grep dotenv
+: 1554217258:0;git rm .env
+: 1554217262:0;git rm -f .env
+: 1554217282:0;git commit -m "oopsie .env problems"
+: 1554217304:0;git co c14087e783c8213f3b85768e375b030c0bab17d7
+: 1554217399:0;git commit -m --allow-empty "corrected .env woo"
+: 1554217406:0;git commit -m --allow-empty "corrected env woo"
+: 1554217414:0;git commit -m "corrected env woo"
+: 1554217425:0;git commit --allow-empty -m "corrected env woo"
+: 1554217432:0;git push origin master master 
+: 1554218072:0;mcd go/here
+: 1554218078:0;rm -rf go/here
+: 1554218167:0;history
+: 1554220261:0;exit
+: 1554220280:0;git commit -m "setting up fetch based on data from frontend"
+: 1554220465:0;rm token.yaml
+: 1554220509:0;echo "token.yaml" >> .gitignore
+: 1554220550:0;git rm token.yaml
+: 1554220554:0;git rm -f token.yaml
+: 1554220649:0;git commit -m "token"
+: 1554223654:0;mkdir twilio
+: 1554223655:0;cd twilio
+: 1554223666:0;touch twilio.rb
+: 1554223808:0;gem install twilio-ruby
+: 1554223814:0;ruby twilio.rb
+: 1554231305:0;cd book_a_desk_api/gatekeeper
+: 1554231358:0;cat c
+: 1554231364:0;vim config.json
+: 1554233732:0;vim ~/.vimrc
+: 1554321488:0;git add . ; git commit -m "calender searches for bookings and returns tables accordingly"
+: 1554370373:0;git add . ; git commit -m "calender can now add events"
+: 1554370476:0;vim R
+: 1554370496:0;git add . ; git commit -m "simple readme"
+: 1554370513:0;mv ~/Downloads/credentials.json .
+: 1554374666:0;gitall "route for adding bookings and refactoring"
+: 1554374710:0;gitall "buttons for timeslots, fetch to add booking, app functions to pass state and props around"
+: 1554375101:0;heroku local -f Procfile.dev
+: 1554375127:0;cp -r ../book-a-desk .
+: 1554375407:0;rm -rf book-a-desk
+: 1554456264:0;rails g migration AddBookedToTables booked:boolean
+: 1554470006:0;git commit -m "added booked boolean"
+: 1554549094:0;git add . ; git commit -m "flash, and changed colors of mugs and paper blocks and buttons"
+: 1554631944:0;mkdir tech_tests
+: 1554631945:0;cd t
+: 1554631962:0;touch vending_machine.rb
+: 1554649877:0;git clone https://github.com/tamasmagyarhunor88/cleo-tech-test.git
+: 1554649924:0;RUBY main.rb
+: 1554650677:0;cat sandwich_spec_01.rb
+: 1554650735:0;cat expensez/spec/acceptance/expense_tracker_api_spec.rb
+: 1554650741:0;cat spec/examples.txt
+: 1554650743:0;cat tea_01.rb
+: 1554650751:0;cat coffee_spec_01.rb
+: 1554663714:0;gem install awesome_print
+: 1554663798:0;get
+: 1554663802:0;git diff pr
+: 1554663885:0;vim pryrc
+: 1554663893:0;vim .pryrc
+: 1554664026:0;gem install coderay
+: 1554666204:0;defaults write -g ApplePressAndHoldEnabled -bool false
+: 1554664699:0;cd solution_02-OOP_04-Cookbook-Day-Two_01-Cookbook-Advanced
+: 1554666873:0;gitall "1 hour into ze test"
+: 1554671882:0;;ls
+: 1554672361:0;cd lib
+: 1554673181:0;git add . ; git commit -m "v2"
+: 1554712257:0;cd ../cleo
+: 1554718341:0;1
+: 1554720047:0;cd cleo-tech-test
+: 1554733196:0;ckear
+: 1554733205:0;mkdir chrome_extensions
+: 1554733206:0;cklear
+: 1554733208:0;cd chrome_extensions
+: 1554733333:0;vim background.js
+: 1554733348:0;vim manifest.json
+: 1554745186:0;cd ~/Downloads/solution_02-OOP_04-Cookbook-Day-Two_01-Cookbook-Advanced
+: 1554745375:0;cd ~/codee
+: 1554745378:0;cd ~/code
+: 1554745389:0;git clone https://github.com/lewagon/fullstack-challenges.git
+: 1554745416:0;cd f
+: 1554745539:0;cd 02-OOP
+: 1554745541:0;cd 03-Cookbook-Day-One
+: 1554745549:0;cd 02-Cookbook
+: 1554745550:0;rake
+: 1554745563:0;cat R
+: 1554745567:0;cat Rakefile
+: 1554747687:0;rspec spec/v
+: 1554748235:0;rspec models/item.rb
+: 1554749064:0;# https://stackoverflow.com/questions/17336915/return-value-in-a-bash-function\
+# $1 => Command to run\
+evaluate_test () {\
+  # https://stackoverflow.com/questions/11193466/echo-without-newline-in-a-shell-script\
+  eval $1 && printf "${GREEN}pass${NC}\n" || printf "${RED}fail${NC}\n"\
+}\
+\
+evaluate () {\
+  eval $1\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_table_results () {\
+  local result=$(evaluate_test "$2")\
+  # https://stackoverflow.com/questions/6345429/how-do-i-print-some-text-in-bash-and-pad-it-with-spaces-to-a-certain-width\
+  printf "%-30s => [ %-6s ]\n" "$1" "$result"\
+}\
+\
+# $1 => Test Name\
+# $2 => Command to run\
+print_data_row () {\
+  local result=$(evaluate "$2")\
+  printf "%-12s => [ %-6s ]\n" "$1" "$result"\
+}
+: 1554749361:0;git add . ; git commit -m "unit specs"
+: 1554750904:0;cd ../cleo-tech-test
+: 1554754281:0;git clone https://github.com/joshbolland/cleo-technical-test.git
+: 1554754284:0;cd cleo-technical-test
+: 1554755495:0;ruby main.rb
+: 1554756868:0;git commit -m "within touching distance WITHOU change"
+: 1554758831:0;rspec spec/item_spec.rb
+: 1554758841:0;rspec spec/vending_machine_spec.rb
+: 1554801959:0;rails new hello
+: 1554801977:0;cd helllo
+: 1554801979:0;cd hello
+: 1554804456:0;history | grep heroku create
+: 1554804461:0;history | grep "heroku apps"
+: 1554808138:0;mkdir appear_here
+: 1554808140:0;cd appear_here
+: 1554808196:0;ruby checkout_spec.rb
+: 1554832183:0;mv appear_here tech_tests
+: 1554832189:0;mkdir hackathons
+: 1554832189:0;cd h
+: 1554832191:0;cd hack
+: 1554832445:0;brew install git-lfs
+: 1554832492:0;git clone https://github.com/count/hackathons.git
+: 1554832744:0;cd music
+: 1554832747:0;cd hackathons
+: 1554832750:0;cd Music
+: 1554832759:0;cd data
+: 1554832782:0;history | grep jup | head
+: 1554832785:0;history | grep jup
+: 1554833045:0;cd Hackathon
+: 1554839746:0;cd  code/tech_tests/cleo
+: 1554893526:0;asdf
+: 1554897527:0;rspec spec/co
+: 1554902324:0;gem install simple_cov
+: 1554902349:0;gem install simplecov
+: 1554902396:0;rspec spec/coin_spec.rb
+: 1554902465:0;cat coverage
+: 1554902469:0;cat coverage/index.html
+: 1554903620:0;rspec spec/spec_helper.rb
+: 1554904827:0;rm -rf coverage
+: 1554905463:0;rspec spec/*
+: 1554905777:0;cat README.md
+: 1554905931:0;git commit -m "final project"
+: 1554905976:0;hub help
+: 1554906052:0;git add . ; git commit -m "cleo tech test completed"
+: 1554906092:0;git --config global
+: 1554906100:0;history | grep global
+: 1554906107:0;git config --global user.name
+: 1554906110:0;git config --global user.email
+: 1554906169:0;git config --list
+: 1554906429:0;rspec spec/controller_spec.rb
+: 1554906497:0;git add . ; git commit -m "unnecessary ternary and deleted half completed test as my time is up"
+: 1554906535:0;git commit --amend -m "deleted unnecessary ternary and deleted half completed test as my time is up"
+: 1554908082:0;codfe .
+: 1554908299:0;cd code/dotfiles
+: 1554908305:0;touch snippets.json
+: 1554908311:0;vim snippets.json
+: 1554908535:0;cat snippets.json
+: 1554908603:0;cd /Users/gbennettjones/code/dotfiles
+: 1554923995:0;cd code/book-a-desk
+: 1554924009:0;]
+: 1554924067:0;yarn start
+: 1554924700:0;git commit -m "perp"
+: 1554924734:0;heroku apps:create --region=eu book-a-desk-api
+: 1554924826:0;heroku apps:create book-a-desk
+: 1554924841:0;heroku apps:create --region=eu book-a-desk
+: 1554924862:0;heroku apps:create --region=eu flatiron-book-a-desk
+: 1554925010:0;gitall "heroku"
+: 1554925232:0;lremote:remoteLremote:remote: remote:
+: 1554925400:0;git add . ; git commit -m "book-a-desk"
+: 1554926296:0;rm -rf yarn.lock
+: 1554926304:0;gitall "no yarn and api links"
+: 1554926835:0;cd go
+: 1554926841:0;rm -rf go
+: 1554927185:0;gitall "noproxy"
+: 1554927382:0;gitall "no gatekepper and correct redirect"
+: 1554927428:0;rm .env
+: 1554927561:0;cat .gitignore
+: 1554927613:0;heroku apps:create gatekeeper
+: 1554927618:0;heroku apps:create my_gatekeeper
+: 1554927624:0;heroku apps:create my-gatekeeper
+: 1554927636:0;heroku apps:create flatiron-gate
+: 1554927662:0;heroku config:set OAUTH_CLIENT_ID=19afa3f5fa107ddca86a OAUTH_CLIENT_SECRET=15ebbf3fd5bc00de9313378d1543e128ff067fd3
+: 1554927758:0;gitall "gatekepper deployed to heroku"
+: 1554928183:0;gitall "oopsie"
+: 1554928285:0;\\
+\\
+\\ 
+: 1554978146:0;gitall "no slash"
+: 1554979455:0;mkdir ../book-a-desk-gatekeeper
+: 1554979463:0;mv gatekeeper ../book-a-desk-gatekeeper
+: 1554979469:0;cd ../book-a-desk-gatekeeper
+: 1554979489:0;mv gatekeeper book-a-desk-gate-keeper
+: 1554979506:0;mv book-a-desk-gatekeeper/book-a-desk-gate-keeper .
+: 1554979513:0;rm book-a-desk-gatekeeper
+: 1554979519:0;rm -rf book-a-desk-gatekeeper
+: 1554979629:0;git add . ; git commit -m "eh?"
+: 1554979637:0;ccat .env
+: 1554979652:0;git push -f master
+: 1554979657:0;git push -f heroku master
+: 1554979688:0;git remote rm origin
+: 1554979731:0;hub create 
+: 1554979739:0;gitall "git config"
+: 1554979750:0;cat config.json
+: 1554984001:0;heroku git:remote -a flatiron-gate
+: 1554984953:0;cat package.json
+: 1554985165:0;now mxstbr/micro-github -e GH_CLIENT_ID=xyz123 -e GH_CLIENT_SECRET=asdf123 -e REDIRECT_URL=https://google.com
+: 1554985202:0;git clone git@github.com:mxstbr/micro-github.git flatiron-micro-github\
+
+: 1554985222:0;cd flatiron-micro-github
+: 1554985230:0;mv .env.example .env
+: 1554986687:0;rails new allergens
+: 1554986765:0;cd allergens
+: 1554986827:0;rails g resource user name 
+: 1554986931:0;rails g resource recipe user_id:references name 
+: 1554987029:0;rails d resource recipe user_id:references name 
+: 1554987043:0;rails g resource recipe user:references name 
+: 1554987138:0;rails g resource allergies user:references ingredient:references
+: 1554987147:0;rails d resource allergies user:references ingredient:references
+: 1554987196:0;rails g ingredients 
+: 1554987201:0;rails g resource ingredients 
+: 1554987224:0;rails g resource allergy ingredient:references user:references
+: 1554987246:0;rails g resource recipe_ingredients recipe:references ingredients:references
+: 1554987442:0;rails db:rollback
+: 1554987463:0;rails d resource recipe_ingredients recipe:references ingredients:references
+: 1554987472:0;rails g resource recipe_ingredients recipe:references ingredient:references
+: 1554987505:0;rails g migration AddNameToIngredients name:string
+: 1554987853:0;cat fourfive/config/routes.rb
+: 1555015180:0;cd code/data_science/dsc-1-03-07-understanding-pandas-series-and-dataframes-lab
+: 1555015274:0;python3
+: 1555015286:0;pip install pandas
+: 1555015332:0;python --version
+: 1555015335:0;which python
+: 1555015429:0;echo "alias python='python3'" >> ~/.aliases
+: 1555015433:0;alias python='python3'\
+
+: 1555015460:0;python 
+: 1555015494:0;python pip install pandas
+: 1555015500:0;python -m pip install pandas
+: 1555015538:0;history | grep virtualenv
+: 1555015569:0;virtualenv
+: 1555015620:0;python -m pip install matplotlib
+: 1555015644:0;cd dsc-1-01-05-setting-up-environment
+: 1555015707:0;conda 
+: 1555015718:0;history | grep conda
+: 1555015728:0;export PATH=/anaconda3/bin:$PATH
+: 1555015729:0;conda
+: 1555015750:0;echo "export PATH=/anaconda3/bin:$PATH" >> ~/.bash_profile
+: 1555015765:0;conda info --envs
+: 1555015783:0;source activate learn-env
+: 1555015791:0;pyhton
+: 1555015793:0;python
+: 1555063391:0;git clone git@github.com:myrtokonst/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850.git myrto
+: 1555063617:0;cat ~/.aliasses
+: 1555063619:0;cat ~/.aliases
+: 1555064529:0;git clone https://github.com/learn-co-students/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850/pull/4 oli
+: 1555064663:0;git clone git@github.com:oli-gra/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850.git oli
+: 1555064669:0;cd oli
+: 1555066094:0;git clone git@github.com:peter-keller/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850.git pete
+: 1555066099:0;cd pete
+: 1555066336:0;git clone git@github.com:RanjitSaimbi/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850.git ranj
+: 1555066341:0;cd ranj
+: 1555066341:0;mod2gfrade
+: 1555066618:0;git clone git@github.com:SANTOrick/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850.git riccardo
+: 1555066624:0;cd riccardo
+: 1555067379:0;git clone https://github.com/Tolaa1/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850 tola
+: 1555067384:0;cd tola
+: 1555067732:0;rail ss
+: 1555071743:0;cd ../riccardo
+: 1555071997:0;cd ../myrto
+: 1555071999:0;code .,
+: 1555073391:0;cd ../pete
+: 1555074385:0;cd ../oli
+: 1555077411:0;cd code/data_science
+: 1555077419:0;cd dsc-1-03-09-accessing-data-within-pandas-lab
+: 1555083073:0;git clone https://github.com/manonja/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850 manon
+: 1555083083:0;cd manon
+: 1555083252:0;git clone https://github.com/idanceinbetween/module-2-code-challenge-round-1-london-web-031119-rails-first-round-code-challenge-1555057850 hon
+: 1555083256:0;cd hon
+: 1555083256:0;mod2grade
+: 1555108555:0;cd ../dsc-1-03-09-accessing-data-within-pandas-lab
+: 1555108560:0;git co solution 
+: 1555108567:0;git co solution
+: 1555108571:0;dsbook
+: 1555154440:0;touch file.rb
+: 1555154582:0;vim file.rb
+: 1555154739:0;ruby file.rb
+: 1555241222:0;mv file.rb code/tech_tests
+: 1555241224:0;cd code/tech_tests
+: 1555241296:0;git clone git@github.com:Voxoff/engineering-test.git
+: 1555241351:0;rvm get stable --auto-dotfilesrvm cleanup all
+: 1555241357:0;rvm cleanup all
+: 1555241368:0;. ~/.rvmrc
+: 1555241385:0;rvm get stable --auto-dotfiles
+: 1555241416:0;rcm
+: 1555241420:0;rvm
+: 1555241431:0;rvm install 2.5.1
+: 1555242131:0;cd engineering-test
+: 1555242198:0;npm install
+: 1555243260:0;rails db:migrater
+: 1555243291:0;cp .env.example .env
+: 1555243295:0;foreman start
+: 1555321603:0;rm -rf bookadesk
+: 1555321608:0;mkdir book
+: 1555321617:0;mv book-a-desk book-a-desk-gate-keeper book_a_desk_api book
+: 1555321660:0;cd ~/code/book/book_a_desk_api
+: 1555321744:0;git push origin heroku
+: 1555349166:0;cd ../tech_tests
+: 1555349204:0;rails new --api citizens
+: 1555351524:0;git init . 
+: 1555351555:0;history | grep api
+: 1555351645:0;rm -rf citizens
+: 1555351656:0;rails new --api citizens -T
+: 1555351672:0;git init .
+: 1555351690:0;rm -rf .git
+: 1555351693:0;cd citizens
+: 1555351701:0;git commit -m "blank slate"
+: 1555351715:0;vim Gemfile
+: 1555351815:0;rails generate rspec:install
+: 1555351840:0;git commit -m "added tests gems and folders"
+: 1555352044:0;git commit -m "factories setup"
+: 1555352054:0;git commit -m "rspec configuration"
+: 1555352088:0;cat db/schema.rb
+: 1555352100:0;cat db/migrate/20190328160701_create_users.rb
+: 1555352149:0;rails g model user username email password_digest
+: 1555352156:0;rails g controller api/v1/users
+: 1555352177:0;git commit -m "users model and controller generated"
+: 1555352323:0;git add . ; git commit -m "Cors and jwt standard setup"
+: 1555352713:0;rails g controller api/v1/auth
+: 1555353100:0;cd ../tech_tests/citizens
+: 1555353967:0;gitall "implemented main authentication flow"
+: 1555353978:0;git commit -m "implemented main auth flow"
+: 1555353985:0;gsst
+: 1555354019:0;rails g group name
+: 1555359828:0;ps | grep ruby
+: 1555359831:0;ps | grep rails
+: 1555359833:0;ps | grep spring
+: 1555359841:0;rails d model group name
+: 1555359852:0;rails g model group name
+: 1555359887:0;rails g model user_groups user:references group:references
+: 1555360120:0;git rm spec/spec_helper.rb
+: 1555360165:0;git add spec/spec_helper.rb
+: 1555360176:0;git commit -m "removed comments"
+: 1555360190:0;git add app/models/user db/migrate/20190415181550_create_users.rb
+: 1555360248:0;git commit -m "added user groups and join with associations"
+: 1555360531:0;sght
+: 1555360540:0;git commit -m "validation test"
+: 1555360691:0;rspec spec 
+: 1555360847:0;hub create
+: 1555360860:0;gitall "validation specs"
+: 1555360914:0;rails g controller api/v1/groups
+: 1555362520:0;rails s -p 3003
+: 1555362692:0;gitall "admin method and token expiration"
+: 1555362707:0;cclear
+: 1555362771:0;touch .env
+: 1555362779:0;gitall "added dotenv"
+: 1555362817:0;fourfive ; cat .env
+: 1555362859:0;gitall "extracted secret into .env file"
+: 1555362888:0;gitall "extracted jwt secret into .env"
+: 1555363188:0;git commit -m "readmen"
+: 1555363194:0;git amend
+: 1555363202:0;git commit -amend
+: 1555363206:0;git commit --amend
+: 1555363213:0;git commit --amend -m "readme"
+: 1555363247:0;gitall "refactored handling of expiration token"
+: 1555363598:0;gitall "better error check in currentuser"
+: 1555363612:0;gitall "removed comment"
+: 1555442980:0;O
+: 1555444381:0;rspec spec/controllers
+: 1555449620:0;git add spec/*
+: 1555449632:0;git commit -m "complete tests"
+: 1555449636:0;git add .
+: 1555449668:0;gitall "email validation, and refactoring"
+: 1555449899:0;cat ~/code/book/book-a-desk/src/components/TableList.js
+: 1555449905:0;cat ~/code/book/book-a-desk/src/API.js
+: 1555450763:0;rpsec psec
+: 1555451562:0;gitall "tests for group controller"
+: 1555508689:0;l
+: 1555508705:0;cd book/book-a-desk
+: 1555508716:0;cd book/book-a-desk-gate-keeper
+: 1555683757:0;CLEAR
+: 1555683773:0;cd rspec
+: 1555683777:0;rm -rf @
+: 1555684001:0;cd expensez
+: 1555684016:0;cat Gemfile
+: 1555684031:0;cat spec/spec_helper.rb
+: 1555684038:0;cat spec/spec_helper.rb | head
+: 1555684054:0;cat spec/acceptance/expense_tracker_api_spec.rb
+: 1555684096:0;ssssls -al
+: 1555684110:0;cd spec
+: 1555684113:0;cd acceptance
+: 1555684116:0;cat app/api.rb
+: 1555685169:0;cat expense_tracker_api_spec.rb
+: 1555685173:0;cat ../spec_helper.rb
+: 1555685210:0;code tech_tests/citizens/spec/spec_helper.rb
+: 1555685695:0;mv acceptance/expense_tracker_api_spec.rb 
+: 1555685697:0;mv acceptance/expense_tracker_api_spec.rb .
+: 1555685728:0;mv expense_tracker_api_spec.rb acceptance/
+: 1555685771:0;mv spec/acceptance/app app
+: 1555685833:0;rspec expense_tracker_api_spec.rb
+: 1555685849:0;mkdir spec/unit
+: 1555685872:0;touch spec/unit/api_spec.rb
+: 1555686004:0;rspec spec/unit/api_spec.rb
+: 1555686045:0;touch api_snippets.rb
+: 1555930646:0;clkear
+: 1555930654:0;cd tech_tests/citizens
+: 1555930906:0;touch requests.js
+: 1555930931:0;rails 
+: 1555930934:0;rials s
+: 1555930948:0;ks
+: 1555932141:0;tc
+: 1555946858:0;rspec
+: 1555958813:0;git add Gemfile Gemfile.lock
+: 1555958819:0;git commit -m "binding.pry for better debugging"
+: 1555958826:0;git add requests.js
+: 1555958837:0;git commit -m "copy and paste file for request tests"
+: 1555958849:0;git add README.md
+: 1555958863:0;git commit -m "stripped readme"
+: 1555958884:0;git add db/migrate/20190415181550_create_users.rb
+: 1555958892:0;git add db/schema.rb db/seeds.rb
+: 1555958899:0;git rm db/seeds.rb
+: 1555958925:0;git commit -m "users have admin boolean and seed to boot"
+: 1555958936:0;git add config/routes.rb
+: 1555959009:0;git add app/controllers
+: 1555959045:0;git commit -m "profile and add_users routes and actions"
+: 1555959052:0;git add app/models/user.rb
+: 1555959057:0;git commit -m "boolean validation"
+: 1555959072:0;git commit -m "controller tests"
+: 1555959189:0;git commit -m "better method name for current user admin check"
+: 1555959265:0;gitall "no need for factories"
+: 1555959346:0;git commit -m 'no need for factory bot'
+: 1555959496:0;ls -a
+: 1555959556:0;open
+: 1555960646:0;git add coverage Gemfile Gemfile.lock
+: 1555960652:0;git commit -m "simplecov gem"
+: 1555960715:0;git reset HEAD . 
+: 1555960728:0;git diff .DS_Store
+: 1555960748:0;git rebase -i origin/master~1 master
+: 1555960803:0;git add spec/rails_helper.rb
+: 1555960809:0;git commit -m "simple cov gem"
+: 1555960815:0;git rebase -i master~1 master
+: 1555960824:0;git rebase -i master~2 master
+: 1555960839:0;git stash apply
+: 1555960864:0;git add app/
+: 1555960876:0;git commit -m "corrected status code"
+: 1555960891:0;git add spec/controllers/api/v1/auth_controller_spec.rb
+: 1555960902:0;git commit -m "whitespace fro readability"
+: 1555960916:0;git add spec
+: 1555960927:0;git commit -m "final methods and refactor"
+: 1555960935:0;rspec spec
+: 1555960997:0;vim .DS_Store
+: 1555961115:0;hub browse
+: 1555961215:0;git show e11ffe003cd9b6872b6b6f944064f313ca89f623
+: 1555961231:0;git show --prety=fuller e11ffe003cd9b6872b6b6f944064f313ca89f623
+: 1555961239:0;git show --pretty=fuller e11ffe003cd9b6872b6b6f944064f313ca89f623
+: 1555961256:0;git config
+: 1555961260:0;git config --get-all
+: 1555961265:0;git config --get-all --global
+: 1555961271:0;git config --global;
+: 1555961273:0;git config --global
+: 1555961275:0;git config --global --get-all
+: 1555961283:0;vim ~/.gitconfig
+: 1555961398:0;rm .DS_Store
+: 1555961407:0;rm -f .DS_Store
+: 1555961433:0;git filter-branch --env-filter '\
+\
+OLD_EMAIL="your-old-email@example.com"\
+CORRECT_NAME="Guy Bennett-Jones"\
+CORRECT_EMAIL="guybennettjones@hotmail.co.uk"\
+\
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]\
+then\
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"\
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"\
+fi\
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]\
+then\
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"\
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"\
+fi\
+' --tag-name-filter cat -- --branches --tags
+: 1555961444:0;git filter-branch --env-filter '\
+\
+OLD_EMAIL="guy"\
+CORRECT_NAME="Guy Bennett-Jones"\
+CORRECT_EMAIL="guybennettjones@hotmail.co.uk"\
+\
+if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]\
+then\
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"\
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"\
+fi\
+if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]\
+then\
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"\
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"\
+fi\
+' --tag-name-filter cat -- --branches --tags
+: 1555961453:0;git log
+: 1555961468:0;git push -f origin master
+: 1556009487:0;cd flatiron
+: 1556009492:0;git clone git@github.com:learn-co-curriculum/lectures-starter-code.git
+: 1556009502:0;cd lectures-starter-code
+: 1556009508:0;cd sinatra
+: 1556009803:0;vim README.md
+: 1556010159:0;rails db:drop db:create db:migrate
+: 1556010192:0;rake db:drop db:create db:migrate
+: 1556010201:0;rake db:drop db:migrate
+: 1556010262:0;rake db:create --trace
+: 1556010677:0;lear
+: 1556010688:0;cd lectures-starter-code/sinatra/sinatra-mvc-intro
+: 1556010694:0;sinatra
+: 1556010695:0;rake s
+: 1556022810:0;git co -b "prework"
+: 1556022826:0;git commit -m "all routes:\
+"
+: 1556024204:0;git commit -m "asdf"
+: 1556024205:0;git co prework 
+: 1556024987:0;rake db:create
+: 1556025261:0;rake consoe
+: 1556025273:0;rake db:drop 
+: 1556025276:0;rake db:mgirate
+: 1556031688:0;cd ../book
+: 1556031706:0;cd code/book/book-a-desk
+: 1556041370:0;cd code/book
+: 1556041386:0;cd ../book-a-desk-gate-keeper
+: 1556042000:0;rr
+: 1556052119:0;git commit -m "added title and corrected add booking method"
+: 1556052144:0;gitall " api class propogated through app"
+: 1556052410:0;gitall "changed URLs"
+: 1556052567:0;gitall "changed URLS"
+: 1556052850:0;OA
+: 1556052886:0;touch blank.js
+: 1556052891:0;gitall 'test'
+: 1556052981:0;gitall "typo in URL"
+: 1556053308:0;git pull origin mastert
+: 1556053310:0;git pull origin master
+: 1556053314:0;gitall "corrected redirect"
+: 1556053804:0;gitall "moved lib folder for autloading in production"
+: 1556054648:0;gitall "changed credentials path to env variable"
+: 1556054796:0;gitall "hash"
+: 1556096565:0;gitall "parse env"
+: 1556097411:0;gstt
+: 1556097430:0;gitall "dodgy eval"
+: 1556098856:0;~/.hyper.js
+: 1556098980:0;hyper install hyper-material-theme
+: 1556099034:0;cd flatiron/lectures-starter-code/sinatra
+: 1556099094:0;code ~/.hyper.js
+: 1556099325:0;hyper install verminal
+: 1556099379:0;hyper uninstall verminal
+: 1556099452:0;hyper install hyper-solarized-light
+: 1556099513:0;asdfasdf
+: 1556108839:0;git commit -m "firstlecture"
+: 1556108867:0;git co master~1
+: 1556108873:0;git co -b "second_lecture"
+: 1556108911:0;rake db:drop
+: 1556108933:0;rake db:rollback
+: 1556109214:0;source ~/.aliases
+: 1556111010:0;git commit -m "prew"
+: 1556111300:0;rm -rf app/controllers/application_controller.rb
+: 1556111305:0;rm -rf app/views/index.erb
+: 1556111417:0;rake create_migration NAME=create_games
+: 1556111431:0;rake db:create_migration 
+: 1556111459:0;rake db:create_migration NAME=create_games
+: 1556111552:0;rake db:migrate
+: 1556111807:0;rake db:seed
+: 1556112107:0;shotgun
+: 1556115445:0;git add . ; git commit -m 'asdf'
+: 1556115464:0;git checkout prework 
+: 1556115476:0;git co second_lecture 
+: 1556120964:0;git commit -m "games"
+: 1556120986:0;cd sinatra-mvc-intro
+: 1556121070:0;cd code/flatiron
+: 1556121074:0;git clone git@github.com:learn-co-students/london-web-career-040119.git
+: 1556121077:0;cd london-web-career-040119
+: 1556121092:0;mv ../lectures-starter-code/sinatra/sinatra-mvc-intro
+: 1556121114:0;mv ../lectures-starter-code/sinatra/sinatra-mvc-intro 12-mvc-sinatra
+: 1556121428:0;git commit -m "lecture"
+: 1556121618:0;git commit -m "done"
+: 1556121627:0;cd 12-mvc-sinatra
+: 1556121628:0;tree
+: 1556121648:0;git push origin master
+: 1556125962:0;cd ../../tech_tests/cleo
+: 1556125971:0;touch roman.rb
+: 1556126355:0;cd fullstack-challenges
+: 1556126362:0;mdfind roman
+: 1556130705:0;cd 01-Ruby/03-Iterators-Blocks
+: 1556130719:0;cd ../02-Flow-Array/Optional-01-Roman-numerals
+: 1556130720:0;;s
+: 1556130752:0;git branch -a
+: 1556130780:0;git remote 0v
+: 1556130785:0;git co master
+: 1556130800:0;git clone git@github.com:Voxoff/fullstack-challenges.git lewagon
+: 1556130814:0;cd lewagon
+: 1556130827:0;cd 01-Ruby/02-Flow-Array/Optional-01-Roman-numerals
+: 1556130828:0;cat lib/roman_numerals.rb
+: 1556130933:0;ruby lib/roman_numerals.rb
+: 1556131123:0;cd ../../../
+: 1556131136:0;code roman.rb
+: 1556131146:0;mkdir roman
+: 1556131150:0;mv roman.rb roman
+: 1556131152:0;cd roman
+: 1556131158:0;touch roman_class.rb
+: 1556131162:0;code roman
+: 1556131165:0;code roman_class.rb
+: 1556132196:0;touch spec.rb
+: 1556132266:0;spec
+: 1556132270:0;rspec spec.rb
+: 1556197065:0;hyper install hyper-solarized-dark
+: 1556197098:0;touch cleo
+: 1556197103:0;rm cleo
+: 1556197106:0;mkdir cleo
+: 1556197107:0;cd cleo
+: 1556199601:0;cd ../tech_tests/cleo
+: 1556200758:0;ruby run.rb
+: 1556200771:0;cd code/cleo
+: 1556200778:0;cd tech_tests/cleo
+: 1556200782:0;rake console
+: 1556200923:0;require_relative './models/coin'\
+require_relative './models/item'\
+require_relative './models/transaction'\
+require_relative './models/vending_machine'\
+require_relative './controllers/machine_controller'\
+require_relative './views/view'\
+\
+change = { 1 => 2, 2 => 1, 5 => 5, 10 => 10, 20 => 3, 50 => 2, 100 => 10, 200 => 1 }\
+items = { 'Nuka-Cola': 90, 'Sunset Sarsparilla': 200, 'Sierra Madre': 45, 'Bawls Guarana': 110 }\
+\
+view = View.new\
+vm = VendingMachine.new(items: items, change: change)\
+\
+@controller = MachineController.new(view: view, vending_machine: vm)\
+@controller.turn_on\
+
+: 1556200925:0;bundle console
+: 1556273812:0;cd book/book_a_desk_api
+: 1556273831:0;hyper i hyper-solarized-ark
+: 1556273841:0;vim ~/.hyper.js
+: 1556273848:0;hyper i hyper-solarized-dark
+: 1556273876:0;tmux
+: 1556279988:0;export GOOGLE_APPLICATION_CREDENTIALS="$(< credentials.json)"
+: 1556280042:0;heroku config:set GOOGLE_APPLICATION_CREDENTIALS="$(< credentials.json)"
+: 1556280152:0;gitall "try env 2"
+: 1556280263:0;gitall "oops" ; git push heroku master ; heroku logs --tail
+: 1556280371:0;gitall "dev check|\
+"
+: 1556282940:0;gitall "catch"
+: 1556311430:0;cd 
+: 1556311470:0;cd clear
+: 1556311473:0;c;ear
+: 1556311521:0;cd guybennettjones
+: 1556311677:0;mv ~/Documents/reviews ~/code/guybennettjones/
+: 1556311719:0;cd reviews
+: 1556311766:0;rails db:create db:migrate db:seed
+: 1556311829:0;rails console
+: 1556312049:0;pwd
+: 1556314239:0;rails generate uploader image
+: 1556314774:0;rails db:seed
+: 1556358841:0;gitall "cleo rejection"
+: 1556358870:0;history | grep "heroku create"
+: 1556358892:0;fourfive
+: 1556358893:0;cd fourfive
+: 1556358913:0;git remote add heroku https://github.com/Voxoff/guybennettjones.git
+: 1556358926:0;git remote -v
+: 1556358959:0;git remote add heroku https://git.heroku.com/Voxoff/guybennettjones.git
+: 1556358991:0;git remote rm heroku
+: 1556359021:0;heroku create:app --region:eu guybennettjones
+: 1556359035:0;heroku create --help
+: 1556359053:0;heroku apps:create --region:eu guybennettjones
+: 1556359077:0;heroku apps:create guybennettjones --region:eu
+: 1556359081:0;heroku apps:create guybennettjones --region=eu
+: 1556359404:0;npm uninstall three
+: 1556359418:0;npm uninstall fullpage.js
+: 1556359427:0;npm uninstall velocity-animate 
+: 1556359435:0;npm uninstall three-bas
+: 1556359440:0;npm i
+: 1556359477:0;gitall "my way of dealing with rejection"
+: 1556359686:0;rm -rf Gemfile.lock
+: 1556359687:0;bundle
+: 1556359692:0;bundle update
+: 1556359848:0;gitall "wrong choice for sure"
+: 1556360075:0;heroku browse
+: 1556360080:0;heroku open
+: 1556360310:0;psql
+: 1556360650:0;cd /Users/gbennettjones/Library/Application\ Support/Postgres/var-11/
+: 1556360653:0;cd --
+: 1556360661:0;cd code/guybennettjones
+: 1556360663:0;psql -h localhost\
+
+: 1556360880:0;psql -U gbennettjones -d gbennettjones
+: 1556361082:0;head reviews.csv -n 1
+: 1556361176:0;gitall "psql export"
+: 1556361227:0;heroku run rails db:seed
+: 1556362033:0;PGPASSWORD=PWHERE psql -h localhost -u gbennettjones my_database_development -c "\copy reviews from 'reviews.csv' WITH CSV;"
+: 1556362044:0;PGPASSWORD=PWHERE psql -H localhost -U gbennettjones my_database_development -c "\copy reviews from 'reviews.csv' WITH CSV;"
+: 1556362070:0;mv public/reviews.csv .
+: 1556362075:0;PGPASSWORD=PWHERE psql -U gbennettjones my_database_development -c "\copy reviews from 'reviews.csv' WITH CSV;"
+: 1556362128:0;heroku pg:psql
+: 1556362518:0;cat reviews.csv | psql `heroku config:get DATABASE_URL` -c "COPY review FROM STDIN WITH (FORMAT CSV);"
+: 1556362552:0;history | grep csv
+: 1556362595:0;history | grep "psql"
+: 1556362696:0;head reviews.csv
+: 1556362698:0;cat reviews.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);"
+: 1556363866:0;cd app/assets/images
+: 1556363881:0;rm -rf c.png c6.png c7.png codewars.svg css.png heroku.png heroku2.png heroku4.png
+: 1556363891:0;rm -rf js.png js2.png
+: 1556378717:0;rails db:create_migration add_workplace_to_reviews workplace
+: 1556378733:0;history | grep migration
+: 1556378739:0;rails g migration add_workplace_to_reviews workplace
+: 1556378748:0;cat db/migrate/20190427152540_add_workplace_to_reviews.rb
+: 1556378755:0;raisl c
+: 1556378824:0;rails g migration add_relation_to_reviews relation
+: 1556378828:0;rails db:migrate
+: 1556382479:0;gitall "getting ppl to write nice things about me after rejection, didn't even think about that did i"
+: 1556386332:0;gitall "br tags"
+: 1556387289:0;cat reviews.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);
+: 1556387294:0;cat reviews1.csv
+: 1556387316:0;cat reviews1.csv | grep "ian|
+: 1556387317:0;cat reviews1.csv | grep "ian"
+: 1556387378:0;gitall "push"
+: 1556387415:0;cat reviews1.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);\
+"
+: 1556387477:0;cat db/migrate
+: 1556387480:0;ls db/migrate
+: 1556387535:0;git add db/migrate/20190427152540_add_workplace_to_reviews.rb
+: 1556387606:0;cat reviews1.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);"\
+"
+: 1556387663:0;heroku pg:reset DATABSE
+: 1556387666:0;heroku pg:reset DATABASE
+: 1556387833:0;gitall "style"
+: 1556388287:0;spring stop
+: 1556388309:0;cat app/assets/stylesheets/application.scss
+: 1556388345:0;touch blank.rb
+: 1556388519:0;gitall "test"
+: 1556388524:0;rm package-lock.json
+: 1556388530:0;	rake assets:precompile
+: 1556389311:0;gitall "bigger smaller images"
+: 1556486017:0;history | grep reset
+: 1556486027:0;heroku pg:reset DATABSE --confirm=guybennettjones
+: 1556486254:0;gitall "two new"
+: 1556487497:0;gitall "typos"
+: 1556487515:0;psql -U gbennettjones -d my_database_development
+: 1556545326:0;heroku logs
+: 1556545893:0;ls app/assets/images
+: 1556546219:0;gitall "edward first"
+: 1556546232:0;history | grep psql
+: 1556546250:0;psql -U gbennettjones -d my_database_development | "\?|
+: 1556546252:0;psql -U gbennettjones -d my_database_development | "\?"
+: 1556546287:0;hgrep reset
+: 1556546295:0;hgrep pg:reset
+: 1556546310:0;heroku pg:reset DATABASE --confirm=guybennettjones
+: 1556546319:0;heroku run rails db:migrate
+: 1556546340:0;hgrep psql
+: 1556546350:0;cat reviews1.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);"
+: 1556546391:0;history | tail
+: 1556546439:0;psql -U gbennettjones -d my_database_development 
+: 1556546461:0;grep reviews1.csv edward
+: 1556546467:0;grep reviews1.csv "edward"
+: 1556546490:0;grep "edward" reviews1.csv
+: 1556546543:0;gitall "edward pic and controller"
+: 1556547029:0;gitall "edward at ze top pls"
+: 1556547884:0;gitall "local assigns is nifty"
+: 1556548018:0;gitall "css override overridden"
+: 1556553216:0;gitall "stylish"
+: 1556570529:0;lrs
+: 1556632076:0;cd book_a_desk_api
+: 1556632083:0;cd book-a-desk-gate-keeper
+: 1556632366:0;rails -e production
+: 1556632399:0;rails s -e production
+: 1556632474:0;rails s 
+: 1556632485:0;rails s -e production -b 0.0.0.0
+: 1556632557:0;rails s
+: 1556632567:0;rails s -e production -b localhost
+: 1556632638:0;RAILS_ENV=production rake db:create db:migrate db:seed
+: 1556632661:0;RAILS_ENV=production rails db:create
+: 1556632941:0;heroku config:get
+: 1556632948:0;heroku config:get --help
+: 1556632960:0;heroku config:get -s
+: 1556632991:0;heroku config:get -s GOOGLE_APPLICATION_CREDENTIALS
+: 1556638357:0;cat credentials.json
+: 1556638475:0;heroku run rails x
+: 1556638677:0;cd ../book_a_desk_api
+: 1556702054:0;cat .env
+: 1556702077:0;vim .env
+: 1556702100:0;code .env
+: 1556712839:0;heroku config:get CLIENT_ID
+: 1556713079:0;git add . 
+: 1556713084:0;git diff 
+: 1556713089:0;git diff --cached
+: 1556713097:0;git commit -m "asdf'\
+"
+: 1556713101:0;gitall 'asdf'
+: 1556713178:0;heroku logs --tail
+: 1556715026:0;gitall
+: 1556715782:0;ls -al | grep token
+: 1556719329:0;heroku run rasil c
+: 1556799737:0;cat token.yaml
+: 1556800298:0;mv client_secret_908790626015-5spsdba160dorcri86u4thcas0um0kkn.apps.googleusercontent.com\ \(1\).json  credentials.json
+: 1556800306:0;mv client_secret_908790626015-5spsdba160dorcri86u4thcas0um0kkn.apps.googleusercontent.com\ \(1\).json  google_credentials.json
+: 1556800317:0;mv google_credentials.json ~/code/book/book_a_desk_api/
+: 1556800627:0;git rm app/lib/calendar.rb
+: 1556800637:0;git stash
+: 1556800642:0;git add google_credentials.json
+: 1556800653:0;gitall 'yreds'
+: 1556800660:0;git push heroku master
+: 1556800695:0;heroku run rails c
+: 1556879355:0;lc
+: 1556879359:0;cd /tmp
+: 1556879371:0;git clone git@github.com:industriousparadigm/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git diogo
+: 1556879374:0;cd diogo
+: 1556880505:0;git clone git@github.com:azamkhanuk/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git azam
+: 1556880514:0;cd azam
+: 1556880749:0;git clone git@github.com:Cully-Curwen/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git cully
+: 1556880752:0;cd cully
+: 1556880758:0;code . 
+: 1556881076:0;git clone git@github.com:keoki33/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git george
+: 1556881281:0;git clone git@github.com:deeseert/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git george
+: 1556881284:0;git clone git@github.com:deeseert/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git gio
+: 1556881287:0;cd gio
+: 1556881509:0;git clone git@github.com:idanceinbetween/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git jhon
+: 1556881511:0;cd jhon
+: 1556882898:0;cd ..
+: 1556882906:0;git clone git@github.com:myrtokonst/module-3-code-challenge-round-1---london-web-031119-complete-code-challenge-1556872462.git myrto
+: 1556882913:0;cd myrto
+: 1556886867:0;cd ../
+: 1556886871:0;cd george
+: 1556886922:0;cd ../azam
+: 1556887278:0;cd ../cully
+: 1556887289:0;coe .
+: 1556887419:0;cd ../jhon
+: 1556887423:0;open index.html
+: 1556893132:0;s
+: 1556893139:0;cd code/book/book_a_desk_api
+: 1556893145:0;mv token.yaml token1.yaml
+: 1556894020:0;gem install google-cloud-storage\
+
+: 1556894115:0;cat google_credentials.json
+: 1556894159:0;mv ~/Downloads/book-a-desk-4f391a7ce5c8.json ~/code/book/book_a_desk_api/service_google.json
+: 1556894356:0;rm google_credentials.json
+: 1556894361:0;rm service_google.json
+: 1556894378:0;mv ~/Downloads/bookadesk-1554370298646-2d742c892ebb.json ~/code/book/book_a_desk_api/service_google.json
+: 1556894460:0;h | grep '<('
+: 1556894466:0;h | grep 'cat'
+: 1556894517:0;h | grep export
+: 1556894553:0;echo $GOOGLE_APPLICATION_CREDENTIALS
+: 1556894559:0;rc
+: 1556995059:0;node
+: 1557173767:0;cd Downloads
+: 1557173786:0;open .
+: 1557219513:0;cd
+: 1557219629:0;cd tech_tests
+: 1557219642:0;touch rover.rb
+: 1557219645:0;code ro
+: 1557220561:0;touch claudia_rover.rb
+: 1557221240:0;code rover.rb
+: 1557223494:0;vim ~/.aliases
+: 1557223549:0;cat rover.rb
+: 1557223558:0;cat rover.rb | grep 'E'
+: 1557231598:0;clear
+: 1557231600:0;cd ../../
+: 1557231602:0;cd code
+: 1557231609:0;cd book
+: 1557231611:0;cd book-a-desk
+: 1557231612:0;code .
+: 1557231620:0;cd ../book_a_desk_api ; code .
+: 1557231647:0;ers
+: 1557231659:0;cd ../book/book-a-desk-gate-keeper
+: 1557231660:0;node index.js
+: 1557231677:0;cd ../book-a-desk
+: 1557231679:0;npm start
+: 1557236513:0;irb
+: 1557238264:0;ls -al
+: 1557238286:0;cat service_google.json
+: 1557245081:0;rails c
+: 1557245345:0;rs
+: 1557325552:0;cd ~/code/dotfiles
+: 1557325554:0;gst
+: 1557325590:0;git add Gemfile.dev
+: 1557325592:0;git add hyper.js
+: 1557325594:0;git diff
+: 1557325612:0;git diff pryrc
+: 1557325618:0;git add pryrc
+: 1557325620:0;git status
+: 1557325626:0;git diff snippets.json
+: 1557325629:0;git add snippets.json
+: 1557325631:0;git add rubocop.yml
+: 1557325639:0;git diff zsh_history --tail
+: 1557325642:0;git diff zsh_history | tail
+: 1557325806:0;git config --global diff.tool bc3\
+
+: 1557325815:0;git config --global diff.tool code\
+
+: 1557325855:0;ls
+: 1557325859:0;vim gitconfig
+: 1557325880:0;source gitconfig
+: 1557325954:0;code --help
+: 1557325962:0;git config --global core.editor "code --wait"\
+
+: 1557325968:0;git config --global -e
+: 1557325979:0;git difftool --tool-help
+: 1557326032:0;vscode
+: 1557326184:0;git config --global diff.tool opendiff
+: 1557326187:0;git difftool zsh_history
+: 1557326341:0;wc -l zsh_history
+: 1557326348:0;git diff zsh_history
+: 1557326409:0;git difftool zsh_history
+: 1557326442:0;git diff zsh_history
+: 1557326451:0;wc -l zsh_history
+: 1557326468:0;git status
+: 1557326471:0;git add gitconfig
+: 1557326474:0;git diff zsh_history
+: 1557326479:0;git add zsh_history
+: 1557326482:0;git status
+: 1557326484:0;git add . 

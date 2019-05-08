@@ -4,9 +4,9 @@ if defined?(PryByebug)
   Pry.commands.alias_command 'n', 'next'
   Pry.commands.alias_command 'f', 'finish'
 end
-Pry::Commands.command /^$/, repeat last command do
-  _pry_.run_command Pry.history.to_a.last
-end
+
+if false
+
 begin
   require 'rubygems'
   require 'awesome_print'
@@ -137,4 +137,6 @@ module CodeRay
             end
         end
     end
+end
+
 end

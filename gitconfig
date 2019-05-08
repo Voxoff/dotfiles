@@ -51,3 +51,7 @@
 [user]
 	email = guybennettjones@hotmail.co.uk
 	name = Guy Bennett-Jones
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
