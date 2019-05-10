@@ -14691,3 +14691,140 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1557326479:0;git add zsh_history
 : 1557326482:0;git status
 : 1557326484:0;git add . 
+: 1557326491:0;git commit -m "updates from pro"
+: 1557326494:0;git push origin master
+: 1557326500:0;git diff
+: 1557326508:0;git status
+: 1557326511:0;git add zsh_history
+: 1557326514:0;git status
+: 1557326525:0;git diff zsh_history
+: 1557326528:0;clear
+: 1557326565:0;code gitconfig
+: 1557326757:0;code aliases
+: 1557329963:0;cd
+: 1557329964:0;cd code
+: 1557329965:0;ls
+: 1557329967:0;git clone https://github.com/emilybache/Tennis-Refactoring-Kata.git
+: 1557329970:0;cd t
+: 1557329972:0;cd Tennis-Refactoring-Kata
+: 1557329974:0;code .
+: 1557330013:0;rspec
+: 1557330028:0;ruby ruby/tennis_test.rb
+: 1557330034:0;cd ruby
+: 1557330039:0;ruby tennis_test.rb
+: 1557330877:0;irb
+: 1557330948:0;ruby tennis_test.rb
+: 1557331040:0;irb
+: 1557331051:0;ruby tennis_test.rb
+: 1557332066:0;cd ..
+: 1557332069:0;hub create
+: 1557332072:0;git add . 
+: 1557332077:0;git commit -m 'refactoring to be completed'
+: 1557332079:0;git push origin master
+: 1557332095:0;git remote origin rm
+: 1557332099:0;git remote rm origin
+: 1557332103:0;hub create
+: 1557332110:0;git add . 
+: 1557332112:0;git commit -m 'refactoring to be completed'
+: 1557332121:0;git push origin master
+: 1557480527:0;clear
+: 1557480660:0;cd
+: 1557480661:0;cd code
+: 1557480662:0;ls
+: 1557480667:0;git clone https://github.com/industriousparadigm/fakenews-inc-frontend.git
+: 1557480673:0;cd fakenews-inc-frontend
+: 1557480707:0;git clone https://github.com/oli-gra/newsAPI.git
+: 1557480710:0;cd newsAPI
+: 1557480716:0;rvm list
+: 1557480730:0;vim Gemfile
+: 1557480742:0;bundle
+: 1557480750:0;gem install bundler
+: 1557480755:0;rm -rf Gemfile.lock
+: 1557480756:0;bundle
+: 1557480762:0;rvm use 2.5.3
+: 1557480785:0;bundle
+: 1557480856:0;cd ../
+: 1557480857:0;ls
+: 1557480862:0;cd fakenews-inc-frontend
+: 1557480862:0;ls
+: 1557480867:0;open index.html
+: 1557480880:0;ls
+: 1557480882:0;ls -al
+: 1557480885:0;rails s
+: 1557480900:0;rails db:drop db:create db:migrate db:seed
+: 1557480904:0;rails s
+: 1557480939:0;code .
+: 1557491098:0;clkear
+: 1557491098:0;ls
+: 1557491100:0;clear
+: 1557491100:0;cd 
+: 1557491101:0;ls
+: 1557491102:0;cd code
+: 1557491102:0;ls
+: 1557491105:0;clear
+: 1557491105:0;ls
+: 1557491130:0;rm -rf escape-puzzle redux-warmup-challenge-add-features-master email-database.csv twilio hotload immersive-assessment-react-frontend
+: 1557491159:0;rm -rf lewagon key redux.js dispatch_me 
+: 1557491180:0;rm -rf data_science fourfive fullstack-challenges hackathons hacktop hello 
+: 1557491188:0;rm -rf hotloader fakenews-inc-frontend
+: 1557491190:0;ls 
+: 1557491204:0;rm -rf Tennis-Refactoring-Kata Module-5/ chrome_extensions codersinhoods flatiron flatiron-micro-github 
+: 1557491217:0;cd guybennettjones
+: 1557491217:0;ls
+: 1557491217:0;git status
+: 1557491219:0;cd ..
+: 1557491221:0;rm -rf guybennettjones
+: 1557491222:0;ls
+: 1557491223:0;cd rspec
+: 1557491223:0;ls
+: 1557491226:0;git init .
+: 1557491229:0;hub create
+: 1557491236:0;gitall
+: 1557491239:0;cd ..
+: 1557491241:0;rm -rf rspec
+: 1557491242:0;ls
+: 1557491245:0;rm -rf social-auth-example
+: 1557491250:0;rm -rf juby
+: 1557491251:0;cd allergens
+: 1557491251:0;ls
+: 1557491254:0;cat app/m
+: 1557491262:0;cat app/models/ingredient.rb
+: 1557491264:0;cd ..
+: 1557491267:0;rm -rf allergens
+: 1557491267:0;ls
+: 1557491272:0;rm -rf bfg.jar
+: 1557491272:0;ls
+: 1557491276:0;rm -rf Gemfile Gemfile.lock 
+: 1557491278:0;cd tech_tests
+: 1557491279:0;ls
+: 1557491286:0;rm cleo-tech-test cleo-technical-test
+: 1557491290:0;rm -rf cleo-tech-test cleo-technical-test
+: 1557491290:0;ls
+: 1557491293:0;cd cleo
+: 1557491293:0;ls
+: 1557491295:0;git status
+: 1557491297:0;git diff
+: 1557491303:0;gitall
+: 1557491538:0;clear
+: 1557491731:0;ls
+: 1557491732:0;cd 
+: 1557491732:0;ls
+: 1557491734:0;cd code
+: 1557491734:0;ls
+: 1557491736:0;cd tech_tests
+: 1557491736:0;ls
+: 1557491742:0;cd ..
+: 1557491748:0;rm -rf tech_tests
+: 1557491755:0;ls
+: 1557491755:0;cd cit
+: 1557491755:0;cd
+: 1557491755:0;cd code
+: 1557491756:0;ls
+: 1557491758:0;cd dotfiles
+: 1557491758:0;ls
+: 1557491762:0;git diff
+: 1557491766:0;git status
+: 1557491768:0;git diff aliases
+: 1557491768:0;ls
+: 1557491774:0;git diff gitconfig
+: 1557491777:0;gitall

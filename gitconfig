@@ -21,6 +21,9 @@
   d = !git --no-pager diff
   dt  = difftool
   stat = !git --no-pager diff --stat
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
 
   # Clean merged branches
   sweep = !git branch --merged master | grep -v 'master$' | xargs git branch -d && git remote prune origin

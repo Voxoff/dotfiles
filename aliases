@@ -82,6 +82,16 @@ function clone() {
 alias glg="git log --graph --oneline --decorate --all"
 alias gld=‘git log --pretty=format:“%h %ad %s” --date=short --all’
 alias gs=‘git stash’
+alias gst='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+
+alias got='git '
 
 # Le Wagon
 alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
