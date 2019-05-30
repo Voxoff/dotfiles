@@ -1,0 +1,32 @@
+#to move around ds folders quickly
+next() {
+  STR="$(pwd | cut -d '/' -f 6 | cut -d '-' -f 1-4)"
+  NXT="$(expr $STR[-1] + 1)"
+  if [[ NXT == 10 ]]; then
+    FNL="${STR:0:-2}${NXT}"
+  else
+    FNL="${STR:0:-1}${NXT}"
+  fi
+  cd ..
+
+  DIR="$(ls | grep $FNL)"
+  if [[ -n DIR ]]; then
+    cd $DIR
+  else
+    # recursively call + 1
+    if [[ expr( $FNL[-2] <= 2) ]]; then
+      recurse(FNL)
+    fi
+  fi
+
+}
+
+recurse(IN) {
+  NXT="$(expr $IN[-1] + 1)"
+  if [[ NXT == 10 ]]; then
+    FNL="${IN:0:-2}${NXT}"
+  else
+    FNL="${IN:0:-1}${NXT}"
+  fi
+  return FNL
+}
