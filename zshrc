@@ -1,25 +1,58 @@
-ZSH=$HOME/.oh-my-zsh
+alias lc=’colorls — tree — light’
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# You can change the theme with another one:
-#   https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+export ZSH="/Users/gbennettjones/.oh-my-zsh"
 
-# Useful plugins for Rails development with Sublime Text
-plugins=(gitfast brew last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search)
+ZSH_THEME="random"
+echo $RANDOM_THEME
+export DEFAULT_USER="Guy"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+ENABLE_CORRECTION="true"
+
+COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git
+)
 
 # Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
 
-# Actually load Oh-My-Zsh
-source "${ZSH}/oh-my-zsh.sh"
+source $ZSH/oh-my-zsh.sh
 
-# Load rbenv
-eval "$(rbenv init -)"
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
 
-# Rails and Ruby uses the local `bin` folder to store binstubs.
-# So instead of running `bin/rails` like the doc says, just run `rails`
-# Same for `./node_modules/.bin` and nodejs
-export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Example aliases
+alias zshconfig="code ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
@@ -30,3 +63,10 @@ export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# Rails and Ruby uses the local `bin` folder to store binstubs.
+# So instead of running `bin/rails` like the doc says, just run `rails`
+# Same for `./node_modules/.bin` and nodejs
+# export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
+export HISTFILE="$HOME/code/dotfiles/zsh_history"

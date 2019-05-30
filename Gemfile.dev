@@ -1,0 +1,8 @@
+group :development, :test do
+  gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'awesome_print'
+  gem 'awesome_print_color'
+  gem 'hotloader'
+end
+gem 'annotate'

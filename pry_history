@@ -1,0 +1,2073 @@
+Cart.all
+Cart.first
+Cart.first.cart_items
+Product.all
+exit
+Strength.create!(100)
+Strength.new
+Strength.create!(strength: 100)
+ProductStrength.create!(product: Product.first, strength: Strength.first)
+Product.all.each do |product|
+  Strength.all.each do |strength|
+    ProductStrength.create!(product: product, strength: strength)
+  end
+end
+ProductStrength.all
+rails s
+exit
+User.last.cart_items
+User.last.cart
+User.last.cart.cart_items
+exit
+User.first.cart_items
+User.last.cart_items
+exit
+CartItem.last
+exit
+continue
+browser
+string
+browser.link(href: /#{string}/).exists?
+browser.link(href: /introduction/).exists?
+browser.link(href: /dsc-1-03-01/).exists?
+/#{string}/
+exit
+arr = [1,2,3]
+arr.map(&:to_s)
+arr.map(:to_i.to_proc)
+arr.map(&:to_s.to_proc)
+arr.map(&:to_i.to_proc)
+exit
+Cart.all.last.cart_items
+exit
+Product.all.take(3)
+array = (0..5).to_a
+array.take(3)
+exit
+Cloudinary::Cloudinary
+Cloudinary
+Cloudinary::Uploader
+Cloudinary::Uploader.upload("placholder.jpg")
+Cloudinary::Uploader.upload("./placholder.jpg")
+Cloudinary::Uploader.upload("app/assets/images/placholder.jpg")
+ls
+exit
+Cloudinary::Uploader.upload("placholder.jpg")
+Cloudinary::Uploader.upload("placeholder.jpg")
+exit
+Cloudinary::Uploader.upload("app/assets/images/review_cartoon.png")
+exit
+Cloudinary::Uploader.upload("app/assets/images/cartoon.pdf")
+exit
+Cart.last
+Cart.last.cart_items
+Cart.last.cart_items.delete_at(4)
+Cart.last.cart_items.delete(4)
+Cart.last.cart_items.delete(3)
+Cart.last.cart_items
+exit
+CartItem.last.quantity
+Cart.last
+Cart.last.cart_items
+Cart.last.cart_items.delete(2)
+Cart.last.cart_items.delete(5)
+Cart.last.cart_items.delete(6)
+Cart.last.cart_items
+reload!
+Cart.last.cart_items
+reload!
+Cart.last.cart_items
+Cart.last.cart_items.delete(8)
+reload!
+Cart.last.cart_items.delete(8)
+Cart.last.cart_items
+exit
+Product.all
+exit
+Cart.find(1).user
+User.find(2).cart_items
+exit
+next
+@amount
+next
+user
+next
+coupon
+next
+coupon.present?
+next
+@address
+user.addresses
+next
+@address
+address_params
+address_params.to_a
+address.first_line
+@address.first_line
+@address.user = user
+array = [@address.first_line, @address.second_line, @address.postcode, @address.city]
+user.addresses
+class Address ; def get_address ;     [self.first_line, self.second_line, self.postcode, self.city]
+; end ; end
+@address.get_address
+class Address < ApplicationRecord
+  def get_address
+    return     [self.first_line, self.second_line, self.postcode, self.city]
+  end
+end
+class Address
+  def get_address
+    return     [self.first_line, self.second_line, self.postcode, self.city]
+  end
+end
+@address.get_address
+get_address
+user.addresses.map {|i|     [self.first_line, self.second_line, self.postcode, self.city]
+}
+user.addresses.map {|self|     [self.first_line, self.second_line, self.postcode, self.city]}
+user.addresses.map {|self|     [self.first_line, self.second_line, self.postcode, self.city] }
+user.addresses.map {|s|     [s.first_line, s.second_line, s.postcode, s.city] }
+user.addresses
+@address.user = user
+user.addresses
+user
+@address
+@address.save!
+@address.update(postcode: "n10af")
+@address
+user.addresses
+user
+@address.user
+@address.save
+@address.persisted?
+user.persisted?
+user.addresses
+@address
+@address.user
+user.orders
+user.cart
+user.cart_items
+user.carts
+user.addresses
+Address.all
+Address
+User.all
+exit
+next
+up
+next
+up
+continue
+up
+step
+continue
+a = [[1,2,3],[1,2,3]]
+a.uniq
+hash = {"id"=>"8ac7a4a067839980016792f49840705a", "paymentType"=>"DB", "paymentBrand"=>"VISA", "amount"=>"79.00", "currency"=>"EUR", "descriptor"=>"4257.3395.8146 OPP_Channel", "result"=>{"code"=>"000.100.110", "description"=>"Request successfully processed in 'Merchant in Integrator Test Mode'"}, "resultDetails"=>{"clearingInstituteName"=>"Elavon-euroconex_UK_Test"}, "card"=>{"bin"=>"420000", "last4Digits"=>"0000", "holder"=>"g jones", "expiryMonth"=>"10", "expiryYear"=>"2020"}, "customer"=>{"ip"=>"90.255.34.185"}, "threeDSecure"=>{"eci"=>"07"}, "customParameters"=>{"SHOPPER_EndToEndIdentity"=>"54f142e8cd9f7ea8a01d3afdb5200c20955128fde41cc024e3f0f93d5bdb17d2", "CTPE_DESCRIPTOR_TEMPLATE"=>""}, "risk"=>{"score"=>"100"}, "buildNumber"=>"7469d0e5bd2dccca50bbd107625279e76a2c9ff3@2018-12-04 10:59:49 +0000", "timestamp"=>"2018-12-09 12:32:42+0000", "ndc"=>"1E576106CC01287BFF8DDCC11FA641EA.uat01-vm-tx02"}
+hash[:code]
+hash[:result][:code]
+hash[:result]
+hash["code"]
+exit
+User.find(2)
+User.find(2).carts
+reload!
+User.first
+User.first.update(first_name: "Admin", last_name: "administrator")
+!!!
+Cart.all.where(active: false)
+Cart.active
+Cart.orders
+Cart.where(active: true)
+Cart.where(active: nil)
+Cart.where(active: !nil)
+!nil
+Cart.where(user: nil)
+Cart.where(user: !nil)
+User.order("id desc")
+User.guest?
+User.first
+User.first.guest
+User.first
+User.first.addresses
+User.first.addresses.build(first_line: "Fourfive, city: "London", postcode: "n1 0af")
+User.first.addresses.build(first_line: "Fourfive", city: "London", postcode: "n1 0af")
+User.first.orders
+User.first.addresses
+Address.last
+Address.all
+eixt
+exit
+Address.all
+Address.create(first_line: "firstline", postcode: "n1 0af", city: "london", user: 10)
+User.all
+Address.create(first_line: "firstline", postcode: "n1 0af", city: "london", user_id: 1)
+User.first.addresses
+serialize Address.first
+Address.find(1)
+Address.find(2)
+Address.find(2).update(first_line: "24 orkney house", second_line: "199 caledonian road")
+Cart.first
+Cart.first.user
+Cart.find
+Cart.find(1)
+Address.find(2)
+exit
+Address.first
+Address.first.cart
+Address.find(2)
+exit
+item = InvoicePrinter::Document::Item.new(
+  name: 'Web consultation',
+  quantity: nil,
+  unit: 'hours',
+  price: '$ 25',
+  tax: '$ 1',
+  amount: '$ 100'
+)
+invoice = InvoicePrinter::Document.new(
+  number: '201604030001',
+  provider_name: 'Business s.r.o.',
+  provider_tax_id: '56565656',
+  provider_tax_id2: '465454',
+  provider_street: 'Rolnicka',
+  provider_street_number: '1',
+  provider_postcode: '747 05',
+  provider_city: 'Opava',
+  provider_city_part: 'Katerinky',
+  provider_extra_address_line: 'Czech Republic',
+  purchaser_name: 'Adam',
+  purchaser_tax_id: '',
+  purchaser_tax_id2: '',
+  purchaser_street: 'Ostravska',
+  purchaser_street_number: '1',
+  purchaser_postcode: '747 70',
+  purchaser_city: 'Opava',
+  purchaser_city_part: '',
+  purchaser_extra_address_line: '',
+  issue_date: '19/03/3939',
+  due_date: '19/03/3939',
+  subtotal: '175',
+  tax: '5',
+  tax2: '10',
+  tax3: '20',
+  total: '$ 200',
+  bank_account_number: '156546546465',
+  account_iban: 'IBAN464545645',
+  account_swift: 'SWIFT5456',
+  items: [item],
+  note: 'A note...'
+)
+invoice.render
+item.render
+InvoicePrinter.render(
+  document: invoice
+)
+f = File.new("pdf.pdf", 'w')
+f << InvoicePrinter.render(document:invoice)
+invoic
+invoice
+InvoicePrinter.print(
+  document: invoice,
+  labels: labels,
+  page_size: :a4,
+  file_name: 'invoice.pdf'
+)
+exit
+item = InvoicePrinter::Document::Item.new(
+  name: 'Web consultation',
+  quantity: nil,
+  unit: 'hours',
+  price: '$ 25',
+  tax: '$ 1',
+  amount: '$ 100'
+)
+invoice = InvoicePrinter::Document.new(
+  number: '201604030001',
+  provider_name: 'Business s.r.o.',
+  provider_tax_id: '56565656',
+  provider_tax_id2: '465454',
+  provider_street: 'Rolnicka',
+  provider_street_number: '1',
+  provider_postcode: '747 05',
+  provider_city: 'Opava',
+  provider_city_part: 'Katerinky',
+  provider_extra_address_line: 'Czech Republic',
+  purchaser_name: 'Adam',
+  purchaser_tax_id: '',
+  purchaser_tax_id2: '',
+  purchaser_street: 'Ostravska',
+  purchaser_street_number: '1',
+  purchaser_postcode: '747 70',
+  purchaser_city: 'Opava',
+  purchaser_city_part: '',
+  purchaser_extra_address_line: '',
+  issue_date: '19/03/3939',
+  due_date: '19/03/3939',
+  subtotal: '175',
+  tax: '5',
+  tax2: '10',
+  tax3: '20',
+  total: '$ 200',
+  bank_account_number: '156546546465',
+  account_iban: 'IBAN464545645',
+  account_swift: 'SWIFT5456',
+  items: [item],
+  note: 'A note...'
+)
+rendered_pdf = InvoicePrinter.redner(document: invoice)
+rendered_pdf = InvoicePrinter.render(document: invoice)
+PDF::Inspector::Text.analyze(rendered_pdf).strings
+PDF
+PDF::Inspector::Text
+PDF::Inspector
+PDF.constants
+PDF::Core
+PDF::Core.constanst
+PDF::Core.constants
+PDF::Core::Text.analyz
+PDF::Core::Text.analyze
+PDF::Core::Text.methods
+PDF::Core::Text.methods(false)
+PDF::Core::Text.instance_methods
+rendered_pdf = InvoicePrinter.print(document: invoice)
+rendered_pdf = InvoicePrinter.print(document: invoice, file_name: invoice.pdf)
+rendered_pdf = InvoicePrinter.print(document: invoice, file_name: "invoice.pdf")
+a = b = true
+a
+[1,2,3]
+[1,2,3].methods
+[1,2,3].methods.grep /each/
+[1,2,3].each
+Enumerable
+Enumerable.methods
+Enumerable.methods.grep /each/
+exit
+class Dog
+  def initialize(attr)
+    @name = attr[:name]
+  end
+end
+Dog.new(name: "name")
+exit
+Cart.first
+Address.all
+Address.create(cart_id: 1, first_line: "Hillfoot", city: "London", postcode: "n1 0af", first_name: "guy", last_name: "jones")
+Cart.first
+Cart.first.cart_items
+CartItem.create(cart_id: 1, product_id: 2, quantity: 5)
+Cart.first.cart_items
+Cart.first.amount
+Product.first
+exit
+[nil, "allen"]
+[nil, "allen"].compact
+[nil, "allen"].compact.join(" ")
+[nil, "allen"].compact.join
+['asdf', "allen"].compact.join
+exit
+Coupon
+exit
+Cart.all
+Cart.find(1)
+Cart.find(1).address
+exit
+Cart.new
+exit
+Cart.new
+exit
+Cart.new
+exit
+Cart.last
+Cart.last.address
+Cart.last.address = nil
+exit
+Cart.all
+carts = Cart.all.where(active: true).where("updated_at < ?", 1.weeks.ago)
+carts = Cart.all.where(active: true).where("updated_at < ?", 0.weeks.ago)
+Cart.create(user_id: 1)
+Cart.all.delete_all
+reload!
+Cart.all.delete_all
+exit
+Cart.all.delete_all
+exit
+Cart.all.delete_all
+Cart.all
+CartItem.first
+CartItem.find(1)
+CartItem.find(1).delete
+CartItem.all
+CartItem.create(cart_id: 1, product_id: 1)
+Cart.find(1)
+Cart.find(1).delete
+exit
+Cart.all.delete_all
+Cart.all.destory
+Cart.all.destroy_all
+Cart.all
+Cart.create(user_id: 1)
+Cart.all.delete_all
+CartItem.all
+exit
+Cart.create(user_id: 1)
+reload!
+Cart.all
+CartItem.create(cart_id: 1, product_id: 1)
+CartItem.create!(cart_id: 1, product_id: 1)
+Product.create(name: "asdf")
+CartItem.create!(cart_id: 1, product_id: 1)
+Cart.all.delete_all
+exit
+Cart.all
+CartItem.create(cart_id: 1, product_id:1)
+Cart.all.delete_all
+reload!
+Cart.all.delete_all
+Cart.all.destroy_all
+Cart.all
+CartItem.all
+exit
+30.days.ago
+Time.now - 30.days
+reload!
+Cart.all
+Cart.all.recent
+reload!
+Cart.all.recent
+reload!
+Cart.all.recent
+Cart.all.old
+reload!
+Cart.all.old
+1.days.ago
+1.day.ago
+exit
+Cart.all
+exit
+Cart.all
+User.all
+exit
+User.find(2)
+User.find(2).cart
+User.find(2).cart.amount
+exit
+Product.find(1)
+Product.find(3)
+Product.find(2)
+Product.create!(name: 'cbd balms', price: 29.99, subtitle: "Organic balms for damaged skin", description: "Because your skin it the largest working organ, we’ve created a soothing, safe and protective application for it. Made with organic ingredients, our hand-blended and hard-working balm is kind to all skin types.", photo: open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1543755363/pqje5y6qblpza9f4cxdn.jpg"))
+%w(asdf asdf)
+%w(asdf asdf&s)
+%w(asdf asdf& s)
+["Aches", "Sprains", "Tendon inflammation", "Muscle inflammation", "Localised pain (including knees, hands, shoulders & elbows)", "Psoriasis ", "Acne", "Eczema", "Grazes", "Minor burns"]
+exir
+Product.find(1).help
+oil_help = ["Stress relief", "Anti-inflammatory", "Sleep patterns", "Relieving of anxiety", "Easing mild depression", "Calming nerves"]
+Product.find(1).update(help: oil_help)
+Product.find(1).help
+exit
+exit
+Product.first
+Product.find(2).how_to_user
+Product.find(2).how_to_use
+Product.find(2).how_to_use.split(\n)
+Product.find(2).how_to_use.split("\n")
+Product.find(2)
+exit
+%w(natural orange)
+%w(small large 500mg 1000mg 2000mg)
+p = Product.create!(name: 'cbd oils', size: "500mg", tincture: "natural", price: 29.99, help: oil_help, how_to_use: oil_how_to, ingredients: oil_ingr, subtitle: "Flavored oils for quick absorption", description: "Quick-absorbing and easy-to-use cbd oils. Made with 100% natural and organic ingredients. Our process of CO2 extraction means the highest available nutritional value is packed in to every drop of fourfive cbd oil. Each of our bottles contain roughly 120 drops.", photo: open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1543755363/pqje5y6qblpza9f4cxdn.jpg"))
+balm_help = ["Aches", "Sprains", "Tendon inflammation", "Muscle inflammation", "Localised pain (including knees, hands, shoulders & elbows)", "Psoriasis ", "Acne", "Eczema", "Grazes", "Minor burns"]
+balm_how_to = "Swallow with food. We recommend starting by taking one capsule once or twice a day. you can then increase your dose over time. Generally, we have seen customers take an average of two to four capsules of cbd per day. Please do not go over the 200mg food supplement daily limit (forty capsules)"
+balm_ingr = ["Vegetable capsule", "Hemp extract", "Coconut oil", "Not recommended if you suffer from nut allergies"]
+oil_help = ["Stress relief", "Anti-inflammatory", "Sleep patterns", "Relieving of anxiety", "Easing mild depression", "Calming nerves"]
+oil_how_to = "Apply on to the targeted area of your skin and rub until fully absorbed. For external use only."
+oil_ingr = ["Hemp extract", "Coconut oil", "Not recommended if you suffer from nut allergies"]
+capsule_help = ["Arthritis", "Muscle stiffness", "Management of Fibromyalgia", "Inflammatory disorders"]
+capsule_how_to = "We recommend starting with 3 drops of the lower strength oil twice a day. To take simply drop the cdb oil under your tongue using the pipette or the spray. This achieves the best possible absorption rates and bioavailability. \n You can then increase the dosage as required on a weekly basis, to a maximum of 6 drops twice a day, until the desired results are achieved. \n If you find that you’re nearing the end of the bottle and you’re already taking 6 drops twice a day but it isn’t hitting the spot, we would recommend upgrading to our regular or higher strength cbd oil."
+capsule_ingr = ["Coconut oil", "Hemp extract", "Vegetable capsule"]
+capsule_desc = "Our cbd capsules contain full-spectrum, co2 extracted hemp infused in coconut oil and capped in vegan capsules. They are easy-to-use and slow-to-release, great for when you only need a small amount of cbd product over a longer period of time."
+p = Product.create!(name: 'cbd oils', size: "500mg", tincture: "natural", price: 29.99, help: oil_help, how_to_use: oil_how_to, ingredients: oil_ingr, subtitle: "Flavored oils for quick absorption", description: "Quick-absorbing and easy-to-use cbd oils. Made with 100% natural and organic ingredients. Our process of CO2 extraction means the highest available nutritional value is packed in to every drop of fourfive cbd oil. Each of our bottles contain roughly 120 drops.", photo: open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1543755363/pqje5y6qblpza9f4cxdn.jpg"))
+Product.create!(name: 'cbd capsules', price: 3, help: balm_help, how_to_use: capsule_how_to, ingredients: capsule_ingr, subtitle: "Easy-to-take capsules for slower release", description: capsule_desc, photo: open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1543755363/pqje5y6qblpza9f4cxdn.jpg"))
+reload!
+Product.create!(name: 'cbd capsules', price: 3, help: balm_help, how_to_use: capsule_how_to, ingredients: capsule_ingr, subtitle: "Easy-to-take capsules for slower release", description: capsule_desc, photo: open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1543755363/pqje5y6qblpza9f4cxdn.jpg"))
+exit
+e
+exit
+['net/https', 'uri', 'json'].each(&method(:require))
+JSON
+exit
+JSON
+URI
+require 'json'
+['net/https', 'uri', 'json'].each(&method(:require))
+require 'json'
+['net/https', 'uri', 'json'].each(&(:require))
+['net/https', 'uri', 'json'].each(&:require)
+exit
+%w[ 500mg 1000mg 2000mg]
+exit
+Address.find(1)
+Address.all
+Cart.fin
+Cart.all
+Cart.find(1).amount
+reload!
+Cart.find(1).amount
+exit
+Cart.find(1).amount
+Cart.find(1).quanitty
+Cart.find(1).quantity
+exit
+Cloudinary::Uploader.upload
+Cloudinary::Uploader.upload("capsules.jpg")
+Cloudinary::Uploader.upload("capsule.jpg")
+exit
+Cloudinary::Uploader.upload("capsule.jpg")
+Cloudinary::Uploader.upload("balm_300.jpg")
+Cloudinary::Uploader.upload("balm_300.jpeg")
+exit
+puts DIR.pwd
+puts dir.pwd
+puts Dir.pwd
+Cloudinary::Uploader.upload("app/assets/images/products/balm_300.jpeg")
+Cloudinary::Uploader.upload("app/assets/images/products/balm_300.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/balm_800.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/capsule.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/natural_lower.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/natural_medium.jpg")
+exit
+Cloudinary::Uploader.upload("app/assets/images/products/natural_medium.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/natural_higher.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/orange_higher.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/orange_medium.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products/orange_lower.jpg")
+exit
+Product.find(2).description
+Product.find(2).update(               description: "Because your skin it the largest working organ, we’ve created a soothing, safe and protective application for it. Made with organic ingredients, our hand-blended and hard-working balm is kind to all skin types.",
+)
+Product.find(2).description
+exit
+Product.find(1).description
+Product.find(2).description
+Product.find(3).description
+exit
+Cloudinary::Uploader.upload("app/assets/images/Testimonials_and_images/chris circle")
+exit
+Cloudinary::Uploader.upload("app/assets/images/Testimonials_and_images/chris.jpg")
+Cloudinary::Uploader.upload("app/assets/images/Testimonials_and_images/nathan.jpg")
+Cloudinary::Uploader.upload("app/assets/images/Testimonials_and_images/nadia.jpg")
+exit
+Product.all
+Product.first.name
+Product.first.name.gsub("_", " ")
+Product.first.tincture
+Product.find(6).tincture
+Product.find(6).size
+exit
+ProductGroup.first
+Product.find(1)
+Product.create(name: "asdf")
+Product.create(name: "asdf").valid?
+Product.new(name: "asdf").errors
+Product.new(name: "asdf").valid?.errors
+Product.new(name: "asdf").valid?
+p =Product.new(name: "asdf").valid?
+p.errors
+p =Product.new(name: "asdf")
+p.valid?
+p.errors
+p =Product.new(name: "asdf",product_group_id: 1)
+exit
+Product.find(1).product_group
+ProductGroup.first.products
+reload!
+ProductGroup.first.products
+exit
+Cloudinary::Uploader.upload("app/assets/images/products_new/cbdoilnaturallower.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilnaturallower.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilnaturalmedium.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilnaturalhigher.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilorangehigher.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilorangemedium.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/cdboilorangelower.jpg")
+exit
+Cloudinary::Uploader.upload("app/assets/images/products_new/oil_inter.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/balm_inter.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/capsules_inter.jpg")
+exit
+Cloudinary::Uploader.upload("app/assets/images/products_new/capsules.jpg")
+ProductGroup.find(1)
+ProductGroup.find(1).photo = open("https://res.cloudinary.com/dq2kcu9ey/image/upload/v1545310996/g9l7hk0dbiii7fkjcq9r.jpg")
+ProductGroup.find(1).update(photo: open("https://res.cloudinary.com/dq2kcu9ey/image/upload/v1545310996/g9l7hk0dbiii7fkjcq9r.jpg"))
+exit
+Product.find(4)
+exit
+next
+"#{ENV['ZION_USER_ID']}"
+"#{@amount}"
+next
+@result["id"]
+@result
+continue
+up
+next
+exit
+continue
+@amount.to_f
+#{ENV['ZION_USER_ID']}
+"#{ENV['ZION_USER_ID']}"
+"#{ENV['ZION_ENTITY_ID']}"
+"#{ENV['ZION_TEST_PWD']}"
+continue
+up
+"#{ENV['ZION_USER_ID']}"
+req
+req.data
+req.get_form_data
+req.form_data
+req
+req.method
+req.methods
+req.bod
+req.body
+req.header
+req.head
+req.methods
+req.to_hash
+req.body
+next
+continue
+up
+req
+req.to_hash
+req.methods
+req.body_stream
+req.stringify_keys
+req.parse_header
+req.type_params
+req.get_fields
+req.each_value {|i| puts i}
+whereami
+req.each_header {|i| puts i}
+req.header
+req.amount
+req.params
+req.uri
+req.body
+exit
+change = {"500mg": "Lower", "1000mg": "Medium", "2000mg": "Higher"}
+size = "500mg"
+change[size]
+change[size.to_sym]
+exit
+ProductGroup.find(2)
+ProductGroup.find(3)
+ProductGroup.find(3).update(description: "Quick-absorbing cbd oils made with 100% natural ingredients and designed to help you support and maintain an active lifestyle. Our process of CO2 extraction means the highest available nutritional value is packed in to every drop of fourfive cbd oil. Each 30ml bottle contains around 120 drops and is supplied with a pipette and a handy spray applicator.")
+ProductGroup.find(2)
+ProductGroup.find(1)
+ProductGroup.find()
+exit
+Cloudinary::Uploader.upload("app/assets/images/products_new/smallbalm.jpg")
+Cloudinary::Uploader.upload("app/assets/images/products_new/largebalm.jpg")
+Product.find(1)
+Product.find(2)
+Product.find(2).update(photo: open("https://res.cloudinary.com/dq2kcu9ey/image/upload/v1545330419/zdilgiei86tpd8u0wkbc.jpg"))
+Product.find(3)
+Product.find(3).update(photo: open("https://res.cloudinary.com/dq2kcu9ey/image/upload/v1545330449/go6ereapuoyjqepenvk6.jpg")
+)
+exit
+exit
+Cart.all
+Cart.all.amount
+Cart.find(2).amount
+Cart.find(2).cart_items
+Product.find(4)
+Cart.all
+Cart.find(2)
+Cart.find(2).cart_items
+Date.today
+Date.today.to_s
+"#{Date.today}"
+"#{Date.today.strftime(%A)}"
+"#{Date.today.strftime('%A, %b %d')}"
+Date.today.strftime('%A, %b %d')
+!!!
+Cart.updated_at
+Cart.find(1)updated_at
+Cart.find(1).updated_at
+Cart.find(1).updated_at.strftim('%A')
+Cart.find(1).updated_at.strftime('%A')
+exit
+Cart.all.last
+Cart.all.last.basket
+Cart.all.cart_items
+Cart.last.cart_items
+Cart.last.cart_items.delete(6)
+Cart.last.cart_items.destroy(6)
+Cart.last.cart_items
+reload
+reload!
+Cart.last.cart_items
+Cart.last.cart_items.map {|i| i.specific_name}
+Cart.last.cart_items.map {|i| i.product.specific_name}
+exit
+Cart.all.last.count
+Cart.all.last
+Cart.all.last.cart_items
+Cart.all.last.cart_items.collect(&:quantity)
+Cart.all.last.cart_items.collect(&:quantity).reduce(:+)
+Cart.all.last.cart_items.reduce{|i| i.quantity}
+Cart.all.last.cart_items.reduce{|c,i| c += i.quantity}
+Cart.all.last.cart_items.reduce(0){|c,i| c += i.quantity}
+Cart.all.last.cart_items.sum {|i| i.quantity}
+Cart.all.last.cart_items.sum(&:quantity)
+exit
+CartItem.all
+-1.negative?
+-1.postive?
+-1.positive?
+clear
+ls
+exit
+Cart.find(5).cart_items
+selections = "tinctures"
+selections
+selections.inspect
+selections.to_s
+@names = ProductGroup.collect(&:name)
+@names = ProductGroup
+@names = ProductGroup.all.collect(&:name)
+@names = 
+@names
+@names.inspect
+@names.to_s
+@names.variable_name
+@names.constantise
+@names.methods
+@names.pretty_inspect
+@names.instance_variables
+@names.instance_variable_names
+@names.instance_variable_name
+@names.instance_variable_get
+@names.full_name
+@names.self
+@names.itself
+@names.class
+@names.class.inspect
+@names.object_id
+@names.object_id.eval
+eval(@names.object_id)
+@names.object_id.to_s
+eval(@names.object_id.to_s)
+@name.binding
+@names.binding
+@names.to_Sym
+@names.to_sym
+self
+self.instance_variables
+whereami
+selection
+selections
+@tinctures
+selection.to_s
+continue
+reload!
+Product.first.how_to_use_text
+Product.first.how_to_use
+Product.first.product_group.how_to_use
+Product.last.product_group.how_to_use
+Product.last.how_to_use_text
+Product.last.how_to_use_text.each
+reload!
+Product.last.product_group
+Product.last.product_group.how_to_use_text
+Product.last.how_to_use_text
+Product.last.how_to_use_text {|i| puts i }
+exit
+[1234]
+[][]
+[][1234]
+exit
+ApplicationController
+ApplicationController.flashme
+ApplicationController.new.flashme
+ApplicationController.create
+ApplicationController.new
+a= aApplicationController.new
+a= ApplicationController.new
+a.flashme
+Flash
+a.flashme
+exit
+a = SQL<<"asdf
+asdf"
+a = EOF<<"asdf
+asdf"
+a = EOF<<"asdf
+asdf" EOF
+ecti
+exit
+@product = Product.find(5)
+params = {cart_id: 1, quantity: 2}
+CartItem.new(params)
+a = CartItem.new(params)
+ci = CartItem.new(params)
+ci.product = @product
+ci
+ci.build
+CartItem.product.build
+CartItem.build_product
+CartItem.methods
+CartItem.methods.grep /build/
+CartItem.attributes_builder
+ri attributes_builder
+ri :attributes_builder
+CartItem.predicate_builder
+CartItem.new(params)
+CartItem.new(params).build_product(product_id: 1_
+CartItem.new(params).build_product(product_id: 1)
+@product
+CartItem.new(params).product = product
+CartItem.new(params).product = @product
+CartItem.create(params).product = @product
+@ci = CartItem.create(params).product = @product
+@ci
+CartItem.create(params).product = @product
+CartItem.create(params)
+ci = CartItem.create(params)
+ci
+ci.update(product: @product)
+CartItem.new(cart_id:1, quantity:1)
+CartItem.new(cart_id:1, quantity:1).send(:product_id, 2)
+CartItem.new(cart_id:1, quantity:1).send(:product_id)
+ci = CartItem.new(cart_id:1, quantity:1)
+ci.send :product
+@product = Product.find(1)
+ci.send :product, @product
+ci.respond_to? :product
+ci.send :product=, @product
+params
+cart_params = {cart_id: 1, quantity: 2}
+@cart_item = CartItem.new(cart_params).send(:product=, @product)
+exit
+exit
+next
+@producr
+@product
+params
+Product.find_by(size: params[:size])
+@product = Product.find_by(size: params[:size])
+whereami
+@cart
+next
+cart_item
+next
+@cart_item
+@cart_item.valid?
+next
+continue
+c
+exit
+Cart.all
+Cart.delete(6)
+Cart.destroy(6)
+User.find(5)
+User.find(5).cart
+node
+Cart.all.destroy(6)
+Cart.all
+Cart.all.destroy(8)
+Cart.all.destroy(7)
+exit
+Cloudinary::Uploader.upload("app/assets/images/george.jpg")
+Cloudinary::Uploader.upload("app/assets/images/dom.jpg")
+Cloudinary::Uploader.upload("app/assets/images/dom.jpg", public_id: "dom")
+Cloudinary::Uploader.upload("app/assets/images/george.jpg", public_id: "george_kruis")
+exit
+Product.all
+exit
+Cart.last.destroy
+reload!
+Cart.first
+Cart.first.cart_items
+CartItem.find(4)
+CartItem.find(4).update(quantity: 0)
+reload!
+CartItem.find(4).update(quantity: 0)
+CartItem.find(1).update(quantity: 0)
+reload!
+Cart.find(2)
+CartItem.find(2).update(quantity: 0)
+CartItem.find(2).update(quantity: 0).valid?
+CartItem.find(2).update(quantity: 0)
+reload!
+CartItem.find(2)
+CartItem.find(2).update(quantity: 0)
+CartItem.create(cart_id: 2, product_id: 5, quantity: 1)
+CartItem.last
+CartItem.find(32)
+CartItem.find(32).update(quantity: 0)
+CartItem.find(32).quantity = 0
+CartItem.find(32)
+a = CartItem.find(32).quantity = 0
+a
+a = CartItem.find(32).quantity = 0
+CartItem.find(32).assign_attributes(quantity: 0)
+CartItem.find(32).assign_attributes(quantity: 0).valid?
+a =CartItem.find(32).assign_attributes(quantity: 0)
+a
+ci = CartItem.find(32)
+ci
+ci.attributes
+ci.assign_attributes(quantity: 2)
+ci
+ci.assign_attributes(quantity: 0)
+ci
+ci.valid?
+reload!
+ci.valid?
+ci
+ci.errors
+exit
+CartItem.last
+CartItem.find(22)
+CartItem.find(22).update(quantity: 0)
+CartItem.find(22).destroy
+CartItem.find(22)
+exit
+CartItem.last
+CartItem.find(21)
+CartItem.find(21).destroy
+CartItem.find(20)
+CartItem.find(19)
+CartItem.find(19).update(quantity: 0)
+CartItem.find(19).update(quantity: 0).errors
+CartItem.find(19).assign_attributes(quantity: 0)
+ci = CartItem.find(19)
+ci
+ciassign_attributes(quantity: 0)
+ci.assign_attributes(quantity: 0)
+ci
+ci.valid?
+ci
+ci.valid?
+ci.errors
+ci.messages
+CartItem._validate_callbacks
+CartItem._validate_callbacks.select{|i| i.kind.eql?(:before)}
+reload!
+ci = CartItem.find(19)
+CartItem.find(19)
+CartItem.find(18)
+CartItem.last
+CartItem.find(16)
+ci = CartItem.find(16)
+ci
+ci.update(quantity: 0)
+ci
+reload!
+ci.update(quantity: 0)
+ci
+exit
+ci = CartItem.find(16)
+ci.update(quantity: 0)
+ci
+ci.destroy
+ci
+Cart.all
+CartItem.all
+CartItem.find(5).destory
+CartItem.find(5).destroy
+CartItem.all
+CartItem.find(3).update(quantity: 0)
+CartItem.all
+exit
+Cart.find(12).destroy
+Cart.find(13).destroy
+exit
+Cart.find(14).destroy
+exit
+@ip
+step
+next
+req
+req.methods(false)
+req.methods
+req.get_fields
+req.methods
+req.methods.grep /form/
+req.methods.grep /data/
+req.methods.grep /fields/
+req.get_fields
+req.methods.grep /all/
+req.to_json
+req.params
+req.body
+req.body.tr('&', \n)
+req.body.tr('&', "\n")
+req.body.tr('&', /\n/)
+req.body.tr('&', "\n").inspect
+req.body.tr('&', "\n")
+req.body.tr('&', "\n").to_s
+puts req.body.tr('&', "\n")
+@cart
+@cart.user
+params
+params[:email]
+params["email"]
+params["checkout"]["email"]
+@cart.address.first_name
+@cart.address.first_name.to_s
+@cart.address.first_line
+continue
+Product.find(1).name
+Cart.last
+Cart.where(active: true).last
+Cart.where(active: false).last
+Cart.find(25)
+Cart.find(25).address
+Cart.find(25).address.email
+exit
+PaymentMailer
+Cart.last
+Cart.find(27)
+@cart = Cart.find(27)
+PaymentMailer.success(@cart.address.email).deliver_now
+PaymentMailer.order(email_hash).deliver_now
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+PaymentMailer.order(email_hash).deliver_now
+PaymentMailer.order(email_hash)
+PaymentMailer.order(email_hash).deliver_now
+reload!
+PaymentMailer.order(email_hash)
+PaymentMailer.order(email_hash).deliver_now
+PaymentMailer.order(email_hash)
+wherami
+whereami
+self
+email_hash
+@address
+attributes
+continue
+next
+exit
+PaymentMailer.order(email_hash)
+@cart = Cart.find(27)
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+PaymentMailer.order(email_hash)
+PaymentMailer.order(email_hash).deliver_now
+exit
+Product.all
+exit
+Cart.all.last
+User.last
+User.last.cart
+Cart.lsat
+Cart.last
+exit
+Rails.env.development?
+exit
+rs
+exit
+Address.last
+Address.last.full_name
+reload!
+Address.last.full_name_with
+Address.last.full_name
+Address.last.full_name_with_salutation
+exit
+Address.last.update(salutation: nil)
+Address.last.full_name_with_salutation
+[["Natural 1000mg oil", 1], ["Small balm", 1], ["Capsules", 1], ["Natural 500mg oil", 1], ["Capsules", 1], ["Natural 500mg oil", 1], ["Natural 500mg oil", 1], ["Capsules", 2], ["Natural 500mg oil", 1], ["Capsules", 1], ["Orange 500mg oil", 1]]
+arr = [["Natural 1000mg oil", 1], ["Small balm", 1], ["Capsules", 1], ["Natural 500mg oil", 1], ["Capsules", 1], ["Natural 500mg oil", 1], ["Natural 500mg oil", 1], ["Capsules", 2], ["Natural 500mg oil", 1], ["Capsules", 1], ["Orange 500mg oil", 1]]
+arr.reduce{|x,y| x[1] + y[1] if x[0] == y[0]}}
+arr.reduce{|x,y| x[1] + y[1] if x[0] == y[0]}
+arr.first.reduce{|x,y| x[1] + y[1] if x[0] == y[0]}
+arr.first
+arr.reduce{|x,y| x[1] + y[1] if x[0] == y[0]}
+exit
+exit]
+rs
+exit
+User.find(1)
+User.find(1).update(password: "f0urf!vecbd")
+exit
+["Heatley", "Nichols", "Williams", "Mapp", "Fine", "Robertson", "Brockwell", "Lansley ", "Holman", "Clark", "De Bruin", "Davies", "Cole", "Hart", "White", "Fradgley", "Brown", "may", "Garrett", "Tabberer", "Mansfield", "Gidman", "Winterbottom", "Fry", "Hargrave", "Hargrave", "Kilmister", "Rowe", "Hall", "Grant", "Paling", "Springham", "Grinnell", "Scott", "Greaney", "Wozniak", "CRICHTON-COOTE", "Harris", "Cooke", "Stewart", "Ridgeon", "Wakeham", "Redfern ", "Smith", "Duncombe", "Lougher ", "Chalmers", "griffin", "Hargrave", "Clarke", "Gidman", "Henson", "Denyer ", "Marfleet", "Considine", "Drummond", "McCoy", "Dreelan", "Bloor", "Phillips", "Peach", "Andrews", "Jones", "Mead", "Woodfine", "Ellison ", "Nicholas", "Hallatt", "Pottage", "Robertson", "Dunphy", "Mccoy", "Burton", "Ackroyd", "Radford ", "Nolan", "Jones ", "Purssey", "de Boltz", "Wood", "Miller", "Ashe", "Hearsum", "Stewart", "Hulme", "White", "Freebury", "Langley", "Gregory", "Waite", "Price", "Barlow", "Smith", "Roberts"]
+a = ["Heatley", "Nichols", "Williams", "Mapp", "Fine", "Robertson", "Brockwell", "Lansley ", "Holman", "Clark", "De Bruin", "Davies", "Cole", "Hart", "White", "Fradgley", "Brown", "may", "Garrett", "Tabberer", "Mansfield", "Gidman", "Winterbottom", "Fry", "Hargrave", "Hargrave", "Kilmister", "Rowe", "Hall", "Grant", "Paling", "Springham", "Grinnell", "Scott", "Greaney", "Wozniak", "CRICHTON-COOTE", "Harris", "Cooke", "Stewart", "Ridgeon", "Wakeham", "Redfern ", "Smith", "Duncombe", "Lougher ", "Chalmers", "griffin", "Hargrave", "Clarke", "Gidman", "Henson", "Denyer ", "Marfleet", "Considine", "Drummond", "McCoy", "Dreelan", "Bloor", "Phillips", "Peach", "Andrews", "Jones", "Mead", "Woodfine", "Ellison ", "Nicholas", "Hallatt", "Pottage", "Robertson", "Dunphy", "Mccoy", "Burton", "Ackroyd", "Radford ", "Nolan", "Jones ", "Purssey", "de Boltz", "Wood", "Miller", "Ashe", "Hearsum", "Stewart", "Hulme", "White", "Freebury", "Langley", "Gregory", "Waite", "Price", "Barlow", "Smith", "Roberts"]
+a.cunt
+a.count
+a.count - 18
+a.count
+exit
+Cart.where(active:false, fulfillment: true).first
+Cart.where(active:false, fulfillment: true).udpate(fulfillment: false)
+Cart.where(active:false, fulfillment: true).update(fulfillment: false)
+exit
+User.last
+User.last.destroy
+rand(100)
+rand(100000)
+exit
+Cart.last
+Address.first
+Address.first.
+exit
+Invoice.all
+exit
+Cart.first
+exit
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+@cart = Cart.first
+@cart = Cart.orders.first
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+@cart.checkout_tim
+@cart.checkout_time
+@cart.update(checked_out_at: Time.now)
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+amount: email_hash[:amount],
+address: email_hash[:address],
+cart_items: email_hash[:cart_items],
+date: email_hash[:date],
+order_id: email_hash[:order_id]
+amount: email_hash[:amount], address: email_hash[:address], cart_items: email_hash[:cart_items], date: email_hash[:date], order_id: email_hash[:order_id]
+{amount: email_hash[:amount], address: email_hash[:address], cart_items: email_hash[:cart_items], date: email_hash[:date], order_id: email_hash[:order_id]}
+a = {amount: email_hash[:amount], address: email_hash[:address], cart_items: email_hash[:cart_items], date: email_hash[:date], order_id: email_hash[:order_id]}
+a.eql?(email_hash_
+a.eql?(email_hash)
+rs
+exit
+Cart.Last
+Cart.last
+Cart.find(36)
+exit
+image_tag "george.jpg", height: 500
+Cloudinary::Utils.cloudinary_url("george.jpg")
+Cloudinary::Utils.cloudinary_url("george.jpg", height: 500)
+Cloudinary::Utils.cloudinary_url("george.jpg", :width => 50, :height => 50,)
+Cloudinary::Utils.cloudinary_url("george.jpg", :width => 50, :height => 50, crop: :scale)
+exit
+ProductGroup.first
+ProductGroup.first.photo
+ProductGroup.first.photo_url
+ProductGroup.first.photo
+exit
+Cart.includes(:address)
+Cart.includes(:address, :carts).count
+Cart.includes(:address).count
+Cart.includes(:address, :cart_items).count
+Cart.includes(:address, :cart_items)
+Cart.includes(cart_items: :product).orders.map(&:amount).compact.reduce(:+)
+reload!
+Cart.includes(cart_items: :product).orders.map(&:amount).compact.reduce(:+)
+exit
+Cart.count
+User.count
+exit
+@cart = Cart.last(20)
+@cart = Cart.where(active: true).last(10)
+@cart = Cart.where(active: true).where(product: true)
+@cart = Cart.where(active: true)
+@cart = Cart.where(active: true).pluck(:id)
+Cart.find(3).products
+Cart.find(3).cart_items
+Cart.find(11,12).cart_items
+Cart.find(11).cart_items
+Cart.find(12).cart_items
+Cart.find(13).cart_items
+Cart.find(14).cart_items
+Cart.find(144)
+Cart.find(144).cart_items
+@cart = Cart.find(150)
+@cart.cart_items
+@cart = Cart.find(434)
+@cart.cart_items.includes(product: :product_group).sort_by{ |i| i.product.name }
+@cart.cart_items
+@cart.cart_items.includes(product: :product_group)
+exit
+Cart.orders.first
+Cart.orders.first.email
+Cart.orders.first.address.email
+Cart.orders.first.address
+Cart.orders.first.address.first_name
+Cart.orders.first.address.email
+class Coupon; coupon = ["a","b"]; end
+Coupon
+Coupon.coupon
+class Coupon
+  def self.coupon
+    ['a','b']
+  end
+end
+Coupon.coupon
+reload!
+exit
+Coupon.coupon
+Coupon
+EmailInterceptor
+require 'coupon'
+Coupon
+Coupon.coupon
+exit
+DeleteOldUsers
+DeleteOldUser
+DeleteOldUsersJob
+DeleteOldUsersJob.perform_now
+DeleteOldUsersJob.perform_later
+FakeJob
+reload!
+DeletecartJob
+DeletecartJob.perform_now
+DeletecartJob.perform_later
+DeleteOldUsersJob.perform_later
+DeleteOldUsersJob.perform_now
+reload!
+DeleteOldUsersJob.perform_now
+reload!
+DeleteOldUsersJob.perform_now
+DeleteOldUsersJob.perform_later(true)
+DeleteOldUsersJob.perform_now
+Address.where(first_name: "guy")
+Cart.find(857)
+@cart = Cart.find(857)
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+pdf = InvoicePdf.new(email_hash)
+PaymentMailer.success(@cart.address.email, pdf).deliver_now
+PaymentMailer.success(@cart.address.email, pdf).deliver_later
+reload!
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+PaymentMailer.success(@cart.address.email, email_hash).deliver_later
+reload!
+@cart
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+PaymentMailer.success_later(@cart.address.email, @cart.id).deliver_later
+reload!
+PaymentMailer.success_later(@cart.address.email, @cart.id).deliver_later
+reload!
+PaymentMailer.success_later(@cart.address.email, @cart.id).deliver_later
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+reload!
+DeleteOldUsersJob
+DeleteOldUsersJob.perform_now
+DeleteOldUsersJob.perform_now(false, 4)
+exit
+Cart.where(address: {email: !nil})
+Cart.where(address: {email: !nil}).count
+Cart.joins(:addresses).where(address: {email: !nil}).count
+Cart.joins(:addresses).where(addresses: {email: !nil}).count
+Cart.joins(:address).where(addresses: {email: !nil}).count
+Cart.joins(:address).where(address: {email: !nil}).count
+Cart.joins(:address).merge(Address.where(email: true))
+Cart.joins(:address).merge(Address.where(email: !nil))
+Cart.joins(:address).merge(Address.where.not(email: nil))
+Cart.joins(:address).merge(Address.where.not(email: nil)).count
+Cart.orders.count
+Cart.joins(:address).count
+Cart.count
+Cart.includes(:address).where.not(address: {id: nil})
+Cart.includes(:address).where.not(address: {id: nil}).count
+Cart.joins(:address).count
+Cart.joins(:address).merge(Address.where.not(id: nil)).count
+Cart.joins(:address).merge(Address.where.not(email: nil)).count
+Address.where(email: nil).first(2)
+Cart.joins(:address).merge(Address.where.not(email: nil)).count
+Cart.joins(:address).count
+Cart.orders
+Cart.orders.count
+Cart.joins(:address).count
+Cart.joins(:address).merge(Address.where.not(email: nil))
+Cart.joins(:address).merge(Address.where.not(email: nil)).count
+Cart.joins(:address).count
+Cart.orders.count
+Cart.!orders.count
+Cart.not.orders.count
+Cart.all - Cart.orders
+not_orders = (Cart.all - Cart.orders)
+Cart.joins(:address).merge(Address.where.not(email: nil)).count
+Cart.joins(:address).count
+Cart.orders.count
+not_orders.joins(:address).merge(Address.where.not(email: nil)).count
+["jenolan@linkedin.com", "nickpurssey@yahoo.co.uk", "russelldashe@gmail.com", "xarabennettjones@gmail.com", "gavin@cleardesign.co.uk", "neil.hargrave@icloud.com", "varun.maharaj29@gmail.com", "chrisfrostt@gmail.com", "guybennettjones@hotmail.co.uk", "andy@barcadiamedia.co.uk", "adouth@hotmail.com", "anthonyjbmurphy@hotmail.com", "ray78460@gmail.com", "robinlansley@hotmail.com", "jackmertens@hotmail.co.uk", "danrichards52@gmail.com", "pinky_mctang@yahoo.co.uk", "eltringham.simon@gmail.com", "dave@gmail.com", "guybennettjones@hotmail.co.uk", "hullwj@rugbyschool.net", "jakepratley@hotmail.co.uk", "cameronwrightt@icloud.com", "matthew.wilkinson@live.co.uk", "theapreeve36@gmail.com", "davidscottpowell26@gmail.com", "roberycmay@hotmail.com", "syd.nadim@clock.co.uk"].count
+exit
+Cart.first
+Cart.all
+exit
+open("http://res.cloudinary.com/dq2kcu9ey/image/upload/v1541431269/lsseq4xw3walhbzdovf3.jpg")
+exit
+open("")
+open(nil)
+exit
+"john doe".titleize
+exit
+"john doe".titleize
+"john o'brien".titleize
+exit
+Cart.orders.group_dy_day(:checked_out_at).count
+Cart.orders.group_by_day(:checked_out_at).count
+line_chart Cart.orders.group_by_day(:checked_out_at).count
+exit
+Cart.orders.group_by_day(:checked_out_at).count
+Product.find(3).subtitle
+Product.find(1).subtitle
+Product.find(1)
+ProductGroup.find(1).subtitle
+exit
+hash = {asdf: "value", key: "asdf"}
+hash.keys
+hash.values
+exit
+Address.countries.sort.map {|k,v| [v,k]}
+Address.last
+Address.last.class
+Address.last.class.countries
+Address.last.country
+self = Address.last
+Address
+reload!
+Address.test
+Address.first.test
+reload!
+Address.first.test
+reload!
+Address.first.test
+reload!
+Address.first.test
+reload!
+Address.first.test
+Address.last.test
+Address.first.test
+reload!
+Address.last.test
+reload!
+Address.last.test
+reload!
+Address.last.test
+reload!
+Address.last.test
+reload!
+Address.last
+Address.last.country
+addr
+country
+nice_print
+nice_print([addr,country])
+country = "IR"
+country = "IRE"
+addr = addr + ", #{self.class.countries[self.country.to_sym]}"
+addr
+addr = nice_print([first_line, second_line, third_line, city, postcode])
+addr = addr + ", #{self.class.countries["IRE".to_sym]}"
+exit
+continue
+Address.last
+reload!
+Address.last
+Address.last.update(second_line: "asdf")
+Address.last
+Rails.cache.clear
+Address.last
+exit
+exit
+Address.last
+Rails.cache.clear
+exit
+addr = ""
+exit
+Cloudinary::Uploader.upload()
+Cloudinary::Uploader.upload("logo.png")
+Cloudinary::Uploader.upload("images/logo.png")
+Cloudinary::Uploader.upload("app/assets/images/logo.png")
+resp = Cloudinary::Uploader.upload("app/assets/images/logo.png")
+resp
+resp[:secure_url]
+resp["secure_url"]
+exit
+reload!
+Cart.last
+Cart.last.receipt
+Cart.last.receipt.url
+Cart.last.receipt.remote_url
+Cart.last
+@cart = Cart.last
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+pdf = InvoicePdf.new(email_hash)
+Cart.orders.last
+@cart = Cart.orders.last
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+pdf = InvoicePdf.new(email_hash)
+pdf.receipt
+@cart.receipt
+@cart.receipt = pdf
+@cart.receipt
+@cart
+@cart.receipt.url
+Product.first.photo
+@cart.receipt.update(receipt: pdf)
+@cart.update(receipt: pdf)
+@cart.receipt
+@cart
+Product.first
+Product.first.photo
+@cart.receipt
+pdf
+@cart.update(receipt: open(pdf))
+@cart.update(receipt: File.open(pdf))
+@cart.update(receipt: pdf.render)
+pdf.render
+@cart.receipt = pdf.render
+@cart.update(receipt: open(pdf.render))
+@cart.update(receipt: File.open(pdf.render))
+@cart
+@cart.update(receipt: StringIO.new( pdf.render ) )
+pdf.exists?
+s = StringIO.new( pdf.render ) 
+@cart.receipt = s
+@cart.update(receipt: s)
+s
+s = StringIO.new(pdf.render)
+def s.original_filename; "my file name"; end
+@cart.update(receipt: s)
+@cart.receipt
+reload!
+Cart.orders.last
+Cart.orders.last.receipt
+Cart.orders.last.receipt.url
+Cart.orders.last.receipt.remote_url
+Cart.orders.last.receipt.pasth
+Cart.orders.last.receipt.path
+Cart.orders.last.receipt
+Cart.orders.last.receipt.file
+Cart.orders.last.receipt.file.path
+Cart.orders.last.receipt
+Cart.orders.last.receipt.path
+Cart.orders.last.receipt.receipt
+exit
+reload!
+@cart
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+pdf
+pdf.methods
+pdf.bytesize
+GC[:heap_live_slots]
+GC.stat[:heap_live_slots]
+ri dump
+pdf.delete
+pdf.destroy
+pdf
+pdf.methods
+pdf.delete!
+pdf.methods(false)
+typeof(pdf)
+pdf.class
+pdf = InvoicePdf.new(email_hash).render
+pdf = InvoicePdf.new(email_hash)
+exit
+@cart.address.email
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+continue
+reload!
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+reload!
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+exit
+@cart
+Cart.find(632)
+Cart.find(632).address
+@cart = Cart.find(632)
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+reload!
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+reload!
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+GC.start
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+email_hash = { order_id: @cart.order_id, amount: @cart.amount, address: @cart.address, cart_items: @cart.cart_items, date: @cart.checkout_time }
+InvoicePdf.generate(email_hash)
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+pdf = InvoicePdf.new(email_hash).render_file("RECEIPT.PDF")
+PDF
+pdf
+receipt.pdf
+PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+10.times do     pdf = InvoicePdf.new(email_hash).render_file("RECEIPT.PDF")
+15.times do  PaymentMailer.success(@cart.address.email, @cart.id).deliver_later
+end
+exit
+Address.find(441)
+Address.find(442)
+Address.find_by(first_name: "Guy")
+@cart = Cart.find(632)
+PaymentMailer.alert_mike(@cart.id).deliver_later
+exit
+u = User.left_outer_joins(:carts).where(carts: { user_id: nil }).where("users.updated_at <= ?", Time.now - days.days).pluck(:id)
+u = User.left_outer_joins(:carts).where(carts: { user_id: nil }).where("users.updated_at <= ?", Time.now - 5.days).pluck(:id)
+u = User.left_outer_joins(:carts).where(carts: { user_id: nil }).where("users.updated_at <= ?", Time.now - 5.days).pluck(:id).count
+Cart.where(address_id: nil).count
+Cart.left_outer_joins(:addresses).where(addresses: nil).count
+Cart.left_outer_joins(:address).where(addresses: nil).count
+Cart.left_outer_joins(:address).where(address: nil).count
+Cart.left_outer_joins(:address).count
+Cart.merge(:address).count
+reload!
+Cart.not_orders.count
+Cart.not_orders.joins(:address).count
+Cart.not_orders.first
+Cart.not_orders.includes(:addresses)
+Cart.not_orders.includes(:address)
+Cart.not_orders.includes(:address).count
+Cart.not_orders.includes(:address).where(address: !nil)
+Cart.not_orders.includes(:address).where(address: nil).count
+Cart.not_orders.includes(:address).where(cart: {address: nil}).count
+Cart.not_orders.includes(:address).where(address: {id: nil}).count
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).count
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 20.days).count
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 10.days).count
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).count
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).first
+Cart.find(2).user
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy
+reload!
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy
+exit
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy
+exit
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy
+reload!
+exit
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy
+Cart.not_orders.includes(:address).where(addresses: {id: nil}).where("carts.updated_at <= ?", Time.now - 5.days).last.destroy_all
+User.first
+Cart.orders.first.amount
+Cart.orders.joins(:cart_items)
+Cart.orders.joins(:cart_items).count
+Cart.orders.joins(:cart_items).includes(:products)
+Cart.orders.joins(:cart_items).includes(:products).count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(cart_items.products * cart_items.products.price))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(cart_item.products * cart_item.products.price))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(carts))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(product))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(products))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX(updated_at))
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*")
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", MAX("carts.updated_at")).count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*", COUNT("carts.updated_at")).count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, COUNT(carts.updated_at")).count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, COUNT(carts.updated_at").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(carts.updated_at").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(cart_items.updated_at").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(cart_items.updated_at")).count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(cart_items.updated_at)").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(cart_items.quantity)").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, MAX(cart_items)").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, COUNT(cart_items)").count
+Cart.orders.joins(:cart_items).includes(:products).select("carts.*, COUNT(cart_items.quantity)").count
+exit
+CartItem.joins(:carts).merge(Cart.orders)
+CartItem.joins(:carts).merge(Cart.orders).count
+CartItem.joins(:cart).merge(Cart.orders).count
+a= CartItem.joins(:cart).merge(Cart.orders)
+a.count
+a.joins(:product).merge(Product.where(id: 1))
+a.joins(:product).merge(Product.where(id: 1)).count
+Cart.orders.count
+CartItem.joins(:cart).merge(Cart.orders)
+CartItem.joins(:cart).merge(Cart.orders).count
+exit
+ProductGroup.all
+exit
+Product.order
+Product.order(id:)
+Product.order(:id)
+Product.count
+Product.pluck(:id)
+Product.pluck(:id).sort
+(1..9).to_a
+quit
+172473227561451205
+"172 47 3 227 56 14 51 20 5"
+"172 47 3 227 56 14 51 20 5".tr(" ", "+")
+exit
+Cart.orders.weeks_ago(2)
+0.week.ago
+Date.today
+Cart.orders.weeks_ago(1)
+Cart.orders.weeks_ago(3)
+Cart.orders.weeks_ago(3).count
+reload!
+Cart.orders.count
+Cart.orders.launch_wk(2).count
+reload!
+Cart.orders.launch_wk(2).count
+Cart.orders.launch_wk(5).count
+reload!
+Cart.orders.launch_wk(5).count
+Date.parse('24 Dec 2018')
+d = Date.parse('24 Dec 2018')
+reload!
+Cart.orders.weeks_ago(2)
+Cart.orders.count
+Cart.orders.weeks_ago(0)
+Cart.orders.weeks_ago(1)
+Cart.orders.weeks_ago(2)
+Cart.orders.weeks_ago(3)
+Cart.orders.weeks_ago(3).count
+Cart.orders.weeks_ago(34).count
+Cart.orders.weeks_ago(4).count
+Cart.orders.weeks_ago(5).count
+Cart.orders.weeks_ago(6).count
+Cart.orders.weeks_ago(7).count
+Cart.orders.weeks_ago(8).count
+Cart.orders.weeks_ago(9).count
+Cart.orders.weeks_ago(10).count
+Cart.orders.count
+reload!
+Cart.orders.count
+Cart.orders.weeks_ago(1)
+Cart.orders.weeks_ago(2)
+Cart.orders.weeks_ago(3)
+reload!
+Cart.orders.weeks_ago(3)
+Cart.orders.weeks_ago(2)
+reload!
+Cart.orders.weeks_ago(2)
+Cart.first
+Cart.orders.where(checked_out_at: nil).count
+Cart.orders.where(checked_out_at: nil)
+Cart.orders.where(checked_out_at: nil).count
+Cart.orders.where(checked_out_at: nil).first
+Cart.orders.where(checked_out_at: nil).first.update(checked_out_at: updated_at)
+Cart.orders.where(checked_out_at: nil).first.update(checked_out_at: self.updated_at)
+Cart.orders.where(checked_out_at: nil).first
+Cart.orders.where(checked_out_at: nil).first.update(checked_out_at: :updated_at)
+Cart.orders.where(checked_out_at: nil).first
+Cart.orders.where(checked_out_at: nil).first.update(checked_out_at: :updated_at)
+Cart.orders.where(checked_out_at: nil).first
+cart = Cart.orders.where(checked_out_at: nil).first
+cart.update(checked_out_at: :updated_at)
+cart
+cart.checked_out_at = cart.updated_at
+cart
+cart.save!
+cart
+cart = Cart.orders.where(checked_out_at: nil).first
+Cart.orders.where(checked_out_at: nil).first.update("checked_out_at = updated_at")
+Cart.orders.where(checked_out_at: nil).first.update_all("checked_out_at = updated_at")
+Cart.orders.where(checked_out_at: nil).where(id: 326).update_all("checked_out_at = updated_at")
+Cart.find(326)
+Cart.orders.where(checked_out_at: nil).count
+Cart.orders.where(checked_out_at: nil).last
+Cart.orders.where(checked_out_at: nil).update_all("checked_out_at = updated_at")
+Cart.orders.where(checked_out_at: nil).update_all("checked_out_at = updated_at")last
+Cart.orders.where(checked_out_at: nil).
+Cart.orders.where(checked_out_at: nil)
+Cart.find(850)
+cart_item.joins(:product).merge(Product.where(id: id)).merge(Cart.weeks_ago(i)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: id)).count
+id = 1
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: id)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 1)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 1,2)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: [1,2])).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).group(:product_id).merge(Product.where(id: [1,2])).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).group(:product_id)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).group(:product_id))).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).merge(Cart.weeks_ago(i)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).merge(Cart.weeks_ago(2)).count
+Cart.weeks_ago(2)
+Cart.orders.count
+Cart.orders.weeks_ago(2)
+reload!
+Cart.orders.weeks_ago(2)
+reload!
+Cart.orders.weeks_ago(2)
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).merge(Cart.weeks_ago(2)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).merge(Cart.weeks_ago(4)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Product.where(id: 4)).merge(Cart.weeks_ago(3)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(3)).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(3)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(4)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(0)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(1)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(2)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(3)).group(:product_id).count
+CartItem.joins(:cart).merge(Cart.orders).joins(:product).merge(Cart.weeks_ago(4)).group(:product_id).count
+Date.parse("January")
+DateTime.parse("January")
+DateTime.parse("January").next_month
+month = "January"
+month = DateTime.parse(month)
+range = month..month.next_month
+Product.find(1).price
+Product.all.pluck(:id, :price)
+Product.all.pluck(:price)
+Product.all.pluck(:id)
+Product.find(1).price
+Product.all.map(&:price)
+Product.all.pluck(:price)
+Product.all.pluck(:price_cents)
+Product.all
+Cart.includes(:address, cart_items: :product).orders.last(1)
+Cart.joins(:address).orders.last(1)
+Cart.join(:address).orders.last(1)
+Cart.joins(:address, cart_items: :product).orders.last(1)
+Cart.joins(:address, cart_items: :product).orders.count
+Cart.includes(:address, cart_items: :product).orders.count
+Cart.joins(:address, cart_items: :product).orders.uniq.count
+Cart.includes(:address, cart_items: :product).orders.count
+Cart.includes(:address, cart_items: :product).orders.first(2)
+Cart.includes(:address, cart_items: :product).orders.first(3)
+Cart.includes(:address, cart_items: :product).orders.first(1)
+Cart.includes(:address, cart_items: :product).orders.first(2)
+Cart.orders.includes(:address, cart_items: :product).first(2)
+Cart.includes(:address, cart_items: :product).orders.last(10).reverse
+Cart.includes(:address, cart_items: :product).orders.last(10).reverse.count
+Cart.includes(:address, cart_items: :product).orders.last(1).reverse
+Cart.includes(:address, cart_items: :product).orders.last(1).reverse.address
+Cart.includes(:address, cart_items: :product).orders.last(1).reverse.address.full_name
+exit
+Cart.includes(:address, cart_items: :product).orders.count
+Cart.joins(:address, cart_items: :product).orders.count
+Cart.joins(:address, cart_items: :product).orders.uniq.count
+reload!
+Coupon.new
+1 * 3
+1.*(3)
+exot
+exit
+nil.count
+exit
+Coupon.all
+Coupon.find(1).carts
+Coupon.find(1).carts.orders
+Coupon.find(1).carts.orders.count
+Coupon.find(1).amount
+CartItem.all
+CartItem.includes(:products)
+Cart.cart_items
+Cart.first.cart_items
+Cart.last.cart_items
+self
+self.code
+self.code = self.code.upcase
+:check
+:check.call
+self.check
+continue
+self
+up
+continue
+ENV[XERO_API]
+ENV['XERO_API']
+ENV['XERO_KEY']
+client = Xeroizer::PublicApplication.new(ENV['XERO_KEY'], ENV['XERO_SECRET']
+)
+contacts = client.Contact.all(:order => 'Name')
+client = Xeroizer::PublicApplication.new(ENV['XERO_KEY'], ENV['XERO_SECRET'])
+contacts = client.Contact.all(:order => 'Name')
+exit
+client = Xeroizer::PublicApplication.new(ENV['XERO_KEY'], ENV['XERO_SECRET'])
+contacts = client.Contact.all(:order => 'Name')
+require 'rubygems'
+require 'xeroizer'
+client = Xeroizer::PublicApplication.new(ENV['XERO_KEY'], ENV['XERO_SECRET'])
+ENV['XERO_API']
+ENV['XERO_KEY']
+ENV['XERO_SECRET']
+client = Xeroizer::PublicApplication.new(ENV['XERO_KEY'], ENV['XERO_SECRET'])
+contacts = client.Contact.all(:order => 'Name')
+reload!
+Coupon.where(code: "DOM")
+Coupon.find(1).carts
+Cart.find(1088).coupon
+reload!
+self
+current_scope
+Coupon
+ids
+id
+cpmtomie
+continue
+"0".zero?
+"0".to_i.zero?
+"1".to_i.zero?
+nil&.zero?
+nil == "0"
+exit
+Cart.find(1090).terms
+Cart.find(1090).update(terms: false)
+reload!
+Cart.find(1090).terms
+Cart.find(1090).update(terms: false)
+Cart.find(1090).terms
+reload!
+Cart.find(1090).terms
+Cart.find(1090).update(terms: false)
+reload!
+Cart.find(1090).terms
+reload!
+Cart.find(1090).terms
+reload!
+exit
+Money.new(2.00)
+Money.new(2.00).to_f
+Money.new(200).to_f
+@cart.find(1080)
+Cart.find(1080)
+Cart.find(1080).amont
+Cart.find(1080).amotnt
+Cart.find(1080).amount
+Cart.find(1080).amount + Money.new(200)
+def amount(with_includes = true) ; with_includes ? 100 : 200 ; end
+amount
+amount(true)
+amount(false)
+def amount({with_includes = true}) ; with_includes ? 100 : 200 ; end
+def amount({with_includes: true}) ; with_includes ? 100 : 200 ; end
+def amount({with_includes}) ; with_includes ? 100 : 200 ; end
+def amount({}) ; with_includes ? 100 : 200 ; end
+def amount(h) ; h[:with_includes] ? 100 : 200 ; end
+amount({})
+h[asdf]
+h = {}
+h[asdf]
+amount()
+def amount(options = {}); options[:with_includes] ? 100 : 200 ' end 
+def amount(options = {}); options[:with_includes] ? 100 : 200 ; end 
+amount()
+amount({with_includes})
+amount({with_includes: true})
+reload!
+Cart.postage
+reload!
+Cart.postage
+reload!
+Cart.postage
+exit
+PaymentMailer.email_mike(@cart.id).deliver_later
+Cart.last
+Cart.orders.last
+Address.where(first_name: "Guy")
+Cart.find(632)
+@cart = Cart.find(632)
+PaymentMailer.email_mike(@cart.id).deliver_later
+reload!
+PaymentMailer.email_mike(@cart.id).deliver_later
+PaymentMailer.alert_mike(@cart.id).deliver_later
+exit
+10.down_to 1 do |a| p a end
+10.downto 1 do |a| p a end
+5.times do |num|
+  puts "num = #{num}"
+  puts "Do you want to redo? (y/n): "
+  option = gets.chop
+  redo if option == 'y'
+end
+array.each_pair {|x,y| puts x }
+array = (0..10).to_a
+array.each_pair {|x,y| puts x }
+array.each_slice(2) {|x,y| puts x }
+array.each_slice(2) {|x,y| puts x, puts y }
+array.each_slice(2) {|x,y| puts x puts y }
+array.each_slice(2) {|x,y| puts x; puts y }
+array.each_slice(2) {|x,y| puts "x: #{x}, y:#{y}" }
+array = "tft".split("")
+array.permutations
+array.permutation
+array = "tftf".split("")
+array.permutation(2)
+array.permutation {|i| puts i}
+array.permutation(2) {|i| puts i}
+array.permutation(2) {|i| p i}
+array.permutation(3) {|i| p i}
+array.permutation(2) {|i| p i}
+array.permutation {|i| p i}
+eval ""(t ^ (f & t))"
+eval "(t ^ (f & t))"
+a =  "(t ^ (f & t))"
+eval "(t && (f || t))"
+eval "(true && (false || true))"
+array
+array.gsub("t", true)
+array.gsub("t", "true")
+array.join("").gsub("t", "true")
+array.join("").gsub("t", true)
+array
+array[4]
+array[5]
+" " + nil
+s = "tft"
+ops = "^&"
+s.map!.with_index do |e, i|
+  e = e + ops[i] if ops[i]
+end
+s.to_a.map!.with_index do |e, i|
+  e = e + ops[i] if ops[i]
+end
+s.split("").map!.with_index do |e, i|
+  e = e + ops[i] if ops[i]
+end
+s
+s = s.split("").map.with_index do |e, i|
+  e = e + ops[i] if ops[i]
+end
+s
+s.compact!.join("")
+s.compact!.join("")!
+s.compact!.join("")
+s
+s = s.split("").map.with_index do |e, i|
+  ops[i] ? e = e + ops[i] : e
+end
+s
+s = "tft"
+s = s.split("").map.with_index do |e, i|
+  ops[i] ? e = e + ops[i] : e
+end
+s.join("")
+array
+array = s
+array = s.join("").split(")
+array = s.join("").split("")
+array.each do {|i| i == "f" ? i = "false" : i == "t" ? i = "true" : i}
+array.each {|i| i == "f" ? i = "false" : i == "t" ? i = "true" : i}
+array.map {|i| i == "f" ? i = "false" : i == "t" ? i = "true" : i}
+array
+array.map! {|i| i == "f" ? i = "false" : i == "t" ? i = "true" : i}
+true ^ false
+array
+array.push("&")
+array.push("true")
+str = array.join("")
+"(true^false)&(true&true)"
+"((true^false)&true)&true"
+"((true^(false&true)&true"
+"true^(false&true)"
+"(true^false)&true)"
+a = "t^f&f"
+a.split("")
+a.each_slice(2)
+a.join("").each_slice(2)
+a.split("").each_slice(2)
+a.split("").each_slice(2).to_a
+a.split("").each_slice(3).to_a
+a.split("").reverse.each_slice(3).to_a
+a.split("").reverse.each_slice(3).to_a.reverse
+array
+array.each_slice(3).to_a
+array[1..-1].each_slice(2)
+array[1..-1].each_slice(2).to_a
+a = "able was i ere i saw elba".freeze
+b = "able was i ere i saw elba".freeze
+a.object_id
+b.object_id
+c = "able was i ere i saw elba"
+c.object_id
+d = "a"
+e = "a".freeze
+d.object_id
+e.object_id
+def print_line length
+  puts '_'*length
+end
+10.step(50,10) do |x|
+  print_line x
+end
+40.step(10,-10) do |x|
+  print_line x
+end
+x = 5
+def print_x
+  puts x
+end
+x
+print_x
+if defined?(@@robot_count)
+  @@robot_count += 1
+else
+  @@robot_count = 1
+end
+class Robot
+  def initialize
+    if defined?(@@robot_count)
+      @@robot_count += 1
+    else
+      @@robot_count = 1
+    end
+  end
+  def self.robots_created
+    @@robot_count
+  end
+end
+r1 = Robot.new
+r2 = Robot.new
+puts "Created #{Robot.robots_created} robots"
+r3, r4, r5 = Robot.new, Robot.new, Robot.new
+puts "Created #{Robot.robots_created} robots"
+class A
+  def public_method
+    puts "Class A public method"
+  end
+  private
+  def private_method
+    puts "Class A private method"
+  end
+  protected
+  def protected_method
+    puts "Class A protected method"
+  end
+end
+class B < A
+  def get_class_a_protected_method
+    protected_method # implicit call
+  end
+  def get_class_a_private_method
+    private_method # implicit call
+  end
+end
+class C < A
+  def get_class_a_protected_method
+    self.protected_method # explicit call
+  end
+  def get_class_a_private_method
+    self.private_method # explicit call
+  end
+end
+A.public_method
+A.new.public_method
+A.new.private_method
+a = A.new
+a
+a.methods(false)
+a.methods
+a.singleton_methods
+a.singleton_method
+a.singleton_class
+a.protected_method
+a.protected_methods
+A.new.public_method
+A.new.private_method
+A.new.protected_method
+B.new.protected_method
+C.new.protected_method
+B.new.get_class_a_protected_method
+C.new.get_class_a_protected_method
+C.new.get_class_a_private_method
+B.new.get_class_a_private_method
+exit
+hash = {Wed, 02 Jan 2019=>113, Thu, 03 Jan 2019=>66, Fri, 04 Jan 2019=>21, Sat, 05 Jan 2019=>14, Sun, 06 Jan 2019=>23, Mon, 07 Jan 2019=>17, Tue, 08 Jan 2019=>20, Wed, 09 Jan 2019=>16, Thu, 10 Jan 2019=>22, Fri, 11 Jan 2019=>12, Sat, 12 Jan 2019=>18, Sun, 13 Jan 2019=>21, Mon, 14 Jan 2019=>15, Tue, 15 Jan 2019=>13, Wed, 16 Jan 2019=>15, Thu, 17 Jan 2019=>36, Fri, 18 Jan 2019=>22, Sat, 19 Jan 2019=>13, Sun, 20 Jan 2019=>12, Mon, 21 Jan 2019=>22, Tue, 22 Jan 2019=>17, Wed, 23 Jan 2019=>13, Thu, 24 Jan 2019=>18, Fri, 25 Jan 2019=>12, Sat, 26 Jan 2019=>16, Sun, 27 Jan 2019=>16, Mon, 28 Jan 2019=>12, Tue, 29 Jan 2019=>9, Wed, 30 Jan 2019=>22, Thu, 31 Jan 2019=>18, Fri, 01 Feb 2019=>7, Sat, 02 Feb 2019=>8, Sun, 03 Feb 2019=>10, Mon, 04 Feb 2019=>18, Tue, 05 Feb 2019=>17, Wed, 06 Feb 2019=>19, Thu, 07 Feb 2019=>23, Fri, 08 Feb 2019=>18, Sat, 09 Feb 2019=>12, Sun, 10 Feb 2019=>16, Mon, 11 Feb 2019=>20, Tue, 12 Feb 2019=>15, Wed, 13 Feb 2019=>21, Thu, 14 Feb 2019=>11, Fri, 15 Feb 2019=>12, Sat, 16 Feb 2019=>20, Sun, 17 Feb 2019=>19, Mon, 18 Feb 2019=>16, Tue, 19 Feb 2019=>9}
+Date.new("3 January 2019"))
+Date.new("3 January 2019")
+require 'date'
+Date.new("3 January 2019")
+Date.new(3, "January", "2019")
+Date.new(
+TimeDate.new("3 January 2019")
+TimeDate.new.parse("3 January 2019")
+Date.parse("3 January 2019")
+exit
