@@ -1,7 +1,99 @@
 # Get External IP / local IPs
+#alias ip="curl ipinfo.io/ip"
+#alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+#alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+
+# Quickly serve the current directory as HTTP
+#alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+
+# GIT
+
+#DATA SCIENCE
+alias jn="jupyter notebook"
+
+# n!s
+#Rails
+
+alias rs="rails server"
+alias rsp="rails server -e production"
+alias rr="rails routes"
+alias rc="rails console"
+alias next="next"
+
+
+#Browsers
+alias ffx="nohup firefox >/dev/null 2>&1 & disown "
+alias gchr="nohup google-chrome >/dev/null 2>&1 & disown "
+alias upd="cd ~/Downloads; wget https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2wmIJQ3SlKXFn-M5oFdpyFlQJSQV3tUgTjLJawgCBeI2qMG845W1PJKQHgKOJCJ3kYSuI98qTdovR/pubchart\?oid\=356384329\&format\=image -O wall.png ; gsettings set org.gnome.desktop.background picture-uri file:///home/guy/Downloads/wall.png ; cd -"
+
+#REACT
+alias boilerme="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
+
+#GIT
+function gitall() {
+  git add . 
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+    then
+        git commit -m "$1"
+    else
+        git commit -m update
+    fi
+    git push origin master
+}
+
+function herokupush() {
+  git add . 
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+    then
+        git commit -m "$1"
+    else
+        git commit -m update
+    fi
+    git push heroku master
+}
+
+alias glg="git log --graph --oneline --decorate --all"
+alias gld=‘git log --pretty=format:“%h %ad %s” --date=short --all’
+alias gs=‘git stash’
+
+#Le Wagon
+alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
+alias rs="rails server"
+alias rc="rails c"
+alias sta="stt ~/.aliases"
+alias ticket="nohup firefox >/dev/null 2>&1 & disown"
+
+
+alias hotloader="gem build hotloader.gemspec; gem install hotloader-1.0.0.gem;"
+alias rr='rails routes'
+alias up2='cd ../../'
+alias up3='cd ../../../'
+alias up4='cd ../../../../'
+# Get External IP / local IPs
 alias ip="curl ipinfo.io/ip"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+alias mkdir='mkdir -p'
+mcd () {
+  mkdir -p $1
+  cd $1
+}
+
+function hg () {
+  history | grep $1
+}
+
+function ks () {
+  lsof -i :3000 | grep ruby | awk '{print $2}' | xargs kill -9 && rm -rf /tmps/pids/server.pid
+  rails s
+}
+
+alias bfg="java -jar ~/code/bfg.jar"
+alias fourfive="cd ~/code/fourfive"
+alias mod2grade="bundle install && rails db:setup && rails s"
+alias dsbook="/anaconda3/bin/jupyter_mac.command ;"
+
+alias python='python3'

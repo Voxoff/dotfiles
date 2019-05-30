@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = code --wait
 
 [alias]
   co = checkout
@@ -47,5 +47,12 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = guybennettjones@hotmail.co.uk
+	email = Voxoff
 	name = Guy Bennett-Jones
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[diff]
+	tool = opendiff
