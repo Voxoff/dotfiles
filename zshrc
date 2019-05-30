@@ -70,3 +70,7 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 # Same for `./node_modules/.bin` and nodejs
 # export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 export HISTFILE="$HOME/code/dotfiles/zsh_history"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
