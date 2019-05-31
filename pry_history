@@ -2071,3 +2071,5 @@ TimeDate.new("3 January 2019")
 TimeDate.new.parse("3 January 2019")
 Date.parse("3 January 2019")
 exit
+Persisted
+exit
