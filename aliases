@@ -57,6 +57,7 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 
 alias got='git '
+alias gut='git '
 
 # Le Wagon
 alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
@@ -70,3 +71,4 @@ alias up3='cd ../../../'
 
 # fourfive
 alias fourfive='cd ~/code/websites/fourfive'
+alias h='history '

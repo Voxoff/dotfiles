@@ -2073,3 +2073,761 @@ Date.parse("3 January 2019")
 exit
 Persisted
 exit
+next
+json
+!!!
+json
+!!!
+json
+!!!
+c
+break
+break --help
+exit
+break 4
+break --help
+exit
+break 5
+exit
+!!!
+context
+context[:profile]
+context[:profile][:first_name]
+subject
+subject.member_booking
+subject.member_booking.first_name
+!!!
+subject.member_bookingA!!!
+!!!
+reservation
+reservation.attributes
+reservation.attributes.keys
+reservation
+!!!
+context = reservation.attributes.merge!(operation_state_attribute: :create_state)
+context
+context = {   hotel_id: reservation.hotel_id,
+  business_unit: reservation.business_unit,
+  rate_plan_type: reservation.rate_plan_type,
+  default_rate_plan_code: reservation.default_rate_plan_code,
+  room_type_code: reservation.room_type_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: reservation.start_date,
+  end_date: reservation.end_date,
+  rate_plan_code: reservation.rate_plan_code,
+  total: reservation.total, # TODO: don't think this is currently used
+  global_id: reservation.global_id,
+  guest_consent: reservation.guest_consent,
+  payment_card_id: reservation.payment_card_id,
+  first_name: reservation.first_name,
+  last_name: reservation.last_name,
+  email: reservation.email,
+  phone_number: reservation.phone_number,
+  address: Address.new(reservation.address),
+  room_add_ons        room_add_ons        room          room_add_ons        room_add_ons        ate_attribute: :create_state
+}
+context = {  hotel_id: reservation.hotel_id,
+  business_unit: reservation.business_unit,
+  rate_plan_type: reservation.rate_plan_type,
+  default_rate_plan_code: reservation.default_rate_plan_code,
+  room_type_code: reservation.room_type_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: reservation.start_date,
+  end_date: reservation.end_date,
+  rate_plan_code: reservation.rate_plan_code,
+  total: reservation.total, # TODO: don't think this is currently used
+  global_id: reservation.global_id,
+  guest_consent: reservation.guest_consent,
+  payment_card_id: reservation.payment_card_id,
+  first_name: reservation.first_name,
+  last_name: reservation.last_name,
+  email: reservation.email,
+  phone_number: reservation.phone_number,
+  address: Address.new(reservation.address),
+  room_add_ons: reservation.room_add_ons,
+  reservation: reservation,
+  operation_state_attribute: :create_state
+}
+operation_state_attribute: :create_statereservation.attributes.merge!(operation_state_attribute: :create_state)
+reservation.attributes.merge!(operation_state_attribute: :create_state)
+reservation.attributes.merge!(operation_state_attribute: :create_state, reservation: reservation)
+context = reservation.attributes.merge!(operation_state_attribute: :create_state, reservation: reservation)
+context = {
+  hotel_id: reservation.hotel_id,
+  business_unit: reservation.business_unit,
+  rate_plan_type: reservation.rate_plan_type,
+  default_rate_plan_code: reservation.default_rate_plan_code,
+  room_type_code: reservation.room_type_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: reservation.start_date,
+  end_date: reservation.end_date,
+  rate_plan_code: reservation.rate_plan_code,
+  total: reservation.total, # TODO: don't think this is currently used
+  global_id: reservation.global_id,
+  guest_consent: reservation.guest_consent,
+  payment_card_id: reservation.payment_card_id,
+  first_name: reservation.first_name,
+  last_name: reservation.last_name,
+  email: reservation.email,
+  phone_number: reservation.phone_number,
+  address: Address.new(reservation.address),
+  room_a        room_a        room_a        ro          room_a        room_a        room_a      ate_attribute: :create_state
+}
+context = {
+  hotel_id: reservation.hotel_id,
+  business_unit: reservation.business_unit,
+  rate_plan_type: reservation.rate_plan_type,
+  default_rate_plan_code: reservation.default_rate_plan_code,
+  room_type_code: reservation.room_type_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: reservation.start_date,
+  end_date: reservation.end_date,
+  rate_plan_code: reservation.rate_plan_code, total: reservation.total, # TODO: don't think this is currently used
+  global_id: reservation.global_id,
+  guest_consent: reservation.guest_consent,
+  payment_card_id: reservation.payment_card_id,
+  first_name: reservation.first_name,
+  last_name: reservation.last_name,
+  email: reservation.email,
+  phone_number: reservation.phone_number,
+  address: Address.new(reservation.address),
+  room_add_ons: reservation.room_add_ons,
+  reservation: reservation,
+  operation_state_attribute: :create_state
+}
+context
+context.is_a?(Hash)
+con = reservation.attributes.merge!(operation_state_attribute: :create_state, reservation: reservation)
+con.is_a?(Hash)
+con = reservation.attributes.merge!(operation_state_attribute: :create_state, reservation: reservation).symbolize_keys
+!!!
+c
+n
+!!!
+c
+n
+c
+!!!
+n
+c
+!!!
+c
+n
+!!!
+n
+c
+!!!
+n
+con
+context
+h1 = con
+h2 = context
+h1.each {|k, v| result[k] = h2[k] if h2[k] != v }
+result = {}
+h1.each {|k, v| result[k] = h2[k] if h2[k] != v }
+result
+con
+contesxt
+context
+context.except(:address)
+context.except(:address) == con.except(:address)
+context.to_a & con.to_a
+a = context.to_a & con.to_a
+a
+context - a
+context.to_a = a
+context.to_a - a
+con.to_a - a
+context
+con
+context
+a = context.to_a & con.to_a
+context - a
+context.to_a - a
+!!!
+a = context.to_a & con.to_a
+context.to_a - a
+con.to_a - a
+context[:hotel_id]
+reservation
+!!!
+con
+a = context.to_a & con.to_a
+con.to_a - a
+context.to_a - a
+!!!
+context
+reservation.attributes
+!!!
+reservation
+n
+c
+reservation
+context
+context.reservation
+require_context :reservation
+required_context :reservation
+context.reservation
+business_unit = context.reservation.business_unit
+unless validate_hotel_id(reservation.hotel_id, reservation.business_unit)
+  context.fail!(:hotel_not_found, hotel_id: reservation.hotel_id)
+end
+unless validate_hotel_id(context.reservation.hotel_id, context.reservation.business_unit)
+  context.fail!(:hotel_not_found, hotel_id: context.reservation.hotel_id)
+end
+context.hotel = hotel(context.reservation.hotel_id, context.reservation.business_unit)
+!!!
+reservation
+!!!
+reservation
+reservation.business_unit
+!!!
+account
+context.account
+n
+context.account
+!!!
+c
+operation_state_attribute
+context
+context.operation_state_attribute
+context.operation_state_attribute!
+!!!
+context
+context.to_a
+context.to_s
+ls context
+context.chidlren
+context.children
+context.example
+context.examples
+n
+c
+context
+context.reservation
+whereami
+reservation.hotel_id
+reservation.business_unit
+n
+context
+whereami
+resevation.rate_plan_type
+reservation.rate_plan_type
+reservation.rate_plan_code
+n
+c
+n
+reservation
+creation.success?
+creation.error
+!!!
+c
+n
+creation.error
+!!!
+n
+c
+n
+context
+c
+n
+c
+n
+reservation.rate_plan_type
+!!!
+c
+reservation.rate_plan_type
+reservation
+delet!!!
+!!!
+c
+!!!
+reservation
+reservation.first_name
+c
+reservation.first_name
+c
+reservation.first_name
+c
+reservation.first_name
+c
+reservation.first_name
+context
+!!!
+creation.error
+n
+c
+creation.error
+c
+n
+step
+c
+build_room_booking(reservation: reservation.reload, ows_reservation: ows_reservation, hotel: hotel)
+whereami
+c
+up
+json
+steo
+step
+@!@@
+@!!
+!!!
+json
+whereami
+step
+up
+step
+steo
+step
+up
+json
+get "/availabilities?#{params.to_query}", headers
+!!!
+c
+json
+!!!
+c
+n
+params.dig(:filter, :start_date) < params.dig(:filter, :end_date)
+params
+c
+n
+params.dig(:filter, :start_date) < params.dig(:filter, :end_date)
+n
+e
+n
+e
+n
+e
+n
+e
+n
+e
+c
+n
+@global_id
+@business_unit
+fetcher =  ::Services::Availabilities::Fetcher.call(
+  global_id: @global_id,
+  hotel_id: params.dig(:filter, :hotel_id),
+  business_unit: @business_unit,
+  start_date: params.dig(:filter, :start_date),
+  end_date: params.dig(:filter, :end_date),
+  number_of_rooms: NUMBER_OF_ROOMS,
+  number_of_adults: params.dig(:filter, :number_of_adults),
+  number_of_children: params.dig(:filter, :number_of_children),
+  rate_plan_type: params.dig(:filter, :rate_plan_type),
+  promo_rate_plan_code_group: params.dig(:filter, :promo_rate_plan_code),
+  minimum_rate_cents: params.dig(:filter, :minimum_rate_cents),
+  maximum_rate_cents: params.dig(:filter, :maximum_rate_cents)
+)
+c
+n
+c
+n
+c
+context.room_type_code
+n
+general_availabilities
+if promo_rate_plan_code_group.present?
+  # Swap the rate plan code group for the matching Opera promo code
+  matching_rate_plan = available_rate_plans.find { |rate_plan_code| rate_plan_code.group == promo_rate_plan_code_group }
+  context.fail!(:promo_rate_plan_code_invalid, promo_rate_plan_code: promo_rate_plan_code_group) unless matching_rate_plan
+  context.promo_rate_plan_code = matching_rate_plan.code
+end
+room_rates = ows_general_availabilities.room_types.keys.map do |room_type_code|
+  room_rates_by_room = ows_general_availabilities.room_rates.select{|rr| rr.room_type_code == room_type_code }
+  if promo_rate_plan_code.present?
+    # if a promo_rate_plan_code is specified, filter the results to that code
+    room_rates_by_room.select{|rr| rr.rate_plan_code == promo_rate_plan_code}.first
+  else
+    # otherwise, find the cheapest rate available for the room
+    room_rates_by_room.select{|rr| available_rate_plan_codes.include?(rr.rate_plan_code) }.sort_by(&:total).first
+  end
+end
+ows_general_availabilities.room_types
+ows_general_availabilities
+client.availabilities.fetch(
+  {
+    start_date: context.start_date,
+    end_date: context.end_date,
+    number_of_rooms: context.number_of_rooms || NUMBER_OF_ROOMS,
+    number_of_adults: context.number_of_adults,
+    number_of_children: context.number_of_children || 0
+  }
+)
+@client ||= Services::OWSClient::Fetcher.call(hotel: hotel).ows_client
+Services::OWSClient::Fetcher.call(hotel: hotel).ows_client
+Services::OWSClient::Fetcher.call(hotel: hotel)
+hotel
+context
+context.reservation
+context.hotel
+contedxt
+context
+context.hotel_id
+fetcher = Hotels::Fetcher.call(hotel_id: context.hotel_id, business_unit: context.business_unit)
+context
+h = {hotel_id: context.hotel_id, business_unit: context.business_unit}
+Hotels::Fetcher.call(h)
+c
+!!!
+reservation
+c
+reservation
+c
+reservation
+c
+reservation
+context
+!!!
+context
+context.business_unit
+delete :business_unit, to: :reservation
+delegate :business_unit, to: :reservation
+!!!
+context.business_unit
+context
+business_unit
+!!!
+business_unit
+context
+reservation
+exit
+!!!
+creation_error
+creation.error
+c
+creation.error
+c
+creation.error
+c
+reservation
+reservation.reload
+!!!
+creation
+creation.error
+!!!
+c
+creation.error
+!!!
+n
+c
+n
+c
+n
+c
+rate_plan_type
+n
+@@@
+!!!
+n
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: reservation.room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+reservation.room_type_code
+reservation
+!!!
+reservation.room_type_code
+n
+!!!
+n
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: reservation.room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+reservation.number_of_rooms
+reservation.number_of_children
+!!!
+n
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: reservation.room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: reservation.number_of_rooms,
+  number_of_adults: reservation.number_of_adults,
+  number_of_children: reservation.number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+!!!
+creation.error
+!!!
+n
+!!!
+n
+# for member bookings, use a dedicated OWS profile record
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: reservation.room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: number_of_rooms,
+  number_of_adults: number_of_adults,
+  number_of_children: number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: number_of_rooms,
+  number_of_adults: number_of_adults,
+  number_of_children: number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+reservation.room_type_code
+reservation.room_type_code = '1BED'
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: number_of_rooms,
+  number_of_adults: number_of_adults,
+  number_of_children: number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+room_type_code = '1BED'
+context.ows_reservation = ows_client.reservations.create(
+  profile_id: ows_profile.id,
+  room_type_code: room_type_code,
+  rate_plan_code: rate_plan_code,
+  number_of_rooms: number_of_rooms,
+  number_of_adults: number_of_adults,
+  number_of_children: number_of_children,
+  start_date: start_date,
+  end_date: end_date,
+  comments: room_add_ons
+)
+!!!
+n
+c
+!!!
+Reservation.new
+Persisted::Reservation
+Persisted::Reservation.new
+Persisted::Reservation.n
+!!!
+c
+context
+context.reservation
+!!!
+subject
+!!!
+subject
+subject.first_name
+subject.last_name
+subject.reservaiton
+subject.reservation
+subject.reservation.first_name
+!!!
+first_name
+reservation
+context
+subject
+subject.reservation
+subject.reservation.first_name
+subject.first_name
+!!!
+subject
+!!!
+subject
+described_instance.perform(reservation.id)
+!!!
+!!!
+body
+n
+original_booking
+modified_booking
+next
+up
+n
+up
+c
+original_booking
+!!!
+c
+body
+post("/room_bookings", body, headers)
+c
+ecc
+c
+!!!
+c
+response.successful?
+n
+step
+n
+booking[:attributes][:state]
+booking
+c
+prepare = Services::RoomBookings::PrepareForCreation.call(
+  params.dig(:data, :relationships, :availability_rate, :data, :id).merge(
+    global_id: @global_id,
+    business_unit: @business_unit,
+    first_name: params.dig(:data, :attributes, :first_name),
+    last_name: params.dig(:data, :attributes, :last_name),
+    email: params.dig(:data, :attributes, :email),
+    phone_number: params.dig(:data, :attributes, :phone_number),
+    address: params.dig(:data, :attributes, :address),
+    room_add_ons: params.dig(:data, :attributes, :room_add_ons),
+    terms_consent: params.dig(:data, :attributes, :terms_consent) == 'true',
+    guest_consent: params.dig(:data, :attributes, :guest_consent),
+    payment_card_id: params.dig(:data, :relationships, :payment_card, :data, :id)
+  )
+)
+prepare.success?
+c
+prepare
+prepare.room_booking
+prepare
+!!!
+reservation
+parent
+up
+c
+subject
+whereami
+subject.first_name
+subject.reservation
+!!!
+subject
+subject.reservation
+!!!
+creator
+creator.reservation
+q
+whereami
+c
+subject.reservation
+subject.last_name
+!!!
+reservation
+first_name
+last_name
+reservation.first_name
+!!!
+creator.reservation
+c
+modify_parameters
+described_class.call(
+  id: reservation_id,
+  global_id: global_id,
+  business_unit: business_unit,
+** modify_parameters)
+mod =described_class.call(
+  id: reservation_id,
+  global_id: global_id,
+  business_unit: business_unit,
+** modify_parameters)
+mod = described_class.call(
+  id: reservation_id,
+  global_id: global_id,
+  business_unit: business_unit,
+** modify_parameters)
+!!!
+creator.reservaiton
+creator.reservation
+c
+modify_parameters
+mod = described_class.call(
+  id: reservation_id,
+  global_id: global_id,
+  business_unit: business_unit,
+** modify_parameters)
+mod.reservation
+mod.reservation.email
+modify_parameters
+!!!
+c
+email_changed?
+email
+ows_profile.email
+name_changed.
+c
+name_changed?
+c
+creator.reservation.first_name
+creator.first_name
+c
+modify_parameters
+c
+context.reservation.first_name
+context.first_name
+!!!
+email_changed?
+context.reservation
+whereami
+name_changeX?
+name_changed?
+context.reservation
+reservation
+whereami
+ows_profile
+c
+creator.success?
+c
+modify_parameters
+c
+email_changed?
+first_name
+context.first_name
+context.reservation.first_name
+c
+new_profile_required
+ows_reservation_modified
+c
+!!!
+new_profile_required
+availability_rate_changed || new_profile_required || ows_reservation_modified
+!!!
+name_changed?
+context.reservation
+context.first_name
+context.reservation.first_name
+exit
+!!!
+Fir
+Dir
+Dir.pwd
+Dir.mkdir
+Dir.mkdir rubyy
+Dir.mkdir "rubyy"
+Dir.exist? "rubyy"
+Dir.rmdir "rubyy"
+File.new "rubyy"
+File
+File.new
+File.new -h
+File.new()
+File.attributes
+!!!

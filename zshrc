@@ -77,3 +77,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+
+source /Users/guy.bennettjones/.gathering/source-gathering-zsh

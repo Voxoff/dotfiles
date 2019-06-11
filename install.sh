@@ -45,20 +45,11 @@ fi
 
 # general brew packages
 function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }
-install_or_upgrade "git"
-install_or_upgrade "wget"
-install_or_upgrade "gmp"
-install_or_upgrade "gnupg"
-install_or_upgrade "sqlite"
-install_or_upgrade "imagemagick"
-install_or_upgrade "jq"
-install_or_upgrade "openssl"
-install_or_upgrade "tree"
-install_or_upgrade "tmux"
-install_or_upgrade "zsh"
-install_or_upgrade 'nmap'
-install_or_upgrade 'htop'
-install_or_upgrade 'watch'
+
+packages=("git" "wget" "gmp" "gnupg" "sqlite" "imagemagick" "jq" "openssl" "tree" "tmux" "zsh" "nmap" "htop" "watch")
+for package in $packages; do install_or_upgrade $package; done
+
+
 ####################################################################
 # Ruby version
 #
@@ -105,28 +96,20 @@ gem update --system
 gems=("prawn" "bundler" "json" "rspec" "pry" "pry-byebug" "sqlite3" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")
 # only install those we don't have. rvm line to ensure gems not installed on macos ruby
 source  ~/.rvm/scripts/rvm
-for i in ${gems}; do
-  ! eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $i" && gem install $i --no-document && echo "installed $i"
+for gem in ${gems}; do
+  ! eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $gem" && gem install $gem --no-document && echo "installed $gem"
 done
 
 
 # Cask for slack google and atom
 ! eval $check_postman && brew cask install postman
 ! eval $check_chrome && brew cask install google-chrome
-! eval $check_slack && brew cask install elack
-brew cask install spotify
-brew cask install hyper
-brew cask install docker
-brew cask install vlc
-brew cask install firefox
-brew cask install sublime-text
-brew cask install alfred
-brew cask install insomnia
-brew cask install 1password
-brew cask install flux
-brew cask install shiftit
+! eval $check_slack && brew cask install slack
 
 
+cask_packages=("spotify" "hyper" "docker" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit")
+
+for cask in $cask_packages; do brew cask install $cask; done
 
 source ~/.nvm/nvm.sh
 if ! eval $check_nvm; then
@@ -149,11 +132,13 @@ if ! eval $check_postgres; then
   pg_start
 fi
 
-
 # Optional stuff. I've left it at the defaults acheivable on the UI in settings.
 # Leave this as a comment
-# defaults write -g KeyRepeat -int 2
-# defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
+defaults write -g InitialKeyRepeat -int 15
+
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ###################################################################################
 # Credit to Michael Cheng for the below script. Copied and changed from original  #
@@ -244,13 +229,8 @@ print_table_results "Gem: learn-co" $check_learn
 print_table_results "Gem: bundler" $check_bundler
 delimiter
 
-## 9. Learn
-## See Student Configuration section.
-
 ## 10. Atom
 print_table_results "Installed Atom" $check_atom
-# This script does not run learn whoami
-# print_table_results "Learn Editor" $check_atom_editor
 delimiter
 
 ## 11. Gems (more)
