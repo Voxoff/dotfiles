@@ -4,15 +4,14 @@
 
 module.exports = {
   config: {
-    scrollback: "500000"
+    scrollback: "500000",
     updateChannel: "canary", // canary or stable
 
     // default font size in pixels for all tabs
     fontSize: 14,
 
     // font family with optional fallbacks
-    fontFamily:
-      'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Fira Code", "DejaVu Sans Mono", "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -64,7 +63,7 @@ module.exports = {
     // set to `false` (without backticks and without quotes) if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
-    showWindowControls: "",
+    showWindowControls: "left",
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
     padding: "12px 14px",

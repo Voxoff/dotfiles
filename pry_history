@@ -2831,3 +2831,426 @@ File.new -h
 File.new()
 File.attributes
 !!!
+Digest
+require 'digest'
+Digest
+Digest::SHA
+Digest::Sha
+Digest::MD5
+Digest::SHA1
+Digest::SHA1.hexdigest 'adsf'
+Digest::SHA1.file 'asdf'
+exit
+ENV['RACK_ENV']
+ENV['RACK_ENV'].to_sym
+n
+c
+!!!
+CSV.read('perks.csv')
+require 'csv'
+csv = 
+CSV.read('perks.csv')
+CSV.read('perks.csv', headers: true)
+csv = CSV.read('perks.csv', headers: true)
+csv[0]
+csv[1]
+csv[2]
+csv[3]
+csv.each {|row| puts row[0]}
+csv.each {|row| puts row["Date added"]}
+csv = CSV.read('perks.csv', headers: true)
+csv[0]
+csv = CSV.read('perks.csv', headers: true)[3..-1
+csv = CSV.read('perks.csv', headers: true)[3..-1]
+"About Greek Sandals".parameterize
+"About Greek Sandals".underscore
+row
+csv[4]
+csv[4][1]
+csv[4]
+csv[4].to_yaml
+csv[4].to_hash
+csv.headers
+csv
+csv = CSV.read('perks.csv', headers: true)[3..-1]
+csv
+csv = CSV.read('perks.csv', headers: true)
+csv.headers
+csv.headers.map(:downcase)
+csv.headers.map(&:downcase)
+csv.headers.map{|i| i.downcase.tr(' ', '_') if i}
+row['short_description']
+row[3]['short_description']
+csv[3]['short_description']
+csv[4]['short_description']
+csv[4]
+csv.headers.map!{|i| i.downcase.tr(' ', '_') if i}
+csv[4]
+csv[4]['Short Description']
+csv.headers
+csv
+csv = csv.headers.map{|header| uniform_names(header) }
+def uniform_names(name)
+  name.downcase.tr(' ', '_') if name
+end
+csv = csv.headers.map{|header| uniform_names(header) }
+csv
+CSV::HeaderConverters[:map_to_main] = lambda do |header|
+  uniform_names(header)
+end
+file = 'perks.csv'
+CSV.open(file,
+  headers: true,
+header_converters: :map_to_main))
+header_converters: :map_to_main)
+CSV.open(file, headers: true, header_converters: :map_to_main)
+csvCSV.open(file, headers: true, header_converters: :map_to_main)
+csv = CSV.open(file, headers: true, header_converters: :map_to_main)
+csv.first
+CSV::HeaderConverters[:map_to_main] = lambda do |header|
+  uniform_names(header)
+end
+CSV.read(file, headers: true, header_converters: :map_to_main)
+c = CSV.read(file, headers: true, header_converters: :map_to_main)
+csv = CSV.read(file, headers: true, header_converters: :map_to_main)
+csv
+csv[0]
+csv.select{|row| row["Date Added"].exists? }
+csv
+csv.first
+csv.select{|row| row["date_added"].exists? }
+csv.select{|row| row["date_added"].present? }
+nil.empty?
+nil.blank?
+nil.present?
+nil.nil?
+nil.methods
+csv.select{|row| row["date_added"].present? }
+csv
+csv.select{|row| row["date_added"] }
+csv
+csv.drop(10
+csv.drop(1)
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv[0]
+csv[1]
+csv[2]
+csv.drop(3)
+csv
+csv.methods(false)
+csv.methods
+csv
+csv.drop!(3)
+csv = csv.drop(3)
+csv
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv.drop(1)
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv[0]
+csv[1]
+csv[2]
+csv = csv.drop(3).reject{|row| row["Date Added"].nil? }
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv = csv.drop(3)
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv = csv.drop(3).reject{|row| row["date_added"].nil? }
+csv
+Dir.mkdir('hey')
+exit
+n
+dir_name
+Dir.mkdir(dir_name)
+Dir.chdir(dir_name)
+Dir.pwd
+File.open('data.yml','w') do |f|
+  f.write row_to_yaml_hash(row)
+end
+row
+yaml_hash = row.to_hash.slice("title",
+  "region",
+  "created_at",
+  "promotion_code",
+  "url",
+  "header_image_alt_text",
+  "body_title",
+  "body_image_alt_text",
+"body_image_caption")
+date_arr = yaml_hash['created_at'].split('/')
+row.to_HASH
+row.to_hash
+!!!
+111
+!!!
+"asdf".starts_with?('a')
+"asdf".start_with?('a')
+exiut
+exit
+yaml_hash
+yaml_hash.ex
+!!!
+row.slice("title")
+!!!
+yaml_hash
+!!!
+c
+yaml_hash
+n
+yaml_hash
+n
+date_arr
+n
+yaml_hash
+!!!
+c
+yaml_hash
+!!!
+yaml_hash['date_added']
+Date.parse(yaml_hash['date_added'])
+Date.parse(yaml_hash['date_added']).strftime("%Y-%m-%d")
+Date.parse(yaml_hash['date_added'], "%d/%m/%y").strftime("%Y-%m-%d")
+Date._strptime(yaml_hash['date_added'], "%d/%m/%y").strftime("%Y-%m-%d")
+Date.strptime(yaml_hash['date_added'], "%d/%m/%y").strftime("%Y-%m-%d")
+date = Date.strptime(yaml_hash['date_added'], "%d/%m/%y").strftime("%Y-%m-%d"))
+date = Date.strptime(yaml_hash['date_added'], "%d/%m/%y").strftime("%Y-%m-%d")
+!!!
+d = Date.strptime(yaml['date_added'], "%d/%m/%y")
+d = Date.strptime(yaml['date_added'], "%d/%m/%y").strftime("%Y-%m-%d")
+yaml['created_at'] = d
+yaml
+yaml.delete('date_added')
+yaml
+!!!
+c
+yaml_hash
+c
+yaml_hash
+yaml_hash.map { |k,v| "#{k}: \"#{row[k]}\"\n" }.join('')
+yaml_hash.map { |k,v| "#{k}: \"#{row[k]}\"\n" }
+yaml_hash.keys
+string = ""
+yaml_hash['created_at']
+yaml_hash['created_at'].to_s
+yaml_hash['created_at'].class
+!!!
+row[4]
+csv[4]
+csv.headers
+csv[4].headers
+csv[4]['image_body_url']
+csv[5]['image_body_url']
+csv[6]['image_body_url']
+csv
+csv[1]['image_body_url']
+url = csv[1]['image_body_url']
+Dir.chdir('data/perks')
+Rails.root
+root
+exit
+echo $WORKING_DIR
+WORKING_DIR
+APP_ROOT
+exit
+APP_ROOT
+Pathname.new File.expand_path('../..', __FILE__)
+EXIT
+!!!
+APP_ROOT = Pathname.new File.expand_path('./', __FILE__)
+APP_ROOT = Pathname.new File.expand_path('../', __FILE__)
+!!!
+APP_ROOT
+n
+c
+n
+next
+Dir.pwd
+!!!
+dir_name
+!!!
+dir_name
+!!!
+wherami
+row
+row['body_image_url']
+!!!
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+csv.by_col!
+csv.by_col!.delete_if {|n,v| n.nil?}
+csv[0]
+!!!
+args
+args.first
+!!!
+args.first
+args
+environment
+:environment
+_task
+args[:environment]
+!!!
+args[:file]
+env
+ENV
+ENV.values
+!!!
+args
+args.to_s
+args.methods
+args.to_a
+_task
+!!!
+args.display_times
+args
+!!!
+ARGV
+ARGV.count
+ARGV[1]
+ARGV[2]
+filename = ARGV[1] ? ARGV[1] : 'perks.csv'
+filename = ARGV[1] ? ARGV[1] : 'perks.csv    filename = ARGV[1] || 'perks.csv''
+filename = ARGV[1] || 'perks.csv'
+filename = ARGV[2] || 'perks.csv'
+filename = ARGV[1] || 'perks.csv'
+!!!
+args
+args.first
+argsargs
+asrgs
+args
+args[:file]
+args[:file].class
+CSV.read(args.[:file])
+CSV.read(args[:file])
+!!!
+CSV.read(args[:file])
+Dir.pwd
+Dir.ls
+ls
+CSV.read('perks.csv')
+CSV.read(args[:file])
+args[:file]
+!!!
+args[:file]
+!!!
+n
+APP_ROOT
+APP_ROOT = Pathname.new File.expand_path('../..', __FILE__)
+!!!
+APP_ROOT
+n
+APP_ROOT
+n
+Dir.pwd
+!!!
+n
+APP_ROOT
+!!!
+n
+dir_name
+c
+dir_name
+convert_names(row['body_title'])
+c
+convert_names(row['body_title'])
+c
+convert_names(row['body_title'])
+c
+convert_names(row['body_title'])
+c
+convert_names(row['body_title'])
+c
+convert_names(row['body_title'])
+row
+!!!
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+convert_to_html(row['short_description'])
+c
+desc = convert_to_html(row['terms_and_conditions'])
+c
+desc = convert_to_html(row['terms_and_conditions'])
+c
+desc = convert_to_html(row['terms_and_conditions'])
+c
+desc = convert_to_html(row['terms_and_conditions'])
+row['terms_and_conditions']
+!!!
+"hey   ".strip
+!!!
+desc
+desc.split("\n")
+!!!
+desc
+c
+desc
+c
+desc
+c
+desc
+c
+desc
+c
+desc
+c
+desc
+c
+desc
+desc.split('\n')
+desc.split("\n")
+desc.split("\n").reject(&:blank?)
+!!!
+mandatory.first
+row
+row[mandatory.first]
+row['region']
+mandatory.none? {|k| row[k] || row[k].blank? }
+raise MandatoryError if mandatory.none? {|k| row[k] || row[k].blank? }
+c
+!!!
+raise MandatoryError if mandatory.none? {|k| row[k] || row[k].blank? }
+throw MandatoryError if mandatory.none? {|k| row[k] || row[k].blank? }
+throw MandatoryError
+raise MandatoryError
+raise 
+c
+mandatory.none? {|k| row[k] || row[k].blank? }
+row
+!!!
+'asdf'.append('asdf'0
+'asdf'.append('asdf')
+exit
+hist
+Pry
+Readline::HISTORY
+Readline::HISTORY.first
+Readline::HISTORY.last
+Readline::HISTORY.count
+Readline::HISTORY.each {|i| p i if i.includes?("csv")
+}
+Readline::HISTORY.each {|i| p i if i.include?("csv")}
+csv = CSV.read('perks.csv', headers: true, header_converters: :map_to_main)
+require 'csv'
+Readline::HISTORY.each {|i| p i if i.include?("map")}
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+filename = args[:filename] || 'perks.csv'
+filename = 'perks.csv'
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+def convert_names(name)
+  name&.downcase&.tr(' ', '_')
+end
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+csv.map(&:image_header_url)
+csv.map{|row| row[:image_header_url])
+csv.map{|row| row[:image_header_url]})
+csv.map{|row| row[:image_header_url]}
+csv.map{|row| row["image_header_url"]}
+exit
