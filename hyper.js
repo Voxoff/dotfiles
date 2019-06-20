@@ -156,7 +156,18 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [// // status line
   // opens tab in same dir
-  "hyperline", "hyperlinks", "hypercwd", "hyper-search", "hyperborder", "hyper-blink", "hyperterm-paste", "hyper-pane", "hyperlinks", "hyper-tab-icons", "hyper-material-theme", "hyper-solarized-dark"],
+  "hyperline",
+  "hyperlinks",
+  "hypercwd",
+  "hyper-search",
+  "hyperborder",
+  "hyper-blink",
+  "hyperterm-paste",
+  "hyper-pane",
+  "hyperlinks",
+  "hyper-tab-icons",
+  "hyper-material-theme",
+  "hyper-solarized-dark"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here

@@ -3254,3 +3254,470 @@ csv.map{|row| row[:image_header_url]})
 csv.map{|row| row[:image_header_url]}
 csv.map{|row| row["image_header_url"]}
 exit
+def convert_names(name)
+  name&.downcase&.tr(' ', '_')
+end
+def row_to_yaml(row)
+        yaml_hash = row.to_hash
+                       .slice('title',
+                                'region',
+                            'date_added',
+                            'promotion_code',
+                            'url',
+                            'header_image_alt_text',
+                            'body_title',
+                            'body_image_alt_text',
+                            'body_image_caption')
+                     .reject { |_, v| v.nil? || v.empty? }
+      if yaml_hash[‘region’] == ’NORTH AMERICA’
+        yaml_hash[‘region’] = NORTH_AMERICA
+      end
+      convert_date(yaml_hash)
+      yaml_hash.map { |k, v| "#{k}: \"#{v.strip}\"\n" }
+               .join('')
+    end
+!!!
+exit
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+def convert_names(name)
+  name&.downcase&.tr(' ', '_')
+end
+require 'csv'
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+filename = 'perks.csv'
+csv = CSV.read(filename, headers: true, header_converters: ->(header) { convert_names(header) })
+csv = csv.drop(3).reject { |row| row['date_added'].nil? }
+row.to_hash
+.slice('title',
+'region',
+'date_added',
+'promotion_code',
+'url',
+'header_image_alt_text',
+'body_title',
+'body_image_alt_text',
+'body_image_caption')
+csv.first
+csv.first.headers
+exit
+require 'virtus'
+require 'common_api'
+exiy
+exit
+require 'common_api'
+class Dog ; include Virtus.model ; attribute :expires_on, Date ; end
+Dog.new
+Dog.new(expires_on: 'asd')
+Dog.new(expires_on: 'June 30th, 2019')
+Perka.ll
+Perk.all
+Perk.new
+Perk.new(promotion_code: "asdf")
+ALL_PERKS
+Perks.constants
+Perk.constants
+Perk::ALL_PERKS
+exit
+exit
+Date.today + 28.days
+require 'date'
+Date.today + 28.days
+require 'activesupport'
+require 'active_support'
+Date.today + 28.days
+28.days
+require 'active_support'
+28.days
+require 'active_support/time'
+28.days
+Date.today + 28.days
+Date.today + 29.days
+Date.parse(" Mon, 08 Jul 2019"0
+Date.parse(" Mon, 08 Jul 2019")
+str = "asdf & asdf"
+str.gsub(/&/, 'and')
+str.gsub("&", 'and')
+str.tr("&", 'and')
+str = "asdf .: asdf"
+str.gsub(/\./, "dot")
+str.tr(".", "dot")
+exit
+[[:punct:]]
+[[:punct]]
+str = "buy_a_10_times_clip_card_(for_10_classes)_and_get_"
+str.gsub([[:punct]], ".")
+str.gsub("[[:punct]]", ".")
+str
+str.gsub("[[:punct]]", "")
+[[:punct:]].join('')
+[[:punct]].join('')
+str.gsub(/[^a-z0-9\s]/i, '')
+str.gsub(/[^a-z0-9\s_]/i, '')
+exit
+row
+row.headers
+row[image_header_url]
+row['image_header_url']
+c
+row['title']
+row['image_header_url']
+row
+exit
+!!!
+require 'mechanize'
+exit
+require 'mechanize'
+agent = Mechanize.new  
+page = agent.get "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view?usp=sharing"
+form = page.forms.first  
+page.forms
+page
+page.links
+page.links.first
+page.links.first.click
+sign_in = page.links.first.click
+sign_in.forms
+sign_in.forms.first
+sign_in.forms.first.email
+sign_in.forms.first.Email
+sign_in.forms.first.Email = "guybjoness@gmail.com"
+sign_in.forms.first.PasswordSeperationSignIn
+sign_in.forms.first.password
+sign_in.forms.first.Password
+sign_in.forms.first.Page
+page = agent.get "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view"
+require 'nokogiri'
+Nokogiri::HTML(open('require 'gdata/client'  
+require 'gdata/http'  
+require 'gdata/auth'  
+client = GData::Client::Spreadsheets.new  
+Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view').read)
+Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view'))
+url = "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view"
+open(url)
+require 'open-uri'
+open(url)
+Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view'))
+html = Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view'))
+html = Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view').read)
+html = Nokogiri::HTML(open('https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view'))
+html
+html.xpath(//img)
+html.xpath("//img")
+html.FindElements
+html.xpath("*img")
+html.xpath("//*img")
+exit
+require 'google_drive'
+exit
+require 'watir'
+browser = Watir::Browser.new
+exit
+require 'watir'
+browser = Watir::Browser.new
+require 'watir'
+url = "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view"
+browser = Watir::Browser.new
+browser.goto url
+browser.wait(5)
+i = browser.div alt: "Displaying CWH Perk_Brash Coffee.jpeg"
+i.exist?
+i = browser.div alt: "Displaying CWH Perk_Brash Coffee.jpeg"
+hash = {a:123}
+hash[:a] = hash[:b]
+hash
+hash = {a:123}
+hash[:b] = hash.delete(:a)
+hash
+exit
+row.headers
+exit
+n
+yaml_hash
+!!!
+i
+i = browser.div class: "ndfHFb-c4YZDc-HiaYvf-RJLb9c"
+browser
+exit
+require 'watir'
+url = "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view"
+b = Watir::Browser.start url
+i = browser.div alt: "Displaying CWH Perk_Brash Coffee.jpeg"
+i = b.div alt: "Displaying CWH Perk_Brash Coffee.jpeg"
+i = b.img alt: "Displaying CWH Perk_Brash Coffee.jpeg"
+i = b.img
+require 'watir'
+exit
+require 'watir'
+url = "https://drive.google.com/file/d/1xNt4CpYJdZOlt61-Aryr5hSE-y5HInR2/view"
+b = Watir::Browser.start url
+b.img(alt: /Displayin/)
+b.img(alt: /Displaying/)
+b.img(class: "nd")
+b.element(tag_name: 'img')(
+b.element(tag_name: 'img')
+b
+b.div
+b.element(tag_name: 'img')
+b.element(tag_name: /img/)
+b.element(tag_name: 'div')
+b.div(class: /ndfHFb-c4YZDc ndfHFb-c4YZDc-AHmuwe-Hr88gd-OWB6Me ndfHFb-c4YZDc-vyDMJf-aZ2wEe ndfHFb-c4YZDc-i5oIFb ndfHFb-c4YZDc-TSZdd/)
+exit
+c
+data = 
+data
+perk_id
+exit
+!!!
+hash = {perks_url: "google.com", image_header_alt_text: 'asdf', image_body_alt_text: 'body'}
+data = {perks_url: "google.com", image_header_alt_text: 'asdf', image_body_alt_text: 'body'}
+def map_keys(data, key_map)
+  key_map.each do |old, new|
+    data[old] = data.delete(new)
+  end
+  return data
+end
+data = {'perks_url' => "google.com", 'image_header_alt_text' => 'asdf', 'image_body_alt_text' => 'body'}
+n = map_keys(data, {'perks_url => 'url'})
+n = map_keys(data, {'perks_url' => 'url'})
+data
+map_keys
+map_keys(1,2)
+map_keys(data,2)
+map_keys(data,{'perks_url' => 'url'})
+data = {'perks_url' => "google.com", 'image_header_alt_text' => 'asdf', 'image_body_alt_text' => 'body'}
+map_keys(data,{'perks_url' => 'url'})
+data = {'perks_url' => "google.com", 'image_header_alt_text' => 'asdf', 'image_body_alt_text' => 'body'}
+data['perks_url']
+exit
+"asdf".first(30)
+exit
+require 'open-uri'
+open("https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view?usp=sharing")
+open("https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view?usp=sharing").read
+r = open("https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view?usp=sharing")
+r.response
+r.headers
+exit
+require 'google/apis/drive_v2'
+Drive = Google::Apis::DriveV2 # Alias the module
+drive = Drive::DriveService.new
+equire 'google/api_client'
+require 'google/api_client/auth/file_storage'
+require 'google/api_client/auth/installed_app'
+class GoogleDrive
+  CREDENTIALS_FILE = Rails.root.join('tmp', 'google_api_credentials.json')
+  def initialize
+    credentials_storage = ::Google::APIClient::FileStorage.new(CREDENTIALS_FILE)
+    @client = ::Google::APIClient.new(
+      application_name:    'MyApp',
+      application_version: '1.0.0'
+    )
+    @client.authorization = credentials_storage.authorization || begin
+      installed_app_flow = ::Google::APIClient::InstalledAppFlow.new(
+        client_id:     ENV['GOOGLE_API_CLIENT_ID'],
+        client_secret: ENV['GOOGLE_API_CLIENT_SECRET'],
+        scope:         ENV['GOOGLE_API_SCOPE']
+      )
+      installed_app_flow.authorize(credentials_storage)
+    end
+    @drive = @client.discovered_api('drive', 'v2')
+  end
+  def download_latest_proxylist(search_period = 1.week.ago)
+    modified_date = search_period.strftime('%Y-%m-%dT%H:%M:%S%z')
+    result = @client.execute(
+      api_method: @drive.files.list,
+      "                                             e}"                    file = result.data['items'].first
+      download_url = file['downloadUrl']
+      result = @clie    result = @clie    result = @clie    result = @clie    result = @clie    resig    result = @clie    result = @clie t_    result = @clie    result = @cldDate']
+  end
+end
+require 'google/api_client'
+require 'google/api_client/auth/file_storage'
+require 'google/api_client/auth/installed_app'
+require 'google/api_client'
+require 'google/api_client/auth/file_storage'
+require 'google/api_client/auth/installed_app'
+exit 
+require 'google/api_client'
+require 'google/api_client/auth/file_storage'
+require 'google/api_client/auth/installed_app'
+require 'signet/oauth_2/client'
+exit
+require 'google/apis/drive_v3'
+require 'googleauth'
+require 'googleauth/stores/file_token_store'
+require 'fileutils'
+OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'.freeze
+APPLICATION_NAME = 'Drive API Ruby Quickstart'.freeze
+CREDENTIALS_PATH = 'credentials.json'.freeze
+# The file token.yaml stores the user's access and refresh tokens, and is
+# created automatically when the authorization flow completes for the first
+# time.
+TOKEN_PATH = 'token.yaml'.freeze
+SCOPE = Google::Apis::DriveV3::AUTH_DRIVE_METADATA_READONLY
+def authorize
+  client_id = Google::Auth::ClientId.from_file(CREDENTIALS_PATH)
+  token_store = Google::Auth::Stores::FileTokenStore.new(file: TOKEN_PATH)
+  authorizer = Google::Auth::UserAuthorizer.new(client_id, SCOPE, token_store)
+  user_id = 'default'
+  credentials = authorizer.get_credentials(user_id)
+  if credentials.nil?
+    url = authorizer.get_authorization_url(base_url: OOB_URI)
+    puts 'Open the following URL in the browser and enter the ' \
+    "resulting code after authorization:\n" + url
+    code = gets
+    credentials = authorizer.get_and_store_credentials_from_code(
+      user_id: user_id, code: code, base_url: OOB_URI
+    )
+  end
+  credentials
+end
+drive_service = Google::Apis::DriveV3::DriveService.new
+drive_service.client_options.application_name = APPLICATION_NAME
+drive_service.authorization = authorize
+response = drive_service.list_files(page_size: 10,
+fields: 'nextPageToken, files(id, name)')
+puts 'Files:'
+puts 'No files found' if response.files.empty?
+response.files.each do |file|
+  puts "#{file.name} (#{file.id})"
+end
+file_id = 1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU
+file_id = "1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU"
+content = drive_service.get_file(file_id, download_dest: StringIO.new)
+content = drive_service.export_file(file_id,
+  'application/pdf',
+download_dest: StringIO.new)
+content = drive_service.export_file(file_id, 'image/jpeg', download_dest: StringIO.new)
+doc = system('wget "https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view" | grep usercontent')
+doc
+doc = system('wget "https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view"')
+doc
+exit
+require 'nokogiri'
+require 'open-uri'
+url = "https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view"
+open(url)
+open(url).read
+open(url).read.grep /user/
+"asdf".match(/a/)
+open(url).read.match /user/
+"asdf".match(/a/)[0]
+open(url).read.match(/http.*usercontent/)
+open(url).read.match(/content=\"http.*usercontent/)
+open(url).read.match(/content=\"http.*usercontent\"/)
+open(url).read.match(/content=\"http.*usercontent.*\"/)
+open(url).read.match(/content=\"http.*usercontent.*>/)
+open(url).read.match(/content=\"http.*usercontent.com\/.*/)
+open(url).read.match(/content=\"http.*usercontent.com\/.*/)[0]
+open(url).read.match(/content=\"http.*usercontent/)
+open(url).read.match(/content=\"http.*usercontent.com/)
+exit
+open(url).read.match(/content=\"http.*usercontent.com.*\"></)
+open(url).read.match(/content=\"http.*usercontent.com.*\"><meta/)
+exut
+url = "https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view"
+file_id = url.match(/\/d\/(.*)//)
+file_id = url.match(/\/d\/(.*)\//)
+file_id = url.match(/\/d\/(.*)\//)[1]
+exit
+require 'open-uri'
+url = "https://doc-10-b4-docs.googleusercontent.com/docs/securesc/1kmev7k9fr65f9as8ar955k444e8tun8/2d686t7nrktof9kh7cjitemor2boajb2/1560866400000/12078492223780681176/18065501857109472115/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU?e=view"
+u = open(url)
+r = u.read
+url = "https://drive.google.com/uc?id=1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU&export=download"
+open(url_
+open(url)
+open(url).read
+File.open('body_image.jpg', 'wb') do |f|
+  f.write Security.open(row['body_image_url']).read
+end
+File.open('body_image.jpg', 'wb') do |f|
+  f.write open(row['body_image_url']).read
+end
+url
+File.open('body_image.jpg', 'wb') do |f|
+  f.write open(url).read
+end
+hash = {'key' => 'value', 'key2' => 'value2'}
+hash['key3'] = hash.delete('key')
+hash
+hash['key'] = hash.delete('key3')
+hash
+def rename_keys(hash, key_hash)
+  key_hash.each {|k,v| hash[k] = hash.delete(v)}
+end
+rename_keys(hash, {'key' => 'another_key'})
+def rename_keys(hash, key_hash)
+  key_hash.map {|k,v| hash[k] = hash.delete(v)}
+end
+rename_keys(hash, {'key' => 'another_key'})
+key_hash.values.first
+key_hash = {'key' => 'another_key'}
+key_hash.values.first
+def rename_keys(hash, key_hash)
+  key_hash.each {|k,v| hash[k] = hash.delete(v)}
+  return hash
+end
+hash
+hash = {'key' => 'value', 'key2' => 'value2'}
+rename_keys(hash, {'key' => 'another_key'})
+exit
+hash = {'key' => 'value', 'key2' => 'value2'}
+def rename_keys(hash, key_hash)
+  key_hash.each { |k,v| hash[v] = hash.delete(k) }
+  return key_hash
+end
+rename_keys(hash, {'key' => 'another_key'})
+def rename_keys(hash, key_hash)
+  key_hash.each { |k,v| hash[v] = hash.delete(k) }
+  return hash
+end
+rename_keys(hash, {'key' => 'another_key'})
+hash = {'key' => 'value', 'key2' => 'value2'}
+rename_keys(hash, {'key' => 'another_key'})
+hash
+hash = {'key' => 'value', 'key2' => 'value2'}
+key_hash = { 'key' => 'another_keu'}
+hash
+hash.map{|k,v| [key_hash[k], v].to_h }
+hash.map{|k,v| [key_hash[k] || k, v].to_h }
+hash.map{|k,v| [key_hash[k] || k, v]}.to_h 
+exit
+def convert_to_html(desc)
+  return if desc.start_with?('<p>')
+  desc.split("\n").reject(&:blank?).map { |para| "<p>#{para}</p>" }.join("\n")
+end
+desc = "hey"
+convert_to_html(desc)
+desc = "hey\n"
+convert_to_html(desc)
+'hey".split("\n")
+"hey".split("\n")
+"hey".split("\n").reject(&:blank?)
+"hey".blank?
+require 'active_support/core_ext'
+require 'active_support'
+require 'active_support/core_ext'
+"hey".blank?
+convert_to_html(desc)
+desc
+a = convert_to_html(desc)
+convert_to_html(a)
+a
+def convert_to_html(desc)
+  return desc if desc.start_with?('<p>')
+  puts 'asdf'
+end
+convert_to_html(a)
+require 'datetime'
+DateTime.parse("December 2019")
+require 'date'
+DateTime.parse("December 2019")
+require 'rails'
+{'low' => 2}
+{:low => 2}
+{low: 2}
+10 / 3
+exit

@@ -16,15 +16,33 @@ alias fix="bin/rails db:environment:set RAILS_ENV=development"
 alias boilerplate="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
 
 #GIT
-function gitall() {
-  git add .
-  if [ "$1" != "" ] # or better, if [ -n "$1" ]
+
+function gital() {
+  git add . 
+  if [ "$1" != "" ]
     then
-        git commit -m "$1"
+      git commit -m "$1"
     else
-        git commit -m update
-    fi
-    git push origin master
+      git commit -m update
+  fi
+}
+
+function gitall() {
+  if [ -z "$1" ] ; then 
+    echo 'Please choose a branch or use gitallm'
+  fi
+  git add .
+  if [ -n "$2" ] ; then
+      git commit -m "$2"
+  else
+      git commit -m update
+  fi
+  git push origin $1
+}
+
+function gitallm(){
+  gital $1
+  git push origin master
 }
 
 function herokupush() {
