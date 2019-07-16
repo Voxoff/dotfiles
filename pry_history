@@ -3721,3 +3721,3418 @@ require 'rails'
 {low: 2}
 10 / 3
 exit
+@members
+@members
+params[:id]
+params[:id]
+@members.find_by_id(params[:id])
+@members.find_by_id(params[:id])
+
+
+
+
+@ebr
+@ebr
+
+c
+c
+c
+c
+@members
+@members
+Member.all
+Member.all
+Member
+Member
+e
+e
+!!
+!!
+Member.Mm!!!
+Member.Mm!!!
+
+!
+!
+
+
+
+
+
+
+
+c
+c
+c
+@members.constants
+@members.constants
+@members.methods
+@members.methods
+@members.search
+@members.search
+
+c
+c
+url = "https://www.youtube.com/user/SonyPicturesClassics"
+url = "https://www.youtube.com/user/SonyPicturesClassics"
+youtube_regex = /https:\/\/www.youtube.com\/user\/([^?|\/]*)/
+youtube_regex = /https:\/\/www.youtube.com\/user\/([^?|\/]*)/
+url.match(youtube_regex)
+url.match(youtube_regex)
+url.match(youtube_regex).first
+url.match(youtube_regex).first
+url.match(youtube_regex)[0]
+url.match(youtube_regex)[0]
+url.match(youtube_regex)[1]
+url.match(youtube_regex)[1]
+exit
+exit
+module Yay
+  def workpls
+    puts 'asdf'
+  end
+end
+c = class.new { include Yay }
+c = class.new { includes Yay }
+Yay
+include Yay
+c = Class.new { includes Yay }
+class guy
+  include Yay
+end
+class Guy
+  include Yay
+end
+Guy.workpls
+Yay.workpls
+class.new { include Yay }
+Class.new { include Yay }
+c = Class.new { include Yay }
+Class.new { include Yay }.workpls
+exit
+module Bryn
+  def works
+    puts 'asdf'
+  end
+end
+Class.new { includes Bryn }.works
+Class.new { include Bryn }.works
+class Guy
+  include Bryn
+end
+Guy.works
+Guy.new.works
+exit
+module Bryn
+  module_function :works
+  def works
+    puts 'asdf'
+  end
+end
+module Bryn
+  def works
+    puts 'asdf'
+  end
+  module_function :works
+end
+exit
+module Bryn 
+  module_function :works
+  def works
+    puts 'asd'f
+module Bryn
+  module_function :works
+  def works 
+    puts 'asdf'
+  end
+end
+exit
+module Bryn
+  def works
+    puts 'asdf'
+  end
+end
+class Guy
+  extends Bryn
+end
+class Guy ; extend Bryn ; end
+Guy.works
+exit
+Class.new { include SocialMediaHelper}
+SocialMediaHelper
+exit
+SocialMediaHelper
+Class.new { include SocialMediaHelper}
+Class.new { include SocialMediaHelper}.spotify_regex
+Class.new { extend SocialMediaHelper}.spotify_regex
+Class.new { include SocialMediaHelper}.new.spotify_regex
+exit
+Class.new { include SocialMediaHelper}.new.spotify_regex
+exit
+SocialMediaHelper.spotify_regex
+exit
+module SocialMediaHelper
+  module_function
+  def convert_url_to_handle(url, regex)
+    url.match(regex)&.[1]
+end
+def spotify_regex
+  # https://open.spotify.com/user/dan2552"
+  /https:\/\/open\.spotify\.com\/user\/([^?|\/]*)/
+end
+def instagram_regex
+  # https://www.instagram.com/rideroficial
+  /https:\/\/www.instagram.com\/([^?|\/]*)/
+end
+def twitter_regex
+  # https://twitter.com/jetbrainsrider
+  /https:\/\/twitter.com\/([^?|\/]*)/
+end
+def linkedin_regex
+  # https://www.linkedin.com/in/rider-sargent-2497194
+  /https:\/\/www.linkedin.com\/in\/([^?|\/]*)/
+end
+def youtube_regex
+  # https://www.youtube.com/user/SonyPicturesClassics
+  /https:\/\/www.youtube.com\/user\/([^?|\/]*)/
+end
+exit
+row
+row['body_image_url']
+!!!
+row['body_image_url']&.present?
+!!!
+row['image_body_url']&.present?
+url = get_image_link(row['image_body_url'])
+!!!
+row['image_body_url']&.present?
+url = get_image_link(row['image_body_url'])
+!!!
+row['image_body_url']&.present?
+url = get_image_link(row['image_body_url'])
+row['image_body_url']
+url = row['image_body_url']
+url.match(%r{/\/d\/(.*)\//})
+url.match(/\/d\/(.*)\//)
+url.match(%r{\/d\/(.*)\/})
+!!!
+n
+url = get_image_link(row['image_body_url'])
+!!!
+['asdf'].any? {|i| i == 'as'}
+exit
+SalesforceFactory
+SalesforceFactory::Account
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy@example.com").update(occupation: "Love Island Winner")
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy@example.com").update(marketing_opt_out_all: true)
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy@example.com").update(occupation: "Love Island Winner")
+SalesforceFactory::Account.find_by(email: "guy@example.com").update(occupation: "Occupation 1")
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com").update(twitter_url: "https://twitter.com/GuyBennettJones")
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+file_id = "https://drive.google.com/uc?export=download&id=190KovM5nBIhcT0c5zb03Kr68N7fJLHF5"
+def get_image_link(url)
+  # urls https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view
+  file_id = url.match(%r{\/d\/(.*)\/})
+  "https://drive.google.com/uc?export=download&id=#{file_id}"
+end
+a = get_image_link(file_id)
+a
+def get_image_link(url)
+  # urls https://drive.google.com/file/d/1KXD6dE1Cl7PhWWWiiK7zvKcqIOHrvCLU/view
+  file_id = url.match(%r{\/d\/(.*)\/})[1]
+  "https://drive.google.com/uc?export=download&id=#{file_id}"
+end
+a = get_image_link(file_id)
+url = "https://drive.google.com/file/d/190KovM5nBIhcT0c5zb03Kr68N7fJLHF5/view"
+a = get_image_link(url)
+a
+open(a)
+require 'open-uri'
+open(a)
+File.open(a)
+URI.open(a)
+exit
+nil&[1]
+nil[1]
+nil.[1]
+nil.([1])
+nil.send([],1)
+nil&.send([],1)
+[1,2,3].values_at(1)
+nil.try([],1)
+require 'active_support/core_ext/object/try'
+nil.try([],1)
+[1,2,3].try([],1)
+[1,2,3][1]
+[1,2,3].try([],1)
+exiy
+exit
+ENV['PERKS_DATA'] = "config/perks.yml"
+ALL_PERKS = load_from(ENV.fetch('PERKS_DATA')).freeze
+def load_from(file)
+  self.all_by_id = {}
+  begin
+    YAML.load_file(file).each_pair do |perk_id, perk_data|
+      all_by_id[perk_id] = initialize_from(perk_id, perk_data)
+    end
+  rescue StandardError
+    puts "Unable to load Perks from #{file}"
+  end
+end
+ALL_PERKS = load_from(ENV.fetch('PERKS_DATA')).freeze
+Perka.ll
+Perk
+Perk.all
+exit
+ENV['PERKS_DATA'] = "config/perks.yml"
+Perk.all
+Perk.load_from(ENV.fetch('PERKS_DATA')).freeze
+Perk.send(:load_from, ENV['PERKS_DATA')
+Perk.send(:load_from, ENV['PERKS_DATA'])
+perks = Perk.send(:load_from, ENV['PERKS_DATA'])
+perks.count
+perks.select {|i| i.title == "Cowshed" }
+perks.select {|i| i['title'] == "Cowshed" }
+perks[0]
+perks[1]
+perks
+perks['cowshed']
+perks['cowshed'].region
+perks = Perk.send(:load_from, ENV['PERKS_DATA'])
+perks['cowshed']
+id = "123"
+perk_data = perks['cowshed']
+Perk.new(perk_data.merge(id: perk_id))
+Perk.new(perk_data)
+exit
+DateTime.new("3e163856dc8b48e9502434d702f15c61a753f3f9
+DateTime.new("08/06/19")
+require 'data'
+require 'datr'
+require 'date'
+DateTime.new("08/06/19")
+DateTime.parse("08/06/19")
+exit
+Perk.load_from('config/perks.development.yml')
+Perk.send(:load_from, 'config/perks.development.yml')
+exit
+Perk.send(:load_from, 'config/perks.development.yml')
+exit
+Perk.send(:load_from, 'config/perks.development.yml')
+hash = Perk.send(:load_from, 'config/perks.development.yml')
+hash["cowshed"]
+hash["about_weber"]
+a = hash["about_weber"].merge!(publish_on: "08/06/19")
+Perk.new(a)
+a = hash["about_weber"].merge!(publish_on: "08/06/2019")
+Perk.new(a)
+exit
+hash = Perk.send(:load_from, 'config/perks.development.yml')
+a = hash["about_weber"].merge!(publish_on: "2019-06-08")
+Perk.new(a)
+exit
+URI
+URI.methods
+URI.regexp
+subject.valid?
+subject.errors
+!!!
+subject.valid?
+exit
+ActiveRecord
+ActiveRecord::Validations
+ActiveRecord::Validations::ClassMethods
+ActiveRecord::Validations::ClassMethods.constants
+ActiveRecord::Validations::ClassMethods.methods
+ActiveRecord::Validations::ClassMethods.instance_methods
+!!!
+subject
+subject.instagram_url
+allow_value
+:spotify_url
+allow_value("https://www.instagram.com/rider").for(:spotify_url)
+!!!
+phone_number
+:phone_number
+subject
+subject.phone_number
+exit
+subject
+mock_member
+mock_member.spotify_url
+subject
+subject.instagram_url
+mock_member
+!!!
+mock_member
+subject
+!!!
+subject
+mock_member
+bundle
+mock_member
+exit
+mock_member
+mock_member.instagram_url
+mock_member
+mock_member.instagram_url
+subject.instagram_url
+!!!
+permitted_attributes
+params
+n
+c
+context
+n
+profile_updator.profile
+!!!
+next
+step
+next
+!!!
+c
+context.account.profile
+context
+context.bio
+context.profile.bio
+salesforce_attributes
+client.members.update(profile_id, salesforce_attributes)
+salesforce_attributes
+profile_id
+client.members.update(profile_id, salesforce_attributes)
+client
+client.members
+client.members.update(profile_id, salesforce_attributes)
+salesforce_attributes
+profile_id,
+)
+profile_id
+a = Account.new_from_salesforce(client.members.update(profile_id, salesforce_attributes))
+c
+member
+exit
+c
+client.members.update(profile_id, salesforce_attributes)
+salesforce_attributes
+salesforce_attributes.merge(first_name: "Quasimodo")
+client.members.update(profile_id, salesforce_attributes)
+attributes
+salesforce_attributes
+client.member
+client.members
+clinet
+client
+client.members.update(profile_id, salesforce_attributes)
+c
+cc
+c
+salesforce_attributes
+context
+client.members.update(profile_id, salesforce_attributes)
+c
+step
+n
+attributes
+scope
+request(Salesforce::Models::Member) do  connection.patch("/#{scope}/members/#{sanitize(id)}", data: body) end
+id
+n
+body
+connection.patch("/#{scope}/members/#{sanitize(id)}", data: body)
+connection
+client.members.update(profile_id, salesforce_attributes)
+c
+params
+params
+@members
+@members
+declared(params)
+declared(params)
+c
+c
+client.members.update(profile_id, salesforce_attributes)
+whereami
+step
+n
+step
+n
+response
+whereami
+up
+body
+c
+c
+down
+response = yield
+params
+params
+declared(
+declared(
+            params,
+  params,
+            include_parent_namespaces: false, include_missing: false
+  include_parent_namespaces: false, include_missing: false
+          )
+)
+c
+client.members.update(profile_id, salesforce_attributes)
+member
+member
+attributes_to_update.merge!(Occupation__c: member[:occupation]) if member.has_key?(:occupation)
+attributes_to_update.merge!(Occupation__c: member[:occupation]) if member.has_key?(:occupation)
+member[:occupation]
+member[:occupation]
+member.has_key?(:occupation)
+member.has_key?(:occupation)
+c
+@members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+params
+params
+
+params[:data]
+params[:data]
+params[:data][:attributes][:occupation]
+params[:data][:attributes][:occupation]
+params[:data][:attributes][:occupation] = nil
+params[:data][:attributes][:occupation] = nil
+@members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+c
+c
+c
+c
+c
+params
+params
+@members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+c
+c
+@members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+whereami
+whereami
+step
+step
+n
+n
+n
+n
+n
+wherami
+wherami
+n
+n
+n
+c
+c
+c
+member
+member
+n
+n
+n
+n
+n
+n
+n
+
+n
+n
+n
+n
+n
+
+n
+
+n
+n
+
+n
+
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+attributes_to_update
+attributes_to_update
+member.has_key?(:youtube_url)
+member.has_key?(:youtube_url)
+          attributes_to_update = {}
+attributes_to_update = {}
+ @members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+declared(
+declared(
+            params,
+  params,
+            include_parent_namespaces: false, include_missing: false
+  include_parent_namespaces: false, include_missing: false
+          )
+)
+    c
+c
+ @members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+c
+c
+ @members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+c
+c
+c
+attributes_to_update
+attributes_to_update
+n
+n
+c.update!('Account', record.Id, attributes_to_update)
+c.update!('Account', record.Id, attributes_to_update)
+ record = c.find('Account', Id: record.Id)
+record = c.find('Account', Id: record.Id)
+n
+n
+n
+record = c.find('Account', Id: record.Id)
+record = c.find('Account', Id: record.Id)
+c
+c
+exit
+SalesforceAccount
+Salesforce
+SalesForce
+exit
+SalesforceFactory::Account.find_by(email: guy@example.com)
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+  @members.update(
+@members.update(
+          params[:id],
+  params[:id],
+          declared(
+  declared(
+            params,
+    params,
+            include_parent_namespaces: false, include_missing: false
+    include_parent_namespaces: false, include_missing: false
+          )[:data][:attributes]
+  )[:data][:attributes]
+        )
+)
+c
+c
+c
+perk = Perk.initialize_from(perk_id, data)
+perk.valid?
+perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data)
+perk.valid?
+perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data)
+perk.valid?
+perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data)
+perk.valid?
+perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data)
+perk.valid?
+perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data) ; perk.valid? ; perk.errors
+!!!
+perk = Perk.initialize_from(perk_id, data) ; perk.valid? ; perk.errors
+!!!
+SalesforceAccount
+Salesforce
+constants
+exit
+SalesforceFactory
+SalesforceFactory::Account
+SalesforceFactory::Account.find_by_email("guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+exit
+SalesforceFactory
+SalesforceFactory
+exit
+exit
+SalesforceFactory
+SalesforceFactory::Accounthistory
+SalesforceFactory.constants
+SalesforceFactory::Account
+SalesforceFactory.objects
+SalesforceFactory.modules
+SalesforceFactory
+SalesforceFactory::Account
+SalesforceFactory::AccountHistory
+SalesforceFactory::AccountFeed
+exit
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "uispagquwn@example.com")
+exit cd
+exit
+62 / 500
+62.to_f / 500.to_f
+62.to_f / 500.to_f * 100
+(62.to_f / 500.to_f * 100).to_i
+exi
+exit
+nil.to_s
+URI::DefaultParser
+URI::DEFAULT_PARSER
+URI::DEFAULT_PARSER.MAKE_REGEXP
+URI::DEFAULT_PARSER.make_regexp
+"wazz".match(URI::DEFAULT_PARSER.make_regexp)
+"wwww.youtube.com".match(URI::DEFAULT_PARSER.make_regexp)
+"wwww.youtube.com".match(URI::DEFAULT_PARSER.make_regexp)[1]
+URI::DEFAULT_PARSER
+URI::DEFAULT_PARSER.methods
+URI::DEFAULT_PARSER.regexp
+URI::DEFAULT_PARSER.methods
+URI::regexp
+class Profile
+  include ActiveModel::Validations
+  validates :url, format: {with: URI::regexp }
+  attr_accessor :url
+  def initialize(url)
+    @url = url
+  end
+end
+exit
+:wazz =~ /wa/
+:wazz =~ /zz/
+exit
+h = {url: 'asdf', main_url: 'asdf', hey: 'asdf'}
+params = h
+params.keep_if { |key, value| key =~ /url/ && value }
+h = {url: 'asdf', main_url: 'asdf', hey: 'asdf', key: nil}
+params.keep_if { |key, value| key =~ /url/ && value }
+params
+params.slice { |key, value| key =~ /url/ && value }.none? {|key, value| valid_url(value) }
+params.slice { |key, value| key =~ /url/ && value }
+params
+params.slice { |key, value| key =~ /url/ && value }
+params
+params.select { |key, value| key =~ /url/ && value }
+exit
+params
+params.select { |key, value| key =~ /url/ && value }.none?  {|key, value| valid_url(value) }
+n
+c
+params
+params.select { |key, value| key =~ /url/ && value }
+exit
+params.select { |key, value| (key =~ /url/) && value }
+params
+params.each do |key, value|
+  puts key if key =~ /url/
+end
+!!!
+params.select { |key, value| (key =~ /url/) && value }
+para,s
+params
+exit
+params.select { |key, value| (key =~ /url/) && value }
+params.select { |key, value| (key =~ /url/) && value }.any? {|key, value| !valid_url(value) }
+c
+params.select { |key, value| (key =~ /url/) && value }.any? {|key, value| !valid_url(value) }
+exit
+c
+https://drive.google.com/file/d/1OhsVyYEl7UoNE47mKYEQBxoon95ipXFt/view
+PlatformClient::Venue
+PlatformClient::Venue.find("Portland")
+PlatformClient::Venue.find(:Portland)
+PlatformClient::Venue
+exit
+PlatformClient::Venue.find(:Portland)
+PlatformClient::Venue.find("[ortland")
+PlatformClient::Venue.find("portland")
+PlatformClient::Venue.methods
+PlatformClient::Venue.find("portland")
+PlatformClient::Venue.find("SH")
+PlatformClient::Venue.find("S")
+PlatformClient::Venue.find("NED")
+exit
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+exit
+load_from('config/perks.yml')
+Perk.load_from('config/perks.yml')
+Perk.send(:load_from, 'config/perks.yml')
+hash = Perk.send(:load_from, 'config/perks.yml')
+Perk.new(hash["wilderness"])
+Perk.new(hash["wilderness"]).valid?
+exit
+venue_id = "POR"
+PlatformClient::Venue.find(venue_id).first 
+PlatformClient::Venue.find("BH_ACTIVE").first 
+PlatformClient::Venue.find(:BH_ACTIVE).first 
+exit
+PlatformClient::Venue.find("BH_ACTIVE")
+PlatformClient::Venue.all
+PlatformClient::Venue
+PlatformClient::Venue.methods
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+exit
+url = "https://twitter.c/jetbrainsridr"
+url =~ URI::regexp
+url = "https://twitter.com/jetbrainsridr"
+url =~ URI::regexp
+url = "https://twasdfasdf"
+url =~ URI::regexp
+URI::regexp
+url = "twasdfasdf"
+url =~ URI::regexp
+url = "www.twasdfasdf"
+url =~ URI::regexp
+url = "http://www.twasdfasdf"
+url =~ URI::regexp
+url = "http://www.twasdfasdf"
+url = "http://"
+url =~ URI::regexp
+def compliant?(value)
+  uri = URI.parse(value)
+  uri.is_a?(URI::HTTP) && !uri.host.nil?
+rescue URI::InvalidURIError
+  false
+end
+compliant?(url)
+compliant?("www.twitter.com"))
+compliant?("www.twitter.com")
+compliant?("http://www.twitter.com")
+compliant?("https://www.twitter.com")
+compliant?("https://www.twitter.co")
+compliant?("https://www.twitter.c")
+compliant?("https://www.twitter.")
+compliant?("https://www.twitter")
+compliant?("https://")
+compliant?("https://twitter")
+"a".start_with?(/a/)
+URI::HTTP
+"https://twitter.com".is_a?(URI::HTTP)
+uri
+n
+c
+uri
+uri = "www" + uri if uri.start_with?(/[twitter]|[instagram]|[linkedin]|[youtube]|[spotify]/)
+URI.parse("http://www.twitter.com")
+URI.parse("https://www.twitter.com")
+!!!
+dexit
+exit
+salesforce_attributes
+client.members.update(profile_id, salesforce_attributes)
+c
+salesforce_attributes
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+ProfileDetailsHelper.convert_handles_to_url(salesforce_attributes)
+!!!
+salesforce_attributes
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+!!!
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+!!!
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+salesforce_attributes
+!!!
+c
+attr
+step
+n
+c
+n
+c
+s
+m
+n
+key
+key =~ /handle/
+key
+key =~ /handle/ || value.nil?
+value
+!!!
+c
+s
+n
+key
+n
+c
+s
+n
+key
+n
+key
+n
+value
+key
+value.nil?
+key =~ /handle/ && value.nil?
+!!!
+c
+attr
+url_hash
+attr.merge(url_hash)
+n
+c
+attr
+attr.merge(url_hash)
+!!!
+uri
+n
+ur
+iuri
+uri
+"www.linkedin.com/in/mate"
+"www.linkedin.com/in/mate".start_with?(/[twitter]|[instagram]|[linkedin]|[youtube]|[spotify]/)
+n
+c
+uri
+uri.start_with?(/\A[twitter]|[instagram]|[linkedin]|[youtube]|[spotify]/)
+uri.start_with?("je"))
+uri.start_with?("je")
+uri.start_with?(/asdfasd/)
+uri.start_with?(/in/)
+uri.start_with?(/linkedin/)
+uri.start_with?(/[linkedin]/)
+uri.start_with?(/[linkedin]\[twitter]/)
+uri.start_with?(/\A[twitter]|[instagram]|[linkedin]|[youtube]|[spotify]/)
+uri.start_with?(/(twitter)|[instagram]|[linkedin]|[youtube]|[spotify]/)
+uri.start_with?(/(twitter)|(instagram)|(linkedin)|[youtube]|[spotify]/)
+uri.start_with?(/(twitter)|(instagram)|(linkedin)/)
+"linkedin".start_with?(/(twitter)|(instagram)|(linkedin)/)
+!!!
+uri
+n
+uri
+n
+uri
+n
+!!!
+c
+attr
+convert_urls(attr)
+!!!
+c
+convert_urls(attr)
+puts "yay" unless false
+puts "yay" unless true
+!!!
+uri
+ProfileDetailsHelper.any_regex?(uri)
+!!!
+ProfileDetailsHelper.any_regex?(uri)
+uri
+linkedin_regex.match(uri)
+ProfileDetailsHelper.linkedin_regex.match(uri)
+!!!
+ProfileDetailsHelper.any_regex?(uri)
+uri = "asdf"
+ProfileDetailsHelper.any_regex?(uri)
+uri = "http://www.linkedin.com/in/hey"
+ProfileDetailsHelper.any_regex?(uri)
+uri = "https://www.linkedin.com/in/hey"
+ProfileDetailsHelper.any_regex?(uri)
+uri = "httpsa://www.linkedin.com/in/hey"
+ProfileDetailsHelper.any_regex?(uri)
+uri = "httpgs://www.linkedin.com/in/hey"
+ProfileDetailsHelper.any_regex?(uri)
+uri = "www.linkedin.com/in/hey"
+ProfileDetailsHelper.any_regex?(uri)
+c
+uri
+ProfileDetailsHelper.any_regex?(uri)
+!!!
+value
+format_uri(value)
+helpers
+!!!
+format_uri(value)
+self.format_uri
+ls
+API::Resources::Profiles
+API::Resources::Profiles.methods(false)
+API::Resources::Profiles.format_uri
+API::Resources::Profiles.helpers
+API::Resources::Profiles.helpers.format_uri
+API::Resources::Profiles.helpers.methods
+API::Resources::Profiles.helpers
+API::Resources::Profiles
+API::Resources::Profiles.helpers
+!!!
+c
+!!!
+key
+n
+c
+key
+c
+require 'faker'
+Faker::String.random(201)
+exit
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+salesforce_attributes
+!!!
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes).delete_if { |_,v| v.nil? } )
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes).delete_if { |_,v| v.nil? }
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes)
+c
+ProfileDetailsHelper.convert_handles_to_urls(salesforce_attributes).delete_if { |_,v| v.nil? } 
+c
+!!!
+PlatformClient::Venue.find("POR")
+PlatformClient::Venue.all
+PlatformClient::Venue.site
+PlatformClient::Profiles
+PlatformClient::Profile
+PlatformClient::Profile.all
+exit
+PlatformClient::Profile.all
+exit
+PlatformClient::Profile.all
+exit
+PlatformClient::Profile.all
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+PlatformClient::Venue.find("POR")
+PlatformClient::Venue.find({"POR"})
+PlatformClient::Venue.find({"POR": 'asdf'})
+exit
+PlatformClient::Venue.find({"POR": 'asdf'})
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+exit
+PlatformClient::Venue.all
+PlatformClient
+PlatformClient::Venue
+PlatformClient::Venue.all
+PlatformClient::Venue.site
+PlatformClient::Venue.site = "localhost:3003"
+PlatformClient::Venue.site
+PlatformClient::Venue.all
+exit
+exit
+exit
+PlatformClient::Venue.all
+PlatformClient::Venue
+exit
+8cb5289e2e324c0cdb65dddf6d882f81778123d3
+PlatformClient::Venue
+PlatformClient::Venue.all
+PlatformClient::Venue.methods(false)
+PlatformClient::Venue.site
+PlatformClient::Venue.connection_object
+PlatformClient::Venue.methods(false)
+PlatformClient::Venue.connection_options
+PlatformClient::Venue._validators
+PlatformClient::Venue.find("qwe")
+exit
+PlatformClient::Venue.find("qwe")
+PlatformClient::Venue.fin
+PlatformClient::Venue.all
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+PlatformClient::Venue.find("qwe")
+exit
+exit
+PlatformClient::Venue.find("qwe")
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+PlatformClient::Venue.all
+list = PlatformClient::Venue.all
+list.count
+list.map(&:name)
+"        asdf".strip
+"        asdf asdf ".strip
+exit
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+all_venues = PlatformClient::Venue.all
+all_venues.first
+all_venues.first.name
+venue_name = "Portland"
+all_venues.select{|venue| venue.name == venue_name }
+all_venues.select{|venue| venue.name.casecmp?(venue_name).zero? }
+all_venues.select{|venue| venue.name.downcase = ben }
+exit
+map = {'perks_url': 'url', 'image_header_alt_text': 'header_image_alt_text', 'image_body_alt_text': 'body_image_alt_text'}
+yaml_hash = {'perks_url': 'hello'}
+def transform_keys(map_hash, hash)
+  map_hash.each do |k,v| 
+    hash[v] = hash[k]
+    hash.delete(k)
+  end
+  hash
+end
+transform_keys(yaml_hash, map)
+map
+yaml_hash
+transform_keys(map_hash, yaml_hash)
+transform_keys(map, yaml_hash)
+def transform_keys(map_hash, hash)
+  map_hash.each do |key, value| 
+    if hash.keys.include?(value)
+      hash[value] = hash[key]
+      hash.delete(key)
+    end
+    hash
+  end
+  
+end
+def transform_keys(map_hash, hash)
+  map_hash.each do |key, value| 
+    if hash.keys.include?(value)
+      hash[value] = hash[key]
+      hash.delete(key)
+    end
+  end
+  hash
+end
+transform_keys(map_hash, yaml_hash)
+transform_keys(map, yaml_hash)
+def transform_keys(map_hash, hash)
+  map_hash.each do |key, value| 
+    if hash.keys.include?(key)
+      hash[value] = hash[key]
+      hash.delete(key)
+    end
+  end
+  hash
+end
+transform_keys(map, yaml_hash)
+yaml_hash
+{:image_header_alt_text=>"header_image_alt_text", :image_body_alt_text=>"body_image_alt_text", "hello"=>"url"}
+transform_keys(map, yaml_hash)
+yaml_hash
+map
+map = {'perks_url': 'url', 'image_header_alt_text': 'header_image_alt_text', 'image_body_alt_text': 'body_image_alt_text'}  
+yaml_hash
+yaml_hash = {:image_header_alt_text=>"header_image_alt_text", :image_body_alt_text=>"body_image_alt_text", "hello"=>"url"}
+yaml_hash = {'perks_url': 'hello'}
+map
+transform_keys(map, yaml_hash)
+def transform_keys(map_hash, hash)
+  map_hash.each do |key, value| 
+    if hash[key]
+      hash[value] = hash[key]
+      hash.delete(key)
+    end
+  end
+  hash
+end
+yaml_hash = {'perks_url': 'hello'}
+map = {'perks_url': 'url', 'image_header_alt_text': 'header_image_alt_text', 'image_body_alt_text': 'body_image_alt_text'}  
+transform_keys(map, yaml_hash)
+exit
+Perk.load_from('PERKS_DATA')
+Perk.send(load_from:, 'PERKS_DATA')
+Perk.send(:load_from, 'PERKS_DATA')
+Perk.send(:load_from, 'config/perks.yml')
+exot
+exit
+url = "https://drive.google.com/open?id=13SYh6zgDCJHKLKKLLx1X-4fKon1gZLVl"
+file_id = url.match(%r{open\?id=(.*)})[1]
+exit
+str = 20%_discount_on_every_yoga_class_at_the_happy_heal
+dir_name('20%_discount_on_every_yoga_class_at_the_happy_heal')
+def convert_names(name)
+  name&.downcase&.tr(' ', '_')
+end
+convert_names(dir_name).first(50).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]/i}, '')
+dir_name = '20%_discount_on_every_yoga_class_at_the_happy_heal'
+convert_names(dir_name).first(50).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/%]/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]%/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]|%/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{/[^a-z0-9\s_\/]|\%/i}, '')
+string = "asdf%asdf"
+string = "asdf%asdf7"
+string.gsub(%r{[^asdf]}, '')
+string.gsub(%r{[^a-z]}, '')
+string.gsub(%r{[^a-z0-9]}, '')
+string.gsub(%r{[^a-z0-9\s]}, '')
+string.gsub(%r{[^a-z0-9\s\/]}, '')
+string.gsub(%r{[^a-z0-9\s_\/]}, '')
+string.gsub(%r{[^a-z0-9\s_\/]/i}, '')
+convert_names(dir_name).gsub('&', 'and').gsub(%r{[^a-z0-9\s_\/]|\%/i}, '')
+exit
+Date.yesterday
+require 'Date'
+Date.yesterday
+Date.now
+DateTime.yesterday
+DateTime.now
+DateTime.today
+exit
+region
+exit
+n
+c
+region
+row
+!!!
+row
+yaml_hash['region']
+cwh_region(yaml_hash['region'])
+yaml_hash['region']split('-')[1].strip
+yaml_hash['region'].split('-')[1].strip
+c
+venue_id
+all_venues = PlatformClient::Venue.all
+venue_id
+all_venues.select{|ven| ven.title.downcase == venue_id.downcase}
+all_venues[0]
+all_venues.select{|ven| ven.name.downcase == venue_id.downcase}
+exit
+venue_id = @all_venues.select { |ven| ven.name.downcase == venue_name.downcase}.id
+venue_id = @all_venues.select { |ven| ven.name.downcase == venue_name.downcase}
+exit
+venue_id = @all_venues.find { |ven| ven.name.downcase == venue_name.downcase}.id
+exit
+!!!
+venue_id
+venue_name
+all_venues.map(&:name)
+@all_venues.map(&:name)
+@all_venues.map(&:name).grep /asia/
+@all_venues.map(&:name).grep /pacific/
+@all_venues.map(&:name).grep
+@all_venues.map(&:name).
+@all_venues.map(&:name)
+@all_venues.map(&:name).any? {|i| i.include?('asia')}
+@all_venues.map(&:name).any? {|i| i.include?('pacific')}
+exit
+venue_id
+venue_name
+exit
+venue_name
+@all_venues.map(&:name).join(' ')
+@all_venues.map(&:name).join('----')
+@all_venues.map(&:name).join('--').include?('australia')
+exit
+venue_name
+exit
+c
+Dir.glob('*').select do |possible_image|
+  MIME::Types.type_for(possible_image).first.try(:media_type) == 'image'
+end.each do |image|
+  hash = Digest::SHA1.file image
+  uploaded_image = Cloudinary::Uploader.upload(image, public_id: "perks-#{env}/#{perk_id}/#{hash}")
+  data[File.basename(image, '.*')] = uploaded_image['public_id']
+end
+Dir.glob('*').select do |possible_image|
+  MIME::Types.type_for(possible_image).first.try(:media_type) == 'image'
+end
+image = Dir.glob('*').select do |possible_image|
+  MIME::Types.type_for(possible_image).first.try(:media_type) == 'image'
+end.first
+hash = Digest::SHA1.file image
+uploaded_image = Cloudinary::Uploader.upload(image, public_id: "perks-#{env}/#{perk_id}/#{hash}")
+image
+exit
+permitted_attributes
+n
+c
+client.members.update(profile_id, prepare_salesforce_attributes(salesforce_attributes))
+prepare_salesforce_attributes(salesforce_attributes)
+exit
+c
+client.members.update(profile_id, prepare_salesforce_attributes(salesforce_attributes))
+client.members
+client.members.methods(false)
+client.members.methods
+c
+client.members.update(profile_id, prepare_salesforce_attributes(salesforce_attributes))
+c
+member
+member
+n
+n
+n
+c
+c
+s
+s
+n
+n
+n
+c
+c
+c
+p
+c
+c
+c
+c
+record = c.find(SF_ACCOUNT, Global_ID__c: id)
+record = c.find(SF_ACCOUNT, Global_ID__c: id)
+c
+c
+ record = c.find(SF_ACCOUNT, Global_ID__c: id)
+record = c.find(SF_ACCOUNT, Global_ID__c: id)
+c
+c
+c
+record = c.find(SF_ACCOUNT, Global_ID__c: id)
+record = c.find(SF_ACCOUNT, Global_ID__c: id)
+c
+c
+c
+c
+c
+c
+prepare_salesforce_attributes(salesforce_attributes)
+c
+member
+member
+c
+c
+c
+ member.has_key?(:ask_me_about)
+member.has_key?(:ask_me_about)
+c
+c
+prepare_salesforce_attributes(salesforce_attributes)
+c
+member
+member
+client.members.update(profile_id, prepare_salesforce_attributes(salesforce_attributes))
+member
+member
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+
+c
+SalesForce
+SalesForceFactory
+SalesforceFactory
+SalesforceFactory::Account
+SalesforceFactory::Account.find_by(email: guy@example.com)
+SalesforceFactory::Account.find_by(email: "guy@example.com"D)
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+map_hash = { 'perks_url': 'url', 'image_header_alt_text': 'header_image_alt_text', 'image_body_alt_text': 'body_image_alt_text'}
+hash = {perks_url: 'asdfasdfasdf'}
+def transform_keys(map_hash, hash)
+  map_hash.each do |old_key, new_key|
+    hash[new_key] = hash[old_key]
+    hash.delete(old_key)
+  end
+  hash
+end
+yaml_hash = hash
+transform_keys(map_hash yaml_hash)
+transform_keys(map_hash, yaml_hash)
+hash = {perks_url: 'asdfasdfasdf'}
+yaml_hash = hash
+map_hash = { 'perks_url': 'url', 'image_header_alt_text': 'header_image_alt_text', 'image_body_alt_text': 'body_image_alt_text'}
+def transform_keys(map_hash, hash)
+  map_hash.each do |old_key, new_key|
+    if hash[old_key]
+      hash[new_key] = hash[old_key]
+      hash.delete(old_key)
+    end
+  end
+  hash
+end
+transform_keys(map_hash, yaml_hash)
+exit
+Perk.send(:load_from, 'config/perks.yml')
+exit
+Perk.send(:load_from, 'config/perks.yml')
+exit
+Perk.send(:load_from, 'config/perks.yml')
+p = Perk.send(:load_from, 'config/perks.yml')
+p.first
+p.first.last
+Perk.new(p.first.last)
+p
+p.map {|perk| Perk.new(perk.first.last)}
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+p.first(5)map {|perk| Perk.new(perk.first.last)}
+p.first(5).map {|perk| Perk.new(perk.first.last)}
+p.first.map {|perk| Perk.new(perk.first.last)}
+p.first
+p.first.first.last
+p.first.map {|perk| Perk.new(perk.last)}
+p.map {|perk| Perk.new(perk.last)}
+perks = p.map {|perk| Perk.new(perk.last)}
+perks.map(&:class)
+perks.map(&:expires_on)
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+perks = p.map {|perk| Perk.new(perk.last)}
+perks.map(&:expires_on)
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+perks = p.map {|perk| Perk.new(perk.last)}
+perks.map(&:expires_on)
+Date
+Date.new
+Date.new('September 31 2019')
+Date.new('September, 31 2019')
+Date.new('September, 31, 2019')
+Date.new('September 30 2019')
+Date.new('September 30')
+Date.new('September')
+Date.new('01-01-2019')
+Date.new('01/01/2019')
+Date.new("2019-06-01")
+exit
+Date.new("2019-06-01")
+require 'date'
+Date.new("2019-06-01")
+DateTime.new("2019-06-01")
+DateTime.new(2019-06-01)
+"2019-06-01".to_i
+Date.new('2019-06-08')
+Date.new(2019-06-08)
+Date.parse(2019-06-08)
+Date.parse("2019-06-08")
+exit
+Date.parse("2019-06-08")
+p = Perk.send(:load_from, 'config/perks.yml')
+perks = p.map {|perk| Perk.new(perk.last)}
+perks.map(&:expires_on)
+p
+p.first
+p.map {|i| i.first.last["expires_on"] }
+p.map {|i| i.first.last}
+p.map {|i| i.first}
+p.map {|i| i.last}
+p.map {|i| i.last["expires_on"]}
+Date.new("December 31 2019")
+Date.parse("December 31 2019")
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+perks = p.map {|perk| Perk.new(perk.last)}
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+p["receive_20_off_your_purchase_from_stockholmbased"]
+perks = p.map {|perk| Perk.new(perk.last)}
+p["receive_20_off_your_purchase_from_stockholmbased"]
+problem - p["receive_20_off_your_purchase_from_stockholmbased"]
+problem = p["receive_20_off_your_purchase_from_stockholmbased"]
+Perk.new(problem)
+Perk.initialize_from(problem)
+Perk.initialize_from('id', problem)
+exit
+p = Perk.send(:load_from, 'config/perks.yml')
+perks = p.map {|perk| Perk.new(perk.last)}
+perks.map(&:expires_on)
+exit
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+@all_venues = PlatformClient::Venue.all
+venue_name="Nashville"
+venue_id = @all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }.id
+all_venues = PlatformClient::Venue.all
+venue_id = @all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }.id
+venue_id = all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }.id
+exit
+yaml_hash['created_at']
+yaml_hash
+row
+!!!
+row
+!!!
+[].first
+1 == 1 ? 5 : 10
+exit
+subject
+!!!
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+site = Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+site
+site.body
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by).tap do |sitecore_response|
+  context.fail!(:sitecore_exception, detail: sitecore_response) unless sitecore_response.body
+  context.fail!(:sitecore_error, detail: sitecore_response.body['error']['message']) if sitecore_response.body.key? 'error'
+n
+array_errors
+n
+validation_errors
+n
+c
+asubjexr
+subject
+c
+subject
+c
+subject
+request
+!!!
+request
+subject
+let(:request) { get "/rooms/FARM-1BED" }
+a =  get "/rooms/FARM-1BED" 
+request
+a
+it_behaves_like 'redis_caching_feature'
+n
+it_behaves_like 'redis_caching_feature'
+c
+request
+!!!
+c
+site =  Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+c
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+c
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+site =  Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+context.parent
+context.expand
+context.per_page
+context.page
+context.order_by
+Sitecore::Client.get_children_of(context.parent)
+context.parent
+c
+context.filter
+context.per_page
+context.order_by
+context.page
+s = Sitecore::Client.get_children_of(context.parent)
+c
+@response
+context.parent
+c
+context.parent
+c
+context.parent
+s = Sitecore::Client.get_children_of(context.parent)
+context.parent
+c
+!!!
+request
+subject(:response) { request }
+let(:json_response) { JSON.parse(response.body) }
+let(:data) { json_response["data"] }
+let(:business_unit) { nil }
+request
+get "/rooms/FARM-1BED" 
+get "/rooms/"
+get "/rooms/FARM-1BED" 
+c
+get "/rooms/FARM-1BED" 
+get "/rooms/FARM-1BED" !!!
+!!!
+c
+params
+DEFAULT_CACHE_EXPIRATION_TIME,
+c
+DEFAULT_CACHE_EXPIRATION_TIME
+n
+@business_unit
+n
+c
+parent = [House::ITEM_PATH, venue.sitecore_name, Room::ITEM_PATH].join('/')
+exit
+c
+!!!
+c
+n
+parent
+n
+parent
+venue.sitecore_name
+parent = "/SohoHouse/Venues/Farmhouse/Bedrooms"
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+parent = "/SohoHouse/Venues/Soho Farmhouse/Bedrooms"
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+c
+!!!
+c
+e
+parent
+n
+c
+n
+parent
+venue.sitecore_name,
+a
+venue.sitecore_name
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room(
+))
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+venue
+c
+venue
+n
+c
+venue
+c
+venue
+c
+n
+s
+n
+s
+n
+nn
+n
+nn
+n
+cc
+c
+parent
+n
+parent
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room).body
+whereami
+n
+c
+!!!
+n
+response_object
+n
+c
+!!!
+parent
+n
+parent
+venue.sitecore_name
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+n
+fetcher.success?
+c
+!!!
+n
+c
+!!!
+n
+binding.pry
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+n
+fetcher.items.find { |room| room.fields[:room_id] == params[:room_id] }
+n
+after
+after_respo se
+after_response
+n
+!!!
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+c
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+c
+venue
+venuen
+n
+parent
+step
+n
+afters
+n
+status
+header
+response_object
+step
+status
+n
+@status
+@body
+n
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+sitecore_path
+sitecore_path.split('/').first(4)
+sitecore_path.split('/').first(4).join('/')
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+str = sitecore_path.split('/').first(4).join('/')
+str = "/SohoHouse/Venues/Farmhouse"
+House.find_by_sitecore_path(str)
+!!
+!!!
+c
+!!!
+c
+n
+parent
+fetcher = ::Services::Items::CollectionFetcher.call(parent: parent, as: Room)
+n
+c
+!!!
+n
+e
+n
+c
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+n
+c
+!!!
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+n
+!!!
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+parent
+parent = "/SohoHouse/Venues/Soho Farmhouse/Bedrooms'
+"
+parent = "/SohoHouse/Venues/Soho Farmhouse/Bedrooms"
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+n
+parent
+fetcher.success?
+!!!
+n
+c
+!!!
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+whereami
+n
+fetcher.success?
+c
+n
+!!!
+n
+fetcher.success?
+c
+!!!
+c
+fetcher.success?
+fetcher.items.find { |room| room.fields[:room_id] == params[:room_id] }
+fetcher
+w
+wherami
+whereami
+n
+response_object
+n
+after
+!!!
+c
+fetcher.success?
+parent
+str = "/SohoHouse/Venues/Soho Farmhouse/Bedrooms"
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+parent = "/SohoHouse/Venues/Soho Farmhouse/Bedrooms"
+fetcher = ::Services::Items::CollectionFetcher.call( parent: parent, as: Room)
+exit
+!!!
+c
+exit
+remove-pry
+!!!
+c
+!!!
+c
+fetcher.success?
+!!!
+c
+fetcher.success?
+parent
+!!!
+c
+fetcher.success?
+fetcher.items.find { |room| room.fields[:room_id] == params[:room_id] }
+n
+status
+response_object
+n
+!!!
+c
+!!!
+c
+fetcher.success?
+c
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+!!!
+c
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+!!!
+c
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+House.items
+!!!
+c
+items
+!!!
+parent
+c
+fetcher.success?
+!!!
+parent
+c
+fetcher.success?
+n
+c
+c!!!!
+!!!
+c
+sitecore_path
+sitecore_path.split('/').first(4).join('/')
+House.find_by_sitecore_path(sitecore_path.split('/').first(4).join('/'))
+str = "/SohoHouse/VenuesFarmhouse"
+House.find_by_sitecore_path(str)
+str = "/SohoHouse/Venues/Farmhouse"
+House.find_by_sitecore_path(str)
+str = "/SohoHouse/Venues/Soho_Farmhouse"
+House.find_by_sitecore_path(str)
+str = "/SohoHouse/Venues/Soho_farmhouse"
+House.find_by_sitecore_path(str)
+House.mapping
+House.send(:mapping)
+fetcher = ::Services::Items::CollectionFetcher.call( parent: /SohoHouse/Venues/Farmhouse/Bedrooms", as: Room)
+!!!
+c
+fetcher.success?
+fetcher
+exit
+!!!
+c
+n
+!!!
+c
+!!!
+c
+!!!
+c
+items
+!!!
+c
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues", as: self)
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues", as: self).items
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues/Farmhouse/Bedrooms", as: self).items
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues/Farmhouse/Bedrooms", as: self).items.count
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues", as: self).items.count
+::Services::Items::CollectionFetcher.call(parent: "/SohoHouse/Venues", as: self).items.map(&:sitecore_path)
+exit
+!!!
+parnet
+parent
+params.dig(:filter, :is_featured)
+params
+exit
+!!!
+fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: params.dig(:filter, :is_featured),
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher
+fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+  parent: HouseNote::ITEM_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: params.dig(:filter, :is_featured),
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher
+fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+  parent: HouseNote::ITEM_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+!!!
+params.dig(:filter, :is_featured)
+house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+n
+fetcher.success?
+!!!
+n
+c
+params.dig(:filter, :is_featured)
+!!!
+n
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+n
+c
+!!!
+n
+fetcher.items
+s
+n
+afters
+n
+status
+header
+response_object
+n
+after
+!!!
+c
+parse_ids(:categories)
+self
+self.categories
+fields
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_PATH)
+fetcher.items
+fetcher.items.first
+!!!
+c
+up
+!!!
+c
+n
+after
+c
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items
+HouseNote::ITEM_FEATURED_PATH
+parent = HouseNote::ITEM_FEATURED_PATH + '/Featured Note'
+a = house_notes_fetcher(parent)
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items.first.fields
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items.first.fields.fetch(:featured_note)
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items.first.fields.fetch(:featurednote)
+id = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH).items.first.fields.fetch(:featurednote)
+house
+!!!
+n
+s
+up
+!!!
+n
+ls
+s
+up
+s
+up
+n
+s
+n
+up
+n
+after
+n
+after
+n
+e
+n
+c
+!!!
+c
+up
+!!!
+c
+def house_notes_fetcher(parent)
+  fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+    parent: parent,
+    filter: {
+      categories: params.dig(:filter, :content_category_id),
+      venues: params.dig(:filter, :venue_id),
+      is_featured: false,
+      is_subscribed: params.dig(:filter, :is_subscribed),
+      type: params.dig(:filter, :type)
+    },
+    include: include_param,
+    page: params[:page],
+    per_page: params[:per_page],
+    order_by: params[:sort],
+    count: true,
+  expand: 'StandardFieldValues($select=__Publish)'            )
+end
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher
+fetcher.items
+fetcher.items.first.fields[:featurednote]
+id = fetcher.items.first.fields[:featurednote]
+get id
+get "/house_notes/#{id}"
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+id
+id[1..-1]
+id = id[1..-1]
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+id = 'FE08CCA9-EBCD-44A3-AD94-814EC000B394'
+::Services::Items::LayoutFetcher.call(item_id: id, as: HouseNote)
+::Services::Items::LayoutFetcher.call(item_id: "D1524795-E911-4ED6-9E07-13401C3D5BC3", as: HouseNote)
+reload!
+# frozen_string_literal: true
+module Sitecore
+  class Item
+    include Virtus.model
+    attribute :id, String
+    attribute :sitecore_name, String
+    attribute :sitecore_path, String
+    attribute :created_at, DateTime
+    attribute :updated_at, DateTime
+    attribute :publish_at, DateTime
+    attribute :fields, Hash
+    attribute :field_values, Hash
+    attribute :children, Array
+    def initialize(data = nil)
+      return unless data
+      binding.pry
+      self.id = data['Id'].upcase
+      self.sitecore_name = data['Name']
+      self.sitecore_path = data['Path']&.gsub(Client::ITEM_ROOT, '')
+      self.created_at = Time.parse(data.delete('Created')) if data.key? 'Created'
+      self.updated_at = Time.parse(data.delete('Updated')) if data.key? 'Updated'
+      self.publish_at = Time.parse(data['StandardFieldValues']['__Publish']) if data.dig('StandardFieldValues', '__Publish').present?
+      self.children = data.delete('Children')
+      self.fields = data['FieldValues'].transform_keys { |k| k.downcase.underscore.to_sym }
+      super(f
+      )))))
+!!!
+c
+!!!
+c
+id
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+)
+id = id[1..-1]
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+B::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+)
+s
+n
+fetcher
+fetcher.items
+id
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+id = id[0..-1]
+id = id[0..-2]
+::Services::Items::LayoutFetcher.call(
+  item_id: id,
+  as: HouseNote
+).item
+!!!
+c
+::Services::Items::LayoutFetcher.call(
+  item_id: id[1..-2],
+  as: HouseNote
+)
+!!!
+data
+!!!
+n
+data
+c
+id
+::Services::Items::LayoutFetcher.call(
+  item_id: id[1..-2],
+  as: HouseNote
+)
+::Services::Items::LayoutFetcher.call(item_id: id, as: HouseNote)
+::Services::Items::LayoutFetcher.call(item_id: "237c4397-8841-467b-95c6-a51185d6df1a", as: HouseNote)
+::Services::Items::LayoutFetcher.call(item_id: "D1524795-E911-4ED6-9E07-13401C3D5BC3", as: HouseNote)
+!!!
+c
+n
+c
+fetcher
+fetcher.items
+self.created_at = Time.parse(data.delete('Created')) if data.key? 'Created'              fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+exit
+!!!
+n
+c
+fetcher
+fetcher.items
+id
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+exit
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher = house_notes_fetcher(HouseNote::ITEM_PATH)
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher = house_notes_fetcher(HouseNote::ITEM_PATH)
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+exit
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+fetcher.items
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+HouseNote::ITEM_FEATURED_PATH
+Sitecore::Client.get_item(id)
+id = "15BEDFF0-8637-4218-A18C-61A72B6D8F76"
+Sitecore::Client.get_item(id)
+Sitecore::Client.get_item(id, expand: true)
+Sitecore::Client.get_item(id, expand: nil)
+Sitecore::Client.get_item(id, expand: nil).items
+exit
+!!!
+context.expand
+id
+n
+c
+context.expand
+id
+c
+context.expand
+id
+Sitecore::Client.get_item(id, expand: context.expand)
+c
+Sitecore::Client.get_item(id, expand: context.expand)
+id
+!!!
+house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)                Sitecore::Client.get_item(HouseNote::ITEM_FEATURED_PATH + "/" + id)
+Sitecore::Client.get_item(HouseNote::ITEM_FEATURED_PATH + "/" + id)
+id
+id =                 id = "15BEDFF0-8637-4218-A18C-61A72B6D8F76"
+id = "15BEDFF0-8637-4218-A18C-61A72B6D8F76"
+Sitecore::Client.get_item(HouseNote::ITEM_FEATURED_PATH + "/" + id)
+Sitecore::Client.get_item(HouseNote::ITEM_PATH + "/" + id)
+sc - Sitecore::Client.get_item(HouseNote::ITEM_PATH + "/" + id)
+sc = Sitecore::Client.get_item(HouseNote::ITEM_PATH + "/" + id)
+sc.items
+sc.body
+sc.body['value']
+HouseNote.new(sc.body)
+id
+::Services::Items::Fetcher(item_id: id, as: HouseNote)
+::Services::Items::Fetcher.call(item_id: id, as: HouseNote)
+id
+::Services::Items::Fetcher(item_id: HouseNote::ITEM_PATH + "/" + id, as: HouseNote)
+::Services::Items::Fetcher.call(item_id: HouseNote::ITEM_PATH + "/" + id, as: HouseNote)
+::Services::Items::Fetcher.call(item_id: HouseNote::ITEM_PATH + "/" + id, as: HouseNote).item
+!!!
+n
+c
+!!!
+c
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+parent = HouseNote::ITEM_PATH
+parent = HouseNote::ITEM_FEATURED_PATH
+Sitecore::Client.get_children_of(parent)
+parent = HouseNote::ITEM_FEATURED_PATH
+parent = HouseNote::ITEM_PATHa
+parent = HouseNote::ITEM_PATH
+Sitecore::Client.get_children_of(context.parent)
+Sitecore::Client.get_children_of(parent)
+parent = HouseNote::ITEM_FEATURED_PATH
+parent = HouseNote::ITEM_PATH
+parent = HouseNote::ITEM_FEATURED_PATH
+Sitecore::Client.get_children_of(parent)
+!!!
+c
+parent
+context.parent
+Sitecore::Client.get_children_of(parent)
+Sitecore::Client.get_children_of(context.parent)
+URI.escape('asdf asdf')
+Sitecore::Client.get_children_of(context.parent)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+::Services::HouseNotes::CollectionFetcher.call(
+  parent: parent,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+parent = HouseNote::ITEM_FEATURED_PATH
+fetcher = ::Services::HouseNotes::CollectionFetcher.call(
+  parent: parent,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+parnet
+parent
+id = "15BEDFF0-8637-4218-A18C-61A72B6D8F76"
+item_id = "#{HouseNote::ITEM_PATH}/#{id}"
+id = URI.escape(item_id)
+item_response = Sitecore::Client.get_item(id, expand: context.expand)
+item_response = Sitecore::Client.get_item(id)
+item = HouseNote.new(item_response.body)
+'asdf'.tr('a', '')
+{'asdf': 'asdf'}
+{'asdf': 'asdf'}.fetch('asdf')
+{'asdf': 'asdf'}.fetch(:asdf)
+'asdf'.tr('ad', '')
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+item_response = Sitecore::Client.get_item(id)
+!!!
+c
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+HouseNote::ITEM_FEATURED_PATH
+!!!
+c
+context.parent
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+!!!
+c
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+id = "15BEDFF0-8637-4218-A18C-61A72B6D8F76"
+::Services::Items::Fetcher.call(item_id: "#{HouseNote::ITEM_PATH}/#{id}", as: HouseNote)
+fetcher = ::Services::Items::Fetcher.call(item_id: "#{HouseNote::ITEM_PATH}/#{id}", as: HouseNote)
+fetcher.items
+fetcher.item
+return fetcher.item
+c
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+n
+fetcher
+c
+!!!
+resource
+n
+fetcher.item
+s
+n
+after
+@app.call(@env)
+after
+c
+n
+s
+n
+response_object
+n
+s
+n
+s
+n
+@app_response
+n
+build_formatted_response(status, headers, bodies)
+s
+n
+formatter = fetch_formatter(headers, options)
+bodymap = bodies.collect { |body| formatter.call(body, env) }
+n
+s
+n
+e
+up
+n
+s
+up
+n
+c
+n
+s
+n
+s
+n
+s
+n
+s
+n
+s
+n
+c
+n
+s
+n
+s
+n
+s
+n
+s
+n
+s
+n
+s
+n
+object = coercion.call(object) if coercion
+s
+up
+object
+object.total_pages
+wheraemi
+whereami
+down
+resource
+resource.try(:total_pages)
+resource.send(:total_pages)
+c
+!!!
+c
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_PATH)
+fetcher.items
+fetcher.items.is_a?(Array)
+c
+!!!
+c
+resource
+s
+n
+c
+lambda do |r| puts r end
+lambda do |r| puts r.call end
+a = lambda do |r| puts r end
+a.call
+resource
+n
+c
+add_meta_pagination
+add_meta_pagination.call
+before { add_meta_pagination }
+c
+!!!
+c
+!!
+!!!
+subject
+!!!
+subject
+is_expected.to be_an Array
+!!!
+c
+is_expected.to be_an Array
+subject
+subject.first
+subject[0]["attributes"]["title"]
+c
+subject[0]["attributes"]["title"]
+subject["attributes"]["title"]
+subject["attributes"]["is_featured"]
+!!!
+c
+(subject["attributes"]["title"]
+)
+subject["attributes"]["title"]
+subject[0]["attributes"]["title"]
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+!!!
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+exit
+!!!
+id = fetcher.items&.first&.fields&.fetch(:featurednote)&.tr('{}', '')
+fetcher = house_notes_fetcher(HouseNote::ITEM_FEATURED_PATH)
+path = HouseNote::ITEM_FEATURED_PATH
+fetcher = house_notes_fetcher(path)
+fetcher = house_notes_fetcher(path).items
+fetcher = house_notes_fetcher(path).items.fields
+fetcher = house_notes_fetcher(path).items.first.fields
+fetcher = house_notes_fetcher(path + '/Featured Note').items.first.fields
+fetcher = house_notes_fetcher(path + '/Featured Note').items.first
+fetcher = house_notes_fetcher(path + '/Fields').items.first
+fetcher = house_notes_fetcher(path + '/Fields').items
+fetcher = house_notes_fetcher(path + '/Featured Note').items
+Sitecore::Client.get_children_of(path)
+Sitecore::Client.get_children_of(URI.escape(path))
+Sitecore::Client.get_children_of(URI.escape(path)).body['value']
+Sitecore::Client.get_children_of(URI.escape(path+'/Id')).body['value']
+Sitecore::Client.get_children_of(URI.escape(path+'/FieldValues')).body['value']
+!!!
+id = HouseNote::ITEM_FEATURED_PATH
+id = URI.escape(id)
+Sitecore::Client.get_item(id)
+id = "237C4397-8841-467B-95C6-A51185D6DF1A"
+id = URI.escape(id)
+Sitecore::Client.get_item(id)
+Sitecore::Client.get_item(URI.escape("F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH + "/" +"237C4397-8841-467B-95C6-A51185D6DF1A"))
+HouseNote::ITEM_FEATURED_PATH
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"237C4397-8841-467B-95C6-A51185D6DF1A"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/Featured Note/" +"237C4397-8841-467B-95C6-A51185D6DF1A"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"Featured Note"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_PATH[1..-1] + "/" +"4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"))
+Sitecore::Client.get_children_of(URI.escape(HouseNote::ITEM_PATH[1..-1] + "/" + "4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"))
+Sitecore::Client.get_children_of(URI.escape(HouseNote::ITEM_PATH + "/" + "4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"))
+Sitecore::Client.get_children_of(URI.escape(HouseNote::ITEM_PATH))
+!!!
+exit
+c
+!!!
+id = "237C4397-8841-467B-95C6-A51185D6DF1A"
+id = URI.escape(id)
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+!!!
+SITECORE_HOST=https://shscuat2-cm.azurewebsites.net
+PROFILE_SERVICE_URL=http://localhost:3002
+VENUE_SERVICE_URL=http://localhost:3003
+SITECORE_API_KEY=
+CLOUDINARY_FOLDER=
+PERKS_DATA='config/perks.yml'
+REDIS_CACHE_LOGGING_ENABLED=true
+REDIS_CACHE_LOGGER_LEVEL=info
+REDIS_CACHE_ENABLED=false
+SITECORE_HOST=https://shscuat2-cm.azurewebsites.net
+SITECORE_HOST="https://shscuat2-cm.azurewebsites.net"
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+ENV['SITECORE_HOST']
+SITECORE_HOST=https://sohohouse-sitecore-qa-cd.azurewebsites.net
+SITECORE_HOST="https://sohohouse-sitecore-qa-cd.azurewebsites.net"
+SITECORE_HOST="SITECORE_API_KEY=4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"
+SITECORE_HOST="https://sohohouse-sitecore-qa-cd.azurewebsites.net"
+ENV['SITECORE_HOST']
+exit
+SITECORE_HOST="https://sohohouse-sitecore-qa-cd.azurewebsites.net"
+SITECORE_API_KEY=4F2D00E8-A2CB-4B6A-87F3-956AB752F41B
+SITECORE_API_KEY="4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+Sitecore::Client.get_children_of(URI.escape(HouseNote::ITEM_PATH + "/" + "4F2D00E8-A2CB-4B6A-87F3-956AB752F41B"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"F94DD271-1E2E-4E78-9CF2-FA58F373FCFA"))
+Sitecore::Client.get_item(URI.escape(HouseNote::ITEM_FEATURED_PATH[1..-1] + "/" +"237C4397-8841-467B-95C6-A51185D6DF1A"))
+!!!
+c
+!!!
+c
+!!!
+c
+context.parent
+n
+context.parent
+n
+c
+context.items.count
+context.items
+whereami
+n
+up
+down
+c
+context.parent
+c
+params
+params.dig(:filter, :content_category_id)
+::Services::Items::Fetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::Items::Fetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::Items::Fetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  include: 'include_param',
+  page: '',
+  per_page: '',
+  order_by: '',
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::Items::Fetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  filter: {},
+  include: 'include_param',
+  page: '',
+  per_page: '',
+  order_by: '',
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+params = {}
+fetcher = ::Services::Items::Fetcher.call(parent: HouseNote::ITEM_FEATURED_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: include_param,
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::Items::Fetcher.call(parent: HouseNote::ITEM_FEATURED_PATH,
+  filter: {
+    categories: params.dig(:filter, :content_category_id),
+    venues: params.dig(:filter, :venue_id),
+    is_featured: false,
+    is_subscribed: params.dig(:filter, :is_subscribed),
+    type: params.dig(:filter, :type)
+  },
+  include: 'include_param',
+  page: params[:page],
+  per_page: params[:per_page],
+  order_by: params[:sort],
+  count: true,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher = ::Services::Items::CollectionFetcher.call(parent: HouseNote::ITEM_FEATURED_PATH,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+context.items
+context.items.first.id
+featured_house_note = context.items.find {|item| item.id == id }
+id = fetcher.items.first&.fields&.fetch(:featurednote)&.tr('{}', '')
+featured_house_note = context.items.find {|item| item.id == id }
+context.items.map(&:id)
+!!!
+c
+!!!
+c
+context.parent
+c
+context.parent
+Sitecore::Client.get_children_of(context.parent)
+!!!
+c
+context.items
+context.items.count
+whereami
+featured_house_note = context.items.find {|item| item.id == id }
+n
+context
+context.items.count
+n
+up
+c
+!!!
+c
+n
+categories
+!!!
+n
+c
+n
+c
+!!!
+c
+context.parent
+c
+context.parent
+c
+!!!
+c
+context.items
+context.items.count
+c
+@response
+context.parent
+context.per_page
+context.page
+Sitecore::Client.get_children_of(context.parent)
+c
+context.page
+context.per_page
+Sitecore::Client.get_children_of(context.parent)
+Sitecore::Client.get_children_of(context.parent)['value'].count
+Sitecore::Client.get_children_of(context.parent).body['value'].count
+!!!
+c
+context.page
+paginated_collection
+context.page
+!!!
+c
+context.page
+context.per_page
+up
+params
+c
+fetcher.items
+context.items
+context.items.count
+context.all_items
+response
+@response
+context.response
+c
+!!!
+c
+!!!
+c
+n
+s
+n
+after
+n
+after
+n
+e
+n
+e
+up
+e
+up
+c
+context.filter
+context.filter['is_featured']
+c
+context.filter['is_featured']
+context.filter
+n
+after
+n
+e
+n
+e
+!!!
+c
+n
+c
+fetcher.items
+fetcher.items.count
+c
+n
+featured_house_note
+context.items.count
+context.filter[:is_featured]
+context.filter
+n
+fetcher.success
+fetcher.success?
+fetcher.items
+fetcher.items.count
+whereami
+up
+down
+params
+!!!
+c
+context.items.count
+context.filter
+c
+params
+c
+context.filter
+up
+context.filter
+up
+params
+!!!
+c
+fetcher.itmes
+fetcher.items
+c
+n
+featured_house_note
+n
+c
+fetcher.items
+c
+pager
+context.total_entries
+context.asdf
+up
+response.body['@odata.count']
+c
+up
+response.body['@odata.count']
+n
+pager
+n
+c
+pager
+up
+n
+@response
+c
+context
+id
+::Services::Items::Fetcher.call(id)
+::Services::Items::Fetcher.call(item_id: id)
+::Services::Items::Fetcher.call(item_id: HouseNote::ITEM_PATH + "/" + id)
+path =  HouseNote::ITEM_PATH + "/" + id
+::Services::Items::Fetcher.call(item_id: path)
+::Services::Items::Fetcher.call(item_id: path, as: HouseNote)
+exit
+!!!
+fetcher
+c
+fetcher
+c
+fetcher
+!!!
+c
+fetcher
+c
+id
+n
+fetcher = ::Services::Items::Fetcher.call(item_id: "#{HouseNote::ITEM_PATH}/#{id}", as: HouseNote)
+fetcher.item
+!!!
+c
+fethcer
+fetcher
+fetcher.items
+!!!
+n
+c
+fetcher.item
+fetcher.items.count
+fetcher.items!!!!
+!!!
+c
+fetcher.items
+c
+n
+!!!
+c
+fetcher.item
+fetcher.item.fields
+fetcher.item
+fetcher.item.is_featured
+c
+!!!
+c
+n
+c
+cc
+c
+fetcher.item
+fetcher.item = nil
+fetcher.item 
+whereami
+return []
+fetcher.items
+c
+n
+s
+n
+r
+e
+c
+!!!
+::Services::HouseNotes::FetchFeaturedHouseNote.call(only_featured_notes: true)
+!!!
+c
+fetcher = ::Services::Items::CollectionFetcher.call(
+  parent: HouseNote::ITEM_FEATURED_PATH,
+  expand: 'StandardFieldValues($select=__Publish)',
+  as: HouseNote
+)
+fetcher.items
+context.items
+c
+!!!
+c
+!!!
+c
+n
+!!!
+c
+fetcher.success?
+n
+!!!
+c
+fetcher.items
+context.items
+context.item
+context.only_featured_notes
+c
+n
+fetcher.success?
+fetcher
+c
+n
+!!!
+c
+n
+c
+!!!
+c
+fetcher
+!!!
+c
+fetcher
+fetcher.success?
+fetcher.items
+c
+fetcher.items
+c
+!!!
+c
+context.only_featured_notes
+context.items.count
+context.item.count
+fetcher = fetch_featured_note(id)
+context.items
+n
+fetcher = fetch_featured_note(id)
+fetcher = ::Services::Items::Fetcher.call(item_id: "#{HouseNote::ITEM_PATH}/#{id}", as: HouseNote)
+id
+!!!
+fetcher = fetch_featured_note(id)
+c
+n
+e
+after
+n
+after
+n
+e
+next
+e
+c
+!!!
+c
+s
+n
+nn
+!!!
+fetcher
+c
+context.items.count
+n
+fetcher
+fetcher.items
+n
+id
+context.only_featured_notes
+context
+whereami
+n
+featured_house_note
+n
+fetcher.items
+!!!
+c
+context.items.count
+c
+n
+id
+n
+context.items.find {|item| item.id == id }
+featured_house_note&.is_featured = true
+context.items.find {|item| item.id == id }
+hn = context.items.find {|item| item.id == id }
+hn
+hn.is_featured
+hn.is_featured = true
+hn
+featured_house_note = context.items.find {|item| item.id == id }
+c
+fetcher.items.find{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+c
+fetcher.items.index{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+fetcher.items.count
+fetcher
+c
+fetcher.items.index{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+!!!
+c
+fetcher.items.last
+fetcher.items[-2]
+fetcher.items[-3]
+fetcher.items.index{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+!!!
+c
+fetcher.items.index{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+!!!
+c
+fetcher.items.index{|i| i.id == "15BEDFF0-8637-4218-A18C-61A72B6D8F76"}
+!!!
+c
+!!!
+c
+subject
+subject.find { |note| note.id == featured_id}
+subject.find { |note| note["id"] == featured_id}
+subject.find { |note| note['id'] == featured_id}
+c
+!!!
+c
+featured_note
+expect(featured_note).to be_an Hash
+c
+!!!
+n
+e
+n
+e
+n
+e
+n
+e
+n
+e
+!!!
+c
+n
+id
+n
+fetcher = fetch_featured_note(id)
+s
+n
+after
+n
+e
+n
+e
+after
+n
+e
+n
+e
+c
+!!!
+c
+cc
+c
+subject
+subject
+subject
+!!!
+!!!
+subject
+subject
+exit
+exit
+subject
+subject
+!!!
+!!!
+subject
+subject
+json
+json
+expect_json
+expect_json
+expect_json[:links]
+expect_json[:links]
+expect_json('last_attended')
+expect_json('last_attended')
+exit
+exit
+DateTime.now
+DateTime.parse("01/01/2019")
+exit
+f = File.read(data.json) ; nil
+f = File.read(data.json) ; nil
+ls
+ls
+f = File.read('data.json') ; nil
+f = File.read('data.json') ; nil
+f = File.read('./data.json') ; nil
+f = File.read('./data.json') ; nil
+1 + 1
+1 + 1
+f = File.read('./data.json')
+f = File.read('./data.json')
+f = File.open('./data.json')
+f = File.open('./data.json')
+exit
+exit
+File.open('data.json')
+File.open('data.json')
+File.read('data.json')
+File.read('data.json')
+f = File.read('data.json') ; nil
+f = File.read('data.json') ; nil
+f = File.read('data.json') 
+f = File.read('data.json') 
+ File.read('data.json') 
+File.read('data.json') 
+f =  File.read('data.json') 
+f =  File.read('data.json') 
+file =  File.read('data.json') 
+file =  File.read('data.json') 
+json = JSON.parse(file)
+json = JSON.parse(file)
+json[:days]
+json[:days]
+json
+json
+json["days"]
+json["days"]
+json["days"].first.keys
+json["days"].first.keys
+json["days"].first
+json["days"].first
+json["days"].first
+json["days"].first["languages"]
+json["days"].first["languages"]
+json["days"][0]
+json["days"][0]
+exit
+exit
+day
+day
+!!!
+!!!
+Language
+Language
+exit
+exit
+Language.all
+Language.all
+exit
+exit
+Language.all
+Language.all
+exit
+exit
+Language.all
+Language.all
+Language.all.first
+Language.all.first
+Language.all.first.total_minuts
+Language.all.first.total_minuts
+Language.all.first.total_minutes
+Language.all.first.total_minutes
+Language.all.first.total_hours
+Language.all.first.total_hours
+VCR
+VCR.cassettes
+VCR.current_cassette
+VCR.current_cassette.file
+!!!
+subject
+puts VCR.current_cassette.file
+puts VCR.current_cassette
+exit
+c
+subject
+exit
+subject
+VCR.current_cassette
+!!!
+n
+oocupations_fetcher
+occupations_fetcher
+occupations_fetcher.occupations
+occupations_fetcher.occupations.count
+exit
+!!!
+n
+occupations_fetcher.occupations
+occupations_fetcher.occupations.count
+c
+n
+step
+n
+!!!
+c
+Occupation.sorted_alphabetically
+Occupation.sorted_alphabetically.count
+Occupation.all
+Occupation.all.any?
+exit
+!!!
+Interest.all
+Occupation.all
+Occupation.sorted_alphabetically
+!!!
+n
+prefi
+prefix
+s
+n
+occupations_fetcher.occupations
+!!!
+n
+Occupation.sorted_alphabetically
+Occupation.sorted_alphabetically.count
+Occupation.all
+Occupation.FIRST
+Occupation.first
+exit
+!!
+!!!
+c
+!!!
+subject
+Occupation.all.count
+Occuption.all
+Occupation.all
+Occupation.starting_with('D')
+Occupation.starting_with('Di')
+Occupation.starting_with('L')
+Occupation.starting_with('l')
+!!!
+c
+30.minutes
+2.hours
+1.hours
+1.hour
+exit
+Venue
+Venue.all
+Venue.first
+collection_fetcher = ::Venues::CollectionFetcher.call(
+  business_unit: current_business_unit
+)
+current_business_unit = 'SH'
+collection_fetcher = ::Venues::CollectionFetcher.call(
+  business_unit: current_business_unit
+)
+Venue.from_salesforce_site(site).tap do |venue|
+  if hotel = hotels[venue.id]
+    venue.hotel = hotel
+  else
+    venue.does_not_have_rooms = true
+  end
+  if house = houses[venue.id]
+    venue.house = house
+  else
+    venue.does_not_have_a_house = true
+  end
+end
+def public_venues
+  client.sites.all(include: :business_hours).reject { |site| site.type == Venue::PRIVATE_TYPE }
+end
+def venues
+  @venues ||= public_venues.map do |site|
+    Venue.from_salesforce_site(site).tap do |venue|
+      if hotel = hotels[venue.id]
+        venue.hotel = hotel
+      else
+        venue.does_not_have_rooms = true
+      end
+      if house = houses[venue.id]
+        venue.house = house
+      else
+        venue.does_not_have_a_house = true
+      end
+    end
+  end
+end
+venues
+Venue.from_salesforce_site('a')
+Venue.from_salesforce_site({asdf:'asdf'})
+collection_fetcher = ::Venues::CollectionFetcher.call(
+  business_unit: current_business_unit
+)
+exit
+current_business_unit = 'SH'
+collection_fetcher = ::Venues::CollectionFetcher.call(
+  business_unit: current_business_unit
+)
+exit
+Language.all
+Language.all
+Language.map(&:total_hours)
+Language.map(&:total_hours)
+Language.all.map(&:total_hours)
+Language.all.map(&:total_hours)
+exit
+result = Cloudinary::Uploader.create_archive(prefixes: "venues-staging/icons")
+export CLOUDINARY_API_KEY=624138513116571
+ENV['CLOUDINARY_API_KEY']=624138513116571
+ENV['CLOUDINARY_API_KEY']="624138513116571"
+ENV['CLOUDINARY_API_SECRET']="_rzjA-NpFZwxlm4I7Bsvhu0t-PM"
+result = Cloudinary::Uploader.create_archive(prefixes: "venues-staging/icons")
+ENV['API_KEY']="624138513116571"
+result = Cloudinary::Uploader.create_archive(prefixes: "venues-staging/icons")
+Cloudinary.config do |c| c.api_key = "624138513116571" ; c.api_secret = "_rzjA-NpFZwxlm4I7Bsvhu0t-PM" end
+result = Cloudinary::Uploader.create_archive(prefixes: "venues-staging/icons")
+result
+exit
+url_without_http
+profile_details_helper.spotify_regex
+url_without_http =~ profile_details_helper.spotify_regex
+exit
+c
+exit
+url = "1f2dbbf626b71f85a7a0098552cc2da4"
+Digest::MD5.hexdigest(url)
+require 'digest'
+Digest::MD5.hexdigest(url)
+Digest::MD5.hexdigest(url).upcase
+exit

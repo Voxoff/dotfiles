@@ -16,7 +16,6 @@ alias fix="bin/rails db:environment:set RAILS_ENV=development"
 alias boilerplate="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
 
 #GIT
-
 function gital() {
   git add . 
   if [ "$1" != "" ]
@@ -63,8 +62,8 @@ function clone() {
 }
 
 alias glg="git log --graph --oneline --decorate --all"
-alias gld=‘git log --pretty=format:“%h %ad %s” --date=short --all’
-alias gs=‘git stash’
+alias gld='git log --pretty=format:“%h %ad %s” --date=short --all'
+alias gs='git stash '
 alias gst='git status '
 alias ga='git add '
 alias gb='git branch '
@@ -72,10 +71,22 @@ alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout '
 alias gk='gitk --all&'
-alias gx='gitx --all'
-
+alias gx='git add . ; git commit -m'
 alias got='git '
 alias gut='git '
+alias ghash='git rev-parse HEAD | tr -d '\n' | pbcopy'
+alias gcl='git clone '
+
+function gb_del(){
+#  if [ "$1" == "master"]; then
+#    return 0
+#  fi
+  git push --delete origin $1
+  git branch -D $1
+}
+
+alias gr='git rev-list --count master..HEAD'
+alias grn='git rebase -i HEAD~$(gr)'
 
 # Le Wagon
 alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
@@ -84,9 +95,14 @@ alias ticket="nohup firefox >/dev/null 2>&1 & disown"
 
 # Hotloader
 alias hotloader="gem build hotloader.gemspec; gem install hotloader-1.0.0.gem;"
+
+#General
 alias up2='cd ../../'
 alias up3='cd ../../../'
-
-# fourfive
-alias fourfive='cd ~/code/websites/fourfive'
+alias s='subl .'
 alias h='history '
+
+# sohohouse
+alias soho='cd ~/code/sohohouse/'
+alias k='kubectl '
+alias b='bundle '

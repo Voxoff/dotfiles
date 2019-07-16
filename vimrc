@@ -5,8 +5,9 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'wakatime/vim-wakatime'
+  Plugin 'VundleVim/Vundle.vim'
+  Plugin 'wakatime/vim-wakatime'
+  Plugin 'tpop/vim-endwise'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -18,6 +19,15 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set clipboard=unnamed
+set showcmd
+set cursorline
+set showmatch
+set noerrorbells
+set title
+
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
 
 if has("multi_byte")
   set encoding=utf-8
@@ -29,6 +39,5 @@ endif
 call plug#begin()
 Plug 'terryma/vim-multiple-cursors'
 
-Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
