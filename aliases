@@ -15,10 +15,6 @@ alias fix="bin/rails db:environment:set RAILS_ENV=development"
 #React
 alias boilerplate="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
 
-#GIT
-function gital() {
-  git add . 
-  if [ "$1" != "" ]
 #Git
 function gitall() {
   git add .
@@ -102,7 +98,7 @@ alias h='history '
 alias v='vim '
 
 # sohohouse
-if [[ $(uname -n) == *"sohohouse"* ]]; then 
+#if [[ $(uname -n) == *"sohohouse"* ]]; then 
   alias soho='cd ~/code/sohohouse/'
   alias k='kubectl '
   alias b='bundle '
@@ -124,7 +120,7 @@ if [[ $(uname -n) == *"sohohouse"* ]]; then
   alias support='cd ~/code/sohohouse/support-service'
   alias scripts='cd ~/code/sohohouse/scripts'
   alias checkins='cd ~/code/sohohouse/checkin-service'
-fi
+#fi
 # TMUX
 alias tk='tmux kill-server'
 
@@ -142,3 +138,4 @@ alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo '
 # zsh
 alias no_likey="echo $RANDOM_THEME | cut -d '/' -f 6 | cut -d '.' -f 1 >> ~/code/no_likey.md"
 alias likey="echo $RANDOM_THEME | cut -d '/' -f 6 | cut -d '.' -f 1 >> ~/code/likey.md"
+
