@@ -79,3 +79,4 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 
 source /Users/guy.bennettjones/.gathering/source-gathering-zsh
+unsetopt correct_all

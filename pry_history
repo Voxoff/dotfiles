@@ -9982,3 +9982,200 @@ attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_
 clear
 ls
 exit
+ENV['APP_ID']
+ENV
+eit
+exit
+ENV['NGROK']
+exit
+params
+params['hub.verify_token']
+ENV['messenger_verification_token']
+c
+puts ENV['messenger_verification_token']
+puts ENV['NGROK']
+puts ENV['MESSENGER_VERIFICATION_TOKEN']
+!!!
+puts ENV['MESSENGER_VERIFICATION_TOKEN']
+!!!
+puts ENV['MESSENGER_VERIFICATION_TOKEN']
+!!!
+puts ENV['MESSENGER_VERIFICATION_TOKEN']
+puts ENV['APP_ID']
+puts ENV['APP_SECRET']
+puts ENV['NGROK']
+!!!
+puts ENV['MESSENGER_VERIFICATION_TOKEN']
+puts ENV['APP_SECRET']
+!!!
+"asdf".include_any?('hey')
+!!!
+"asdf".include_any?('hey')
+!!!
+c
+next
+n
+nn
+n
+step
+n
+c
+text = "start kitty"
+text.include_any?("start kitty", "starting kitty")
+exit
+c
+body = {"object"=>"page", "entry"=>[{"id"=>"152599038693417", "time"=>1560097743847, "messaging"=>[{"sender"=>{"id"=>"1523525817729262"}, "recipient"=>{"id"=>"152599038693417"}, "timestamp"=>1560097743624, "message"=>{"mid"=>"P3RLe3Jq2fp1k2-zzXP6vw-V_T0_aWYbfKThjJKB_jEIHlSj96L69gmzZ7seFSbdCDHmTqB1i81EOflIVC4Ogw", "seq"=>0, "sticker_id"=>369239263222822, "attachments"=>[{"type"=>"image", "payload"=>{"url"=>"https://scontent.xx.fbcdn.net/v/t39.1997-6/39178562_1505197616293642_5411344281094848512_n.png?_nc_cat=1&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&oh=f6a78b2f5313605ed51753f36910ba5f&oe=5D7D2175", "sticker_id"=>369239263222822}}]}}]}], "webhook"=>{"object"=>"page", "entry"=>[{"id"=>"152599038693417", "time"=>1560097743847, "messaging"=>[{"sender"=>{"id"=>"1523525817729262"}, "recipient"=>{"id"=>"152599038693417"}, "timestamp"=>1560097743624, "message"=>{"mid"=>"P3RLe3Jq2fp1k2-zzXP6vw-V_T0_aWYbfKThjJKB_jEIHlSj96L69gmzZ7seFSbdCDHmTqB1i81EOflIVC4Ogw", "seq"=>0, "sticker_id"=>369239263222822, "attachments"=>[{"type"=>"image", "payload"=>{"url"=>"https://scontent.xx.fbcdn.net/v/t39.1997-6/39178562_1505197616293642_5411344281094848512_n.png?_nc_cat=1&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&oh=f6a78b2f5313605ed51753f36910ba5f&oe=5D7D2175", "sticker_id"=>369239263222822}}]}}]}]}}
+HTTParty
+HTTParty.post("http://localhost:3000", body: body)
+HTTParty.post("http://localhost:3000/webhooks", body: body)
+HTTParty.post("http://localhost:3000", body: body)
+HTTParty.post("http://localhost:3000/webhooks", body: body)
+HTTParty.post("http://localhost:3000/webhooks", body: body) ; nil
+body
+HTTParty.post("http://localhost:3000/webhooks", body: body.to_json) ; nil
+exit
+Request
+Request.start_kitty
+reload!
+Request.start_kitty
+reload!
+Request.start_kitty
+reload!
+Request.start_kitty
+reload!
+Request.start_kitty
+1
+my_reply
+c
+reload!
+Request.start_kitty
+params
+para,s
+get :messenger_receive_message
+!!!
+params
+params.to_json
+params
+params.to_json!
+params = params.to_json
+params
+!!!
+get :messenger_receive_message
+!!!
+get :messenger_receive_message
+!!!
+get :messenger_receive_message
+!!!
+get :messenger_receive_message
+!!!
+post :messenger_receive_message
+params
+!!!
+params
+post :messenger_receive_message
+@!!@
+!!!
+n
+c
+Request
+Request.start_kitty
+post :messenger_receive_message, params: params
+h = {"object"=>"page", "entry"=>[{"id"=>"152599038693417", "time"=>1560112072114, "messaging"=>[{"sender"=>{"id"=>"1523525817729262"}, "recipient"=>{"id"=>"152599038693417"}, "timestamp"=>1560098806162, "message"=>{"mid"=>"jDcypeHsYYRe0xXj14gMvg-V_T0_aWYbfKThjJKB_jEUqEH5aZNizic44K-ONeaAHWI_WeccDywUau8DYCKYRA", "seq"=>0, "sticker_id"=>369239263222822, "attachments"=>[{"type"=>"image", "payload"=>{"url"=>"https://scontent.xx.fbcdn.net/v/t39.1997-6/39178562_1505197616293642_5411344281094848512_n.png?_nc_cat=1&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&oh=f6a78b2f5313605ed51753f36910ba5f&oe=5D7D2175", "sticker_id"=>369239263222822}}]}}]}], "webhook"=>{"object"=>"page", "entry"=>[{"id"=>"152599038693417", "time"=>1560112072114, "messaging"=>[{"sender"=>{"id"=>"1523525817729262"}, "recipient"=>{"id"=>"152599038693417"}, "timestamp"=>1560098806162, "message"=>{"mid"=>"jDcypeHsYYRe0xXj14gMvg-V_T0_aWYbfKThjJKB_jEUqEH5aZNizic44K-ONeaAHWI_WeccDywUau8DYCKYRA", "seq"=>0, "sticker_id"=>369239263222822, "attachments"=>[{"type"=>"image", "payload"=>{"url"=>"https://scontent.xx.fbcdn.net/v/t39.1997-6/39178562_1505197616293642_5411344281094848512_n.png?_nc_cat=1&_nc_ad=z-m&_nc_cid=0&_nc_zor=9&_nc_ht=scontent.xx&oh=f6a78b2f5313605ed51753f36910ba5f&oe=5D7D2175", "sticker_id"=>369239263222822}}]}}]}]}}
+h.to_json
+eval(h)
+JSON.parse(h)
+request
+request.body
+request.body.read
+!!!
+request.body
+request.body.read
+@!@
+!!!
+request.body.read
+!!!
+n
+data
+!!!
+response
+response.body
+json = JSON.parse(response.body)
+response.body
+eval(response.body)
+JSON.parse(response.body)
+eval(response.body)[:messaging_type]
+!!!
+User.first
+User.first.attributs
+User.first.attributes
+User.all.map(&:image)
+reload!
+User = User.first
+user = User.first
+!!!
+User.first.friends
+Group.all
+Group.first
+Group.first.users
+friends = []
+reload!
+Group.first.users
+User.first.friends
+user = User.first
+User.where(id: user.groups.map{|g| g.users.map(&:i)})
+User.where(id: user.groups.map{|g| g.users.map(&:id)})
+user.groups.map{|g| g.users.map(&:id)}
+Group.where(user: user)
+Group.where(user: user).to_a
+Group.where(user_id: user.id)
+Group.where(user_id: user.id).to_a
+User.find_or_create!(name: name)
+User.find_or_create!(name: 'asdf')
+reload@
+reload!
+ExchangeRate.all
+UpdateExchangeRateHashJob
+UpdateExchangeRateHashJob.perform_now
+EchangeRate.all
+ExchangeRate.all
+ExchangeRate.where(base: "GBP")
+ExchangeRate.first.update(base: "GBP")
+Group.all
+Group.last.delete
+Group.all
+Group.all.destroy
+Group.destroy(4)
+Group.all
+Group.destroy(5)
+Group.destroy(6)
+Group.destroy(5)
+meta_data
+metadata
+params
+c
+Group.last
+Group.delete(7)
+Group.destroy(7)
+response
+reponse.headers
+response.headers
+a = response
+response.headers
+n
+response
+response.headers
+n
+response.headers
+payload
+payload.headers
+payload.keys
+payload[:headers]
+response.class
+payload.headers
+whereami
+payload
+payload[:headers]
+payload[:headers].instance_variables
+n
+request
+request.headers

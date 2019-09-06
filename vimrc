@@ -2,18 +2,17 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-  Plugin 'VundleVim/Vundle.vim'
-  Plugin 'wakatime/vim-wakatime'
-  Plugin 'tpop/vim-endwise'
-call vundle#end()            " required
-filetype plugin indent on    " required
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"
+ " Plugin 'VundleVim/Vundle.vim'
+"  Plugin 'wakatime/vim-wakatime'
+ " Plugin 'tpop/vim-endwise'
+"call vundle#end()            " required
+"filetype plugin indent on    " required
 
 syntax on
 set backspace=indent,eol,start
-set number
 set smartindent
 set tabstop=2
 set shiftwidth=2
@@ -36,8 +35,8 @@ else
   echoerr "Sorry, this version of (g)vim was not compiled with +multi_byte"
 endif
 
-call plug#begin()
-Plug 'terryma/vim-multiple-cursors'
-
-
-call plug#end()
+"call plug#begin()
+"Plug 'terryma/vim-multiple-cursors'
+"
+"
+"call plug#end()

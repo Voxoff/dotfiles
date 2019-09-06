@@ -1,4 +1,4 @@
-#DATA SCIENCE
+#Ds
 alias jn="jupyter notebook"
 
 #Rails
@@ -12,13 +12,17 @@ alias refresh_production="rails db:drop db:create db:migrate db:seed RAILS_ENV=p
 
 alias fix="bin/rails db:environment:set RAILS_ENV=development"
 
-#REACT
+#React
 alias boilerplate="git init; git add .; git commit -m "new project"; hub create; git push origin master; yarn install"
 
 #GIT
 function gital() {
   git add . 
   if [ "$1" != "" ]
+#Git
+function gitall() {
+  git add .
+  if [ "$1" != "" ] # or better, if [ -n "$1" ]
     then
       git commit -m "$1"
     else
@@ -44,15 +48,8 @@ function gitallm(){
   git push origin master
 }
 
-function herokupush() {
-  git add .
-  if [ "$1" != "" ] # or better, if [ -n "$1" ]
-    then
-        git commit -m "$1"
-    else
-        git commit -m update
-    fi
-    git push origin master
+function heroku_push() {
+    gitall
     git push heroku master
 }
 
@@ -69,7 +66,6 @@ alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
-alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='git add . ; git commit -m'
 alias got='git '
@@ -87,10 +83,12 @@ function gb_del(){
 
 alias gr='git rev-list --count master..HEAD'
 alias grn='git rebase -i HEAD~$(gr)'
+alias gx='gitx --all'
+
+alias got='git'
 
 # Le Wagon
 alias student="yarn install; bundle; rails db:create db:migrate db:seed; stt ; rails s; puts 'DID YOU ASK FOR THE API KEY???????????????'"
-alias sta="stt ~/.aliases"
 alias ticket="nohup firefox >/dev/null 2>&1 & disown"
 
 # Hotloader
@@ -134,3 +132,13 @@ alias tk='tmux kill-server'
 # Needs python package pygmentize
 # pip install pygments
 alias ccat='pygmentize -g'
+# fourfive
+alias fourfive='cd ~/code/websites/fourfive'
+
+# bash
+alias h_grep="history | grep"
+alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo '
+
+# zsh
+alias no_likey="echo $RANDOM_THEME | cut -d '/' -f 6 | cut -d '.' -f 1 >> ~/code/no_likey.md"
+alias likey="echo $RANDOM_THEME | cut -d '/' -f 6 | cut -d '.' -f 1 >> ~/code/likey.md"
