@@ -7136,3 +7136,2849 @@ require 'digest'
 Digest::MD5.hexdigest(url)
 Digest::MD5.hexdigest(url).upcase
 exit
+Sitecore::Client.get_children_of(RatePlan::ITEM_PATH)
+RatePlan::ITEM_PATH
+hist
+exit
+hist
+exit
+Sitecore::Client.get_children_of(URI.escape(RatePlan::ITEM_PATH))
+Sitecore::Client.get_children_of(URI.escape(RatePlan::ITEM_PATH + '/LM'))
+exit
+fetcher = ::Services::Items::CollectionFetcher.call(
+  parent: RatePlan::ITEM_PATH,
+  filter: {
+    'RateId' => params.dig(:filter, :rate_plan_groups),
+    'Promotion' => true
+  },
+  as: PromotionContent
+)
+n
+fetcher
+fetcher.success?
+n
+e
+n
+e
+n
+e
+n
+exit
+RatePlan::ITEM_PATH
+fetcher = ::Services::Items::CollectionFetcher.call(
+  parent: URI.escape(RatePlan::ITEM_PATH),
+  filter: {
+    'RateId' => params.dig(:filter, :rate_plan_groups),
+    'Promotion' => true
+  },
+  as: PromotionContent
+)
+URI.escape(RatePlan::ITEM_PATH)
+fetcher = ::Services::Items::CollectionFetcher.call(
+  parent: RatePlan::ITEM_PATH,
+  filter: {
+    'RateId' => params.dig(:filter, :rate_plan_groups),
+    'Promotion' => true
+  },
+  as: PromotionContent
+)
+s
+n
+exi
+!!!
+c
+Sitecore::Client.get_children_of(context.parent)
+Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+a =  Sitecore::Client.get_children_of(context.parent,
+  filters: context.filter,
+  expand: context.expand,
+  pagination: {
+    per_page: context.per_page,
+    page: context.page
+  }.compact,
+order_by: context.order_by)
+a.body
+Sitecore::Client.get_children_of(context.parent)
+exit
+c
+n
+c
+YAML.load_file(hotel_yaml_file)
+exit
+ENV['HOTELS_YAML_PATH']
+def all_hotel_data
+  @all_hotel_data ||= YAML.load_file(hotel_yaml_file).with_indifferent_access.freeze
+end
+def hotel_yaml_file
+  ENV['HOTELS_YAML_PATH']
+end
+all_hotel_data
+Hotel.all
+Hotel.all("KET")
+Hotel.all(business_unit: "KET")
+Hotel.all(business_unit: "ISTAN")
+all_hotel_data.keys
+Hotel.all(business_unit: "SH")
+Sitecore::Client.get_children_of(context.parent)
+context.parent
+Checkin.count
+c
+exit
+c
+Checkin.count
+Checkin.where('created_at > ?', 1.hour.ago).empty?
+Checkin.where('created_at > ?', 1.hour.ago)
+Checkin.where('created_at > ?', 1.hour.ago).empty?
+exit
+!!!
+Time.now
+!!!
+Time.now
+exit
+exit!
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohouse.com")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohousedigital.com")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohouse.com")
+invalid_phone_number?
+context.phone_number
+phone_number
+attributes[:phone_number
+]
+attributes[:phone_number]
+c
+attributes[:phone_number]
+attributes[:phone_number] = nil
+invalid_phone_number?
+exit
+exit!
+subject.data
+c
+invalid_phone_number?
+s
+attributes[:phone_number]
+whereami
+up
+invalid_phone_number?
+s
+up
+c
+s
+attributes[:phone_number].present?
+attributes[:phone_number].empty?
+attributes[:phone_number].nil?
+c
+attributes[:phone_number]
+invalid_phone_number?
+s
+attributes[:phone_number].nil?
+attributes[:phone_number].match(/^(\d|#|\*|\+|\s){8,}/) unless attributes[:phone_number].nil?
+c
+subject.data
+c
+attributes[:phone_number]
+invalid_phone_number?
+c
+invalid_phone_number?
+s
+n
+c
+invalid_phone_number?
+c
+attributes[:phone_number]
+attributes
+invalid_phone_number?
+if attributes[:phone_number]
+  return attributes[:phone_number].match(/^(\d|#|\*|\+|\s){8,}/)
+else
+  return false
+end
+c
+invalid_phone_number?
+attributes[:phone_number]
+!!!
+c
+attributes[:phone_number]
+invalid_phone_number?
+!!!
+c
+invalid_phone_number?
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number]
+attributes[:phone_number] = ""+1 202 555 0135"
+attributes[:phone_number] = "+1 202 555 0135"
+invalid_phone_number?
+nil.blank?
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number]
+nmil.present?
+nil.present?
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number]
+attributes[:phone_number] = "+1 202 555 0135"
+invalid_phone_number?
+attributes[:phone_number] = "+1 202 555 013asdfasdf5"
+invalid_phone_number?
+attributes[:phone_number].present?
+attributes[:phone_number]&.match(/^(\d|#|\*|\+|\s){8,}/)
+attributes[:phone_number]&.match(/^(\d|#|\*|\+|\s){8,}/).true?
+attributes[:phone_number]&.match(/^(\d|#|\*|\+|\s){8,}/) ^ true
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number] = "+1 202 555 0135"
+invalid_phone_number?
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number] = "+1 202 555 0135"
+invalid_phone_number?
+0.true?
+puts 'asdf' if 0
+puts 'asdf' if 1
+puts 'asdf' if attributes[:phone_number]&.match(/^(\d|#|\*|\+|\s){8,}/)
+attributes[:phone_number] = "+1 202 555 0135asdf"
+puts 'asdf' if attributes[:phone_number]&.match(/^(\d|#|\*|\+|\s){8,}/)
+puts 'asdf' if attributes[:phone_number].match(/^(\d|#|\*|\+|\s){8,}/)
+!!!
+c
+!!!
+c
+!!!
+c
+attributes[:phone_number]
+invalid_phone_number?
+attributes[:phone_number] = nil
+invalid_phone_number?
+attributes[:phone_number] = "+1 202 555 0135"
+invalid_phone_number?
+!!!
+c
+!!!
+c
+asdf =~ /a/
+'asdf' =~ /a/
+'asdf' !=~ /a/
+'zzz' =~ /a/
+'zzz' !=~ /a/
+exit
+!!!
+c
+!!!
+c
+!!!
+pn = "+1 202 555 0135"
+pn =~ =~ /^(\d|#|\*|\+|\s){8,}/
+pn =~ /^(\d|#|\*|\+|\s){8,}/
+!(pn =~ /^(\d|#|\*|\+|\s){8,}/)
+(pn !=~ /^(\d|#|\*|\+|\s){8,}/)
+(pn =!~ /^(\d|#|\*|\+|\s){8,}/)
+(pn =~! /^(\d|#|\*|\+|\s){8,}/)
+!!!
+subject.data
+!!!
+c
+subject.data
+!!!
+subject.data
+!!!
+c
+invalid_phone_number?
+attributes[:phone_number]
+n
+after
+n
+after
+error
+e
+n
+e
+error
+c
+invalid_phone_number?
+s
+attributes[:phone_number] && !(attributes[:phone_number] =~ /^(\d|#|\*|\+|\s){8,}/)
+n
+s
+n
+attributes
+context.account = Account.new_from_salesforce(client.members.update(account_id, attributes))
+account_id
+context.account = Account.new_from_salesforce(client.members.update(account_id, attributes))
+!!!
+c
+n
+c
+n
+s
+context.account = Account.new_from_salesforce(client.members.update(account_id, attributes))
+attributes
+attributes.merge("phone_number" => "+1 202 555 0135")
+context.account = Account.new_from_salesforce(client.members.update(account_id, attributes))
+c
+params
+attributes
+Checkin.last
+Checkin.all
+attributes
+params
+Checkin.all
+Checkin.all.create_at
+Checkin.all.created_at
+Checkin.all.first.created_at
+exit
+c
+cc
+c
+!!!
+c
+invalid_phone_number?
+n
+s
+Account.new_from_salesforce(client.members.update(account_id, attributes))
+!!!
+c
+n
+s
+Account.new_from_salesforce(client.members.update(account_id, attributes))
+AccountCache.new(account_id).touch!
+Account.new_from_salesforce(client.members.update(account_id, attributes))
+!!!
+c
+n
+s
+n
+error
+n
+error
+n
+c
+!!!
+c
+n
+s
+n
+context.account = Account.new_from_salesforce(client.members.update(account_id, attributes))
+account_id
+client.members
+client.members.find(account_id)
+client.members.find("20000637550")
+!!!
+c
+!!!
+member_id
+client
+client.members
+c
+n
+s
+n
+client.members.update(account_id, attributes)
+client.members.update("20000511713", attributes)
+client.members.update("20000637550", attributes)
+!!!
+member_id
+c
+c!!!
+!!!
+n
+client.members.find(account_id, include: :subscriptions)
+!!!
+c
+!!!
+subject
+!!!
+subject
+c
+hash = {asdf: 'asdf'. qwer: 'qwer'}
+hash = {asdf: 'asdf', qwer: 'qwer'}
+hash.execpt(:asdf)
+hash.except(:asdf)
+hash.except!(:asdf)
+exit
+hash = {asdf: 'asdf', qwer: 'qwer'}
+hash.except!(:asdf)
+hahs
+hash
+exit
+subject
+!!!
+c
+subject
+!!!
+subject
+c
+DateTime.parse(' Thu, 18 Jul 2019 10:31:37 GMT')
+DateTime.parse(' Thu, 18 Jul 2019 10:31:37 GMT').to_i
+exit
+x
+subject
+exit
+subject
+!!!
+c
+DateTime.parse('Thu, 18 Jul 2019 12:53:42 GMT')
+require 'datetime'
+require 'activesupport/all'
+require 'active_support/all'
+DateTime.parse('Thu, 18 Jul 2019 12:53:42 GMT')
+DateTime.parse('Thu, 18 Jul 2019 12:53:42 GMT').to_i
+request_one
+request_two
+request_one
+exit!
+c
+request_one
+request_one.uri
+request_two.uri
+!!!
+c
+subject
+!!!
+nil.blank:
+nil.blank?
+nil.empty?
+nil.present?
+exi
+exit
+params
+!!!
+params
+params.dig(:relationships, :interests, :data).map { |i| i[:id] }
+params.dig(:data, :relationships, :interests, :data).map { |i| i[:id] }
+c
+s
+n
+profile_updator
+!!!
+c
+s
+n
+profile_updator
+!!!
+c
+interest_ids
+interests
+exit
+c
+interests.count
+interests
+Interest.count
+Interest.delete(1)
+Interest.delete_all
+exit
+c
+interests
+n
+validate_maximum_interests!(new_interests.count)
+new_interests
+!!!
+c
+client.members.update(context.profile_id, interests: new_interests)
+new_interest
+new_interests
+client.members.update(context.profile_id, interests: new_interests)
+context.profile_id
+client.members.update(context.profile_id, interests: ["Interest_1"])
+exit
+!!!
+c
+client.members.update(context.profile_id, interests: ["Interest 1"])
+client.members.update(context.profile_id, interests: ["INTEREST_1"])
+!!!
+c
+client.members.update(context.profile_id, interests: new_interests)
+ecc
+!
+c!!!!!!!
+!!!
+c
+n
+validate_maximum_interests!(new_interests.count)
+n
+client.members.update(context.profile_id, interests: new_interests)
+!!!
+c
+client.members.update(context.profile_id, interests: new_interests)
+c
+subject
+!!!
+subject
+!!!
+subject
+!!!
+c
+subject
+body
+request
+!!!
+c
+validate!
+!!!
+remove-pry
+request
+subject
+!!!
+c
+validate!
+Interest.all
+!!!
+c
+validate!
+Interest.all
+exit
+!!!
+c
+validate!
+client.members.update(context.profile_id, interests: new_interests)
+!!!
+subject
+c
+profile_updator
+profile_updator.profile
+subject
+c
+subject
+c
+profile_updator
+!!!
+c
+n
+client.members.update(context.profile_id, interests: new_interests)
+new_interests
+Interest.all
+!!!
+c
+profile_updator
+exit
+!!!
+c
+n
+client.members.update(context.profile_id, interests: new_interests)
+c
+n
+client.members.update(context.profile_id, interests: new_interests)
+new_interests
+!!!
+c
+n
+new_interests
+client.members.update(context.profile_id, interests: new_interests)
+!!!
+n
+client.members.update(context.profile_id, interests: new_interests)
+c
+n
+client.members.update(context.profile_id, interests: new_interests)
+n
+profile_updator
+profile_updator.success?
+profile_updator.profile
+n
+nn
+n
+c
+subject.data
+subject.data.relationships.interests.data
+subject.data.relationships.interests.data.first
+c
+subject.data.relationships.interests.data
+subject.data.relationships.interests.data.first
+subject.data.relationships.interests.data.first["id"]
+interests_relationship.fetch(:interests, :data).first
+interests_relationship.fetch(:interests, :data)
+interests_relationship
+interests_relationship.fetch(:interests, :data)
+interests_relationship.dig(:interests, :data)
+c
+interests_relationship.dig(:interests, :data)
+interests_relationship.dig(:interests, :data).first
+interests_relationship.dig(:interests, :data).first["id"]
+c
+data
+exit
+data
+exit
+c
+subject
+c
+parse_ids(:categories)
+self
+self.categories
+fields
+whereami
+up
+pu
+up
+u
+up
+u
+up
+!!!
+c
+params.dig(:filter, :is_featured)
+c
+fetched_featured_notes.success?
+n
+context.only_featured_notes
+fetch_featured_note(featured_note_id)
+n
+fetcher.success?
+fetcher.items
+n
+c
+!!!
+c
+n
+c
+!!!
+c
+featured_note_id
+exit
+!!!
+ENV
+whereami
+ENV['REDIS_CACHE_ENABLED']
+ENV['REDIS_CACHE_ENABLED'] == 'true'
+n
+ENV['REDIS_CACHE_ENABLED'] == 'true'
+n
+nn
+n
+ENV['REDIS_CACHE_ENABLED'] == 'true'
+n
+c
+ENV['REDIS_CACHE_ENABLED'] == 'true'
+n
+c
+n
+c
+!!!
+c
+expect(Sitecore::Cache).to receive(:with_cache).at_least(:once).and_call_original
+n
+c
+!!!
+c
+cn
+n
+c
+!!!
+c
+s
+n
+s
+n
+c
+!!!
+c
+\c
+c
+s
+n
+c
+exit
+!!!
+self
+self.attributes
+self.attributes.to_a
+self
+self.attributeset
+self.attribute_set
+self.attribute_set.to_a
+self.attribute_set
+self.attribute_set.to_a.map(&:name)
+exit
+n
+csv
+n
+c
+csv
+csv[0]
+n
+csv
+!!!
+row['image_body_url']
+exit
+csv
+csv[0]
+csv[1]
+csv[3]
+csv[5]
+csv[6]
+num_of_rows_to_drop = 6
+n
+csv
+!!!
+dir_name
+c
+dir_name
+c
+dir_name
+c
+dir_name
+csv[2]
+csv[3]
+dir_name = dir_name + "second"
+c
+el
+el
+Kernel
+Kernel
+Kernel.methods
+Kernel.methods
+Kernel.methods.include?('raise')
+Kernel.methods.include?('raise')
+Kernel.methods.include?(:raise)
+Kernel.methods.include?(:raise)
+raise
+raise
+  class Kernel
+class Kernel
+    def raise
+  def raise
+      puts "Woo"
+    puts "Woo"
+    end
+  end
+  end
+end
+module Kernel
+module Kernel
+    def raise
+  def raise
+      puts "Woo"
+    puts "Woo"
+    end
+  end
+  end
+end
+
+raise
+raise
+binding.pry
+binding.pry
+c
+c
+  module Kernel
+module Kernel
+    def raise
+  def raise
+      binding.pry
+    binding.pry
+    end
+  end
+  end
+end
+raise
+raise
+exit
+exit
+exit
+nil.first
+exi
+exit
+c
+!!!
+c
+yaml_hash
+yaml_hash = transform_keys!(MAP_HASH, yaml_hash)
+MAP_HASH
+!!!
+c
+yaml_hash
+yaml_hash = transform_keys!(MAP_HASH, yaml_hash)
+yaml_hash
+yaml_hash = transform_keys!(MAP_HASH, yaml_hash)
+map_hash.first
+MAP_HASH.first
+hash[MAP_HASH.first.first]
+MAP_HASH.first.first
+hash
+yaml_hash[MAP_HASH.first.first]
+yaml_hash.with_indifferent_access
+yaml_hash = transform_keys!(MAP_HASH, yaml_hash)
+yaml_hash.with_indifferent_access!
+yaml_hash.with_indifferent_access
+yaml_hash[:title]
+yaml_hash["title"]
+yaml_hash.with_indifferent_access[:title]
+HashWithIndifferentAccess
+HashWithIndifferentAccess.new(yaml_hash)
+yaml_hash
+yaml_hash.with_indifferent_access[:title]
+yaml_hash["title"]
+yaml_hash[:title]
+yaml_hash
+MAP_HASH
+h = { 'perks_url': 'url',
+  'image_header_alt_text': 'header_image_alt_text',
+  'image_body_alt_text': 'body_image_alt_text',
+  'date_added': 'created_at',
+'starts_on': 'publish_on' }
+h
+h.stringify_keys
+!!!
+c
+yaml_hash
+MAP_HASH
+yaml_hash = transform_keys!(MAP_HASH, yaml_hash)
+!!!
+Process.getrlimit(:NOFILE)
+Process.getrlimit(:NOFILE)
+exit
+exit
+require 'socket'
+socket = Socket.new(:INET, :STREAM)
+# ./code/snippets/connect_non_existent.rb
+# Attempt to connect to google.com on the known gopher port.
+remote_addr = Socket.pack_sockaddr_in(70, 'google.com')
+socket.connect(remote_addr)
+require 'socket'
+# ./code/snippets/read.rb
+Socket.tcp_server_loop(4481) do |connection|
+  # Simplest way to read data from the connection.
+  puts connection.read
+end
+Socket.tcp_server_loop(4481) do |connection|
+  puts connection.read
+end
+csv
+csv[0]
+csv[1]
+c
+exit
+class Person
+class Person
+end
+end
+
+Person.class_eval do
+Person.class_eval do
+  def say_hello
+  def say_hello
+   "Hello!"
+    "Hello!"
+  end
+  end
+end
+end
+
+jimmy = Person.new
+jimmy = Person.new
+jimmy.say_hello # "Hello!"
+jimmy.say_hello # "Hello!"
+class Person ; end
+class Person ; end
+Person.class_eval do 
+Person.class_eval do 
+def self.hello ; puts "hey" ; end
+  def self.hello ; puts "hey" ; end
+end
+end
+jim = Person.new
+jim = Person.new
+jim.hello
+jim.hello
+Person.hello
+Person.hello
+class Person
+class Person
+end
+end
+
+Person.instance_eval do
+Person.instance_eval do
+  def human?
+  def human?
+    true
+    true
+  end
+  end
+end
+end
+
+Person.human? # true
+Person.human? # true
+class Person ; end
+class Person ; end
+Person.instance_eval do 
+Person.instance_eval do 
+def self.human ; puts 'asdf' ; end 
+  def self.human ; puts 'asdf' ; end 
+end
+end
+Person.new.human
+Person.new.human
+Person.human
+Person.human
+Person.ancestors
+Person.ancestors
+Object.human
+Object.human
+Person.methods.include?(:human)
+Person.methods.include?(:human)
+Person.instance_eval do def human? ; true ; end ; end
+Person.instance_eval do def human? ; true ; end ; end
+Person.methods.include?(:human?)
+Person.methods.include?(:human?)
+Person.human?
+Person.human?
+Person.human
+Person.human
+exit
+exit
+# frozen_string_literal: true
+module MarketingCloudIntegrationService
+  module InteractorConsumer
+    extend ActiveSupport::Concern
+    class InteractorFailure < StandardError; end
+    class_methods do
+      def process_actions(*actions)
+        @whitelisted_actions = actions
+      end
+      def whitelisted_actions
+        @whitelisted_actions || []
+      end
+    end
+    included do
+      def process(message)
+        logger.info "Processing #{message.body.action} on #{self.class}"
+        if self.class.whitelisted_actions.include?(message.body.action.to_sym)
+          result = send(message.body.action, message.body)
+          logger.info "Completed processing #{message.body.action} on #{self.class}"
+          reject_on_failure(message.body.action, result) if result.failure?
+        else
+          ignored_action(message.body.action)
+        end
+      end
+      def ignored_action(action)
+        logger.info "Not processing #{action} on #{self.class}, only #{self.class.whitelisted_actions}"
+      end
+      on,                                on,   o                           f.                                led                                on,            xce                   pt                                ont.                                on,  po        ack                            [a                                oex        ce      )
+xc               xc        ef               xc               xc        ef               xc  
+# frozen_string_literal: true
+module MarketingCloudIntegrationService
+  module InteractorConsumer
+    extend ActiveSupport::Concern
+    class InteractorFailure < StandardError; end
+    class_methods do
+      def process_actions(*actions)
+        @whitelisted_actions = actions
+      end
+      def whitelisted_actions
+        @whitelisted_actions || []
+      end
+    end
+    included do
+      def acknowledgeable_errors
+        []
+      end
+    end
+  end
+end
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  class_methods do
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  included do
+    def acknowledgeable_errors
+      []
+    end
+  end
+end
+# end
+require 'active_support'
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  class_methods do
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  included do
+    def acknowledgeable_errors
+      []
+    end
+  end
+end
+# end
+class Person ; include InteractorConsumer ; end
+Person.acknowledgeable_errors
+Person.newacknowledgeable_errors
+Person.new.acknowledgeable_errors
+Person.whitelisted_actions
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  module ClassMethods
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  def self.included(base)
+    self.extend(base)
+    self.class_eval do 
+      def acknowledgeable_errors
+        []
+      end
+    end
+  end
+end
+# end
+class Person ; include InteractorConsumer ; end
+exit
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  module ClassMethods
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  def self.included(base)
+    self.extend(base)
+    self.class_eval do 
+      def acknowledgeable_errors
+        []
+      end
+    end
+  end
+end
+# end
+require 'active_support'
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  module ClassMethods
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  def self.included(base)
+    self.extend(base)
+    self.class_eval do 
+      def acknowledgeable_errors
+        []
+      end
+    end
+  end
+end
+# end
+class Person ; include InteractorConsumer ; end
+exit
+require 'active_support'
+# frozen_string_literal: true
+# module MarketingCloudIntegrationService
+module InteractorConsumer
+  extend ActiveSupport::Concern
+  module ClassMethods
+    def process_actions(*actions)
+      @whitelisted_actions = actions
+    end
+    def whitelisted_actions
+      @whitelisted_actions || []
+    end
+  end
+  def self.included(base)
+    base.extend ClassMethods
+    base.class_eval do 
+      def acknowledgeable_errors
+        []
+      end
+    end
+  end
+end
+# end
+class Person ; include InteractorConsumer ; end
+Person.acknowledgeable_errors
+Person.new.acknowledgeable_errors
+Person.whitelisted_actions
+exit
+module ToPrepend ; def self.included(base) ; def hello ; puts 'asdf' ; end ; end ; end
+Class Person ; include ToPrepend ; end
+Class Person
+class Person ; include ToPrepend ; end
+Person.hello
+Person.new.hello
+Person.ancestors
+class Person ; prepend ToPrepend ; end
+Person.ancestors
+Person.new.hello
+module ToPrepend ; def hello ; puts 'asdf' ; end ; end
+class Person ; include ToPrepend ; end
+Person.new.hello
+Person.ancestors
+class Person ; prepend ToPrepend ; end
+Person.ancestors
+exit
+module ToPrepend ; def hello ; puts 'asdf' ; end ; end
+class Person ; prepend ToPrepend ; end
+Person.ancestors
+exit
+module ToPrepend ; def self.included(base) ; def hello ; puts 'asdf' ; end ; end ; end
+class Person ; prepend ToPrepend ; end
+Person.ancestors
+Person.new.hello
+class Person ; include ToPrepend ; end
+Person.new.hello
+Person.ancestors
+exit
+module ToPrepend ; def self.included(base) ; def hello ; puts 'asdf' ; end ; end ; end
+exot
+exit
+module Module ; def hello ; puts 'asdf' ; end ; end
+module Please ; def hello ; puts 'asdf' ; end ; end
+Please.hello
+class Person ; include Please ; end
+Person.new.hello
+Person.ancestors
+class Dog ; include Person ; def hello ; puts 'i win' ; end ; end
+class Dog ; include Please ; def hello ; puts 'i win' ; end ; end
+Dog.new.hello
+class Cat; def hello ; puts 'i win' ; end ; include Please ; end
+Cat.new.hello
+Cat.ancestors
+Dog.ancestores
+Dog.ancestors
+class Octopus ; prepend Please ; def hello ; puts 'i win' ; end ; end
+Octopus.new.hello
+Octopus.ancestors
+exit
+module Please ; def hello ; puts 'asdf' ; end ; end
+class Cat; def hello ; puts 'i win' ; end ; include Please ; end
+Cat.new.hello
+class Dog ; include Please ; def hello ; puts 'i win' ; end ; end
+Dog.new.hello
+exit
+module ToPrepend ; def self.included(base) ; def hello ; puts 'asdf' ; end ; end ; end
+class Dog ; include Please ; def hello ; puts 'i win' ; end ; end
+exit
+module Please ; def self.included(base) ; def hello ; puts 'asdf' ; end ; end ; end
+class Dog ; include Please ; def hello ; puts 'i win' ; end ; end
+Dog.new.hello
+class Dog ; include Please ; def hello ; puts 'i win' ; super ;  end ; end
+Dog.new.hello
+class Cat ; prepend Please ; def hello ; puts 'i win' ; super ;  end ; end
+Cat.new.hello
+exit
+require 'active_support'
+module 'Please' ; included do def hello ; puts 'asdf' ; end ; end ; end
+module 'Please' ; included do def hello ; puts 'asdf' ; end  end ; end
+module Please ; included do def hello ; puts 'asdf' ; end ; end ; end
+module Please ; included do def hello ; puts 'asdf' ; end  end ; end
+module Please
+  extend ActiveSupport::Concern
+  included do
+    def hello
+      puts 'aasdf'
+    end
+  end
+end
+class Dog ; include Please ; def hello ; puts 'asdf' ; super ; end ; end
+Dog.new.hello
+exit
+module Please ; self.included(base) ; base.class_eval do ; def hello ; puts 'asdf' ; end ; end ; end
+module Please ; def self.included(base) ; base.class_eval do ; def hello ; puts 'asdf' ; end ; end ; end
+module Please ; def self.included(base) ; base.class_eval do ; def hello ; puts 'asdf' ; end ; end ; end ; end
+class Dog ; include Please ; def hello ; puts 'hey' ; super ; end ; end
+Dog.new.hello
+exit
+module Please ; def hello ; puts 'me first' ; end ;end
+class Dog ; prepend Please ; def hello ; puts 'asdf' ; end ;end
+Dog.new.hello
+class Dog ; prepend Please ; def hello ; puts 'asdf' ; super; end ;end
+Dog.new.hello
+exit
+invalid_categories
+content_category_ids
+available_content_category_ids
+PlatformClient::Category.all.map(&:id)
+c
+!!!
+invalid_categories
+available_content_category_ids
+!!!
+subject
+!!!
+let(:account) { ::Accounts::Fetcher.call(account_id: authenticated_id, business_unit: 'SH').account }
+account
+::Accounts::Fetcher.call(account_id: authenticated_id, business_unit: 'SH').account
+authenticated_
+authenticated_id
+authenticated_headers
+SalesforceFactory::Account.find_by(global_id: "101645")
+SalesforceFactory::Account
+SalesforceFactory::Account.find_by(id: "101645")
+SalesforceFactory::Account
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(global_id: "101645")
+∑
+SalesforceFactory::Account.find_by(global_id: "20000634184"")
+SalesforceFactory::Account.find_by(global_id: "20000634184")
+!!!
+n
+subject
+n
+!!!
+account
+account.categories
+subject
+n
+c
+authenticated_headers
+!@!!
+!!!
+subject
+n
+c
+SalesforceFactory::Account.find_by(global_id: "101645")
+account
+!!!
+account
+exit
+account
+::Accounts::Fetcher.call(account_id: member_id, business_unit: 'SH').account
+::Accounts::Fetcher.call(account_id: member_id).account
+!!!
+account
+member_id
+::Accounts::Fetcher.call(account_id: member_id).account
+SalesforceFactory::Account.find_by(global_id: "20000511713")
+exit
+SalesforceFactory::Account.find_by(global_id: "20000511713")
+!!!
+member_id
+SalesforceFactory::Account.find_by(global_id: "20000634216")
+account
+!!!
+account
+!!!
+account
+SalesforceFactory::Account.find_by(global_id: "20000634216").update(business_unit_code: "FARM")
+SalesforceFactory::Account.find_by(global_id: "20000634216").update(business_unit_code: "mol")
+n
+request
+!!!
+ensure_member("update", original_attributes).global_id
+!!!
+c
+n
+c
+!!!
+c
+label
+email(label)
+SalesforceFactory::Account.find_by(email: email(label))
+account = find_account(label) || create_account(label)
+!!!
+c
+SalesforceFactory::Account.find_by(email: email(label))
+account = SalesforceFactory::Account.find_by(email: email(label))
+attr
+n
+!!!
+c
+account.update(attrs) if attrs
+attrs
+!!!
+c
+n
+c
+!!!
+c
+attrs
+c
+subject
+!!!
+n
+both_auth_creds_passed?
+n
+context.account_id.present?
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+account_id
+SalesforceFactory::Account.find_by(global_id:
+"20000634216")
+client.members.find(account_id, include: :subscriptions)
+client.members.find(account_id)
+client.members.find_by(global_id: account_id)
+client.members.find_by(email: "pro_update@sffactory.com.test")
+client.members.find("101645")
+client.members.find("20000634834")
+client.members.find("20000634175")
+SalesforceFactory::Account.find_by(global_id: "20000634216")
+SalesforceFactory::Account.find_by(global_id: "20000634216").update(business_unit: "sh")
+SalesforceFactory::Account.find_by(global_id: "20000634216").update(business_unit_code: "sh")
+SalesforceFactory::Account.find_by(global_id: "20000634216")
+!!!
+account_fetcher = ::Accounts::Fetcher.call(account_id: account_id, business_unit: business_unit)
+c
+venue_favoriter = ::Accounts::VenueFavoriter.call({
+    account_id: current_user_id,
+    business_unit: current_business_unit,
+    venue_data: params[:data]
+})
+venue_favoriter.success?
+venue_favoriter.account
+venue_favoriter.account.favorite_venues
+venue_favoriter.account.favorite_venues.map(&:id)
+!!!
+c
+!!!
+subject.errors
+subject.errors.dig(0, 'code')
+c
+subject.errors.dig(0, 'code')
+subject.errors
+!!!
+n
+account = find_account(label) || create_account(label)
+account.update(venue: "SH")
+account.venues
+account.venue
+account
+!!!
+member_id
+account
+account.default_favorite_venue_ids
+account.default_favorite_venue_ids = ["SH"]
+c
+n
+c
+account
+exit
+account
+c
+hash = {'a' => 123}
+hash.merge('a' => 234)
+SalesforceFactory::Subscription
+exit
+csv
+n
+venue_name = region.split('-')[1].strip
+venue_name = "India"
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+@all_venues ||= PlatformClient::Venue.all
+PlatformClient.authorize_from_headers(headers)
+@all_venues ||= PlatformClient::Venue.all
+venue_id = @all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }.id
+venue_id = @all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }
+exit
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client/message_bus/publisher'
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client/message_bus/publisher']
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client/message_bus/publisher']
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+message
+message.body
+exit
+include SalesforceFactory
+account = Account.find_by(email: "guy@example.com")
+Attendance.create(account_id: acc.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+include SalesforceFactory
+account = Account.find_by(email: "guy@example.com")
+Attendance.create(account_id: acc.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+Account
+exit
+include SalesforceFactory
+Account
+SalesforceFactory::Account
+exit
+include SalesforceFactory
+Account
+account = SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Attendance.create(account_id: acc.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+exit!
+exit
+whereami
+exit!
+message
+message.body
+payload
+c
+payload
+c
+payload
+account.id
+account.global_id
+"20000634175"
+SalesforceFactory::Account.find_by(global_id: "20000634175")
+SalesforceFactory::Account.find_by(global_id: "20000634175").email
+SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+n
+c
+require 'platform_client/message_bus/publisher']
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client/message_bus/publisher']
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client/message_bus/publisher'
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+include SalesforceFactory
+account = SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+TRUE_STRING
+exit
+c
+n
+account_id = message.account_id
+n
+c
+n
+account_id = message.account_id
+n
+Hutch.connect
+@worker = Hutch::Worker.new(Hutch.broker, Hutch.consumers, Hutch::Config.setup_procs)
+@worker.run
+step
+n
+step
+@broker
+c
+prefix
+broker
+n
+c
+n
+prefix
+n
+s
+c
+!!!
+c
+caller
+raise StandardError
+raise 
+exit
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event
+exit
+c
+!!!
+message.body
+notification = AttendenceConsumerNotification.new(message.body)
+AccountCache.new(notification.global_id).touch!
+client.members.update(notification.global_id, nil)
+!!!
+message.body
+notification = AttendenceConsumerNotification.new(message.body)
+notification.global_id
+AccountCache.new(notification.global_id).touch!
+client.members.update(notification.global_id, nil)
+!!!
+notification = AttendenceConsumerNotification.new(message.body)
+AccountCache.new(notification.global_id).touch!
+client.members.update(notification.global_id, nil)
+exit
+!!!
+notification = AttendenceConsumerNotification.new(message.body)
+AccountCache.new(notification.global_id).touch!
+client.members.update(notification.global_id, nil)
+c
+n
+notifcation
+notification
+client.members.update(notification.global_id, nil)
+whereami
+AccountCache.new(notification.global_id).touch!
+client.members.update(notification.global_id, nil)
+pipe
+subscriber.subscribe(pipe)
+!!!
+n
+pipe
+c
+pipe.adapter_options
+c
+event
+exit!
+SalesforceFactory::Account.create(email: "mateusz@example.com")
+exit
+event.type
+exit!
+event = build(:platform_event, :batch)
+event.type
+exit!
+build(:platform_event, :batch)
+exit!
+event.type
+exit
+Adapters::Salesforce::Batch.new(event.payload).each { |record| publish!(record) }
+Adapters::Salesforce::Batch.new(event.payload)
+a = Adapters::Salesforce::Batch.new(event.payload)
+publish!(a.first)
+a.each { |x| puts x }
+eixt!
+!!!
+exit
+exit!
+subject
+subject.class
+exit!
+[1] * 3
+subject
+c
+b
+&b
+&block
+exit
+body
+!!!
+c
+body
+batch
+build_body(batch)
+request(build_body(batch))
+exit
+payload
+payload["payload"]
+payload.message
+payload.message['payload']
+payload.as_json
+payload.to_h
+payload.to_json
+payload.class
+payload.message['payload']
+payload.payload
+payload.payload.merge(additions_to_payload).to_json
+!!!
+payload
+exit!
+payload
+build(:salesforce_message) }
+build(:salesforce_message)
+build(:platform_event)
+build(:platform_event).payload
+exit!
+#!/usr/bin/env ruby
+require 'bunny'
+connection = Bunny.new(automatically_recover: false)
+connection.start
+channel = connection.create_channel
+queue = channel.queue('hello')
+channel.default_exchange.publish('Hello World!', routing_key: queue.name)
+puts " [x] Sent 'Hello World!'"
+connection.close
+connection = Bunny.new(automatically_recover: false)
+connection.start
+channel = connection.create_channel
+queue = channel.queue('hello')
+channel.default_exchange.publish('Hello World!', routing_key: queue.name)
+subject
+subject.data.relationships
+subject.data.relationships.ss
+!!!s
+!!!
+require 'faker'
+Faker::String.random(201)
+Faker::String.random
+exit
+member.last_attended_location
+member
+!!!
+n
+client.members.find(account_id, include: :subscriptions
+)
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+n
+c
+!!!
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+n
+account_fetcher.account
+c
+exit
+subject.data.relationships
+subject
+!!!
+account.latest_attendance
+n
+c
+self
+self.local_house
+local_house
+self.object
+self.class
+self.methods
+self.attribute_blocks
+ls
+attributes
+inherited
+link
+type
+id_block
+attribute
+type_bloc
+type_block
+type_val
+accounts
+n
+c
+self.object
+!!!
+c
+s
+n
+c
+account.latest_attendance = Attendance.new_from_salesforce_account(member)
+account.latest_attendance !!!
+!!!
+member.last_attendance_id
+member
+exit
+member
+!!!
+subject.data.relationships
+!!!
+c
+!!!
+a = Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+!!!
+a = Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+a.latest_attendance
+c
+attendance
+attendance.is_last_aattendance_first_time_visit
+!!!
+c
+member
+whereami
+Attendance.new_from_salesforce_account(member)
+!!!
+c
+member
+exit
+!!!
+c
+member
+!!!
+c
+member
+!!!
+c
+member
+!!!
+attrs
+account.update(attrs)
+account
+!!!
+member
+!!!
+c
+subject
+!!!
+member
+c
+subject
+!!!
+member
+n
+subject
+!!!
+c
+attrs
+c
+s
+n
+client.members.find(account_id, include: :subscriptions)
+!!!
+member
+c
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+c
+member.last_attendance_id
+!!!
+member
+c
+member
+c
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+client.members.find(account_id, include: :subscriptions)
+!!!
+member
+!!!
+member
+c
+client.members.find(account_id, include: :subscriptions
+)
+location = SalesforceFactory::Location.find_by(code: location_code)
+location = SalesforceFactory::Location.find_by(code: 'GRS')
+SalesforceFactory::Account.find_by(email: 'guy@example.com')
+SalesforceFactory::Account.find_by(email: 'matthew@example.com')
+SalesforceFactory::Account.find_by(email: 'mateusz@example.com')
+account = SalesforceFactory::Account.find_by(email: 'mateusz@example.com')
+SalesforceFactory::Attendance.create!(
+  account_id: account.id,
+  check_in_time: DateTime.now,
+  location_id: location.id
+)
+account.reload
+!!!
+!!!
+member
+c
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+c
+member.last_attendance_id
+c
+!!!
+!!!
+member
+c
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+client.members.find(account_id, include: :subscriptions)
+Salesforce::Account.find_by(email: 'pro_with.attendance@sffactory.com.test')
+SalesforceFactory::Account.find_by(email: 'pro_with.attendance@sffactory.com.test')
+exit
+!!!
+l
+l
+l
+ssweem
+ssweem
+hrai
+hrai
+
+!
+!
+!!!!
+!!!!
+!!!
+!!!
+c
+c
+ @members.find_by_id(params[:id])
+@members.find_by_id(params[:id])
+n
+n
+s
+s
+n
+n
+n
+n
+n
+wherami
+wherami
+s
+s
+n
+n
+n
+n
+s
+s
+n
+n
+n
+n
+n
+s
+s
+n
+n
+s
+s
+n
+n
+member
+member
+exit
+exit
+!!!
+!!!
+client.members.find(account_id, include: :subscriptions)
+Account.new_from_salesforce(client.members.find(account_id, include: :subscriptions))
+c
+SalesforceFactory::Account.find_by(email: "mateusz@example.com")
+exit
+SalesforceFactory::Account.find_by(email: 'no_attendance@example.com)
+SalesforceFactory::Account.find_by(email: 'no_attendance@example.com')
+exit
+if existing
+  existing.update!(
+    global_id: "20000650359",
+    allowed_sites: ["BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","SHK","SHW","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","RIO","ROM","SFR","SAN","SP","MON","SEA","SEO","LUD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+else
+  User.create!(
+    email: "no_attendances@example.com",
+    password: "password",
+    business_unit: BusinessUnit.find_by(identifier: "sh"),
+    global_id: "20000650359",
+    allowed_sites: ["BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","SHK","SHW","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","    allowed_sites:SAN    allowed_sites: ["BH","CHD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+end
+existing = User.find_by(email: "no_attendances@example.com")
+if existing
+  existing.update!(
+    global_id: "20000650359",
+    allowed_sites: ["BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","SHK","SHW","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","RIO","ROM","SFR","SAN","SP","MON","SEA","SEO","LUD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+else
+  User.create!(
+    email: "no_attendances@example.com",
+    password: "password",
+    business_unit: BusinessUnit.find_by(identifier: "sh"),
+    global_id: "20000650359",
+    allowed_sites: ["BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","SHK","SHW","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","    allowed_sites:SAN    allowed_sites: ["BH","CHD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+end
+!!!
+ls
+PlatformClient::MessageBus.configure do |config|
+  # if not configured in this block the publisher will use the environment variable RABBITMQ_URL
+  # which if not provided defaults to 'amqp://guest:guest@rabbit:5672/'
+  config.rabbitmq_url  = 'amqp://your_rabbit_user:your_rabbit_user_password@rabbit_url:rabbit_port/your_rabbit_vhost'
+end
+exit
+require 'platform_client'
+exit
+require 'platform_client'
+PlatformClient
+PlatformClient::MessageBus
+PlatformClient.constants
+MessageBus
+Configuration
+require 'lib'
+ls
+ls ../
+PlatformClient::MessageBus
+PlatformClient
+exit
+PlatformClient
+exit
+PlatformClient
+PlatformClient::MessageBus
+PlatformClient::MessageBus.configure do |config|
+  # if not configured in this block the publisher will use the environment variable RABBITMQ_URL
+  # which if not provided defaults to 'amqp://guest:guest@rabbit:5672/'
+  config.rabbitmq_url  = 'amqp://your_rabbit_user:your_rabbit_user_password@rabbit_url:rabbit_port/your_rabbit_vhost'
+end
+rabbitmq_url
+n
+next
+c
+continue
+exit
+PlatformClient::MessageBus.constants
+PlatformClient::MessageBus::Configuration
+PlatformClient::MessageBus::Configuration.all
+PlatformClient::MessageBus::Configuration
+PlatformClient::MessageBus::Configuration.
+!!!
+PlatformClient::MessageBus.configure do |config|
+  # if not configured in this block the publisher will use the environment variable RABBITMQ_URL
+  # which if not provided defaults to 'amqp://guest:guest@rabbit:5672/'
+  config.rabbitmq_url  = 'amqp://your_rabbit_user:your_rabbit_user_password@rabbit_url:rabbit_port/your_rabbit_vhost'
+end
+n
+c
+!!!
+PlatformClient::MessageBus.configure do |config|
+  # if not configured in this block the publisher will use the environment variable RABBITMQ_URL
+  # which if not provided defaults to 'amqp://guest:guest@rabbit:5672/'
+  config.rabbitmq_url  = 'amqp://your_rabbit_user:your_rabbit_user_password@rabbit_url:rabbit_port/your_rabbit_vhost'
+end
+c
+exit
+PlatformClient::MessageBus::published_for(PlatformClient::Event)
+PlatformClient::MessageBus::publishert_for(PlatformClient::Event)
+PlatformClient::MessageBus::publisher_for(PlatformClient::Event)
+PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+PlatformClient::MessageBus.constants
+PlatformClient::MessageBus.methods
+PlatformClient::MessageBus.publisher_for
+PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+PlatformClient::MessageBus.new.publisher_for(PlatformClient::Event)
+PlatformClient::Event
+PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+PlatformClient::MessageBus::publisher_for(PlatformClient::Event)
+cdpublisher = PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+publisher = PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+publisher = PlatformClient::MessageBus.publisher_for
+publisher = PlatformClient::MessageBus::Publisher.new(Platform::Event)
+publisher = PlatformClient::MessageBus.constants
+publisher = PlatformClient::MessageBus.classes
+publisher = PlatformClient::MessageBus.class
+c
+continue
+exit
+!!!
+exit
+acc = SalesforceFactory::Account.find_by(email: 'no_attendances_ever@example.com')
+acc.latest_attendance = Attendance.new_from_salesforce_account(member)
+exit
+acc = SalesforceFactory::Account.find_by(email: 'no_attendances_ever@example.com')
+exit
+acc = SalesforceFactory::Account.find_by(email: 'no_attendances_ever@example.com')
+SalesforceFactory::Attendance
+SalesforceFactory::Attendance.create(account_id: acc.id, check_in_time
+exit
+acc = SalesforceFactory::Account.find_by(email: 'no_attendances_ever@example.com')
+loc = SalesforceFactory::Location
+loc = SalesforceFactory::Location.find
+loc = SalesforceFactory::Location.find_by(code: "GRS")
+SalesforceFactory::Attendance.create(account_id: acc.id, location_id: loc.id)
+SalesforceFactory::Attendance.find_by(id: "a2F8E000004qUQuUAM")
+att = SalesforceFactory::Attendance.find_by(id: "a2F8E000004qUQuUAM")
+att.update(check_in_time: Time.now)
+att.update(check_in_time: DateTime.now)
+att
+acc.update(latest_attendance: att)
+acc
+acc.reload
+acc
+acc = SalesforceFactory::Account.find_by(email: 'no_attendances_ever@example.com')
+exit
+!!!
+ls
+PlatformClient::MessageBus.constanst
+PlatformClient::MessageBus.constants
+publisher = PlatformClient::MessageBus.publisher_for(PlatformClient::Event)
+prs
+@action
+!!!
+!!!
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+require 'platform_client'
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+exit
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Attendance).publish_event(
+  :new,
+  id: "wazz",
+  business_unit: "sh",
+  global_id: nil
+)
+PlatformClient
+PlatformClient::MessageBus
+require 'platform_client'
+PlatformClient::MessageBus
+require 'platform_client '/Users/guy.bennettjones/code/sohohouse/platform_client/lib/platform_client/message_bus/publisher.rb'
+require 'platform_client/lib/platform_client/message_bus/publisher.rb'
+require '/Users/guy.bennettjones/code/sohohouse/platform_client/lib/platform_client/message_bus/publisher.rb'
+PlatformClient::MessageBus
+PlatformClient::MessageBus::Publisher
+PlatformClient::MessageBus::Publisher.new(Platform::Event)
+PlatformClient::MessageBus::Publisher.new(PlatformClient::Event)
+publisher = PlatformClient::MessageBus::Publisher.new(PlatformClient::Event)
+publisher.publish_event(:cancelled, id: 'awdf',  business_unit: 'sh', global_id: 'asdf')
+publisher.publish_event(:cancelled, id: 'awdf',  business_unit: 'sh')
+publisher.publish_event(:cancelled, id: 'awdf',  business_unit: 'sh', global_id: '200000642297')
+exit
+publisher = PlatformClient::MessageBus::Publisher.new(PlatformClient::Event)
+require '/Users/guy.bennettjones/code/sohohouse/platform_client/lib/platform_client/message_bus/publisher.rb'
+publisher.publish_event(:cancelled, id: 'awdf',  business_unit: 'sh', global_id: '200000642297')
+publisher = PlatformClient::MessageBus::Publisher.new(PlatformClient::Event)
+publisher.publish_event(:cancelled, id: 'awdf',  business_unit: 'sh', global_id: '200000642297')
+exi
+exit
+Test
+exit
+Test
+exit
+SalesforceFactory::Account.find_by)email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guy@example.com")
+SalesforceFactory::Account.find_by(email: "guybennettjones@hotmail.co.uk")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohouse.com")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohousedigital.com")
+SalesforceFactory::Account.find_by(email: "mateusz@example.com")
+SalesforceFactory::Account.find_by(email: "guy.bennettjones@sohohouse.com")
+exit!
+SalesforceFactory::Account.find_by(email: "mateusz@example.com")
+exit
+account = SalesforceFactory::Account.find_by(email: "test1@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test1@example.com")
+account.attendances
+account = SalesforceFactory::Account.find_by(email: "test2@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test3@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "LBHB").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test4@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "KET").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test5@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "DHLA").id)
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+account = SalesforceFactory::Account.find_by(email: "test5@example.com")
+attendance.save
+exit
+account = SalesforceFactory::Account.find_by(email: "test6@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+exit
+account = SalesforceFactory::Account.find_by(email: "test6@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+attendance.save
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test7@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "FARM").id)
+attendance.save
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "LBHB").id)
+attendance.save
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "LBHB").id)
+attendance.save
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "FARM").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test6@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS").id)
+attendance.save
+account = SalesforceFactory::Account.find_by(email: "test6@example.com")
+clear
+exit
+whereami
+result = ::Inquiries::Create.call(
+  member_id: current_user_id,
+  inquiry_type: permitted_attributes.inquiry_type&.downcase,
+  reason: permitted_attributes.reason&.downcase,
+  venue_type: permitted_attributes.venue_type&.downcase,
+  venue_name: permitted_attributes.venue_name,
+  body: permitted_attributes.body
+)
+result = ::Inquiries::Create.call(
+  member_id: current_user_id,
+  inquiry_type: permitted_attributes.inquiry_type&.downcase,
+  reason: permitted_attributes.reason&.downcase,
+  venue_type: permitted_attributes.venue_type&.downcase,
+  venue_name: permitted_attributes.venue_name,
+  body: permitted_attributes.body
+)
+account = SalesforceFactory::Account.find_by(email: "guy@example.com")
+account.global_id
+continue
+result = ::Inquiries::Create.call(
+  member_id: current_user_id,
+  inquiry_type: permitted_attributes.inquiry_type&.downcase,
+  reason: permitted_attributes.reason&.downcase,
+  venue_type: permitted_attributes.venue_type&.downcase,
+  venue_name: permitted_attributes.venue_name,
+  body: permitted_attributes.body
+)
+permitted_attributes.inquiry_type&.downcase
+permitted_attributes.reason&.downcase
+exit
+exit
+c
+contionue
+continue
+exit
+MarketingCloudIntegrationService
+MarketingCloudIntegrationService::SalesforceAttendanceConsumer
+MarketingCloudIntegrationService::SalesforceAttendanceConsumer.test
+MarketingCloudIntegrationService::SalesforceAttendanceConsumer.send(:test)
+MarketingCloudIntegrationService::SalesforceAttendanceConsumer.test
+exit
+MarketingCloudIntegrationService::SalesforceAttendanceConsumer.new.test
+logger
+subject
+subject
+SalesforceFactoryAccount.find_by(global_id: "20000616618")
+SalesforceFactory::Account.find_by(global_id: "20000616618")
+exit
+data
+data['expires_on']
+DateTime.parse(data['expires_on'])
+DateTime.parse(data['expires_on']) < DateTime.now
+exit
+c
+exit!!!
+!!!
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+perk_dir
+c
+DateTime.parse(data['expires_on'])
+Dir.glob('data/perks/*')
+Dir.glob('data/perks/*').to_a
+Dir.glob('../../data/perks/*').to_a
+Dir.glob('../../../data/perks/*').to_a
+c
+DateTime.parse(data['expires_on'])]
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+c
+DateTime.parse(data['expires_on'])
+c
+DateTime.now
+DateTime.now.strftime("%Y-$m")
+DateTime.now.strftime("%Y-%m")
+DateTime.now.strftime("%Y-%m-%d")
+exit
+Time.strftime("%Y")
+Time.now.strftime("%Y")
+exit
+!!!
+headers = {'X-SH-GLOBAL-ID' => '1014645','X-SH-SITES' => 'WCG',   'X-SH-BUSINESS-UNIT' => 'sh' }
+PlatformClient.authorize_from_headers(headers)
+@all_venues ||= PlatformClient::Venue.all
+@all_venues.find {|v| v.name.casecmp('Singapore')
+}
+@all_venues ||= PlatformClient::Venue.all
+!!!
+venue_name
+region
+region.split('-')
+region.split('-')[1]
+n
+venue_id = @all_venues.find { |ven| ven.name.casecmp(venue_name).zero? }.id
+venue_name
+c
+venue_name = region.split('-')[1].strip
+!!!
+str = 'asdf'
+str + 'a'
+str.freeze
+str + 'a'
+str
+str = str + 'a'
+str
+['asdf','qwer'].freeze
+['asdf','qwer'].freeze <<'asdf'
+['asdf','qwer'].freeze << 'asdf'
+Time.parse(nil)
+Time.parse(nil)
+exit
+exit
+require 'time'
+require 'time'
+Time.parse(nil)
+Time.parse(nil)
+exit
+exit
+house_note_section
+house_note_sections
+c
+house_note_sections
+c
+exit
+!!!
+c
+!!!
+exit
+require 'time'
+1.day
+1.days
+require 'datetime'
+exit
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+@all_venues ||= PlatformClient::Venue.all
+@all_venues.map {|i| [i.name, i.id]}
+exit
+YAML.load('asdf')
+YAML.load('db/front_of_house')
+YAML.load('db/front_of_house.yml')
+YAML.load('db/front_of_house_emails')
+YAML.load_file('db/front_of_house_emails')
+YAML.load_file('db/front_of_house_emails.yml')
+exit
+!!!
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+PlatformClient.authorize_from_headers(headers)
+@all_venues ||= PlatformClient::Venue.all
+!!!
+project_name = Dir.pwd.split("/").last
+current_branch = `current-branch`.split("\n").first
+cmd = "drone build list SohoHouse/#{project_name} --branch #{current_branch} --format \"{{ .Number }}\" --limit 1"
+number = `#{cmd} 2>/dev/null || #{cmd} 2>/dev/null || #{cmd} 2>/dev/null`
+exit
+project_name = Dir.pwd.split("/").last
+current_branch = `current-branch`.split("\n").first
+cmd = "drone build ls SohoHouse/#{project_name} --branch #{current_branch} --limit 1 | grep Build | awk '{print $2}' | tr -d '#'"
+`#{cmd} 2>/dev/null`
+`drone build`
+exit
+project_name = Dir.pwd.split("/").last
+current_branch = `current-branch`.split("\n").first
+cmd = "drone build ls SohoHouse/#{project_name} --branch #{current_branch} --limit 1 | grep Build | awk '{print $2}' | tr -d '#'"
+num = `#{cmd} 2>/dev/null`
+`drone build ls`
+`drone build ls SohoHouse/scripts"`
+`drone build ls SohoHouse/scripts`
+exit
+project_name = Dir.pwd.split("/").last &&  current_branch = `current-branch`.split("\n").first
+project_name
+project_name = Dir.pwd.split("/").last ;current_branch = `current-branch`.split("\n").first
+project_name
+cmd = "drone build ls SohoHouse/#{project_name} --branch #{current_branch} --limit 1 | grep Build | awk '{print $2}' | tr -d '#'"
+num = `#{cmd} 2>/dev/null`
+cmd = "drone build ls SohoHouse/#{project_name} --branch #{current_branch} --limit 1 | grep Status"
+status = `cmd`
+status = `$cmd`
+status = `#{cmd}`
+spinner = TTY::Spinner.new("Testing:", format: :dots)
+requrie 'tty-spinner'
+require 'tty-spinner'
+exit
+project_name = Dir.pwd.split("/").last ;current_branch = `current-branch`.split("\n").first
+cmd = "drone build ls SohoHouse/#{project_name} --branch #{current_branch} --limit 1 | grep Status"
+status = `$cmd`
+require 'tty-spinner'
+spinner = TTY::Spinner.new("Testing:", format: :dots)
+spinner.autospin
+spinner.auto_spin
+ls
+spinner.stop
+exit
+status
+status.empty?
+return puts "asdf"
+puts "asdf"
+w
+c
+continue
+exit
+`ls`
+`ls`.chomp
+exit
+sleep 0.2
+sleep 0.9
+exit
+exit
+!!!
+row
+dir_name
+exit
+d create_dir_name(row['title'])
+create_dir_name(row['title'])
+row
+csv[0]
+csv[1]
+exit
+gst
+!!!
+next
+yaml_hash['region']
+yaml_hash['belongs_to_benue']
+yaml_hash['belongs_to_venue']
+yaml_hash
+row.to_hash['belongs_to_venue']
+!!!
+`gem list 'whirly'`
+`gem list 'asdf'`
+`gem list 'asdf'`.chomp
+`gem list 'asdf'`.empty?
+exit
+'ASIA'.include?('asia')
+'ASIA'.include?('asia')
+'ASIA'.downcase.include?('asia')
+'ASIA'.downcase.include?('asia')
+'ASIA'.casecmp?('asia')
+'ASIA'.casecmp?('asia')
+'ASIA'.casecmp?('asiaa')
+'ASIA'.casecmp?('asiaa')
+exit
+exit
+Logger.new(STDOUT)
+require 'logger'
+Logger.new(STDOUT)
+l = Logger.new(STDOUT)
+l.log "asdf"
+l.info 'asdf'
+require 'platform_client'
+exit
+PlatformClient
+headers = {
+  'X-SH-GLOBAL-ID' => '1014645',
+  'X-SH-SITES' => 'WCG,SHD,BH,CHIGO,EH,FARM,HRH,ISTAN,LA,LHM,MIAMI,NY,SD,SHDS,TOR,BER,SH,MUM,WC,AMST,GRS,BCL,LUD',
+  'X-SH-BUSINESS-UNIT' => 'sh'
+}
+pc =     PlatformClient.authorize_from_headers(headers)
+pc
+PlatformClient
+PlatformClient.authorized?
+PlatformClient.authoriz
+exit
+MarketingCloudIntegrationService::Authentication::Authenticator
+MarketingCloudIntegrationService::Authentication::Authenticator.call
+MarketingCloudIntegrationService::Journey::CreateAttendance
+exit
+MarketingCloudIntegrationService::Journey::CreateAttendance
+MarketingCloudIntegrationService::Journey::CreateAttendance.call
+{'asd':'asdf'}
+{'asd':'asdf'}.slice(:a)
+PlatformClient::Authentication::BUSINESS_UNIT_HEADER.downcase,
+PlatformClient::Authentication::BUSINESS_UNIT_HEADER.downcase
+PlatformClient::Authentication::GLOBAL_ID_HEADER
+exit
+wexit
+exit
+results_arr
+results
+exit
+n
+current_branch
+command
+!!!
+n
+command
+n
+results
+`commandz
+`
+`command`
+`#{command}`
+exit
+n
+results
+n
+dn
+n
+pods
+pod
+n
+pod_name
+deployment_name = pod_name.split("-")[0...-2].join("-")
+!!!
+SalesforceFactory::Product
+SalesforceFactory::Product.all
+SalesforceFactory::Product.map(&:name)
+SalesforceFactory::Product.all.map(&:name)
+account = SalesforceFactory::Account.find_by(email: "attendance1@example.com")
+attendance = SalesforceFactory::Attendance.new(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+account = SalesforceFactory::Account.find_by(email: "attendance2@example.com")
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS).id)
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS").id)
+account = SalesforceFactory::Account.find_by(email: "attendance3@example.com")
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "LBHB").id)
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+account = SalesforceFactory::Account.find_by(email: "attendance4@example.com")
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+account = SalesforceFactory::Account.find_by(email: "attendance5@example.com")
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "BER").id)
+account = SalesforceFactory::Account.find_by(email: "attendance6@example.com")
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "KET").id)
+account = SalesforceFactory::Account.find_by(email: "attendance6@example.com")
+SalesforceFactory::Product.all.map(&:name).select {|i| i.include?("active")}
+SalesforceFactory::Product.all.map(&:name).select {|i| i.include?("Active")}
+exit
+existing = User.find_by(email: "attendance7@example.com")
+if existing
+  existing.update!(
+    global_id: "20000666507",
+    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","RIO","ROM","SFR","SAN","SP","MON","SEA","SEO","LUD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+else
+  User.create!(
+    email: "attendance7@example.com",
+    password: "password",
+    business_unit: BusinessUnit.find_by(identifier: "sh"),
+    global_id: "20000666507",
+    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI    alloweIO    allowed_sites:","    allowed_sites: ["SHK","S"S    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","AS
+existing = User.find_by(email: "attendance7@example.com")
+if existing
+  existing.update!(
+    global_id: "20000666507",
+    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","RIO","ROM","SFR","SAN","SP","MON","SEA","SEO","LUD","SHA","SIN","STO","SYD","TEL","TOK","VAN","VIE","WAR","WAS","ZUR","WCG","LBHB","SHD"]
+  )
+else
+  User.create!(
+    email: "attendance7@example.com",
+    password: "password",
+    business_unit: BusinessUnit.find_by(identifier: "sh"),
+    global_id: "20000666507",
+    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","ASP","ATH","ATL","AUS","LHM","MIAMI","NY","SD","SHDS","BAN","BEI","BOG","BOS","HU","BUE","CAP","TOR","BER","SH","MUM","CHA","COP","DET","DUB","DB","HON","LIS","MAN","MEL","MXC","MIL","WC","AMST","GRS","BCL","NAS","NOR","PAR","PHI","POR","RIO    allowed_sites:","    allowed_sites: ["SHK","S"S    allowed_sites: ["SHK","SHK","BH","CHIGO","KET","EH","FARM","MYK","HRH","ISTAN","LA","AS
+existing = User.find_by(email: "attendance7@example.com")
+exit
+account = SalesforceFactory::Account.find_by(email: "attendance7@example.com")
+(7..12).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+end
+account
+account.attendances
+account = SalesforceFactory::Account.find_by(email: "attendance8@example.com")
+account.attendances
+account = SalesforceFactory::Account.find_by(email: "attendance9@example.com")
+account.attendances
+account = SalesforceFactory::Account.find_by(email: "attendance12@example.com")
+account.attendances
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS_Club").id)
+exit
+(13..16).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "GRS").id)
+end
+exit
+(17..25).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+exit
+[].present?
+[].any?
+exit
+Notificaiton
+Notification
+Notification.create
+Notification.create(global_id: "101645")
+exit
+Notication.create(global_id: "1")
+Notification.create(global_id: "1")
+Notification.last
+exit
+request
+!!!
+next
+continue
+!!!
+Notification.where
+Notification
+::Notification
+exit
+!!!
+request
+Notification.all
+notification.id
+notification.globa_id
+notification.global_id
+request
+!!!
+next
+continue
+!!!
+params[:id]
+Notification.last
+::Notification.last
+::Notification.where(id: params[:id]
+)
+current_user_id
+!!!
+notification = ::Notification.where(
+  id: params[:id],
+  global_id: current_user_id
+)
+current_user_id
+exit
+!!!
+notification = ::Notification.where(
+  id: params[:id],
+  global_id: current_user_id
+)
+current_
+current_user_id
+Notification.all
+::Notification.all
+!!!
+notification = ::Notification.where(
+  id: params[:id],
+  global_id: current_user_id
+)
+notification
+notification.any?
+notification.first
+next
+continue
+!!!
+data
+data["id"]
+exit
+data
+data["attributes"]
+exit
+require_relative 'config/boot'
+current_user_id
+request
+request.headers
+request.body
+exit
+current_user_id
+next
+continue
+!!!
+notification
+n
+next
+notification&.seen
+notification&.seen =true
+notification
+notification&.save
+notification
+notification.persisted?
+exit
+Notification.all
+::Notification.all
+!!!
+puts "On to kubernetes we go"
+cmd = "kubectl get pods | grep #{current_branch}"
+results = `#{cmd}`
+results_arr = results.split("\n")
+current_branch = `current-branch`.split("\n").first
+puts "On to kubernetes we go"
+cmd = "kubectl get pods | grep #{current_branch}"
+results = `#{cmd}`
+results_arr = results.split("\n")
+results_arr.count
+shorted_results_arr = results_arr.map { |result| result[0..get_line_width-5].strip }
+results_arr
+get_line_widt
+get_line_width
+exit
+iconv
+Iconv
+IConv
+exit
+str = "+49 176 24984339‬"
+str.encode(Encoding.find('ASCII')
+)
+encoding_options = {
+  :invalid           => :replace,  # Replace invalid byte sequences
+  :undef             => :replace,  # Replace anything not defined in ASCII
+  :replace           => '',        # Use a blank for those replacements
+  :universal_newline => true       # Always break lines with \n
+}
+str.encode(Encoding.find('ASCII'), encoding_options)
+encoding_options = { replace: ''}
+str.encode(Encoding.find('ASCII'), encoding_options)
+str
+str.encode(Encoding.find('ASCII'), encoding_options)
+context
+!!!
+attributes.phone_number.
+self
+attributes.phone_number
+!!!
+attributes[:phone_number]
+attributes[:phone_number].encode(Encoding.find('ASCII'), encoding_options )
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+c
+attributes[:phone_number]
+attributes[:phone_number].encode(Encoding.find('ASCII'), encoding_options )
+attributes[:phone_number]
+c
+str = "+49 176 24984339‬"
+require 'iconv'
+exit
+exit
+"U+202C"
+"U+202C"
+"\u202c"
+"\u202c"
+"07814164317\u202d"
+"07814164317\u202d"
+exit
+exit
+"abc\u202c"
+"abc\u202c"
+"abc\u2000"
+"abc\u2000"
+"abc\u2001"
+"abc\u2001"
+str = "abc\u2001"
+str = "abc\u2001"
+str.length
+str.length
+str = "abc\u202C"
+str = "abc\u202C"
+str.length
+str.length
+str = "abc\u20"
+str = "abc\u20"
+str = "abc\u202C"
+str = "abc\u202C"
+str = "abc\u200C"
+str = "abc\u200C"
+str.length
+str.length
+exti
+exti
+clear
+clear
+!!!
+!!!
+str = "abc\u200C"
+str = "abc\u200C"
+str.length
+str.length
+clear
+clear
+def test(global_id:, options = {})
+def test(global_id:, options = {})
+def test(:global_id, options = {})
+def test(:global_id, options = {})
+def test(global_id:)
+def test(global_id:)
+def test(:global_id, options)
+def test(:global_id, options)
+def test(global_id:, options)
+def test(global_id:, options)
+def test(global_id: {}, options: {})
+def test(global_id: {}, options: {})
+puts global_id
+  puts global_id
+puts options
+  puts options
+end
+end
+test(global_id: 'asdf')
+test(global_id: 'asdf')
+test(global_id: 'asdf', hey: 'asdfa')
+test(global_id: 'asdf', hey: 'asdfa')
+= {'asdf':'qwer'}
+= {'asdf':'qwer'}
+hash = {'asdf':'qwer'}
+hash = {'asdf':'qwer'}
+hash.has_key?(:asdf)
+hash.has_key?(:asdf)
+hash.has_key?('asdf')
+hash.has_key?('asdf')
+hash = {'asdf' => 'qwer'}
+hash = {'asdf' => 'qwer'}
+hash.has_key?(:asdf)
+hash.has_key?(:asdf)
+ exit
+exit
+{}.with_indifferent_access
+exit
+exit
+exit
+'asdf'.encode('ASCII', replace: '')
+'asdf\u202c'.encode('ASCII', replace: '')
+'asdf\u202C'.encode('ASCII', replace: '')
+'asdf\u202c
+'
+'asdf\U202c'
+'asdf\U202C'
+'asdf\u202C'
+'asdf\u202+C'
+'asdf\u202+c'
+'+49 176 24984339‬'
+'\u+202c'
+'/u+202c'
+'\u202+c'
+'\u202c+'
+'\u+202c'
+'\U+202c'
+exit
+str = "abc\u200C"
+str = 'abc\u200C'
+"asdf\u202c".encode('ASCII', replace: '')
+"asdf\u202c"
+"asdf\u202c".length
+"asdf\u202c".encode('ASCII', replace: '')/length
+"asdf\u202c".encode('ASCII', replace: '').length
+exit
+Notification.create(image_url: nil)
+Notification.create(global_id: '123', image_url: nil)
+Notification.create(global_id: '123', image_url: 'covfefe')
+exit
+Notification.create(global_id: '123', image_url: 'covfefe')
+exit
+Notification.create(global_id: '123', image_url: 'covfefe')
+exit
+(17..25).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+exit
+(26..35).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+exit
+response
+response.status
+c
+!!!
+(17..25).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+(36..55).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+exit
+tr
+tr
+tr.count
+tr.count
+tr.each {|i| puts i }
+tr.each {|i| puts i }
+tr.first
+tr.first
+tr.td(index: 1)
+tr.td(index: 1)
+tr.td(index: 1..5)
+tr.td(index: 1..5)
+tr.td(index: 2)
+tr.td(index: 2)
+tr.td(index: 2).input
+tr.td(index: 2).input
+tr.td(index: 2).text_field
+tr.td(index: 2).text_field
+tr.td(index: 2).text_field.set(9:00)
+tr.td(index: 2).text_field.set(9:00)
+tr.td(index: 2).text_field.set('9:00')
+tr.td(index: 2).text_field.set('9:00')
+exit
+exit
+browser.button(class: 'hui-button submit-link js-toggle-approve test-resubmit-button')
+browser.button(class: 'hui-button submit-link js-toggle-approve test-resubmit-button')
+btn = browser.button(class: 'hui-button submit-link js-toggle-approve test-resubmit-button')
+btn = browser.button(class: 'hui-button submit-link js-toggle-approve test-resubmit-button')
+btn
+btn
+btn.text
+btn.text
+btn.text.includes?("Resubmit")
+btn.text.includes?("Resubmit")
+btn.text.include?("Resubmit")
+btn.text.include?("Resubmit")
+exit
+exit
+ARGV
+ARGV
+ARGV[0]
+ARGV[0]
+`gem list`
+`gem list`
+`gem list`.include?('watir')
+`gem list`.include?('watir')
+exit
+exit
+ARGV.cpount
+ARGV.cpount
+ARGV.count
+ARGV.count
+next
+next
+exit
+exit
+continue
+continue
+exit
+(17..25).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+(56..74).each do |num|
+  account = SalesforceFactory::Account.find_by(email: "attendance#{num}@example.com")
+  attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "NY").id)
+end
+account = SalesforceFactory::Account.find_by(email: "attendance75@example.com")
+account.attributes
+attendance = SalesforceFactory::Attendance.create(account_id: account.id, check_in_time: DateTime.now, location_id: SalesforceFactory::Location.find_by(code: "LBHB").id)
+clear
+ls
+exit

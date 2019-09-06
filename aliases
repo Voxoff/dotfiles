@@ -101,8 +101,36 @@ alias up2='cd ../../'
 alias up3='cd ../../../'
 alias s='subl .'
 alias h='history '
+alias v='vim '
 
 # sohohouse
-alias soho='cd ~/code/sohohouse/'
-alias k='kubectl '
-alias b='bundle '
+if [[ $(uname -n) == *"sohohouse"* ]]; then 
+  alias soho='cd ~/code/sohohouse/'
+  alias k='kubectl '
+  alias b='bundle '
+  alias cms='cd ~/code/sohohouse/cms-integration-service'
+  alias venues='cd ~/code/sohohouse/venue-service'
+  alias opera='cd ~/code/sohohouse/opera-integration-service'
+  alias sc='cd ~/code/sohohouse/salesforce_integration_client'
+  alias sfis='cd ~/code/sohohouse/salesforce-integration-service'
+  alias ambassador='cd ~/code/sohohouse/ambassador'
+  alias profiles='cd ~/code/sohohouse/profile-service'
+  alias pc='cd ~/code/sohohouse/platform_client'
+  alias common_api='cd ~/code/sohohouse/common_api'
+  alias mcis='cd ~/code/sohohouse/marketing-cloud-integration-service'
+  alias web='cd ~/code/sohohouse/digital-house-web'
+  alias swagger='cd ~/code/sohohouse/digital-house-docs/'
+  alias smb='cd ~/code/sohohouse/salesforce-message-bus'
+  alias vcr='VCR_RECORD=new_episodes rspec'
+  alias factory='cd ~/code/sohohouse/salesforce_factory'
+  alias support='cd ~/code/sohohouse/support-service'
+  alias scripts='cd ~/code/sohohouse/scripts'
+  alias checkins='cd ~/code/sohohouse/checkin-service'
+fi
+# TMUX
+alias tk='tmux kill-server'
+
+# Style
+# Needs python package pygmentize
+# pip install pygments
+alias ccat='pygmentize -g'

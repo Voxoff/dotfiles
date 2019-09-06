@@ -8,9 +8,11 @@
     "Emmet",
     "Git",
     "GitGutter",
+    "GitHubinator",
     "JSX",
     "Package Control",
     "SCSS",
-    "ERB Snippets"
+    "ERB Snippets",
+    "Wakatime"
   ]
 }
