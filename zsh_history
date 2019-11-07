@@ -12387,3 +12387,106 @@ sudo kextcache -i /
 : 1567789801:0;gs
 : 1567789803:0;git stash
 : 1567790166:0;git add . ; git commit -m 'merged soho and yolo'
+: 1573160477:0;clear
+: 1573160490:0;vim .zshrc
+: 1573160517:0;ls
+: 1573160528:0;cd code
+: 1573160528:0;ls
+: 1573160530:0;cd dotfiles
+: 1573160530:0;ls
+: 1573160533:0;cat README.md
+: 1573160538:0;vim README.md
+: 1573160572:0;gst
+: 1573160581:0;vim README.md
+: 1573160638:0;ls
+: 1573160643:0;cd ~/Downloads
+: 1573160643:0;ls
+: 1573160648:0;unzip ShiftIt-1.6.6.zip
+: 1573160649:0;ls
+: 1573160651:0;cd ShiftIt.app
+: 1573160653:0;ls
+: 1573160662:0;cd ..
+: 1573160671:0;mv ShiftIt.app ~/Applications
+: 1573160671:0;ls
+: 1573160673:0;cd ..
+: 1573160674:0;ls
+: 1573160780:0;cd code/dotfiles
+: 1573160780:0;ls
+: 1573160783:0;vim README.md
+: 1573160803:0;	ls
+: 1573160828:0;vim install.sh
+: 1573160899:0;vim README.md
+: 1573160968:0;bash install.sh
+: 1573161048:0;ls
+: 1573161051:0;cd code
+: 1573161051:0;ls
+: 1573161053:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1573161057:0;cd fonts
+: 1573161059:0;./install.sh
+: 1573161177:0;cd code/dotfiles/
+: 1573161179:0;vim README.md
+: 1573161217:0;brew cask search sublime
+: 1573161251:0;brew search --casks visual
+: 1573161258:0;brew search --casks sublime
+: 1573161274:0;cd code/dotfiles
+: 1573161279:0;vim install.sh
+: 1573161345:0;brew search --casks postman
+: 1573161371:0;brew search --casks shiftit
+: 1573161386:0;vim README.md
+: 1573161410:0;vim install.sh
+: 1573161550:0;gst
+: 1573161551:0;gd
+: 1573161575:0;git add install.sh zshrc
+: 1573161576:0;gst
+: 1573161579:0;git add README.md
+: 1573161581:0;gst
+: 1573161585:0;rm :Q
+: 1573161586:0;gst
+: 1573161593:0;git commit -m 'update'
+: 1573161595:0;git push origin master
+: 1573161600:0;ls
+: 1573161603:0;vim README.md
+: 1573161626:0;s
+: 1573161630:0;cat ~/.aliases
+: 1573161653:0;s
+: 1573161688:0;ls
+: 1573161692:0;cd ~/Applications
+: 1573161692:0;ls
+: 1573161697:0;cd /Applications
+: 1573161697:0;ls
+: 1573161702:0;rm -rf Sublime\ Text\ 2.app
+: 1573161711:0;brew search --casks sublime
+: 1573161719:0;brew cask install sublime-text
+: 1573161766:0;brew tap caskroom/versions
+: 1573161779:0;cd
+: 1573161781:0;cd code
+: 1573161782:0;ls
+: 1573161784:0;cd dotfiles
+: 1573161785:0;vim install.sh
+: 1573161802:0;subl .
+: 1573161804:0;s
+: 1573162034:0;cask_packages=("spotify" "hyper" "docker" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit")\
+
+: 1573162038:0;for cask in $cask_packages; do brew cask install $cask; done\
+
+: 1573162410:0;cd ~/Applications
+: 1573162410:0;ls
+: 1573162412:0;rm -rf ShiftIt.app
+: 1573162413:0;ls
+: 1573162414:0;cd ..
+: 1573162414:0;ls
+: 1573162817:0;gst
+: 1573162821:0;clear
+: 1573162821:0;ls
+: 1573162922:0;cd code/dotfiles
+: 1573162923:0;vim README.md
+: 1573162954:0;gst
+: 1573162968:0;gx 'update'
+: 1573162974:0;vim ~/.aliases
+: 1573163009:0;vim aliases
+: 1573163219:0;ls
+: 1573163247:0;gst
+: 1573163248:0;gd
+: 1573163259:0;gx 'readmes'
+: 1573163266:0;. ~/.aliases
+: 1573163268:0;gx 'readmes'

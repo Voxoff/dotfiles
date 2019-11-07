@@ -79,7 +79,7 @@ function gb_del(){
 
 alias gr='git rev-list --count master..HEAD'
 alias grn='git rebase -i HEAD~$(gr)'
-alias gx='gitx --all'
+alias gx='git add . ; git commit -m'
 
 alias got='git'
 

@@ -1,10 +1,10 @@
 
 ###############################################################
 # Script to install stuff for new laptop.
+#
 # Xcode, Brew, git, rvm, ruby 2.6.1, gems, sqlite3, postgres
 # chrome, slack, spotify, shiftit, powerline, zsh, firefox?
 # vscode, sublime
-#
 #
 ###############################################################
 create_variable_and_install() {
@@ -13,32 +13,24 @@ create_variable_and_install() {
   varname=check_$suffix
 }
 
-
-
 # extract strings - most are used in both checker script and installer script
 check_xcode='type xcode-select >&- && xpath=$( xcode-select --print-path ) && test -d "${xpath}" && test -x "${xpath}"'
-
 check_brew="command -v brew >/dev/null 2>&1"
 check_git="command -v git >/dev/null 2>&1 && git version | grep -q 'git version'"
 check_git_user="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.user='"
 check_git_email="command -v git >/dev/null 2>&1 && git config --list | grep -q 'github.email='"
-
 check_brew_gmp="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gmp'"
 check_brew_gnupg="command -v brew >/dev/null 2>&1 && brew list | grep -q 'gnupg'"
-
 check_rvm="command -v rvm >/dev/null 2>&1 && which rvm | grep -q '/Users/.*/\.rvm/bin/rvm'"
 check_ruby_version="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fq '=* ruby-2.6.1 [ x86_64 ]'"
 check_rvm_path="command -v rvm >/dev/null 2>&1 && rvm list | grep -Fqv 'Warning! PATH'"
-
 check_bundler="command -v gem >/dev/null 2>&1 && gem list | grep -q 'bundler'"
 check_nokogiri="command -v gem >/dev/null 2>&1 && gem list | grep -q 'nokogiri'"
 check_rails_gem="command -v gem >/dev/null 2>&1 && gem list | grep -q 'rails'"
 check_rails="command -v rails >/dev/null 2>&1 && rails --version | grep -q 'Rails'"
-
 check_sqlite3="command -v sqlite3 >/dev/null 2>&1"
 check_postgres="command -v postgres >/dev/null 2>&1 && postgres --version | grep -q 'postgres (PostgreSQL)'"
 check_psql="command -v psql >/dev/null 2>&1 && psql --version | grep -q 'psql (PostgreSQL)'"
-
 check_chrome="[ -f /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ]"
 check_slack="[ -f /Applications/Slack.app/Contents/MacOS/Slack ]"
 check_spotify="[ -f /Applications/Spotify.app/Contents/MacOS/Spotify ]"
@@ -56,19 +48,13 @@ function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); the
 packages=("git" "wget" "gmp" "gnupg" "sqlite" "imagemagick" "jq" "openssl" "tree" "tmux" "zsh" "nmap" "htop" "watch")
 for package in $packages; do install_or_upgrade $package; done
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-####################################################################
+
 # Ruby version
-#
-# Current flatiron version is 2.6.1
-#
-# Or if you want to keep up to date!
-# A technique to find the latest stable version of ruby.
-# html = Net::HTTP.get(URI("https://www.ruby-lang.org/en/downloads/"))
-# vers = html[/http.*ruby-(.*).tar.gz/,1]
-####################################################################
-
-vers=2.6.1
+# vers=2.6.1
+html = Net::HTTP.get(URI("https://www.ruby-lang.org/en/downloads/"))
+vers = html[/http.*ruby-(.*).tar.gz/,1]
 if ! eval $check_rvm_path; then
   # needed for rvm use
   if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then
@@ -98,10 +84,8 @@ if ! eval $check_ruby_version; then
   echo "You now have ruby $vers. Good move!"
 fi
 
-# we love gems.
 gem update --system
 gems=("prawn" "bundler" "json" "rspec" "pry" "pry-byebug" "sqlite3" "nokogiri" "hub" "thin" "shotgun" "rack" "hotloader" "rails" "sinatra")
-# only install those we don't have. rvm line to ensure gems not installed on macos ruby
 source  ~/.rvm/scripts/rvm
 for gem in ${gems}; do
   ! eval "command -v gem >/dev/null 2>&1 && gem list | grep -q $gem" && gem install $gem --no-document && echo "installed $gem"
@@ -114,8 +98,9 @@ done
 ! eval $check_slack && brew cask install slack
 
 
-cask_packages=("spotify" "hyper" "docker" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit")
+# I have not built in checks yet.
 
+cask_packages=("spotify" "hyper" "docker" "iterm2" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit" "visual-studio-code")
 for cask in $cask_packages; do brew cask install $cask; done
 
 source ~/.nvm/nvm.sh
@@ -143,8 +128,7 @@ defaults write -g KeyRepeat -int 2
 defaults write -g InitialKeyRepeat -int 15
 
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
+#Needs chceker for the fonts
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
 ./install.sh
@@ -153,11 +137,6 @@ cd ..
 rm -rf fonts
 
 
-# I have not built in checks yet.
-brew cask install iterm2
-brew cask install homebrew/cask-versions/sublime-text2
-brew cask install visual-studio-code
-brew cask install shiftit
 
 
 
@@ -171,7 +150,7 @@ brew cask install shiftit
 
 
 ###################################################################################
-# Credit to Michael Cheng for the below script. Copied and changed from original  #
+# THE CHECKER
 ###################################################################################
 
 # https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux

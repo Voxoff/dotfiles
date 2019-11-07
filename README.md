@@ -1,11 +1,28 @@
-Things now done
+Two scripts
 
-should all now be in brew cask in install script
+Install.sh installs a whole bunch of stuff for a new laptop.
 
-Sublime Text II
-Chrome  
-Firefox
-iterm2
-  Restart. Then go Preferences > Profiles > Text > Change Font
-postman
-shiftit - https://github.com/fikovnik/ShiftIt/releases
+Dotfiles installs all the files in the repo to ~/.
+
+Namely
+# Xcode
+# Brew
+# git
+# rvm
+# ruby 2.6.1
+# gems
+# sqlite3
+# postgres
+# chrome
+# slack
+# spotify
+# shiftit
+# powerline
+# zsh
+# firefox
+# vscode
+# sublime
+
+
+Extra stuff
+  System Prefs > General > Default Browser (Firefox)
