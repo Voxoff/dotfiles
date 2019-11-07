@@ -2,9 +2,9 @@ alias lc=’colorls — tree — light’
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export ZSH="/Users/gbennettjones/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="random"
+ZSH_THEME="agnoster"
 echo $RANDOM_THEME
 export DEFAULT_USER="Guy"
 
@@ -84,3 +84,4 @@ if [[ $(uname -n) == *"sohohouse"* ]]; then
   source /Users/guy.bennettjones/.gathering/source-gathering-zsh
 fi
   
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"

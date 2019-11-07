@@ -1,5 +1,12 @@
 
-
+###############################################################
+# Script to install stuff for new laptop.
+# Xcode, Brew, git, rvm, ruby 2.6.1, gems, sqlite3, postgres
+# chrome, slack, spotify, shiftit, powerline, zsh, firefox?
+# vscode, sublime
+#
+#
+###############################################################
 create_variable_and_install() {
   suffix=$1
   declare check_$suffix="[ -f /Applications/$1.app/Contents/MacOS/$1 ]"
@@ -132,8 +139,6 @@ if ! eval $check_postgres; then
   pg_start
 fi
 
-# Optional stuff. I've left it at the defaults acheivable on the UI in settings.
-# Leave this as a comment
 defaults write -g KeyRepeat -int 2
 defaults write -g InitialKeyRepeat -int 15
 
@@ -146,6 +151,24 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+
+# I have not built in checks yet.
+brew cask install iterm2
+brew cask install homebrew/cask-versions/sublime-text2
+brew cask install visual-studio-code
+brew cask install shiftit
+
+
+
+
+
+
+
+
+
+
+
 
 ###################################################################################
 # Credit to Michael Cheng for the below script. Copied and changed from original  #
