@@ -1,694 +1,3 @@
-: 1512226974:0;cd systemextensionsdev
-: 1512226979:0;cd ../native-messaging-hosts
-: 1512227067:0;sudo apt-get install tree
-: 1512227102:0;cd firefox/drehd6qy.default/extensions
-: 1512227153:0;cp momentum@momentumdash.com.xpi ~/Desktop
-: 1512227170:0;mv momentum@momentumdash.com.xpi momentum@momentumdash.com.zip
-: 1512227244:0;rm -rf -- ^Postman
-: 1512227251:0;rm -r -- ^Postman
-: 1512227275:0;rm  -- ^Postman -r
-: 1512227347:0;examine
-: 1512227351:0;stat Postman
-: 1512227414:0;mkdir ~/Installed_Programs
-: 1512227420:0;mv Postman ~/Installed_Programs
-: 1512227468:0;rm -rf ~/Desktop
-: 1512227472:0;cd Do
-: 1512227480:0;mkdir Desktop
-: 1512227514:0;cd ~/.mozilla/firefox/drehd6qy.default/extensions
-: 1512227544:0;cp momentum@momentumdash.com.xpi ~/Desktop/momentum@momentumdash.com.zip
-: 1512227560:0;mkdir ScrewingwithMomentum
-: 1512227615:0;wwman mv
-: 1512227660:0;cd ScrewingwithMomentum
-: 1512227667:0;unzip momentum@momentumdash.com.zip
-: 1512229899:0;cd ../../code
-: 1512229929:0;mkdir EthereumContractScraper
-: 1512229946:0;touch scraper.rb
-: 1512230042:0;gem install open-uri
-: 1512235151:0;sudo apt-get install xserver-xorg-input-synaptics
-: 1512236615:0;touch Ethereumtime.csv
-: 1512236653:0;mv Ethereumtime.csv ethereumTimes.csv
-: 1512237213:0;sudo sh -c "echo 'deb http://download.virtualbox.org/virtualbox/debian '$(lsb_release -cs)' contrib non-free' > /etc/apt/sources.list.d/virtualbox.list" && wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add - && sudo apt-get update && sudo apt-get install virtualbox-5.1
-: 1512237333:0;sudo apt-get install dkms
-: 1512238495:0;xmodmap -pke
-: 1512238514:0;xmodmap -pke > ~/keymaptable
-: 1512239229:0;	xmodmap -pke | grep F10
-: 1512239236:0;	xmodmap -pke | grep F11
-: 1512239278:0;sudo gedit /usr/share/X11/xkb/symbols/pc
-: 1512239303:0;xmodmap -ke | grep F5
-: 1512239309:0;xmodmap -pke | grep F5
-: 1512239337:0;xmodmap -pk | grep F5
-: 1512239346:0;xmodmap -pm | grep F5
-: 1512239349:0;xmodmap -pm
-: 1512239398:0;man sudo
-: 1512239496:0;man xkb
-: 1512239547:0;man xmodmap
-: 1512243370:0;killall pulseaudio; rm -r ~/.config/pulse/* ; rm -r ~/.pulse*
-: 1512253592:0;pulseaudio --kill\
-
-: 1512253604:0;pactl exit
-: 1512253621:0;systemctl --user stop pulseaudio.socket\
-systemctl --user stop pulseaudio.service\
-
-: 1512253680:0;killall indicator-sound-service
-: 1512253705:0;sudo apt-get install indicator-sound-service
-: 1512253729:0;sudo apt-get install indicator-sound
-: 1512253741:0;gsettings set com.canonical.indicator.sound visible true
-: 1512253745:0;sudo apt-get install unity-control-center
-: 1512255000:0;gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-up\
-gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-down\
-gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-mute\
-
-: 1512255125:0;sudo apt-get install xserver-xorg-video-intel\
-
-: 1512255133:0;sudo apt-get install mesa-utils
-: 1512255146:0;sudo add-apt-repository ppa:ubuntu-x-swat/x-updates
-: 1512255151:0;sudo apt-get install xserver-xorg-video-intel
-: 1512255162:0;sudo apt-get install xserver-xorg-lts-precise
-: 1512306236:0;rm White\ on\ Colour-8a90099467f24446816a8b0bba02faa14431ac55f7146d5dfa5968f0b3e86028.png
-: 1512306250:0;rm -rf ngrok-stable-linux-amd64.zip
-: 1512316345:0;sudo apt-get install octave
-: 1512317591:0;sudo octave
-: 1512317667:0;cd code/Voxoff/EthereumContractScraper
-: 1512317691:0;git commit -m "data scraper for ethereum pyramid"
-: 1512318596:0;octave -h
-: 1512318635:0;octave --no-gui code/Voxoff/Machine\ Learning/simpleMatrixStuff.m
-: 1512318682:0;cd .config/octave\
-\
-sudo chown $USER qt-settings\
-
-: 1512320226:0;mv Machine\ Learning machineLearning
-: 1512324053:0;mv machine-learning-ex1.zip ~/code/Voxoff/machineLearning/
-: 1512324056:0;mv machine-learning-ex1.zip ~/code/Voxoff/machineLearning
-: 1512324062:0;sudo mv machine-learning-ex1.zip ~/code/Voxoff/machineLearning
-: 1512329987:0;mkdir week2
-: 1512329995:0;sudo mkdir week2
-: 1512330082:0;unzip machine-learning-ex1.zip -d week2
-: 1512330089:0;sudo unzip machine-learning-ex1.zip -d week2
-: 1512330097:0;cd week2
-: 1512330110:0;mv machine-learning-ex1 ../../machineLearning
-: 1512330115:0;sudo mv machine-learning-ex1 ../../machineLearning
-: 1512330127:0;rm machine-learning-ex1.zip
-: 1512330135:0;rm -rf week2
-: 1512330140:0;rmdir week2
-: 1512330159:0;echo hello
-: 1512330166:0;sudo rmdir week2
-: 1512330176:0;sudo rm -rf machine-learning-ex1.zip
-: 1512330381:0;chown -R
-: 1512330385:0;chown -h
-: 1512330449:0;chown -R machineLearning
-: 1512330522:0;chown -R machineLearning guy
-: 1512330529:0;chown -R guy machineLearning
-: 1512330539:0;sudo chown -R guy machineLearning
-: 1512330551:0;cd machineLearning/machine-learning-ex1
-: 1512413900:0;cd ex1
-: 1512417333:0;sudo apt-get install nscd
-: 1512417343:0;sudo /etc/init.d/nscd restart
-: 1512417365:0;sudo apt-get install resolvconf
-: 1512417377:0;gedit /etc/resolvconf/resolv.conf.d/base
-: 1512417433:0;sudo mv /etc/resolv.conf /etc/resolv.conf.backup
-: 1512417437:0;sudo gedit /etc/resolvconf/resolv.conf.d/base
-: 1512418068:0;ex1
-: 1512425485:0;ps ax | grep dnsmasq
-: 1512425510:0;cd /usr/sbin/
-: 1512425543:0;cd /etc/NetworkManager/dnsmasq.d
-: 1512425637:0;sudo /etc/init.d/nscd reload
-: 1512425746:0;nslookup www.netflix.com
-: 1512425754:0;ping www.google.com
-: 1512425768:0;ping www.netflix.com
-: 1512425785:0;sudo systemd-resolve --flush-caches\
-
-: 1512425793:0;sudo service dns-clean\
-
-: 1512425799:0;cd /etc/dhcp\
-
-: 1512425884:0;cd /etc/resolvconf/resolv.conf.d
-: 1512425920:0;sudo ln -s /run/resolvconf/resolv.conf /etc/resolv.conf\
-sudo resolvconf -u
-: 1512425953:0;sudo /etc/init.d/networking restart
-: 1512426103:0;$ sudo rm -f /etc/resolv.conf
-: 1512426107:0;sudo rm -f /etc/resolv.conf
-: 1512426115:0;sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
-: 1512426143:0;sudo gedit /etc/resolv.conf
-: 1512426195:0;sudo mkdir -p /etc/systemd/resolved.conf.d\
-
-: 1512426203:0;printf "[Resolve]\nDNSSEC=no\n" | sudo tee /etc/systemd/resolved.conf.d/no-dnssec.conf
-: 1512426215:0;sudo systemctl restart systemd-resolved
-: 1512426222:0;systemd-resolve www.google.com
-: 1512426252:0;cd /etc/resolvconf
-: 1512426274:0;sudo gedit resolv.conf
-: 1512426289:0;cd resolvconf
-: 1512426294:0;cd resolv.conf.d
-: 1512426300:0;sudo gedit base
-: 1512426788:0;expressvpn -h
-: 1512426814:0;expressvpn connect uswd
-: 1512427233:0;expressvpn usnj2
-: 1512464268:0;cd machine-learning-ex1/ex1
-: 1512486994:0;cd machine-learning-ex1
-: 1512506326:0;sudo apt-get install vlc
-: 1512506456:0;sudo apt-get pulse
-: 1512506460:0;sudo apt-get install pulse
-: 1512506521:0;gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-up\
-gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-down\
-gsettings reset org.gnome.settings-daemon.plugins.media-keys volume-mute
-: 1512506552:0;sudo apt install --reinstall lightdm
-: 1512506579:0;amixer -D pulse sset Master 5%-
-: 1512506662:0;aplay -l]
-: 1512506664:0;aplay -l
-: 1512506691:0;apt-get update, apt-get upgrade
-: 1512506850:0;sudo alsactl store
-: 1512506857:0;pulseaudio -k; rm -r ~/.config/pulse/*
-: 1512506880:0;sudo apt-get update pulseaudio
-: 1512506888:0;sudo apt-get reinstall pulseaudio
-: 1512506891:0;sudo apt-get install pulseaudio
-: 1512508707:0;parity signer new-token
-: 1512508723:0;parity
-: 1512509941:0;mkdir Websites
-: 1512510175:0;rails new \\
-  --database postgresql \\
-  -m https://raw.githubusercontent.com/lewagon/rails-templates/rails-51/devise.rb \\
-  fork
-: 1512510399:0;cd fork/
-: 1512510452:0;rails generate model coin name:string
-: 1512557433:0;sudo apt install indicator-multiload
-: 1512558272:0;gksudo gedit /etc/default/keyboard
-: 1512558275:0;sudo gedit /etc/default/keyboard
-: 1512558335:0;sudo dpkg-reconfigure keyboard-configuration\
-
-: 1512558695:0;cd .local/share/
-: 1512558700:0;cd applications
-: 1512559516:0;cd icons
-: 1512559519:0;cd hicolor
-: 1512559523:0;cd 1
-: 1512559525:0;cd 16x16
-: 1512559528:0;cd apps
-: 1512559548:0;cd previews
-: 1512559947:0;grep -i -r metamask /
-: 1512559956:0;sudo grep -i -r metamask /
-: 1512562302:0;cat /dev/urandom |tr -dc A-Z9|head -c${1:-81}
-: 1512562347:0;IX9SWOYVAWWWZDLFQUTACLMCZLSF9YKLZ9SVFTG9YLQSSCPKWISBSDWVLXJ9QCCVDVKAVVQMYZXLSXFKY
-: 1512578003:0;sudo mv machine-learning-ex2.zip ../code/Voxoff/machineLearning/
-: 1512578023:0;cd code/Voxoff/machineLearning/machine-learning-ex2
-: 1512578035:0;unzip machine-learning-ex2.zip
-: 1512578050:0;rm -rf machine-learning-ex2.zip
-: 1512578054:0;cd machine-learning-ex2
-: 1512578272:0;cd ex2
-: 1512578437:0;X
-: 1512591680:0;gsettings set org.gnome.desktop.sound event-sounds false
-: 1512591738:0;pulseaudio --start
-: 1512591751:0;man pulseaudio
-: 1512591760:0;pulseaudio --check
-: 1512591763:0;pulseaudio
-: 1512591772:0;pulseaudio -k
-: 1512594842:0;sudo dpkg-reconfigure octave
-: 1512595486:0;curl https://s3-us-west-2.amazonaws.com/brave-apt/keys.asc | sudo apt-key add -\
-echo "deb [arch=amd64] https://s3-us-west-2.amazonaws.com/brave-apt `lsb_release -sc` main" | sudo tee -a /etc/apt/sources.list.d/brave-`lsb_release -sc`.list\
-
-: 1512595503:0;sudo apt update\
-sudo apt install brave
-: 1512595644:0;brave
-: 1512644012:0;clerar
-: 1512644886:0;man setxkbmap
-: 1512672034:0;google-chrome
-: 1512760585:0;nohup octave >/dev/null 2>&1 & disown
-: 1512760598:0;nohup octave 2>&1 >/dev/null & disown
-: 1512760612:0;nohup octave 2&>1 & disown
-: 1512760616:0;nohup octave & disown
-: 1512760619:0;nohup octave disown
-: 1512760626:0;octave disown
-: 1512760632:0;disown octave
-: 1512760646:0;nohup octave
-: 1512772042:0;cd ~/Installed_Programs ; ls
-: 1512772048:0;cd Exodus
-: 1512772054:0;cd Exodus-linux-x64
-: 1512772057:0;./Exodus
-: 1512773528:0;cd ../ExodusEden-linux-x64
-: 1512773532:0;./ExodusEden
-: 1512817222:0;history | grep gb
-: 1512855110:0;cd ../../code/Voxoff/machineLearning/machine-learning-ex3/ex3
-: 1512855131:0;octave --nog-gui
-: 1512857304:0;ffx & disown
-: 1512857830:0;dd
-: 1512857879:0;help d
-: 1512857964:0;ex3
-: 1512942114:0;mv machine-learning-ex4.zip ~/code/Voxoff/machineLearning/
-: 1512942128:0;rm -rf iota-2.5.4.tar.gz machine-learning-ex3.zip Postman-linux-x64-5.3.2.tar.gz
-: 1512942144:0;unzip machine-learning-ex4.zip
-: 1512942154:0;rm -rf machine-learning-ex4.zip
-: 1512942180:0;slls
-: 1512942214:0;mv ~/Downloads/23660251_10159656643025626_1677226454_o.jpg ~/Downloads/23660520_10159659838090626_386261145_o.jpg ~/Downloads/23715310_10159656643165626_22977990_o.jpg ~/Pictures
-: 1512942234:0;rm -rf simpleMatrixStuff.m
-: 1512942237:0;cd machine-learning-ex4
-: 1512942434:0;cd ex4
-: 1512997625:0;cd ../../../kittytest/
-: 1513026286:0;sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
-: 1513026301:0;sudo apt install adobereader-enu
-: 1513031328:0;mkdir JPEG
-: 1513031425:0;convert Bank\ Statement\ \(1\).png Bank_Statement.jpg
-: 1513080867:0;cd ~/code/Voxoff/machineLearning/machine-learning-ex4/ex4
-: 1513081427:0;cd /etc/modprobe.d/
-: 1513081445:0;touch xps13-9360.conf
-: 1513081451:0;sudo touch xps13-9360.conf
-: 1513081461:0;sudo gedit xps13-9360.conf
-: 1513081482:0;update-initramfs -u
-: 1513081487:0;sudo update-initramfs -u
-: 1513081596:0;xinput
-: 1513081616:0;spotify & disown
-: 1513081625:0;cd code/Voxoff/machineLearning/machine-learning-ex4/ex4
-: 1513081868:0;(1x275)
-: 1513109016:0;usb
-: 1513109019:0;devices
-: 1513109590:0;help mount
-: 1513182182:0;cd ../code/Voxoff/machineLearning/machine-learning-ex4/ex4
-: 1513182301:0;mkdir scrapers
-: 1513182313:0;touch arbitrage.rb
-: 1513193137:0;ruby arbitrage.rb
-: 1513247164:0;cd ../../../../Voxoff
-: 1513247706:0;git commit -m "joining"
-: 1513247736:0;git clone https://github.com/dujaje/kitty_extension.git
-: 1513248051:0;mv kitty/kitty_extension ../Voxoff
-: 1513248057:0;rm -rf kitty
-: 1513248062:0;cd kitty_extension
-: 1513248079:0;git co -b "Stripe"
-: 1513248429:0;git commit -m "stripe init"
-: 1513248750:0;git commit -m "controler"
-: 1513248900:0;rails g controller charges new create
-: 1513248912:0;git commit -m "charges controller"
-: 1513249093:0;touch app/views/charges.html.erb
-: 1513249117:0;touch app/views/charges/new.html.erb
-: 1513249127:0;rm -f app/views/charges.html.erb
-: 1513249137:0;touch app/views/charges/create.html.erb
-: 1513249146:0;git commit -m "stripe views"
-: 1513250187:0;git commit -m "stripe forms connected"
-: 1513250558:0;git commit -m "color fix"
-: 1513250697:0;git commit -m "application.yml"
-: 1513250798:0;git reset --soft HEAD~1
-: 1513250851:0;git rm config/application.
-: 1513250854:0;git rm config/application.yaml
-: 1513252656:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://feeb1f34.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513252667:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://feeb1f34.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513254229:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains,payment_settings,target_audience,home_url,account_linking_url,greeting,persistent_menu,get_started&access_token=EAAKziwfhwZC0BAOR9zpFXaUjYJTQ0Np3VVRxK37Snqgyxe3MpjIOLjmMDsZAnSMvLU9LZBeMsOfSnZCgRhzi4fXDI1ssxJjCQsfiel9W4tsLj10ZA81qXJadbxwGJhGFc0FF4gcW4I4U8TGYIRtUWfz7ZCQ3L6lR2ygpW9K2NZABgZDZD"
-: 1513254834:0;ngrok https 3000
-: 1513254870:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["http://c1a4823d.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-\
-
-: 1513254908:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-\
-
-: 1513255406:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255578:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a573e282.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255606:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a573e282.ngrok.io/extensoin"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255617:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a573e282.ngrok.io/extension"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255622:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a573e282.ngrok.io/extension/"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255667:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a91dbaef.ngrok.io/extensoin"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255692:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a0bcee0c.ngrok.io/extensoin"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513255722:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a0bcee0c.ngrok.io/extensoin"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513255746:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a91dbaed.ngrok.io/extensoin"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513255828:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a0bcee0c.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513255866:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://a91dbaef.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513255909:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://feeb1f34.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513255921:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513275393:0;git commit -m "still en route to ngrok permanence"
-: 1513277662:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains&access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513277804:0;[200~curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains,payment_settings,target_audience,home_url,account_linking_url,greeting,persistent_menu,get_started&access_token=EAAKziwfhwZC0BACq9bkcyPMfrd249H3TNapPL8gcDyBqykPixjFZANNR3kWb2ZAdEZBiXyQyogIhsHOqDeMmKw8PyLMXiZAM2phZCczLF4YrT9CSpYcj8JM1zIzaJEA2C8pzX3SfoV5ZA317J3WOfepIZARsmSZB9ZCJ7Lg5MqPIpU9QZDZD"
-: 1513277818:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains,payment_settings,target_audience,home_url,account_linking_url,greeting,persistent_menu,get_started&access_token=EAAKziwfhwZC0BACq9bkcyPMfrd249H3TNapPL8gcDyBqykPixjFZANNR3kWb2ZAdEZBiXyQyogIhsHOqDeMmKw8PyLMXiZAM2phZCczLF4YrT9CSpYcj8JM1zIzaJEA2C8pzX3SfoV5ZA317J3WOfepIZARsmSZB9ZCJ7Lg5MqPIpU9QZDZD"
-: 1513277971:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-\
-
-: 1513278016:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io/welcome"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-\
-
-: 1513278019:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "http://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAFAcrTBWiJLUPks8R1SjHhIpPPaen53Aoq2TNyFtKzEKDhPxgAVQZCLUrIRN2AFv3IZBQjzJwAZCEKR10hZCIQQKZCg1PNoWMPfqhwxWnLWpE6HVLNuZCEGnkZBJfKnQhkdjy6RtNXJGplZBsyIhzOL2U5NRDz0c3QZDZD"\
-
-: 1513278091:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io/welcome/"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-\
-
-: 1513278117:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "http://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513278127:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "http://c1a4823d.ngrok.io/welcome/",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513278185:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "http://c1a4823d.ngrok.io/extension/welcome/",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513280434:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "http://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513280474:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAHQAeah8yC81KVojsb5fJcLSD0g5r9U4COfzR0iExLVOLJ4SZBAV770oTCib9ZBBp3kyX94BkpWSabZByeauAGz5GnRfD1Awt5oZAz1DsYoIcPecIGznqxpe3h5gQzXKEiJMRmJF4YVUaCOMQsuKpeox3fIcZAQZDZD"\
-
-: 1513281843:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://c1a4823d.ngrok.io",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513281889:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513282261:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://c1a4823d.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513282379:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains,payment_settings,target_audience,home_url,account_linking_url,greeting,persistent_menu,get_started&access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513283030:0;git commit -m "what a saga"
-: 1513284502:0;man ssh-add
-: 1513284521:0;ssh-add -l -E md5\
-
-: 1513333210:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://9b69952f.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513333217:0;curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://9b69952f.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513333574:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-;\
-\
-curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["http://c1a4823d.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-;\
-\
-curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io/welcome"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-\
-;\
-curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io/welcome/"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-\
-;\
-curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://c1a4823d.ngrok.io/"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513333581:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains&access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513333621:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=home_url&access_token=EAAKziwfhwZC0BAOXDSIcEtbJFOg4FdjLtTZC2V0CfeAERASWihl771iCkm3smqx90k5zmvZAcM14hwPzfaq1Cl59IaNJsZBPNqN2FLW2fiZBd4dqLOeTkBNMcCoIa3hKBZB2q3LR0DclBGPSB6TbdmOMXFrZAbrX8D9TgpvSsZAjIgZDZD"\
-
-: 1513333721:0;curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://9b69952f.ngrok.io"],\
-  "domain_action_type": "remove"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BANxBczHrKGCuaIUa7IkAORUn9A1atcU8xlgjZAzYLnRnhoVCmzxf22w0BckcWuvML4ywxSwIOgnBh3oAxCvGZBAgG6Nb5lNZCZCL8TqMtybVZC9r7ZB7rFhHPsrlPIUlePUUMSMvuZAk9QV7ZCsuCVVJAu3X4uOs8QZDZD"\
-;\
-# This initiates the home url for Kitty\
-curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://9b69952f.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BANxBczHrKGCuaIUa7IkAORUn9A1atcU8xlgjZAzYLnRnhoVCmzxf22w0BckcWuvML4ywxSwIOgnBh3oAxCvGZBAgG6Nb5lNZCZCL8TqMtybVZC9r7ZB7rFhHPsrlPIUlePUUMSMvuZAk9QV7ZCsuCVVJAu3X4uOs8QZDZD"\
-
-: 1513333739:0;\
-# ADAPT this to whitelist domain. "add" != "remove"\
-curl -X POST -H "Content-Type: application/json" -d '{\
-  "setting_type" : "domain_whitelisting",\
-  "whitelisted_domains" : ["https://9b69952f.ngrok.io"],\
-  "domain_action_type": "add"\
-}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAKziwfhwZC0BANxBczHrKGCuaIUa7IkAORUn9A1atcU8xlgjZAzYLnRnhoVCmzxf22w0BckcWuvML4ywxSwIOgnBh3oAxCvGZBAgG6Nb5lNZCZCL8TqMtybVZC9r7ZB7rFhHPsrlPIUlePUUMSMvuZAk9QV7ZCsuCVVJAu3X4uOs8QZDZD"\
-;\
-# This initiates the home url for Kitty\
-curl -X POST -H "Content-Type: application/json" -d ' {\
-  "home_url" : {\
-     "url": "https://9b69952f.ngrok.io/welcome",\
-     "webview_height_ratio": "tall",\
-     "webview_share_button": "hide",\
-     "in_test":true\
-  }\
-\
-}' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BANxBczHrKGCuaIUa7IkAORUn9A1atcU8xlgjZAzYLnRnhoVCmzxf22w0BckcWuvML4ywxSwIOgnBh3oAxCvGZBAgG6Nb5lNZCZCL8TqMtybVZC9r7ZB7rFhHPsrlPIUlePUUMSMvuZAk9QV7ZCsuCVVJAu3X4uOs8QZDZD"\
-
-: 1513335224:0;git commit -m "form and keys function"
-: 1513338616:0;git commit -m "no form"
-: 1513345269:0;git commit -m "updated controller for multiple transfers"
-: 1513345332:0;gedit ~/.ssh/id_ed25519.pub
-: 1513345470:0;ssh-add -L
-: 1513345478:0;ssh-add -K
-: 1513345483:0;ssh-add -k
-: 1513345675:0;ssh-add ~/.ssh/id_ed24419
-: 1513345755:0;git commit -m "comment tidy"
-: 1513345757:0;git push origin Stripe
-: 1513345809:0;xclip -sel clip < ~/.ssh/id_ed25519.pub
-: 1513345928:0;ssh -T git@github.com\
-
-: 1513345991:0;git config --global credential.helper cache
-: 1513346000:0;git config --global credential.helper 'cache --timeout=3600000000000000'
-: 1513348025:0;cd ../machineLearning/machine-learning-ex4/ex4
-: 1513437691:0;clear#
-: 1513441283:0;expressvpn connect usnj2
-: 1513441569:0;expressvpn ls
-: 1513441599:0;expressvpn se1
-: 1513441604:0;expressvpn connect se1
-: 1513441660:0;expressvpn connect se2
-: 1513441730:0;expressvpn connect no1
-: 1513517886:0;cd ../../Voxoff/machineLearning/machine-learning-ex4/ex4/
-: 1513526028:0;sudo mv machine-learning-ex5.zip ~/code/Voxoff/machineLearning
-: 1513526050:0;rm -rf machine-learning-ex5.zip
-: 1513854208:0;cd dev
-: 1513854662:0;cd /etc/udev/rules.d
-: 1513854675:0;sudo service udev restart
-: 1513855023:0;lspci -v | grep huawei
-: 1513855171:0;sudo apt-get usb-modeswitch
-: 1513855179:0;sudo apt-get install usb-modeswitch
-: 1513855188:0;sudo apt-get install usb-modeswitch-data
-: 1513855197:0;sudo apt-get install wdial
-: 1513855207:0;sudo apt-get install modemmanager
-: 1513855237:0;12d1:14dc
-: 1513855283:0;cat /etc/usb_modeswitch.d/12d1\:14dc | grep MessageContent
-: 1513855523:0;cd /etc/usb_modeswitch.d
-: 1513855723:0;usb-devices
-: 1513855731:0;usb-devices | grep huawei
-: 1513855739:0;lsmod | grep huawei
-: 1513855849:0;dmesg | tail -20
-: 1513855917:0;sudo usb_modeswitch -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000"
-: 1513855992:0;sudo usb_modeswitch -W -v 0x12d1 -p 0x1f01 -M "55534243123456780000000000000a11062000000000000100000000000000" -R
-: 1513856063:0;apt-cache show usb-modeswitch usb-modeswitch-data | grep Version\
-tar -xOf /usr/share/usb_modeswitch/configPack.tar.gz 12d1:14dc\
-grep 12d1.*1f01 /lib/udev/rules.d/40-usb_modeswitch.rules
-: 1513865622:0;spotify
-: 1513866507:0;mkdir grandpa
-: 1513866517:0;cd grandpa
-: 1513866554:0;alias serve='ruby -run -e httpd . -p 8000'
-: 1513866576:0;stt ~/.zsh
-: 1513866662:0;export PATH="./bin:./node_modules/.bin:/home/guy/.rbenv/bin:${PATH}:/usr/local/sbin"\
-
-: 1513866685:0;./.rbenv/bin/rbenv
-: 1513866713:0;eval "$(rbenv int -)"
-: 1513866717:0;eval "$(rbenv init -)"
-: 1513866876:0;rails new \\
-  --database postgresql \\
-  -m https://raw.githubusercontent.com/lewagon/rails-templates/rails-51/minimal.rb \\
-  Colin
-: 1513866959:0;sudo mv granpda colin
-: 1513866965:0;sudo mv grandpa colin
-: 1513866969:0;cd colin
-: 1513866984:0;cd Colin
-: 1513937625:0;cd ../../machineLearning/machine-learning-ex5/ex5
-: 1513938725:0;cd ../../machine-learning-ex3/ex3
-: 1513964580:0;octave & disown
-: 1513966194:0;unzip machine-learning-ex5.zip
-: 1513966198:0;cd machine-learning-ex5
-: 1513966200:0;cd ex5
-: 1513968055:0;mv machine-learning-ex6.zip ~/code/Voxoff/machineLearning/
-: 1513968118:0;sudo mv ~/Downloads/machine-learning-ex6.zip .
-: 1513968123:0;unzip machine-learning-ex6.zip
-: 1513968132:0;rm -rf machine-learning-ex6.zip
-: 1513968136:0;cd machine-learning-ex6/ex6
-: 1513979116:0;cd ~/code/Voxoff/kitty_extension
-: 1514024181:0;cd code/Voxoff/machineLearning/machine-learning-ex6/ex6
-: 1514139623:0;git commit -m "Weeks 1-6 machine learning coursera course"
-: 1514139715:0;git remote add origin https://github.com/Voxoff/MachineLearningCourse.git
-: 1514154482:0;ip -s
-: 1514154512:0;ip monitor -h
-: 1514154527:0;ip monitor
-: 1514154676:0;man man
-: 1514154701:0;man man | grep network
-: 1514154708:0;man man | grep internet
 : 1514155958:0;cd code/Voxoff/machineLearning/
 : 1514156013:0;sudo mv ~/Downloads/machine-learning-ex7.zip .
 : 1514156167:0;unzip machine-learning-ex7.zip
@@ -984,7 +293,6 @@ export DISPLAY=:0
 : 1514987051:0;ls /etc/sudoers
 : 1514987057:0;ls /etc/sudoers.d
 : 1514987061:0;sudo visudo -f /etc/sudoers
-: 1514987097:0;. ~/.zshrc
 : 1514987105:0;xhost si:localuser:root\
 
 : 1514987161:0;cd code/Voxoff/kitty_
@@ -1673,7 +981,6 @@ sudo apt-get install virtualbox-5.2
 : 1516307945:0;sudo apt-get install virtualbox-5.2
 : 1516308386:0;sudo apt-get purge virtualbox
 : 1516308994:0;history | grep distro
-: 1516309010:0;history | grep sudo
 : 1516309024:0;history | grep repair
 : 1516309028:0;history | grep disk
 : 1516309719:0;sudo apt full-upgrade\
@@ -3386,7 +2693,6 @@ git merge master
 : 1522072654:0;heroku git:clone -a kitchup-dummy-production
 : 1522227958:0;git commit -m "cheeky push to master updating bundle for security vulnerabilites"
 : 1522327816:0;mkdir react
-: 1522327986:0;npm install -g create-react-app
 : 1522328007:0;create-react-app airbnb-clone
 : 1522328314:0;touch src/components
 : 1522328331:0;rm src/components
@@ -3849,7 +3155,6 @@ zsh install.sh
 : 1530533255:0;git add . && git commit -m "rails new"
 : 1530533344:0;rails generate controller pages contact
 : 1530533390:0;rails generate controller pages home
-: 1530533394:0;y
 : 1530533406:0;git commit -m "two page site"
 : 1530534053:0;cd ../kiazma
 : 1530535708:0;cd ../../kitchup_old
@@ -3858,7 +3163,6 @@ zsh install.sh
 : 1530542066:0;rm -rf on_2018_06_20_14_13_30
 : 1530542288:0;mv RElapse-Regular.otf ~/code/Voxoff/Websites/kiazma/app/assets/
 : 1530542328:0;mkdir fonts
-: 1530542331:0;cd fonts
 : 1530542351:0;mv RElapse-Regular.otf fonts
 : 1530562050:0;cd ../../../../ruby/metaprogramming
 : 1530562055:0;touch roulette.rb
@@ -4672,7 +3976,6 @@ git config --global --unset user.email\
 : 1533555310:0;yarn global add eslint --dev
 : 1533555388:0;yarn inti
 : 1533555445:0;help node
-: 1533555485:0;history | grep node
 : 1533555529:0;sudo apt-get install nodejs
 : 1533555542:0;sudo apt-get install yarn
 : 1533555605:0;npm -v
@@ -5159,7 +4462,6 @@ Gtk.main()\
 : 1534957982:0;gem install my_gem
 : 1534958200:0;gem install osmaps
 : 1534958369:0;cd ../google-auto
-: 1534958484:0;rails webpacker:install
 : 1534958644:0;gem build osmaps.gemspec
 : 1535018180:0;git clone https://github.com/MarcusRapacioli/AirPaws.git
 : 1535018278:0;cd AirPaws/
@@ -7048,7 +6350,6 @@ end" > hotloader.rb
 : 1540896845:0;tree | grep node_modules
 : 1540896876:0;rm -rf fullstack-challenges-post-bootcamp/
 : 1540896892:0;cd ../dotfiles
-: 1540896893:0;ld
 : 1540896912:0;mv dotfiles lewagon
 : 1540896934:0;cd lewagon/dotfiles
 : 1540899372:0;cd lewagon/fullstack-challenges
@@ -7104,7 +6405,6 @@ end" > hotloader.rb
 : 1541092742:0;cd wakatime-logger-Manual
 : 1541092743:0;python wakatime_logger.py
 : 1541092897:0;stt /usr/local/lib/python2.7/dist-packages/wakadump/ ; stt
-: 1541092980:0;ls ~/Downloads
 : 1541093009:0;ls ~/code/Voxoff/data
 : 1541093017:0;cd ~/code/Voxoff/data
 : 1541093240:0;sudo pip uninstall wakadump
@@ -7316,7 +6616,6 @@ sudo usbmuxd -u -U usbmux\
 : 1542110118:0;cd ./../
 : 1542110121:0;up 2
 : 1542110180:0;stt ~/.aliases
-: 1542110190:0;source ~/.zshrc
 : 1542110194:0;up3
 : 1542110206:0;cd code/Voxoff/javascript
 : 1542110211:0;cd j30/0
@@ -7467,7 +6766,6 @@ sudo usbmuxd -u -U usbmux\
 : 1548863410:0;git clone dotfiles
 : 1548863418:0;git clone https://github.com/Voxoff/dotfiles.git
 : 1548863421:0;cd do
-: 1548863430:0;./install.sh
 : 1548863460:0;mkdir code
 : 1548863482:0;rm -rf fourfive
 : 1548863498:0;git clone https://github.com/Voxoff/fourfive.git --shallow 100
@@ -7902,7 +7200,6 @@ print_table_results () {\
 : 1549745875:0;pgrep 58359
 : 1549745931:0;man ps
 : 1549745951:0;pgrep fourfive
-: 1549745955:0;pgrep 3000
 : 1549745960:0;pgrep -f puma
 : 1549745979:0;ps -c
 : 1549745997:0;pkill -I fsevent_watch
@@ -8026,7 +7323,6 @@ print_table_results () {\
 : 1549754327:0;mcd foo
 : 1549754330:0;rm -rf foo
 : 1549754507:0;trash
-: 1549754678:0;git log -p
 : 1549754753:0;git diff HEAD^
 : 1549754757:0;git diff HEAD~
 : 1549754896:0;ps ax | grep crond
@@ -8112,7 +7408,6 @@ print_table_results () {\
 \
             { s += $1 }\
        END  { print "sum is", s, " average is", s/NR }
-: 1549818099:0;cat .ruby-version
 : 1549818112:0;gem pristine all
 : 1549818160:0;gem pristine bcrypt --version 3.1.12
 : 1549818165:0;gem pristine ffi --version 1.10.0
@@ -8330,7 +7625,6 @@ g
 : 1549976855:0;gem help bundler
 : 1549976951:0;cat Gemfile | grep bund
 : 1549976953:0;cat Gemfile | grep bundle
-: 1549976973:0;cat Gemfile.lock
 : 1549976979:0;cat Gemfile.lock | grep bundle
 : 1549977082:0;bundle _2.0.1_ update --conservative --patch activejob
 : 1549977090:0;bundle update -bundler
@@ -8453,7 +7747,6 @@ g
 : 1550145350:0;rm -rf /Library/Managed Preferences/gbennettjones/com.airwatch.DiskEncryption.plist
 : 1550145358:0;rm -rf /Library/Managed Preferences/com.airwatch.DiskEncryption.plist
 : 1550145407:0;rm -rf /Users/gbennettjones/Downloads/awagentuninstaller.sh
-: 1550150290:0;mdfind mdm
 : 1550150310:0;mdfind mdmclient | xargs sudo rm -rf
 : 1550150314:0;mdfind mdmclient
 : 1550152512:0;mdfind airwatch
@@ -8685,7 +7978,6 @@ g
 : 1550671027:0;rm -rf .hyper.js .swp
 : 1550671055:0;ln -s hyper.js ~/.hyper.js
 : 1550671063:0;ls -al | grep hu
-: 1550671079:0;cd ~/code/dotfiles/
 : 1550671091:0;ln -s ~/code/dotfiles/hyper.js ~/.hyper.js
 : 1550671110:0;ls -al | grep hy
 : 1550741620:0;gitall "hyper comments"
@@ -8722,7 +8014,6 @@ g
 : 1550770304:0;cd ../../../../
 : 1550832471:0;git co -b stock-invoices
 : 1550832489:0;git commit -m "work for invoices"
-: 1550832936:0;git fetch
 : 1550833147:0;history | grep remote heroku
 : 1550833155:0;history | grep -r remote heroku
 : 1550833192:0;history | grep 'remote\|heroku'
@@ -8814,7 +8105,6 @@ g
 : 1551034461:0;cat .zsh_history
 : 1551034487:0;cat .zshrc
 : 1551034492:0;ls -ald .*
-: 1551034499:0;vim .zshrc
 : 1551034720:0;git commit -m "added more history and config"
 : 1551034751:0;hg 
 : 1551034754:0;hg backup
@@ -9092,7 +8382,6 @@ end" >> pryrc
 : 1551556006:0;history | grep ls
 : 1551556051:0;cd Library
 : 1551556063:0;ls -R | grep login
-: 1551556076:0;brew install tree
 : 1551556105:0;ls -R | grep loginwing
 : 1551556118:0;cd Managed\ Preferences
 : 1551556120:0;sudo ls -R | grep loginwindow
@@ -9203,7 +8492,6 @@ end" >> pryrc
 : 1551714730:0;ssh bandit14@bandit.labs.overthewire.org -p 30000
 : 1551715867:0;git clone https://github.com/snb1808/Module-5.git
 : 1551715871:0;cd Module-5
-: 1551715906:0;ruby -v
 : 1551717533:0;ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private
 : 1551717644:0;vim sshkey.private
 : 1551717809:0;ssh bandit15@bandit.labs.overthewire.org -p 2220 -i sshkey.private
@@ -9246,7 +8534,6 @@ Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 : 1551886572:0;npm i 
 : 1551886678:0;cd ../final_project_backend
 : 1551888229:0;cd ../final-project-frontend
-: 1551888240:0;lsof -i :3000
 : 1551888246:0;kill -9 4083
 : 1551888263:0;rails s -b 0.0.0.0 -p 3001
 : 1551963036:0;ssh bandit26@bandit.labs.overthewire.org -p 2220 
@@ -10205,14 +9492,11 @@ check_git_email_config="command -v git >/dev/null 2>&1 && git config --global us
 : 1553277589:0;cd dsc-1-01-05-setting-up-environment-staff
 : 1553277590:0;cat index.ipynb | strings | grep plot
 : 1553278199:0;cd dsc-0-01-23-project-lab-staff
-: 1553278254:0;brew install pip
 : 1553509541:0;git clone https://github.com/sirloinus/module-one-final-project-guidelines-london-web-091718.git
 : 1553509558:0;cd module-one-final-project-guidelines-london-web-091718
 : 1553510948:0;ruby bin/run.rb 
-: 1553513097:0;pip
 : 1553513135:0;easy_install pup
 : 1553513139:0;sudo easy_install pup
-: 1553513157:0;sudo easy_install pip
 : 1553513187:0;sudo pip install requests
 : 1553527375:0;ps aux | grep python
 : 1553527412:0;pgrep python
@@ -10286,7 +9570,6 @@ rake db:migrate
 : 1553786609:0;npx create-react-app book-a-desk
 : 1553786838:0;rm -rf db/migrate/20190328152514_create_bookings.rb
 : 1553786868:0;rm -rf db/migrate/*
-: 1553786882:0;rails db:create
 : 1553786889:0;rails g devise:install
 : 1553787032:0;rm -rf app/models/user.rb app/models/table.rb
 : 1553787037:0;rm -rf app/models/booking.rb
@@ -10344,7 +9627,6 @@ rake db:migrate
 : 1553965332:0;bundle update  omniauth-github
 : 1553965392:0;rm -rf Gemfile
 : 1553965426:0;BUNDLE update
-: 1553965432:0;bundle install
 : 1553966656:0;RAILS_ENV=production bundle exec rails console
 : 1553967947:0;bunlde
 : 1553984742:0;gem open omniauth
@@ -10428,7 +9710,6 @@ rake db:migrate
 : 1554216082:0;npm install node-scss
 : 1554216093:0;npm install node-sass
 : 1554217053:0;git commit -m "added logo buttons packages tables tablelist login form app css calender"
-: 1554217071:0;gem install hub
 : 1554217128:0;git rm credentials.json
 : 1554217135:0;git rm -f credentials.json
 : 1554217218:0;echo "credentials.json" >> .gitignore
@@ -10576,7 +9857,6 @@ print_data_row () {\
 : 1554903620:0;rspec spec/spec_helper.rb
 : 1554904827:0;rm -rf coverage
 : 1554905463:0;rspec spec/*
-: 1554905777:0;cat README.md
 : 1554905931:0;git commit -m "final project"
 : 1554905976:0;hub help
 : 1554906052:0;git add . ; git commit -m "cleo tech test completed"
@@ -10653,7 +9933,6 @@ print_data_row () {\
 : 1554987201:0;rails g resource ingredients 
 : 1554987224:0;rails g resource allergy ingredient:references user:references
 : 1554987246:0;rails g resource recipe_ingredients recipe:references ingredients:references
-: 1554987442:0;rails db:rollback
 : 1554987463:0;rails d resource recipe_ingredients recipe:references ingredients:references
 : 1554987472:0;rails g resource recipe_ingredients recipe:references ingredient:references
 : 1554987505:0;rails g migration AddNameToIngredients name:string
@@ -10715,13 +9994,10 @@ print_data_row () {\
 : 1555241351:0;rvm get stable --auto-dotfilesrvm cleanup all
 : 1555241357:0;rvm cleanup all
 : 1555241368:0;. ~/.rvmrc
-: 1555241385:0;rvm get stable --auto-dotfiles
 : 1555241416:0;rcm
-: 1555241420:0;rvm
 : 1555241431:0;rvm install 2.5.1
 : 1555242131:0;cd engineering-test
 : 1555243260:0;rails db:migrater
-: 1555243291:0;cp .env.example .env
 : 1555243295:0;foreman start
 : 1555321603:0;rm -rf bookadesk
 : 1555321608:0;mkdir book
@@ -10822,7 +10098,6 @@ print_data_row () {\
 : 1555958819:0;git commit -m "binding.pry for better debugging"
 : 1555958826:0;git add requests.js
 : 1555958837:0;git commit -m "copy and paste file for request tests"
-: 1555958849:0;git add README.md
 : 1555958863:0;git commit -m "stripped readme"
 : 1555958884:0;git add db/migrate/20190415181550_create_users.rb
 : 1555958892:0;git add db/schema.rb db/seeds.rb
@@ -10908,7 +10183,6 @@ fi\
 : 1556009492:0;git clone git@github.com:learn-co-curriculum/lectures-starter-code.git
 : 1556009502:0;cd lectures-starter-code
 : 1556009508:0;cd sinatra
-: 1556010159:0;rails db:drop db:create db:migrate
 : 1556010192:0;rake db:drop db:create db:migrate
 : 1556010201:0;rake db:drop db:migrate
 : 1556010262:0;rake db:create --trace
@@ -10988,7 +10262,6 @@ fi\
 : 1556130705:0;cd 01-Ruby/03-Iterators-Blocks
 : 1556130719:0;cd ../02-Flow-Array/Optional-01-Roman-numerals
 : 1556130752:0;git branch -a
-: 1556130785:0;git co master
 : 1556130800:0;git clone git@github.com:Voxoff/fullstack-challenges.git lewagon
 : 1556130814:0;cd lewagon
 : 1556130827:0;cd 01-Ruby/02-Flow-Array/Optional-01-Roman-numerals
@@ -11047,12 +10320,10 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1556311719:0;cd reviews
 : 1556311766:0;rails db:create db:migrate db:seed
 : 1556311829:0;rails console
-: 1556312049:0;pwd
 : 1556314239:0;rails generate uploader image
 : 1556314774:0;rails db:seed
 : 1556358841:0;gitall "cleo rejection"
 : 1556358870:0;history | grep "heroku create"
-: 1556358892:0;fourfive
 : 1556358913:0;git remote add heroku https://github.com/Voxoff/guybennettjones.git
 : 1556358959:0;git remote add heroku https://git.heroku.com/Voxoff/guybennettjones.git
 : 1556358991:0;git remote rm heroku
@@ -11065,7 +10336,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1556359418:0;npm uninstall fullpage.js
 : 1556359427:0;npm uninstall velocity-animate 
 : 1556359435:0;npm uninstall three-bas
-: 1556359440:0;npm i
 : 1556359477:0;gitall "my way of dealing with rejection"
 : 1556359848:0;gitall "wrong choice for sure"
 : 1556360075:0;heroku browse
@@ -11097,7 +10367,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1556378739:0;rails g migration add_workplace_to_reviews workplace
 : 1556378748:0;cat db/migrate/20190427152540_add_workplace_to_reviews.rb
 : 1556378824:0;rails g migration add_relation_to_reviews relation
-: 1556378828:0;rails db:migrate
 : 1556382479:0;gitall "getting ppl to write nice things about me after rejection, didn't even think about that did i"
 : 1556386332:0;gitall "br tags"
 : 1556387289:0;cat reviews.csv | psql `heroku config:get DATABASE_URL` -c "COPY reviews FROM STDIN WITH (FORMAT CSV);
@@ -11165,8 +10434,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1556638357:0;cat credentials.json
 : 1556638475:0;heroku run rails x
 : 1556638677:0;cd ../book_a_desk_api
-: 1556702054:0;cat .env
-: 1556702077:0;vim .env
 : 1556702100:0;code .env
 : 1556712839:0;heroku config:get CLIENT_ID
 : 1556713084:0;git diff 
@@ -11229,9 +10496,7 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1557231620:0;cd ../book_a_desk_api ; code .
 : 1557231647:0;ers
 : 1557231659:0;cd ../book/book-a-desk-gate-keeper
-: 1557231660:0;node index.js
 : 1557231677:0;cd ../book-a-desk
-: 1557231679:0;npm start
 : 1557238286:0;cat service_google.json
 : 1557325552:0;cd ~/code/dotfiles
 : 1557325590:0;git add Gemfile.dev
@@ -11290,7 +10555,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1557491217:0;cd guybennettjones
 : 1557491221:0;rm -rf guybennettjones
 : 1557491223:0;cd rspec
-: 1557491226:0;git init .
 : 1557491241:0;rm -rf rspec
 : 1557491245:0;rm -rf social-auth-example
 : 1557491250:0;rm -rf juby
@@ -11309,11 +10573,9 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1557491766:0;git status
 : 1557491768:0;git diff aliases
 : 1557491774:0;git diff gitconfig
-: 1559939590:0;history
 : 1559939595:0;ls 0ak
 : 1559939616:0;mv ../dotfiles /.
 : 1559939618:0;mv ../dotfiles .
-: 1559939622:0;cd dotfiles
 : 1559939624:0;bash in
 : 1559939629:0;sh install.sh
 : 1559939817:0;vim hyper.js
@@ -11326,8 +10588,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1559940031:0;git clone https://github.com/Voxoff/kitty.git
 : 1559940039:0;git clone https://github.com/Voxoff/v3_kitty.git
 : 1559942509:0;rvm install ruby 2.3.5
-: 1559943028:0;rvm 
-: 1559943035:0;gem install rails
 : 1559943074:0;heroku apps
 : 1559943103:0;heroku logs -a kittyextension
 : 1559943215:0;heroku create:app --region:eu kittyextension
@@ -11336,10 +10596,7 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1559943277:0;heroku apps:create kittyspendingextension --region=eu
 : 1559943285:0;heroku apps:create kittyspending --region=eu
 : 1559943491:0;cat db/seeds.rb
-: 1559943519:0;rvm list
-: 1559943527:0;vim .ruby-version
 : 1559943536:0;vim Ge
-: 1559943542:0;vim Gemfile
 : 1559943556:0;rvm use 2.6.1
 : 1559943564:0;yarn
 : 1559943582:0;history | grep nvm
@@ -11368,7 +10625,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1560008898:0;hyper uninstall hyper-solarized-dark -
 : 1560008914:0;hyper i hyper-snazzy 
 : 1560008951:0;1clecclclear
-: 1560009104:0;bundle update
 : 1560009792:0;bundle exec rails webpacker:binstubs
 : 1560011151:0;touch .rubocop.yml
 : 1560011381:0;vim .rubocop.yml
@@ -11377,7 +10633,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1560013038:0;railss
 : 1560016317:0;git remote rename heroku staging
 : 1560016329:0;heroku git:remote -a kittyextension
-: 1560017540:0;gem install bundler
 : 1560018016:0;git add . ; git commit -m 'from the ashes'
 : 1560018029:0;git config --global user.name
 : 1560018036:0;git config --global user.name "Guy Bennett-Jones"
@@ -11393,7 +10648,6 @@ vm = VendingMachine.new(items: items, change: change)\
 : 1560018186:0;ln -s /Users/gbennettjones/code/dotfiles/vimrc .vimrc
 : 1560019204:0;rc
 : 1560033737:0;cd profile-service
-: 1560033740:0;cat Gemfile
 : 1560033813:0;rails g rspec:install
 : 1560080156:0;curl -X GET "https://graph.facebook.com/v2.6/me/messenger_profile?fields=whitelisted_domains&access_token=EAAdHTu6J8uMBAJATzQaUGcUvOuGQJ94d7nG5wXaIunLDmtdz0nZBWkd7sK8GSsrXnr9IhFDP1eRRjhVV8QCdxFIUWaWBM4wqte2FKzUSoN8tlXqAEk8Su1uIPdJ2G6DL0bYwn5mscLwxqXJegY2ZCpNhsYqxHZB4BIuOuVvAgZDZD"\
 
@@ -11411,9 +10665,7 @@ curl -X POST -H "Content-Type: application/json" -d '{\
   }\
 }' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAKziwfhwZC0BAORsjcMoqIMK3I9zerSfIvNNv8enTABLK6qqJ34BvgN7Yus0R9Y1qROjGj3oxAH3X69HwmsKQJSp4i17pOXSnxOdyW3BuUaZCHNtExhkZC1VBbhjzdDDfj4mZCkWgXmu41BZAJs1HiAcRPCtNZBHYTSzjtYmZCoAZDZD"\
 
-: 1560098526:0;node
 : 1560098849:0;man curl
-: 1560112115:0;raisl c
 : 1560112996:0;bundle exec rake -P
 : 1560113011:0;git add . ; git commit -m '.env and correct replies'
 : 1560113163:0;spec 
@@ -11432,7 +10684,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1560115528:0;heroku run rails c --app kittyspendingextension
 : 1560115579:0;heroku run rails c --app kityextension
 : 1560115584:0;heroku run rails c --app kittyextension
-: 1560117059:0;rails c
 : 1560190677:0;git clone https://github.com/Voxoff/fourfive.git
 : 1560190693:0;cd fourfive
 : 1560193382:0;curl -X POST -H "Content-Type: application/json" -d ' {\
@@ -11458,13 +10709,11 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 
 : 1560285971:0;git add . ; git commit -m 'messy commit'
 : 1560286817:0;git add . ; git commit -m 'headers'
-: 1560288335:0;git stash
 : 1560288351:0;git stash apply
 : 1560288355:0;gitall
 : 1560288365:0;git commit -am 'asdf'
 : 1560288368:0;git push heroku amster
 : 1560634614:0;git clone https://github.com/Voxoff/bank.git
-: 1560634619:0;cd b
 : 1560634631:0;history | grep conda
 : 1560634634:0;conda 
 : 1560634648:0;export PATH=/anaconda3/bin:$PATH
@@ -11536,8 +10785,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1561317380:0;rails 
 : 1561317397:0;2
 : 1561317607:0;heroku logs --tail
-: 1561400059:0;cat .gitignore
-: 1561400068:0;vim .gitignore
 : 1561400147:0;cd ~\
 
 : 1561400151:0;git clone https://github.com/Dan2552/gathering-of-scripts.git .gathering\
@@ -11557,7 +10804,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1561403332:0;cd code/v3_kitty
 : 1561403337:0;heroku run rails c -a kittyextension
 : 1561403691:0;git add . ; git commit -m 'nothing to see here ' ; git push heroku master
-: 1561405556:0;rails s
 : 1561412227:0;curl -X GET "https://graph.facebook.com/v3.3/me/messenger_profile?fields=whitelisted_domains&access_token=EAAKziwfhwZC0BAIZCZCfOVDKJ2kRqjkS7UnoFK7ZAlgg6TUWOPYCKaMmZBF581LevkFSRZCZAVXmEnOtX9spw7DSudtlss3ehVOYEZARLWwS0rd3HCfZC5lBjneZAAf0EzkHkMhc5ZAtmrZA1l7E86WjVywbkfkhEpIF6Q5fxMkuY7OcLAZDZD"\
 
 : 1561412241:0;curl -X GET "https://graph.facebook.com/v3.3/me/messenger_profile?fields=whitelisted_domains&access_token=EAAKziwfhwZC0BAORsjcMoqIMK3I9zerSfIvNNv8enTABLK6qqJ34BvgN7Yus0R9Y1qROjGj3oxAH3X69HwmsKQJSp4i17pOXSnxOdyW3BuUaZCHNtExhkZC1VBbhjzdDDfj4mZCkWgXmu41BZAJs1HiAcRPCtNZBHYTSzjtYmZCoAZDZD"\
@@ -11584,7 +10830,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1562536228:0;. /Users/gbennettjones/.aliases
 : 1562536267:0;history | grep jup
 : 1563027272:0;cd code/bak
-: 1563027275:0;cd code/bank
 : 1563027308:0;git add . ; git commit -m 'banking update, data hidden asap'
 : 1563027327:0;hub brose
 : 1563039394:0;mkdir hack]
@@ -11620,7 +10865,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 
 : 1563312573:0;cd xp
 : 1563312580:0;cmy
-: 1563312585:0;npm install
 : 1563312636:0;npm i jsonwebtoken
 : 1563618258:0;htop
 : 1563635586:0;gobuster http://35.227.24.107/dd8ca204aa/
@@ -11628,7 +10872,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1563636450:0;gobuster -u http://35.227.24.107/dd8ca204aa
 : 1563636459:0;man gobuster
 : 1563636481:0;gobuster dir http://35.227.24.107/dd8ca204aa/
-: 1564170678:0;vim ~/.zshrc
 : 1564170815:0;echo $THEME
 : 1564170868:0;touch zsh_no_themes.md
 : 1564170887:0;print $RANDOM_THEME\
@@ -11669,7 +10912,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 
 : 1564171508:0;ls -al | grep al
 : 1564171535:0;vim .aliases
-: 1564171552:0;cd code/dotfiles
 : 1564171563:0;cat aliases
 : 1564171572:0;ls -al | grep alia
 : 1564171587:0;rm -rf .aliases
@@ -11677,7 +10919,6 @@ curl -X POST -H "Content-Type: application/json" -d '{\
 : 1564171619:0;ls -al | grep alias
 : 1564171622:0;cat .aliases
 : 1564171735:0;mv zsh_no_themes.md no_likey.md
-: 1564171784:0;likey
 : 1564171801:0;cat no_likey.md
 : 1564171803:0;vim no_likey.md
 : 1564174596:0;gem install gist
@@ -11755,7 +10996,6 @@ go get -u github.com/golang/lint/golint
 : 1564351005:0;gobuster dir -u http://35.227.24.107/2e8fa7f1a4/ -w wordlist_without_ext.txt
 : 1564425589:0;gobuster dir -u http://35.227.24.107/ -w wordlist_without_ext.txt
 : 1564923814:0;celar
-: 1564923817:0;cd ~/Downloads
 : 1564923841:0;mv kitty* ~/code/kitty
 : 1564923846:0;mv kitty* ~/code/
 : 1564923854:0;rm -rf ngrok-stable-darwin-amd64.zip
@@ -11769,7 +11009,6 @@ go get -u github.com/golang/lint/golint
 : 1565039656:0;cd tech_tst
 : 1565039678:0;git clone https://github.com/samricotta/reception-scheduler.git
 : 1565039682:0;cd reception-scheduler
-: 1565039683:0;bundle
 : 1565039779:0;ruby test/application_system_test_case.rb
 : 1565039801:0;git diff master HEAD~5
 : 1565039850:0;test
@@ -11777,7 +11016,6 @@ go get -u github.com/golang/lint/golint
 : 1565039888:0;yarn installl
 : 1565039890:0;yarn install
 : 1565039911:0;rails db:create db:migrate
-: 1565039963:0;irb
 : 1565040003:0;bin/rails test test/models/shift_test.rb
 : 1565121889:0;history | grep trace
 : 1565123394:0;uname -m
@@ -11930,7 +11168,6 @@ int main(int argc, char **argv){\
 : 1565810308:0;sh installbuilder.sh
 : 1565810316:0;chmod +x osx-intel
 : 1565810317:0;sudo sh installbuilder.sh
-: 1565810334:0;cd ../
 : 1565810340:0;cd Bug\ Fixed\ \(a.k.a\ Cracked\)
 : 1565810344:0;cat Readme.txt
 : 1565810394:0;ls Bug\ Fixed\ \(a.k.a\ Cracked\)
@@ -11938,11 +11175,8 @@ int main(int argc, char **argv){\
 : 1565810950:0;gdb
 : 1565975222:0;CLEAR
 : 1565975258:0;history | grep zsh
-: 1565975267:0;cat ~/.aliases
-: 1565975269:0;no_likey
 : 1565975279:0;sclear
 : 1565975312:0;mkdir swim_kloob
-: 1565975317:0;npm
 : 1565975323:0;history | grep flask
 : 1565975441:0;touch
 : 1565975443:0;git init
@@ -12091,11 +11325,9 @@ int main(int argc, char **argv){\
 : 1565983165:0;cd digital-house-web
 : 1565983267:0;mv \ 2019-08-02\ at\ 09.28.14.jpeg home.jpeg
 : 1565983289:0;cd ../..///
-: 1565983290:0;ks
 : 1565987916:0;vim static/css/style.css
 : 1565989789:0;echo $RANDOM_THEME
 : 1565989793:0;likey fletcherm
-: 1565989799:0;vim ~/.aliases
 : 1565989844:0;touch likey.md
 : 1565991255:0;git commit -m 'last part of image banner'
 : 1566038743:0;git push heroku masdter
@@ -12119,7 +11351,6 @@ int main(int argc, char **argv){\
 : 1566069276:0;git init . 
 : 1566069279:0;git remote -v
 : 1566069289:0;heroku git:remote -a swim-kloob
-: 1566069293:0;hub create
 : 1566144316:0;nmap http://serpentineswimmingclub.com/
 : 1566158701:0;cd static/images
 : 1566159281:0;cd Dash.app
@@ -12179,7 +11410,6 @@ int main(int argc, char **argv){\
 : 1566587479:0;history | grep lid
 : 1566587509:0;history | grep defaults
 : 1566590119:0;java HelloWorld 
-: 1566590179:0;ping 8.8.8.8
 : 1566590190:0;traceroute google.com
 : 1566590197:0;traceroute www.google.com
 : 1566590199:0;ip 
@@ -12225,11 +11455,8 @@ int main(int argc, char **argv){\
 : 1566592260:0;man ls
 : 1566735396:0;git pull origin Banking.ipynb
 : 1566735400:0;git pull origin mater
-: 1566735434:0;cd bank
-: 1566735437:0;git pull origin master
 : 1566735660:0;/anaconda3/bin/jupyter_mac.command ; exit;
 : 1566833160:0;git diff
-: 1566833167:0;gs
 : 1566833170:0;git stas
 : 1566833180:0;git pull origin master 
 : 1566833199:0;mkdir test
@@ -12237,22 +11464,14 @@ int main(int argc, char **argv){\
 : 1566833203:0;cd test
 : 1566833239:0;git clone git@github.com:Voxoff/swim_kloob.git
 : 1566833263:0;git sttus
-: 1566833269:0;git add . 
 : 1566833276:0;git commit -m 'no prev commits?'
-: 1566833282:0;git push origin master
 : 1566833317:0;hub browse
-: 1566833429:0;subl .
-: 1566833435:0;code .
 : 1566840985:0;git add . ; git commit -m 'styling finishing touches'
 : 1566841043:0;vim Re
-: 1566841047:0;vim README.md
-: 1566842010:0;cd code
 : 1566842012:0;cd swim_kloob
 : 1566842013:0;cd im
 : 1566842014:0;cd static
 : 1566842017:0;cd images
-: 1566842088:0;python
-: 1566842344:0;gst
 : 1566842357:0;git co -b confidential
 : 1566842369:0;git add . ; git commit -m 'owl carousel is lovely not gonna lie'
 : 1566842394:0;flask run
@@ -12260,11 +11479,7 @@ int main(int argc, char **argv){\
 : 1566848138:0;git add . ; git commit -m 'some other touches'
 : 1566848143:0;git push origin confidential 
 : 1566848153:0;git push heroku master:confidential
-: 1567020296:0;cd ..
-: 1567020296:0;s
-: 1567020299:0;cd
 : 1567020316:0;rm -rf Counter-Strike\ Global\ Offensive.app
-: 1567020328:0;clear
 : 1567020342:0;rm -rf ExpressVPN.app
 : 1567020346:0;sudo rm -rf ExpressVPN.app
 : 1567020358:0;mdfind expressvpn
@@ -12278,7 +11493,6 @@ int main(int argc, char **argv){\
 : 1567113566:0;mv 36871 dns_and_bind.pdf
 : 1567113570:0;ls -al | grep pdf
 : 1567113576:0;rm web-hacking-101.pdf
-: 1567113581:0;open .
 : 1567198082:0;/Applications/BitTorrent.app
 : 1567198107:0;open BitTorrent
 : 1567198121:0;/Applications/BitTorrent.app/
@@ -12286,11 +11500,9 @@ int main(int argc, char **argv){\
 : 1567198149:0;open /Applications/BitTorrent.app --args -AppCommandLineArg\
 
 : 1567198194:0;cd Applications
-: 1567198196:0;cd /Applications
 : 1567198254:0;man chgrp
 : 1567198280:0;chgrp wheel BitTorrent.app
 : 1567198285:0;sudo chgrp wheel BitTorrent.app
-: 1567198292:0;ls -al
 : 1567198443:0;cd ~/Library/Preference
 : 1567198465:0;cd   ~/Library/Preferences
 : 1567198490:0;ls | grep torrent
@@ -12325,168 +11537,992 @@ sudo kextcache -i /
 : 1567199012:0;mdfind carbonblack
 : 1567199076:0;ls |grep Cb
 : 1567199078:0;ls |grep Carb
-: 1567199081:0;ls 
 : 1567199103:0;cd /
-: 1567199103:0;ls
-: 1567199107:0;ls -al
-: 1567620920:0;ls
-: 1567620924:0;cd code
 : 1567620930:0;cd b
-: 1567620933:0;no_likey
-: 1567620935:0;clear
-: 1567620935:0;ls
-: 1567620941:0;clear
-: 1567620941:0;ls
 : 1567620942:0;cleara
-: 1567620945:0;cd code
 : 1567620949:0;cd ba
-: 1567620951:0;cd bank
-: 1567620953:0;clear
 : 1567620954:0;likey
-: 1567620956:0;clear
-: 1567620956:0;ls
-: 1567620975:0;cd ..
-: 1567620978:0;ls
 : 1567620988:0;mkdir led_by_donkeys
 : 1567620990:0;cd led_by_donkeys
 : 1567621020:0;mkdir spoof-the-poster
 : 1567621021:0;cd spoof-the-poster
 : 1567621026:0;git init .
-: 1567621027:0;hub create
-: 1567621192:0;ls
 : 1567621201:0;touch spoof.html
 : 1567621260:0;ruby -run -ehttpd . -p8000
-: 1567621301:0;code .
-: 1567621351:0;ls
 : 1567621357:0;cd code/led_by_donkeys/spoof-the-poster
 : 1567621359:0;code .
 : 1567622020:0;cat ../../swim_kloob/templates/home.html
-: 1567669355:0;gst
 : 1567669360:0;git add . 
 : 1567669369:0;git commit -m 'in the rough'
 : 1567669373:0;git push origin spoof.html
-: 1567669377:0;git push origin master
-: 1567789734:0;clear
-: 1567789734:0;ls
-: 1567789745:0;git fetch
-: 1567789747:0;git pull origin test
 : 1567789751:0;git co test
 : 1567789755:0;git pull origin test
-: 1567789761:0;cd
-: 1567789763:0;cd code
 : 1567789766:0;no_likey
-: 1567789767:0;ls
-: 1567789771:0;cd
-: 1567789772:0;cd code
-: 1567789772:0;ls
-: 1567789773:0;cd dotfiles
-: 1567789774:0;ls
-: 1567789782:0;git pull origin master
-: 1567789786:0;gst
-: 1567789793:0;gd
-: 1567789801:0;gs
 : 1567789803:0;git stash
 : 1567790166:0;git add . ; git commit -m 'merged soho and yolo'
-: 1573160477:0;clear
 : 1573160490:0;vim .zshrc
-: 1573160517:0;ls
-: 1573160528:0;cd code
-: 1573160528:0;ls
-: 1573160530:0;cd dotfiles
-: 1573160530:0;ls
-: 1573160533:0;cat README.md
-: 1573160538:0;vim README.md
-: 1573160572:0;gst
-: 1573160581:0;vim README.md
-: 1573160638:0;ls
 : 1573160643:0;cd ~/Downloads
-: 1573160643:0;ls
 : 1573160648:0;unzip ShiftIt-1.6.6.zip
-: 1573160649:0;ls
 : 1573160651:0;cd ShiftIt.app
-: 1573160653:0;ls
-: 1573160662:0;cd ..
 : 1573160671:0;mv ShiftIt.app ~/Applications
-: 1573160671:0;ls
-: 1573160673:0;cd ..
-: 1573160674:0;ls
-: 1573160780:0;cd code/dotfiles
-: 1573160780:0;ls
-: 1573160783:0;vim README.md
-: 1573160803:0;	ls
-: 1573160828:0;vim install.sh
-: 1573160899:0;vim README.md
 : 1573160968:0;bash install.sh
-: 1573161048:0;ls
-: 1573161051:0;cd code
-: 1573161051:0;ls
 : 1573161053:0;git clone https://github.com/powerline/fonts.git --depth=1
 : 1573161057:0;cd fonts
 : 1573161059:0;./install.sh
 : 1573161177:0;cd code/dotfiles/
-: 1573161179:0;vim README.md
 : 1573161217:0;brew cask search sublime
 : 1573161251:0;brew search --casks visual
-: 1573161258:0;brew search --casks sublime
-: 1573161274:0;cd code/dotfiles
-: 1573161279:0;vim install.sh
 : 1573161345:0;brew search --casks postman
 : 1573161371:0;brew search --casks shiftit
-: 1573161386:0;vim README.md
-: 1573161410:0;vim install.sh
-: 1573161550:0;gst
-: 1573161551:0;gd
 : 1573161575:0;git add install.sh zshrc
-: 1573161576:0;gst
 : 1573161579:0;git add README.md
-: 1573161581:0;gst
 : 1573161585:0;rm :Q
-: 1573161586:0;gst
 : 1573161593:0;git commit -m 'update'
-: 1573161595:0;git push origin master
-: 1573161600:0;ls
-: 1573161603:0;vim README.md
-: 1573161626:0;s
 : 1573161630:0;cat ~/.aliases
-: 1573161653:0;s
-: 1573161688:0;ls
-: 1573161692:0;cd ~/Applications
-: 1573161692:0;ls
 : 1573161697:0;cd /Applications
-: 1573161697:0;ls
 : 1573161702:0;rm -rf Sublime\ Text\ 2.app
 : 1573161711:0;brew search --casks sublime
 : 1573161719:0;brew cask install sublime-text
 : 1573161766:0;brew tap caskroom/versions
-: 1573161779:0;cd
-: 1573161781:0;cd code
-: 1573161782:0;ls
-: 1573161784:0;cd dotfiles
 : 1573161785:0;vim install.sh
 : 1573161802:0;subl .
-: 1573161804:0;s
 : 1573162034:0;cask_packages=("spotify" "hyper" "docker" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit")\
 
 : 1573162038:0;for cask in $cask_packages; do brew cask install $cask; done\
 
 : 1573162410:0;cd ~/Applications
-: 1573162410:0;ls
 : 1573162412:0;rm -rf ShiftIt.app
-: 1573162413:0;ls
-: 1573162414:0;cd ..
-: 1573162414:0;ls
-: 1573162817:0;gst
-: 1573162821:0;clear
-: 1573162821:0;ls
-: 1573162922:0;cd code/dotfiles
-: 1573162923:0;vim README.md
-: 1573162954:0;gst
 : 1573162968:0;gx 'update'
 : 1573162974:0;vim ~/.aliases
 : 1573163009:0;vim aliases
-: 1573163219:0;ls
-: 1573163247:0;gst
-: 1573163248:0;gd
-: 1573163259:0;gx 'readmes'
 : 1573163266:0;. ~/.aliases
 : 1573163268:0;gx 'readmes'
+: 1573163279:0;cd
+: 1573163747:0;mdfind wework
+: 1573163855:0;sudo vim /System/Library/LaunchDaemons/com.apple.ManagedClient.enroll.plist
+: 1573163886:0;cat /System/Library/LaunchDaemons/com.apple.ManagedClient.enroll.plist
+: 1573164119:0;cat /System/Library/LaunchAgents/com.apple.ManagedClientAgent.enrollagent.plist
+: 1573164233:0;mdfind mdm
+: 1573164277:0;cat /usr/libexec/mdmclient
+: 1573164289:0;cat /System/Library/LaunchDaemons/com.apple.mdmclient.daemon.runatboot.plist
+: 1573164300:0;mv /System/Library/LaunchDaemons/com.apple.mdmclient.daemon.runatboot.plist /System/Library/LaunchDaemons/com.apple.mdmclient.daemon.runatboot.plist.disabled
+: 1573164303:0;sudo mv /System/Library/LaunchDaemons/com.apple.mdmclient.daemon.runatboot.plist /System/Library/LaunchDaemons/com.apple.mdmclient.daemon.runatboot.plist.disabled
+: 1573296845:0;git clone git@github.com:Voxoff/pledge.git
+: 1573297032:0;sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.DiagnosticReportCleanUp.plist
+: 1573302015:0;gem install rails
+: 1573302072:0;rails new example
+: 1573305204:0;cd example
+: 1573305224:0;rails g scaffold posts
+: 1573305316:0;cd client
+: 1573305390:0;cp  .env.example .env
+: 1573305716:0;create-react-app sample
+: 1573305724:0;npm install -g create-react-app
+: 1573305740:0;cat dotfiles/install.sh|grep node
+: 1573305801:0;wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+: 1573305805:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+: 1573305817:0;export NVM_DIR="$HOME/.nvm"\
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm\
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+: 1573305825:0;nvm install node
+: 1573305843:0;cd dotfiles
+: 1573306061:0;echo "export NVM_DIR='$HOME/.nvm' " >> ~/.zshrc
+: 1573306086:0;cat code/dotfiles/install.sh| grep npm
+: 1573309646:0;npm
+: 1573309649:0;npm npm install -g create-react-app@3.0.1\
+
+: 1573309651:0;npm install -g create-react-app@3.0.1\
+
+: 1573309999:0;echo "# base image\
+FROM node:12.2.0-alpine\
+\
+# set working directory\
+WORKDIR /app\
+\
+# add `/app/node_modules/.bin` to $PATH\
+ENV PATH /app/node_modules/.bin:$PATH\
+\
+# install and cache app dependencies\
+COPY package.json /app/package.json\
+RUN npm install --silent\
+RUN npm install react-scripts@3.0.1 -g --silent\
+\
+# start app\
+CMD ["npm", "start"]\
+" >> Dockerfile
+: 1573309999:0;touch .dockerignore
+: 1573309999:0;echo "node_modules" >> .dockerignore
+: 1573310094:0;docker build -t sample:dev
+: 1573310986:0;python
+: 1573310990:0;pip
+: 1573310999:0;brew install pip
+: 1573311113:0;docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev\
+
+: 1573311224:0;docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev
+: 1573311235:0;docker run 
+: 1573311591:0;vim .gitignore
+: 1573311653:0;gx 'killing the fluff'
+: 1573312107:0;brew install bear
+: 1573312133:0;cd code
+: 1573312133:0;ld
+: 1573312148:0;cd ../sample
+: 1573312157:0;docker build -t sample:dev1 .
+: 1573312165:0;docker run sample:dev1
+: 1573312216:0;docker images rm sample
+: 1573312232:0;docker images rm feb3836b426c
+: 1573312242:0;docker containers
+: 1573312279:0;docker container stop 10b64e1d9cda
+: 1573312282:0;docker container rm 10b64e1d9cda
+: 1573312330:0;docker image rm feb3836b426c
+: 1573312341:0;docker rm eb76a96cd85b
+: 1573312346:0;docker imagerm eb76a96cd85b
+: 1573312357:0;docker image rm 8da8da4043bb
+: 1573312361:0;docker image rm 52e8baf11a22
+: 1573312366:0;docker image rm 750345462c7c
+: 1573312369:0;docker image rm 66110551232e
+: 1573312395:0;docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+: 1573312401:0;$(docker images --filter "dangling=true" -q --no-trunc)
+: 1573312409:0;docker images --filter "dangling=true" -q --no-trunc
+: 1573312422:0;docker images --filter dangling=true -q --no-trunc
+: 1573312435:0;docker rmi 8da8da4043bb
+: 1573312457:0;docker inspect --format='{{.Id}} {{.Parent}}' \\
+    $(docker images --filter since=f50f9524513f --quiet)\
+
+: 1573312474:0;docker images -q
+: 1573312481:0;for i in $(docker images -q)\
+do\
+    docker history $i | grep -q f50f9524513f && echo $i\
+done | sort -u\
+
+: 1573312484:0;docker images
+: 1573312566:0;$(docker images --filter since=eb76a96cd85b -q)
+: 1573312569:0;docker images --filter since=eb76a96cd85b -q
+: 1573312576:0;docker images rm ad31c2e59910
+: 1573312580:0;docker image rm ad31c2e59910
+: 1573312589:0;docker image rm eb76a96cd85b
+: 1573312592:0;docker images -a
+: 1573312624:0;docker image ls -a
+: 1573312797:0;brew cask install bear
+: 1573312849:0;docker images ls
+: 1573312880:0;docker image rm 85761541eeac
+: 1573313205:0;nvm
+: 1573313211:0;tail ~/.zshrc
+: 1573313238:0;vim ~/.zshrc
+: 1573313253:0;. ~/.zshrc
+: 1573314218:0;docker run sample:dev 
+: 1573314281:0;react-scripts start
+: 1573314342:0;docker build --help
+: 1573314700:0;docker build -t sample:dev . ; docker run sample:dev
+: 1573314761:0;cd ../example
+: 1573314767:0;rm -rf sample
+: 1573314775:0;rm -rf example
+: 1573314781:0;create-react-app sample\
+
+: 1573314836:0;cd sample
+: 1573315276:0;pgrep 3000
+: 1573315289:0;kill -9 17387
+: 1573315290:0;lsof -i :3000
+: 1573315310:0;docker run --help
+: 1573315336:0;cat src/App.js
+: 1573315392:0;ping http://localhost:3000/
+: 1573315398:0;ping http://172.17.0.2:3000/
+: 1573315426:0;docker run sample:dev -p 3001:3000
+: 1573315450:0;docker run -p 3001:3000 sample:dev
+: 1573315522:0;rm /Applications/Little\ Snitch\ Configuration.app
+: 1573315525:0;rm -rf  /Applications/Little\ Snitch\ Configuration.app
+: 1573315527:0;sudo rm -rf  /Applications/Little\ Snitch\ Configuration.app
+: 1573315594:0;pgrep little
+: 1573315788:0;docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 sample:dev
+: 1573315929:0;docker run -v ${PWD}:/app -v /app/node_modules -p 3000:3000 sample:dev
+: 1573315955:0;docker run -p 3000:3000 sample:dev
+: 1573315971:0;docker run sample:dev
+: 1573316147:0;docker build -t sample:dev .
+: 1573316279:0;docker run -it -p 3000:3000 sample:dev
+: 1573316338:0;mv sample react-with-docker
+: 1573316341:0;cd react-with-docker
+: 1573316377:0;cd ../react-with-docker
+: 1573316386:0;vim docker-compose.yml
+: 1573316556:0;docker-compose up -d --build\
+
+: 1573316582:0;man docker-compose up
+: 1573316584:0;man docker-compose 
+: 1573316698:0;docker-compose stop\
+
+: 1573316995:0;cd .. 
+: 1573317004:0;docker run -it --rm \\
+  -v "$PWD":/usr/src/app -w /usr/src/app rails:4 rails new --skip-bundle dummy
+: 1573317020:0;docker run -it --rm \\
+  -v "$PWD":/usr/src/app -w /usr/src/app rails:5 rails new --skip-bundle dummy
+: 1573317028:0;docker run -it --rm \\
+  -v "$PWD":/usr/src/app -w /usr/src/app  rails new --skip-bundle dummy
+: 1573325004:0;git clone https://github.com/iridakos/rails-chat-tutorial
+: 1573325007:0;cd rails-chat-tutorial
+: 1573325287:0;fourfive
+: 1573325415:0;rails db:create
+: 1573325443:0;gx 'working pre docker'
+: 1573325448:0;touch Dockerfile
+: 1573325606:0;docker image list\
+
+: 1573325690:0;docker run -i -t rails-chat-tutorial
+: 1573325792:0;docker run -t rails-chat-tutorial
+: 1573325999:0;gem uninstall bundler
+: 1573326011:0;rvm get stable --auto-dotfiles
+: 1573326022:0;rvm
+: 1573326052:0;vim Gemfile
+: 1573326086:0;rvm install 2.6.5
+: 1573326738:0;rvm 
+: 1573326740:0;rvm list
+: 1573326748:0;rvm use 2.6.5
+: 1573326810:0;gem install bundler
+: 1573326818:0;gem update bundler 
+: 1573326836:0;vim .ruby-version
+: 1573326842:0;ls .ruby-gemset
+: 1573326845:0;cat .ruby-gemset
+: 1573326855:0;rm -rf .ruby-gemset
+: 1573326873:0;head Gemfile
+: 1573326877:0;ruby -v
+: 1573329479:0;bundle install -h
+: 1573330341:0;cat dotfiles.sh
+: 1573330361:0;vim dotfiles.sh
+: 1573330435:0;if [ -z 'asdf' ] ; then echo 'asdf'; fi
+: 1573330440:0;if [ -z '' ] ; then echo 'asdf'; fi
+: 1573330478:0;bash dotfiles.sh
+: 1573330504:0;bash dotfiles.sh arg asdf
+: 1573330510:0;bash dotfiles.sh arg
+: 1573330864:0;cat Gemfile
+: 1573330868:0;cat Gemfile | grep listen
+: 1573390524:0;make start
+: 1573396698:0;git pull origin mastere
+: 1573396786:0;ls\
+
+: 1573397628:0;make stop
+: 1573397656:0;docker run -it rails-chat-tutorial
+: 1573398008:0;rails new netwerk
+: 1573398050:0;cd netwerk
+: 1573398056:0;rails g scaffold person first_name last_name 
+: 1573398078:0;rails g scaffold business 
+: 1573398086:0;rails d scaffold business
+: 1573398150:0;vim Dockerfile
+: 1573398682:0;docker run -t -p 3000:3000 rails-chat-tutorial
+: 1573400396:0;dockerps
+: 1573400580:0;docker container rm cdb0f9cdef5f
+: 1573400585:0;docker container stop cdb0f9cdef5f
+: 1573400602:0;docker container stop a6a0cffa68e2 44363081451d 2c81b1bc7468 a793dcb3ad46 98ec84a2a482
+: 1573400620:0;docker image rm  b45a90887d4b
+: 1573400636:0;docker container prune
+: 1573400643:0;docker image
+: 1573400647:0;docker image prune
+: 1573400676:0;docker container ls -a
+: 1573405024:0;brew search --casks shazam
+: 1573406195:0;xlear
+: 1573406230:0;cd code/rails-chat-tutorial
+: 1573406277:0;docker image ls\
+
+: 1573406470:0;docker run --name rails-chat-tutorial-pg -p 5432:5432 -d postgres
+: 1573406526:0;cat Dockerfile
+: 1573406533:0;cat config/database.yml
+: 1573406563:0;docker ps
+: 1573406610:0;docker container stop bb85d1d9784f
+: 1573406622:0;docker run -it -p 3000:3000 rails-chat-tutorial
+: 1573406669:0;docker exec -it bb85d1d9784f bash
+: 1573406687:0;docker exec -it 424a36012d52 bash
+: 1573406854:0;docker container stop 9b75845d0be9
+: 1573406883:0;docker container rm 9b75845d0be98e9f828f471e991db43f21498ea8f33f6c39a42723452e243c7f
+: 1573406901:0;cd ../rails-chat-tutorial
+: 1573406969:0;docker containerls
+: 1573406975:0;docker container stop 042d73ab8719
+: 1573406979:0;docker container rm 042d73ab8719
+: 1573407822:0;docker run --name rails-chat-tutorial-pg\
+            -e POSTGRES_USER=postgres\
+            -e POSTGRES_PASSWORD=postgres\
+            -p 5432:5432\
+            -d postgres
+: 1573407828:0;docker run --name rails-chat-tutorial-pg \\
+            -e POSTGRES_USER=postgres \\
+            -e POSTGRES_PASSWORD=postgres \\
+            -p 5432:5432 \\
+            -d postgres
+: 1573407917:0;docker run --name rails-chat-tutorial-web   -e DATABASE_HOST=172.17.0.1 -e DATABASE_PORT=5432  -e DATABASE_USERNAME=postgres \\
+            -e DATABASE_PASSWORD=postgres \ -p 3000:3000 \\
+            rails-chat-tutorial
+: 1573407947:0;docker run --name rails-chat-tutorial-web   -e DATABASE_HOST=172.17.0.1 -e DATABASE_PORT=5432  -e DATABASE_USERNAME=postgres \\
+            -e DATABASE_PASSWORD=postgres -p 3000:3000 rails-chat-tutorial
+: 1573408004:0;docker exec -it rails-chat-tutorial  bash
+: 1573408023:0;docker exec -it rails-chat-tutorial-web  bash
+: 1573550216:0;git add . ; git commit -m 'docker without composer'
+: 1573550233:0;touch .docker-compose.yml
+: 1573550550:0;chmod a+x .docker-compose.yml
+: 1573550569:0;mv .docker-compose.yml docker-compose.yml
+: 1573550803:0;rm-rf.doc
+: 1573552244:0;docker volume create --name rails-chat-tutorial-postgres
+: 1573552647:0;ls .en
+: 1573552660:0;vim .env
+: 1573552836:0;mv /System/Library/LaunchAgents/com.apple.ManagedClientAgent.enrollagent.plist .
+: 1573552851:0;mkdir /System/Library/LaunchAgentsDisabled
+: 1573552855:0;sudo mkdir /System/Library/LaunchAgentsDisabled
+: 1573552871:0;mv /System/Library/LaunchAgents/com.apple.ManagedClientAgent.enrollagent.plist /System/Library/LaunchAgentsDisabled/
+: 1573552874:0;sudo mv /System/Library/LaunchAgents/com.apple.ManagedClientAgent.enrollagent.plist /System/Library/LaunchAgentsDisabled/
+: 1573552884:0;mkdir /System/Library/LaunchDaemonsDisabled
+: 1573552886:0;sudo mkdir /System/Library/LaunchDaemonsDisabled
+: 1573552907:0;sudo mv /System/Library/LaunchDaemons/com.apple.ManagedClient.enroll.plist /System/Library/LaunchDaemonsDisabled/
+: 1573552976:0;launchctl list | grep enroll
+: 1573552986:0;mdfind enrollagent
+: 1573553820:0;docker run -it -p 3000:3000 -e DATABASE_HOST=postgres rails-chat-tutorial_web:latest
+: 1573554248:0;cat Gemfile.lock
+: 1573554456:0;bundle install
+: 1573554459:0;bundle install --deployment
+: 1573555361:0;docker run -it -p 3000:3000 rails-chat-tutorial_web:latest
+: 1573555397:0;docker container stop postgres
+: 1573555402:0;docker container stop 4bf63fa6d225
+: 1573555719:0;docker-composeup
+: 1573555816:0;docker-composeb uild
+: 1573556480:0;docker volume rm pledge_pg_development_data
+: 1573556486:0;docker volume rm pledge_pg_sandbox_data
+: 1573556491:0;docker volume rm rails-chat-tutorial-postgres
+: 1573556756:0;	docker-compose run --rm web rails db:create
+: 1573556916:0;touch docker-entrypoint.sh
+: 1573556969:0;chmod +x docker-entrypoint.sh
+: 1573557122:0;docker volume ls
+: 1573557163:0;docker-compose -h
+: 1573557184:0;docker-compose up -h
+: 1573557200:0;docker-compose up --force-recreate
+: 1573557252:0;docker exec -it rails-chat-tutorial_db_1 psql
+: 1573557339:0;docker-compose run web /bin/bash
+: 1573557554:0;cat README.md
+: 1573557593:0;docker-compose run web rake db:create db:migrate
+: 1573589940:0;h | grep db:cerate
+: 1573589942:0;h | grep db:crate
+: 1573589944:0;h | grep db:create
+: 1573589970:0;docker-compose run web rake db:migrate
+: 1573590059:0;vim docker-entrypoint.sh
+: 1573590109:0;docker-compose donw
+: 1573590212:0;docker-compose run web rake db:drop
+: 1573590298:0;docker build . -t rails-chat-tutorial\
+
+: 1573590476:0;cat docker-compose.yml
+: 1573590553:0;docker-compose run rails db:create
+: 1573590566:0;docker-compose run web rails db:create
+: 1573590642:0;vim README.md
+: 1573590786:0;docker-compose run web db:drop
+: 1573590800:0;docker-compose run web rails db:drop
+: 1573590909:0;echo "VAR=hey" >> .env
+: 1573590910:0;cat .env
+: 1573590990:0;docker-compose config
+: 1573591348:0;cat Makefile
+: 1573591373:0;cat wait-for-client.sh
+: 1573915230:0;git clone git@github.com:Voxoff/bank.git
+: 1573915289:0;python3 
+: 1573915303:0;easy_insstall pip
+: 1573915306:0;easy_install pip
+: 1573915310:0;sudo easy_install pip
+: 1573915362:0;pip3 install --upgrade pip
+: 1573915367:0;pip3 install jupyter
+: 1573915433:0;open .
+: 1573915438:0;jupyter
+: 1573915440:0;jupyter .
+: 1573915448:0;jupyter index.ipynb
+: 1573915535:0;pip3 install pandas
+: 1573915591:0;pip3 install matplotlib numpy requests pytz
+: 1573915603:0;pip3 install  numpy requests pytz
+: 1573915650:0;pip3 install datetime
+: 1573915658:0;pip3 install dateutil
+: 1573917977:0;cd ../bank
+: 1573917978:0;gs
+: 1574001468:0;brew search hex
+: 1574012671:0;brew search hexchat
+: 1574012678:0;brew cask install hexchat
+: 1574106524:0;history
+: 1574106532:0;history | grep sudo
+: 1574106549:0;tree /System/Library/LaunchAgentsDisabled/
+: 1574106553:0;brew install tree
+: 1574161436:0;cd ../pledge
+: 1574161492:0;node
+: 1574161597:0;node --version
+: 1574161828:0;mkdir node_example
+: 1574161829:0;cd node_example
+: 1574161835:0;npm install 
+: 1574161844:0;cat package-lock.json
+: 1574165988:0;cd ../pledge/server
+: 1574165998:0;npm i
+: 1574166186:0;node index.js
+: 1574166223:0;cp ../.env .env
+: 1574166409:0;docker-compose up
+: 1574166456:0;kill -9 710
+: 1574166475:0;docker
+: 1574166477:0;docker ls
+: 1574166483:0;docker stop d05d603fc439
+: 1574166511:0;docker stop a312c7d02290
+: 1574166528:0;history | grep services
+: 1574166536:0;history | grep postgres
+: 1574166609:0;docker-compose down
+: 1574166612:0;docker image ls
+: 1574166617:0;docker container ls
+: 1574166620:0;docker-compose ls
+: 1574166625:0;docker-compose images ls
+: 1574166630:0;docker-compose images
+: 1574166657:0;kill -9 32272
+: 1574166658:0;lsof -i :5432
+: 1574166667:0;docker-compose build
+: 1574166943:0;cd node
+: 1574166945:0;cd server
+: 1574166948:0;npm install
+: 1574166958:0;npm start
+: 1574626891:0;brew search youtube
+: 1574627156:0;brew cask install youtube-to-mp3
+: 1574766176:0;rm -rf pledge
+: 1574766217:0;rails new --database postgresql --webpack pledge 
+: 1574766260:0;rails new \\
+  --database postgresql \\
+  --webpack \\
+  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \\
+  pledge
+: 1574766308:0;rails db:create db:migrate 
+: 1574766346:0;rail g controller carbon
+: 1574766364:0;rails d controller carbon
+: 1574766381:0;rails g controller carbon
+: 1574767281:0;start = "CGK"
+: 1574768758:0;brew install yarn
+: 1574768787:0;rails webpacker:install
+: 1574768896:0;y
+: 1574768953:0;history | grep "curl -X POST"
+: 1574769052:0;curl -X POST "http://localhost:3000/calculate" -d '{"type_of_flight":"flight", "start_point":"LHR", "end_point":"JFK"}'
+: 1574769929:0;yarn add popper.js jquery bootstrap
+: 1574769934:0;cd ple
+: 1574770400:0;cat ~/code/dotfiles
+: 1574770409:0;cat ~/code/dotfiles/Package\ Control.sublime-settings
+: 1574770443:0;cat ~/code/dotfiles/install.sh | grep sublime
+: 1574770529:0;cd ~/.config/sublime-text-3/Packages/User
+: 1574770557:0;curl -k https://sublime.wbond.net/Package%20Control.sublime-package > $SUBL_PATH/Installed\ Packages/Package\ Control.sublime-package
+: 1574770564:0;cat $SUBL_PATH/Installed\ Packages/Package\ Control.sublime-package
+: 1574770677:0;ks
+: 1574770687:0;pwd
+: 1574770714:0;cd ../Library/Application\ Support/Sublime\ Text\ 3
+: 1574770718:0;cat ~/code/dotfiles/dotfiles.sh | grep sublime
+: 1574770735:0;cd Packages/User/
+: 1574770763:0;mv Package\ Control.sublime-settings Package\ Control.sublime-settings.backup
+: 1574770799:0;mv /Users/guy/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings .
+: 1574770804:0;cat Package\ Control.sublime-settings
+: 1574771189:0;cd ~/code/dotfiles/
+: 1574771191:0;cat Preferences.sublime-settings
+: 1574771220:0;cd /Users/guy/Library/Application\ Support/Sublime\ Text\ 3
+: 1574771224:0;cat Packages
+: 1574771228:0;cd Packages
+: 1574771240:0;cd User
+: 1574771268:0;cd code/pledge
+: 1574778576:0;git add . ; git commit -m 'first commit'
+: 1574778594:0;gem install hub
+: 1574778601:0;hub create
+: 1574779604:0;mv ~/Downloads/Group\ 10.png app/assets/images/mobile_image.png
+: 1574779639:0;cd code/dotfiles
+: 1574780388:0;history | grep visual
+: 1574780735:0;cat .r
+: 1574780739:0;cd ~/code/pledge
+: 1574780741:0;ls -al
+: 1574780743:0;cat .ruby-version
+: 1574780763:0;cat .gitignore
+: 1574780780:0;git add . ; git commit -m 'wip;\
+'
+: 1574781417:0;mv ~/Downloads/Group\ 6.png app/assets/images/banner_image.png
+: 1574784342:0;history | grep node
+: 1574785262:0;gx 'home styling'
+: 1574785272:0;bundle update
+: 1574785455:0;gx 'hack\
+: 1574785459:0;gx 'hack'
+: 1574794618:0;git co .
+: 1574794621:0;git fetch
+: 1574794630:0;git co logo-updates 
+: 1574794697:0;git co master
+: 1574794815:0;git log -p
+: 1574798390:0;git co -b 'footer and more'
+: 1574798405:0;gx 'footer and home styling'
+: 1575240495:0;cd ..
+: 1575240500:0;mkdir advent
+: 1575240502:0;cd advent
+: 1575240508:0;mv ~/Downloads/input
+: 1575240511:0;mv ~/Downloads/input input.tt
+: 1575240515:0;mv input.tt input.txt
+: 1575385443:0;cd ../
+: 1575385446:0;cd plee
+: 1575385448:0;cd pledge
+: 1575385451:0;git pull origin master
+: 1575385888:0;rails g model train 
+: 1575385891:0;rails g model car
+: 1575386412:0;irb
+: 1575386433:0;rails g model flight
+: 1575386469:0;rails g model flight start_point final_point class 
+: 1575386503:0;rails db:rollback
+: 1575386511:0;rails db:rollback 
+: 1575386587:0;raisl c
+: 1575386692:0;bundle
+: 1575386809:0;rails d model flight
+: 1575386825:0;rails g model flight start_point final_point travel_class
+: 1575386876:0;rails db:drop db:create db:migrate
+: 1575386910:0;rails c
+: 1575387249:0;rails db:drop db:create db:migrate c
+: 1575387442:0;rails db:drop db:create db:migrate 
+: 1575387459:0;rails s
+: 1575388040:0;ls ~/Downloads
+: 1575390035:0;git add . ; git commit -m 'organised calculator'
+: 1575391016:0;rails g model taxi start_point end_point distance passengers carbon_estimate
+: 1575391019:0;rails db:migrate
+: 1575391280:0;git add . ; git commit -m 'added taxi and emmission factors'
+: 1575391284:0;git push origin master
+: 1575836784:0;cd bank
+: 1575837579:0;s
+: 1575837635:0;mv ~/Downloads/Statement\ Download\ 2019-Dec-08\ 20-34-54.csv nationwide_new.csv
+: 1576696905:0;source ~/.zshrc
+: 1576697000:0;clear
+: 1576697010:0;code
+: 1576697012:0;bank
+: 1576697013:0;ls
+: 1576697016:0;jupyter notebook
+: 1576697129:0;ping 8.8.8.8
+: 1576697136:0;curl "https://outlook.live.com/mail/inbox/id/\?nlp\=1"
+: 1576699476:0;cd code/bank
+: 1576699477:0;gst
+: 1576699477:0;gd
+: 1576699496:0;gx 'up to date'
+: 1576935001:0;clear
+: 1576935006:0;cd Downloads
+: 1576935073:0;cp -r Full\ Metal\ Jacket\ \(1987\) /Volumes/SEAGATE\ EXP/films
+: 1576935110:0;cp -r It\'s\ a\ Wonderful\ Life\ \(1946\) /Volumes/SEAGATE\ EXP/films
+: 1576935126:0;cp -r Independence\ Day\ \(1996\)\ 720p.BRRip.x264.YIFY.mkv /Volumes/SEAGATE\ EXP/films
+: 1576935141:0;cp -r Little\ Women.2018.HDRip.XviD.AC3-EVO /Volumes/SEAGATE\ EXP/films
+: 1576935161:0;ls
+: 1577131770:0;ffmpeg  -i Downloads/FILMS/Zoolander.2.2016.HDRip.XViD-ETRG/Zoolander.2.2016.HDRip.XViD-ETRG.avi -r 0.0033 -vf scale=-1:120 -vcodec png capture-%002d.png
+: 1577131779:0;brew install ffmpeg
+: 1577132385:0;cd ~/Downloads
+: 1577132385:0;ls
+: 1577132388:0;cd FILMS
+: 1577132389:0;ls
+: 1577132444:0;tree | grep easy
+: 1577389759:0;ifconfig
+: 1577389781:0;ifconfig | grep .
+: 1577389784:0;ifconfig | grep \.
+: 1577389801:0;wlan
+: 1577390339:0;ping 192.168.1.83
+: 1577456529:0;cd code
+: 1577456530:0;ls
+: 1577456532:0;git clone https://github.com/sqlitebrowser/sqlitebrowser.git
+: 1577456569:0;cd sqlitebrowser
+: 1577456574:0;ls
+: 1577456596:0;cat README.md
+: 1577456617:0;brew cask install db-browser-for-sqlite\
+
+: 1577456655:0;ls
+: 1577457309:0;mdfind kindle_wrods
+: 1577457311:0;mdfind kindle_words
+: 1577457321:0;cd ~/Downloads
+: 1577457321:0;ls
+: 1577457459:0;cd ~/Applications
+: 1577457459:0;ls
+: 1577457461:0;ls -al
+: 1577457463:0;cd /Applications
+: 1577457463:0;ls
+: 1577457472:0;mdfind excel
+: 1577457480:0;ls
+: 1577457487:0;rm -rf Microsoft\ Excel.app
+: 1577457492:0;sudo rm -rf Microsoft\ Excel.app
+: 1577457498:0;clear
+: 1577457678:0;cd ~/Downloads
+: 1577457679:0;s
+: 1577457743:0;ls
+: 1577457746:0;cd ~/Downloads
+: 1577457746:0;ls
+: 1577457747:0;s
+: 1577559313:0;pip3 install spotdl
+: 1577559361:0;cd ..
+: 1577559361:0;ls
+: 1577559363:0;cd Music
+: 1577559363:0;ls
+: 1577559374:0;cd Downloaded\ by\ MediaHuman
+: 1577559375:0;ls
+: 1577559377:0;ls -al
+: 1577559378:0;cd ..
+: 1577559379:0;ls
+: 1577559380:0;rm -rf Downloaded\ by\ MediaHuman
+: 1577559383:0;ls
+: 1577559389:0;cd iTunes
+: 1577559389:0;ls
+: 1577559390:0;cd ../
+: 1577559390:0;ls
+: 1577559392:0;cd _Serato_
+: 1577559393:0;ls
+: 1577559395:0;cd ..
+: 1577559395:0;ls
+: 1577559408:0;mkdir spotify_playlists
+: 1577559410:0;cd spotify_playlists
+: 1577559426:0;spotdl --list https://open.spotify.com/playlist/6F3J3wwQkavk1w6PgStDdZ\?si\=8iCFHGl3STmcsmCbBPev6A
+: 1577559706:0;spotdl -u guybj
+: 1577559737:0;cat soul.txt
+: 1577559767:0;spotdl --list=soul.txt
+: 1577560225:0;spotdl -u guybj
+: 1577560278:0;spotdl --list=club.txt
+: 1577566312:0;ls
+: 1577566318:0;ls -al
+: 1577566334:0;mdfind xcx
+: 1577566337:0;cd ..
+: 1577566338:0;ls
+: 1577566417:0;mkdir spotify
+: 1577566423:0;mv *.mp3 spotify
+: 1577566424:0;ls
+: 1577566426:0;cd spotify
+: 1577566427:0;ls
+: 1577566557:0;cd ..
+: 1577566557:0;ls
+: 1577566562:0;spotdl -u guybj
+: 1577566592:0;spotdl --list=tropical-house.txt
+: 1577566629:0;ls
+: 1577566636:0;mv tropical-house.txt spotify_playlists
+: 1577566639:0;cd spotify_playlists
+: 1577566639:0;ls
+: 1577566641:0;cat tropical-house.txt
+: 1577566646:0;spotdl --list=tropical-house.txt
+: 1577566653:0;vim tropical-house.txt
+: 1577566657:0;spotdl --list=tropical-house.txt
+: 1577566721:0;cd Music
+: 1577566722:0;ls
+: 1577566723:0;cd spotify
+: 1577566725:0;du -h
+: 1577567304:0;cd 
+: 1577567305:0;ls
+: 1577567309:0;cd Downloads
+: 1577567309:0;ls
+: 1577567315:0;cd FILMS
+: 1577567315:0;ls
+: 1577621726:0;cd ..
+: 1577621727:0;ls
+: 1577621733:0;mv *.mp3 spotify
+: 1577621734:0;cd spotify
+: 1577621735:0;ls
+: 1577621794:0;du 0h
+: 1577621796:0;du -h
+: 1577621798:0;cd ..
+: 1577621799:0;ls
+: 1577621806:0;cd spotify_playlists
+: 1577621806:0;ls
+: 1577621816:0;spotdl -u guybj
+: 1577622034:0;spotdl --list=dance.txt
+: 1577622654:0;cd ..
+: 1577622657:0;mv *.mp3 spotify
+: 1577622981:0;ls
+: 1577622985:0;cd spotify_playlists
+: 1577622985:0;ls
+: 1577623056:0;spotdl -u guybj
+: 1577724568:0;cargo install what
+: 1577724703:0;source $HOME/.cargo/env
+: 1577724706:0;cargo install what
+: 1577883781:0;cd ../spotify
+: 1577883782:0;ls
+: 1577883794:0;open .
+: 1577911317:0;cd 
+: 1577911322:0;cd code/bank
+: 1577911324:0;jupyter notebook
+: 1577913719:0;curl -H "Authorization: Bearer eyJhbGciOiJQUzI1NiJ9.eyJpc3MiOiJhcGkuc3RhcmxpbmdiYW5rLmNvbSIsInN1YiI6IjY3YjNjNTE5LWFhMmQtNGUyNy05NTk0LWZjNDQxNDhkMjEzNiIsImV4cCI6NDczMzU4NzAwMCwiaWF0IjoxNTc3OTEzNDAwLCJzY29wZSI6InRyYW5zYWN0aW9uOnJlYWQgcGF5ZWU6cmVhZCBzdGF0ZW1lbnQtcGRmOnJlYWQgbWFuZGF0ZTpyZWFkIHJlY2VpcHRzOnJlYWQgc3RhdGVtZW50LWNzdjpyZWFkIGNvbmZpcm1hdGlvbi1vZi1mdW5kczpyZWFkIGJhbGFuY2U6cmVhZCIsImFjY291bnRIb2xkZXJVaWQiOiJjZWE1ZTliOC00MDRjLTRjYjEtYWUzMS1kYWQ4ODNmZjRmNWIiLCJ0b2tlblVpZCI6IjZhZDVkNmQ2LTc1M2YtNDcxNi05MDc2LWY2ZmQzMDVlMDRjYSIsImFwaUFjY2Vzc1VpZCI6ImM2NTZlNzE1LTdjNjItNGRjMC05MGIwLWNkZWIzMmVmOTY4YiJ9.EyV4vicx6a1KFq2y9UcxEkHZ43LQIKfpMFFSO6ULSq8GNqWT-AcasfakKWvMV574byNR3KzWDzpIT2lW297wwanqkGEz66IiTwB-k4zxSuGJ2IiUhzcoEpbNFdmZapEFqufjxxVDge1sR-_75hlQntjnnU-ka4P_nXjnLQq81CnZyM5PCeLeajubwzJhpjrQpjC1H52LGibX0Qp2YPklYcrS41bOGpvQ4diFLgZTUwxIlGmGRVLCqr013rPK0CZYmwkAyzmxxlFpOFMAiQfmC5TvmS1fu78b5BLkRhCcbNs9_AE2g9cGAWra3kEUBalnuu4YAWm5TsaUBeOf92pIDPGOSlUBB2JwcaChNmQPbGMNS18RLdMttJfBbroBpKOaomNYJ3N1STfQ2MCDO7dIv561oPnAjjeR-HKiI5AD2yL-sHLdDT0Bu0yWrK1g33BZE_Tx3qClR_UE2VMWrY6wLWsUumDV3nAmhhRe151iVSTwVL0D2P2OOY3efnB2HQ4pRsP80FiQFZcH5-GhNx5OS3poXbx9fHyemaI1EUnP5EkiH_P_uAUb2u-AnK2Me93s_TZ5HFaN8mGCKkswmVRShgeiK-7NDrF3BfsbahjMuwc4BBT1kbsX5p0BQGm0EFOZ8u-PwnJooEDkqW29UCGBXyQpTM4v0su6NRpQcHevTIE" https://api.starlingbank.com/api/v2/accounts\
+
+: 1577913791:0;curl -H "Authorization: Bearer eyJhbGciOiJQUzI1NiJ9.eyJpc3MiOiJhcGkuc3RhcmxpbmdiYW5rLmNvbSIsInN1YiI6IjY3YjNjNTE5LWFhMmQtNGUyNy05NTk0LWZjNDQxNDhkMjEzNiIsImV4cCI6NDczMzU4NzM2NCwiaWF0IjoxNTc3OTEzNzY0LCJzY29wZSI6InBheWVlLWltYWdlOnJlYWQgYWNjb3VudC1pZGVudGlmaWVyOnJlYWQgc3RhdGVtZW50LWNzdjpyZWFkIHNhdmluZ3MtZ29hbDpyZWFkIHN0YW5kaW5nLW9yZGVyOnJlYWQgc3RhdGVtZW50LXBkZjpyZWFkIGJhbGFuY2U6cmVhZCB0cmFuc2FjdGlvbjpyZWFkIHBheS1sb2NhbDpyZWFkIHJlY2VpcHRzOnJlYWQgYWNjb3VudC1ob2xkZXItbmFtZTpyZWFkIHBheS1idWxrOnJlYWQgYWNjb3VudC1saXN0OnJlYWQgcGF5ZWU6cmVhZCBtYW5kYXRlOnJlYWQgYWNjb3VudDpyZWFkIGNvbmZpcm1hdGlvbi1vZi1mdW5kczpyZWFkIiwiYWNjb3VudEhvbGRlclVpZCI6ImNlYTVlOWI4LTQwNGMtNGNiMS1hZTMxLWRhZDg4M2ZmNGY1YiIsInRva2VuVWlkIjoiNGEzZWQyOTEtYjc1Yi00NzQzLWI2NjMtNzNjZjVhZjQ5ZDdkIiwiYXBpQWNjZXNzVWlkIjoiMjllNTZmNjMtNmJiMy00MmNjLTgxZWEtZWU2YmU5NzAwZTExIn0.EvpffPIHuDeABYjYmuDBeFNKzJL2xaHyjDPQFEKsxOPrjxsv8cUU-UwDUOxd586KPkmjSlEHB-IY8_pHcZs8585zm7cn12mkJlKY7yaEMDJs0TmL4flDzhmv4ILTdl3pI4lwC9jQs27yLH5965ZEYX2l8duFvW7YiDCVElMwozNMJozjaqC61V474BXzeqENkdHjXIK0TiibbRVKZ6VpYEN6XFLi9V3FENdTP_3dY5ajOWVaU_SvthRvFhcMMkw-_M3WlZxv1JQkzpWvKe_KhcMR2iYPKLIKeZ3_CixhWjP-CauWAxPN4lNsAFNz_8GC3G30YmVIs4eTY1DLXSu89BX9dccAQn3eoUhdln2CgXanYmpZQc14FU2oWb5pwIYpNDx-feup_3aRIw2-2-AWXSr1xvKaSLHlPzrHyToaJ1psHKLWAVwtw52u_OCoUvZLjdfyM9pTt-ZPSP70SuDyCdVyonzPHv1khCQSYH0axs38GtJYGqkBo7_gS8qABWiKEzLZDXfVX7hFXsZgsKmYasX5aUxFkqz8UFFjFkrJ55RCPAyPebFbvz69Hg-x8xnsrEMgJJpe6S7ghOuqMqHztlWex2NC-QFTorEuitUYJS-nf_lZgrE4JV6btie94UU9AmMDe8OSfLPfiWQZiD9OUyUhPtOfQyh-rHh2vhaTL_4" https://api.starlingbank.com/api/v2/accounts\
+
+: 1577913949:0;curl -H "Authorization: Bearer eyJhbGciOiJQUzI1NiJ9.eyJpc3MiOiJhcGkuc3RhcmxpbmdiYW5rLmNvbSIsInN1YiI6IjY3YjNjNTE5LWFhMmQtNGUyNy05NTk0LWZjNDQxNDhkMjEzNiIsImV4cCI6NDczMzU4NzM2NCwiaWF0IjoxNTc3OTEzNzY0LCJzY29wZSI6InBheWVlLWltYWdlOnJlYWQgYWNjb3VudC1pZGVudGlmaWVyOnJlYWQgc3RhdGVtZW50LWNzdjpyZWFkIHNhdmluZ3MtZ29hbDpyZWFkIHN0YW5kaW5nLW9yZGVyOnJlYWQgc3RhdGVtZW50LXBkZjpyZWFkIGJhbGFuY2U6cmVhZCB0cmFuc2FjdGlvbjpyZWFkIHBheS1sb2NhbDpyZWFkIHJlY2VpcHRzOnJlYWQgYWNjb3VudC1ob2xkZXItbmFtZTpyZWFkIHBheS1idWxrOnJlYWQgYWNjb3VudC1saXN0OnJlYWQgcGF5ZWU6cmVhZCBtYW5kYXRlOnJlYWQgYWNjb3VudDpyZWFkIGNvbmZpcm1hdGlvbi1vZi1mdW5kczpyZWFkIiwiYWNjb3VudEhvbGRlclVpZCI6ImNlYTVlOWI4LTQwNGMtNGNiMS1hZTMxLWRhZDg4M2ZmNGY1YiIsInRva2VuVWlkIjoiNGEzZWQyOTEtYjc1Yi00NzQzLWI2NjMtNzNjZjVhZjQ5ZDdkIiwiYXBpQWNjZXNzVWlkIjoiMjllNTZmNjMtNmJiMy00MmNjLTgxZWEtZWU2YmU5NzAwZTExIn0.EvpffPIHuDeABYjYmuDBeFNKzJL2xaHyjDPQFEKsxOPrjxsv8cUU-UwDUOxd586KPkmjSlEHB-IY8_pHcZs8585zm7cn12mkJlKY7yaEMDJs0TmL4flDzhmv4ILTdl3pI4lwC9jQs27yLH5965ZEYX2l8duFvW7YiDCVElMwozNMJozjaqC61V474BXzeqENkdHjXIK0TiibbRVKZ6VpYEN6XFLi9V3FENdTP_3dY5ajOWVaU_SvthRvFhcMMkw-_M3WlZxv1JQkzpWvKe_KhcMR2iYPKLIKeZ3_CixhWjP-CauWAxPN4lNsAFNz_8GC3G30YmVIs4eTY1DLXSu89BX9dccAQn3eoUhdln2CgXanYmpZQc14FU2oWb5pwIYpNDx-feup_3aRIw2-2-AWXSr1xvKaSLHlPzrHyToaJ1psHKLWAVwtw52u_OCoUvZLjdfyM9pTt-ZPSP70SuDyCdVyonzPHv1khCQSYH0axs38GtJYGqkBo7_gS8qABWiKEzLZDXfVX7hFXsZgsKmYasX5aUxFkqz8UFFjFkrJ55RCPAyPebFbvz69Hg-x8xnsrEMgJJpe6S7ghOuqMqHztlWex2NC-QFTorEuitUYJS-nf_lZgrE4JV6btie94UU9AmMDe8OSfLPfiWQZiD9OUyUhPtOfQyh-rHh2vhaTL_4" https://api.starlingbank.com/api/v2/accounts/87aa6d88-19ac-4f29-9e0b-c75453659468/balance\
+
+: 1577914040:0;cd
+: 1577914042:0;cd code/bank
+: 1577914042:0;ls
+: 1577914043:0;gst
+: 1577914048:0;gx 'starling progress'
+: 1578431454:0;clear
+: 1578431455:0;ls
+: 1578431466:0;cd ..
+: 1578431467:0;ls
+: 1579259411:0;git clone https://github.com/Sohohouse/profile-service.git
+: 1579285823:0;ls
+: 1579285827:0;mkdir soho
+: 1579285829:0;cd soho
+: 1579285833:0;mkdir profile-service
+: 1579285837:0;rm -rf profile-service
+: 1579285842:0;mdfind profile-service
+: 1579285904:0;git clone https://github.com/Sohohouse/profile-service.git
+: 1579286152:0;touch token.txt
+: 1579286174:0;echo "f5bebc660278398bde6a78a1dff5fd6be555b292" >> token.txt
+: 1579286996:0;git clone https://github.com/Sohohouse/profile-service.git
+: 1579287010:0;ping 8.8.8.8
+: 1579287146:0;git clone https://github.com/Sohohouse/profile-service.git
+: 1579287241:0;vim token.txt
+: 1579287347:0;ls
+: 1579287355:0;cat script.sh
+: 1579287356:0;ls
+: 1579287363:0;cat result-jan.htm
+: 1579287370:0;ls
+: 1579287380:0;mkdir intelligence_test
+: 1579287383:0;mv result-jan* intelligence_test
+: 1579287384:0;clear
+: 1579288203:0;ls
+: 1579288205:0;cd Downloads
+: 1579288205:0;ls
+: 1579452923:0;clear
+: 1579452927:0;ls
+: 1579456151:0;cd ..
+: 1579456151:0;ls
+: 1579469393:0;git clone git@github.com:Voxoff/kitchup.git
+: 1579469415:0;cd code
+: 1579469420:0;git@github.com:SohoHouse/profile-service.git
+: 1579469423:0;git clone git@github.com:SohoHouse/profile-service.git
+: 1579469432:0;mv profile-service soho
+: 1579469434:0;cd soho
+: 1579469434:0;ls
+: 1579469435:0;cat token.txt
+: 1579469438:0;git clone https://github.com/Sohohouse/application-service.git
+: 1579469440:0;git clone https://github.com/Sohohouse/salesforce-integration-service.git
+: 1579469442:0;git clone https://github.com/Sohohouse/platform_client.git
+: 1579469444:0;git clone https://github.com/Sohohouse/salesforce-integration-client.git
+: 1579469447:0;git clone https://github.com/Sohohouse/venues-service.git
+: 1579469450:0;git clone https://github.com/Sohohouse/common_api.git
+: 1579469451:0;cd kitchup
+: 1579469490:0;git rev-list --count --since="Dec 1 2017"  --before="Jun 1 2018" --all
+: 1579469500:0;git rev-list --count --since="Dec 1 2017"  --before="Jan 1 2018" --all
+: 1579469507:0;git rev-list --count --since="Dec 1 2017"  --before="Feb 1 2018" --all
+: 1579469525:0;git rev-list --count --since="Dec 1 2017"  --before="Mar 1 2018" --all
+: 1579469530:0;git rev-list --count --since="Dec 1 2017"  --before="Apr 1 2018" --all
+: 1579469535:0;git rev-list --count --since="Dec 1 2017"  --before="Jun 1 2018" --all
+: 1580569113:0;ls
+: 1580569114:0;cd ../
+: 1580569114:0;ls
+: 1580569116:0;cd bank
+: 1580569116:0;ls
+: 1580569118:0;gst
+: 1580569118:0;gd
+: 1580569132:0;jupyter notebook
+: 1580569364:0;irb
+: 1581167963:0;java
+: 1581167975:0;cd ~/Downloads
+: 1581167976:0;ls
+: 1581168088:0;java
+: 1581177018:0;ping 8.8.8.8
+: 1581180252:0;clear
+: 1581180253:0;ls
+: 1581180254:0;clear
+: 1581181496:0;ls
+: 1581181499:0;cat script.sh
+: 1581181499:0;ls
+: 1581181508:0;cd code
+: 1581181509:0;ls
+: 1581181513:0;cd ../Do
+: 1581181514:0;ls
+: 1581181516:0;cd ~/Downloads
+: 1581181516:0;ls
+: 1581181554:0;mv Statement_0* Tax
+: 1581181555:0;ls
+: 1581181577:0;mv Lost.S01.Season.1.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed Altered.Carbon.SEASON.01.S01.COMPLETE.720p.10bit.WEBRip.2CH.x265.HEVC-PSA SHOWS
+: 1581181596:0;mv The\ Gentlemen\ 2020\ 720p\ HDCAM-GETB8 Master\ and\ Commander\ The\ Far\ Side\ of\ the\ World\ \(2003\)\ \[1080p\] FILMS
+: 1581181599:0;ls
+: 1581181609:0;mkdir photos
+: 1581181613:0;mv Guy* photos
+: 1581181614:0;ls
+: 1581181620:0;mv ben_rowing.jpg photos
+: 1581181624:0;rm -rf gatling-charts-highcharts-bundle-3.3.1-bundle.zip
+: 1581183621:0;history | grep latex
+: 1581183648:0;latex
+: 1581183650:0;ls
+: 1581183654:0;cd ..
+: 1581183655:0;ls -al
+: 1581183660:0;mdfind latex
+: 1581183710:0;brew tap caskroom/cask\
+
+: 1581183758:0;brew tap caskroom/cask-cask\
+
+: 1581183768:0;brew tap caskroom/cask-cask-cask\
+
+: 1581183775:0;brew cask install mactex
+: 1581190054:0;cd ~/Downloads
+: 1581190056:0;open .
+: 1581191101:0;brew cask install mactex
+: 1581251465:0;ping 8.8.8.8
+: 1581252471:0;clear
+: 1581254142:0;ls
+: 1581254143:0;cd code
+: 1581254143:0;ls
+: 1581254154:0;cd node_example
+: 1581254154:0;ls
+: 1581254157:0;cd ..
+: 1581254157:0;ls
+: 1581254163:0;cd netwerk
+: 1581254163:0;ls
+: 1581254165:0;cd ..
+: 1581254165:0;ls
+: 1581254187:0;cd ~/Downloads
+: 1581254188:0;ls
+: 1581254195:0;cd FILMS
+: 1581254195:0;ls
+: 1581254393:0;cd 
+: 1581254394:0;cd code
+: 1581254394:0;ls
+: 1581254399:0;cd react-with-docker
+: 1581254400:0;ls
+: 1581254401:0;cd ..
+: 1581254401:0;ls
+: 1581254405:0;cd rails-chat-tutorial
+: 1581254406:0;ls
+: 1581254407:0;cd ..
+: 1581254407:0;ls
+: 1581254413:0;prs
+: 1581254445:0;ls
+: 1581254466:0;mkdir rails-react-boilerplate
+: 1581254471:0;cd rails-react-boilerplate
+: 1581254487:0;rails new rails-boilerplate
+: 1581254552:0;cd c
+: 1581254553:0;cd
+: 1581254554:0;cd code
+: 1581254555:0;ls
+: 1581254563:0;git clone https://github.com/AvanthikaMeenakshi/graphqlReactBoilerplate.git
+: 1581254565:0;cd graphqlReactBoilerplate
+: 1581254636:0;ls
+: 1581254643:0;cd server
+: 1581254643:0;ls
+: 1581254646:0;s
+: 1581254989:0;node index.js
+: 1581254997:0;npm install
+: 1581255045:0;node index.js
+: 1581255099:0;mysql
+: 1581255150:0;mdfind mysql
+: 1581255155:0;sql
+: 1581255161:0;history | grep sql
+: 1581255163:0;psql
+: 1581255170:0;which psql
+: 1581255173:0;where psql
+: 1581258799:0;psql -U gbennettjones
+: 1581258812:0;psql -U gbennettjones -d gbennettjones\\
+
+: 1581258815:0;psql -U gbennettjones -d gbennettjones\
+
+: 1581258853:0;psql -U gbennettjones -d my_database_development
+: 1581258863:0;psql
+: 1581258880:0;psql -h localhost
+: 1581258895:0;psql -d template1
+: 1581258902:0;createdb
+: 1581258909:0;psql -h localhost
+: 1581258952:0;brew install mysql\
+
+: 1581259194:0;brew services start mysql
+: 1581259213:0;mysql -uroot
+: 1581259229:0;mysql -uroot -d userapp
+: 1581259232:0;man mysql
+: 1581259294:0;node index.js
+: 1581263170:0;mysql
+: 1581263177:0;mysql -uroot
+: 1581263352:0;node index.js
+: 1581263763:0;mysql -uroot
+: 1581263781:0;node index.js
+: 1581263897:0;mysql -uroot
+: 1581263907:0;node index.js
+: 1581263940:0;mysql -uroot
+: 1581263943:0;mysql -uroot -p password
+: 1581263948:0;mysql -uroot -p
+: 1581266274:0;node index.js
+: 1581266501:0;mysql -uroot -p user_app
+: 1581266512:0;mysql -uroot -p userapp
+: 1581266573:0;mdfind userapp
+: 1581266606:0;mysql -uroot -p user_app
+: 1581266619:0;mysql -uroot -p userapp
+: 1581266627:0;/usr/local/var/mysql/
+: 1581266628:0;ls
+: 1581266862:0;mysql -uroot -p -D userapp
+: 1581267436:0;node index.js
+: 1581268244:0;cd ../../
+: 1581268245:0;l
+: 1581268252:0;mkdir server
+: 1581268254:0;cd server
+: 1581268256:0;npm init
+: 1581268269:0;ls
+: 1581268295:0;npm install express
+: 1581268310:0;ls
+: 1581268314:0;touch app.js
+: 1581268315:0;s
+: 1581268383:0;node app
+: 1581268413:0;nodemon app
+: 1581268420:0;brew install nodemon
+: 1581268432:0;npm install -g nodemon
+: 1581268460:0;npm install graphql
+: 1581268472:0;npm install express-graphql
+: 1581268482:0;cat package.json
+: 1581268679:0;nodemon app
+: 1581271945:0;cd
+: 1581271946:0;cd co
+: 1581271947:0;cd code
+: 1581271947:0;ls
+: 1581271955:0;rails -v
+: 1581271963:0;rails new martian-library -d postgresql --skip-action-mailbox --skip-action-text --skip-spring --webpack=react -T --skip-turbolinks
+: 1581272132:0;cd martian-library
+: 1581272133:0;s
+: 1581272165:0;rails g model User first_name last_name email\
+
+: 1581272169:0;rails g model Item title description:text image_url user:references
+: 1581272218:0;rails db:create db:migrate db:seed
+: 1581272249:0;bundle add graphql
+: 1581272302:0;bundle add devise
+: 1581272312:0;bundle remove devise
+: 1581272318:0;rails generate graphql:install\
+
+: 1581272639:0;rs
+: 1581272643:0;bundle
+: 1581272647:0;rails s
+: 1581272744:0;spring stop
+: 1581272745:0;rails s
+: 1581273880:0;rails g graphql:object user\
+
+: 1581274134:0;rials s
+: 1581274135:0;railss
+: 1581274136:0;rs
+: 1581274312:0;bundle add pry
+: 1581274317:0;rs
+: 1581274445:0;rc
+: 1581274449:0;cd code/martian-library
+: 1581274450:0;rc
+: 1581275260:0;yarn add apollo-client apollo-cache-inmemory apollo-link-http apollo-link-error apollo-link graphql graphql-tag react-apollo
+: 1581275356:0;rails g controller Library index --skip-routes\
+
+: 1581275386:0;rs
+: 1581275420:0;mkdir -p app/javascript/utils && touch app/javascript/utils/apollo.js
+: 1581280741:0;mkdir -p app/javascript/components/Provider && touch app/javascript/components/Provider/index.js
+: 1581280860:0;mkdir -p app/javascript/components/Library && touch app/javascript/components/Library/index.js
+: 1581280966:0;rs
+: 1581281077:0;bundle add rspec-rails --group="development,test"
+: 1581281083:0;rails generate rspec:install
+: 1581281097:0;bundle add factory_bot_rails --group="development,test"
+: 1581333699:0;mkdir -p spec/graphql/types
+: 1581333703:0;touch spec/graphql/types/query_type_spec.rb\
+
+: 1581333718:0;rspec
+: 1581338352:0;rs
+: 1581340295:0;npx @hellsquirrel/create-gql-component create app/javascript/components/UserInfo\
+
+: 1581341156:0;rs
+: 1581341268:0;remove-pr
+: 1581341269:0;remove-pry
+: 1581341280:0;rs
+: 1581341398:0;ls
+: 1581341402:0;cd code/dotfiles
+: 1581341402:0;ls
+: 1581341403:0;gst
+: 1581341404:0;gd
+: 1581341424:0;git co Package\ Control.sublime-settings
+: 1581341425:0;gst
+: 1581341426:0;gd
+: 1581341457:0;gst
+: 1581341461:0;gd dotfiles.sh
+: 1581341489:0;s
+: 1581341555:0;gst
+: 1581341563:0;gd install.sh
+: 1581341574:0;git add dotfiles.sh install.sh
+: 1581341575:0;gst
+: 1581341578:0;gd pr
+: 1581341581:0;gd pry_history
+: 1581341585:0;git add pry_history
+: 1581341586:0;gst
+: 1581341588:0;gd zshrc
+: 1581341592:0;git add zshrc
+: 1581341596:0;gd zsh_history
+: 1581341599:0;gd zsh_history --stat
+: 1581341605:0;gd --statzsh_history
+: 1581341607:0;gd --stat zsh_history
+: 1581341615:0;gst
+: 1581341619:0;gd 
+: 1581341663:0;gst
+: 1581341668:0;gx 'update'

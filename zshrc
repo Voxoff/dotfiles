@@ -85,3 +85,4 @@ if [[ $(uname -n) == *"sohohouse"* ]]; then
 fi
   
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM

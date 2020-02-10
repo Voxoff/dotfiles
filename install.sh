@@ -103,9 +103,9 @@ done
 cask_packages=("spotify" "hyper" "docker" "iterm2" "vlc" "firefox" "sublime-text" "alfred" "insomnia" "1password" "flux" "shiftit" "visual-studio-code")
 for cask in $cask_packages; do brew cask install $cask; done
 
-source ~/.nvm/nvm.sh
+
 if ! eval $check_nvm; then
-  curl -so- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+  curl -so- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
   echo 'export NVM_DIR="$HOME/.nvm"' >> ~/.bash_profile
   echo '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"' >> ~/.bash_profile
   source ~/.bash_profile

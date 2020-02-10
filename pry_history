@@ -10179,3 +10179,184 @@ payload[:headers].instance_variables
 n
 request
 request.headers
+tart = "CGK"
+start = "CGK"
+final = "LHR"
+HTTParty.get("https://airport.api.aero/airport/distance/#{start}/#{final}")
+exit
+n
+c
+params
+params.permit(:type_of_flight)
+params.permit("type_of_flight")
+params
+JSON.parse(params)
+params
+c
+params
+c
+params
+carbon_calculator_params
+n
+c
+carbon_calculator_params[:type_of_travel]
+carbon_calculator_params[:type_of_travel].with_in
+c
+n
+c
+carbon_calculator_params
+carbon_calculator_params[:type_of_travel].to_sym
+get_distance
+c
+carbon_calculator_params[:start_point]
+carbon_calculator
+carbon_calculator_params
+params
+n
+c
+n
+c
+n
+start = carbon_calculator_params[:start_point]
+final = carbon_calculator_params[:final_point]
+resp = HTTParty.get("https://www.distance24.org/route.json?stops=#{start}|#{final}")
+resp["distances"].first
+c
+@distance = resp["distances"].first
+n
+carbon_from_distance
+c
+exit
+File.open("input.txt")
+f = File.open("input.txt")
+exit
+f = File.open("input.txt")
+file = File.open("input.txt")
+file
+file.read
+file.read.split("\n")
+file
+file.read
+file = File.open("input.txt")
+array = file.read.split("\n")
+array
+array.map(&:to_i)
+array
+array = array
+array = array.map(&:to_i)
+array.map{|n| (n / 3) -2 }.reduce(:+)
+12 / 3
+14 / 4
+14 / 3
+1969 / 3
+exit
+flight = Flight.new(calculator_params.to_h)
+calculator_params.to_h
+flight = Flight.new(calculator_params.to_h)
+flight.start_point
+exit!
+flight = Flight.new(calculator_params.to_h)
+flight = Flight.new(calculator_params)
+flight
+c
+Flight.new
+exit
+Flight.new
+exit
+flight = Flight.new(calculator_params.to_h)
+Flight.new
+c
+Flight.new
+Flight
+Flight.all
+Flight.create
+exit
+Flight.new
+exit
+Car.new
+Flight.new
+Car.create
+Car.all
+Flight.create
+exit
+Flight.new
+exit
+Flight.new
+exirt
+exit!
+Flight.new
+exit
+flight = Flight.new(calculator_params.to_h)
+flight = Flight.new(calculator_params.to_h.slice(:start_point)
+  exit
+flight = Flight.new(calculator_params.to_h.slice(:start_point)
+))
+flight = Flight.new(flight_params)
+flight.calculate_distance
+exit!
+flight.calculate_distance
+flight = Flight.new(flight_params)
+flight.calculate_distance
+flight
+exit
+flight = Flight.new(flight_params)
+flight.calculate_distance
+exit
+flight = Flight.new(flight_params)
+flight.calculate_distance
+flight
+exit
+flight = Flight.new(flight_params)
+flight.calculate_distance
+flight
+flight.estimate_carbon_from_distance
+exit
+flight = Flight.new(flight_params)
+flight.calculate_distance
+flight.estimate_carbon_from_distance
+exit
+flight = Flight.new(flight_params)
+flight.calculate_distance
+flight.estimate_carbon_from_distance
+flight.estimate_carbon
+flight
+exit!
+nationwide    = 14146
+monzo         = 6707
+hargreaves    = 10898 
+crypto        = 2194
+cash_to_buy   = 4,862
+starling      = 40
+savers        = 532
+total = nationwide + monzo + hargreaves + crypto + cash_to_buy + starling + savers
+nationwide
+monzo
+nationwide + monzo
+total = nationwide + monzo + hargreaves + crypto + cash_to_buy.to_i + starling + savers
+total = nationwide + monzo + hargreaves + crypto + 4862 + starling + savers
+total = 4862
+total = nationwide + monzo + hargreaves + crypto + 4862 + starling + savers
+total - 4862
+context
+variables
+operation_name
+query
+MartianLibrarySchema.execute(query,)
+MartianLibrarySchema.execute(query)
+s
+step
+whereami
+next
+continue
+exit!
+User.first
+User.first.first_name
+continue
+exit
+continue
+exit
+current_user
+result = MartianLibrarySchema.execute(query, variables: variables, context: context, operation_name: operation_name)
+exit!
+c
+exit!
